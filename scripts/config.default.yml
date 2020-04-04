@@ -1,0 +1,6 @@
+# Project supplied default configuration.  Add a new configuration file 'config.yml' where you can overwrite any settings depicted below.
+# config.yml is not tracked by the version management system, while config.default.yml is.
+md_name_of_root_directory: 'generated_analytics/markdown_documents'
+response_playbooks_dir: 'response_playbooks'
+response_actions_dir: 'response_actions'
+thehive_templates_dir: 'generated_analytics/thehive_templates'
