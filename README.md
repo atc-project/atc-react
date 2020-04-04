@@ -4,8 +4,6 @@ Actionable Security Incident Response Playbooks.
 
 ![](images/logo_v1.png)
 
-## Description
-
 ATC Response is a sub-project of [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, related to Security Incident Response process.
 
 It represents the following:
@@ -13,7 +11,7 @@ It represents the following:
 1. A collection of Security Incident Response Playbooks
 2. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
-### Actionable Playbooks
+## Actionable Playbooks
 
 The ATC Response project inherits the "Actionable Analytics" paradigm from the parent project, which means that the analytics are:
 
@@ -23,7 +21,7 @@ The ATC Response project inherits the "Actionable Analytics" paradigm from the p
 
 Simply saying, the analytics are stored in `.yaml` files, that are automatically converted to `.markdown` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.
 
-#### Response Action
+### Response Action
 
 is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks and TheHive Case Templates' tasks. 
 
@@ -43,7 +41,7 @@ Here is an example of Response Action:
 
 Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
 
-#### Response Playbook
+### Response Playbook
 
 is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Credibility Coalition's AMITT](https://medium.com/@credibilitycoalition/misinfosec-framework-99e3bff5935d) frameworks.
 
@@ -62,7 +60,7 @@ Here is an example of Response Playbook:
 <br>
 Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.
 
-#### TheHive Case Templates
+### TheHive Case Templates
 
 are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
 
@@ -80,7 +78,7 @@ Here is the example of an imported TheHive Case Template:
 
 TheHive Case Templates could be found in `generated_analytics/thehive_templates` directory and could be imported to TheHive via its web interface.
 
-### Data source of the ATC framework
+## Data source of the ATC framework
 
 ATC Response project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate markdown and confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
 
