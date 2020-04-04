@@ -30,12 +30,12 @@ is a description of a specific atomic procedure/task that has to be executed dur
 Here is an example of Response Action:
 
 <details>
-  <summary>Initial `.yaml` file (click to expand)</summary>
+  <summary>Initial YAML file (click to expand)</summary>
   <img src="images/ra_yaml_v2.png" />
 </details>
 
 <details>
-  <summary>Automatically created `.markdown` file (click to expand)</summary>
+  <summary>Automatically created Markdown file (click to expand)</summary>
   <img src="images/ra_markdown_v2.png" />
 </details>
 
@@ -50,12 +50,12 @@ is an Incident Response plan, that represents a complete list of procedures/task
 Here is an example of Response Playbook:
 
 <details>
-  <summary>Initial `.yaml` file (click to expand)</summary>
+  <summary>Initial YAML file (click to expand)</summary>
   <img src="images/rp_yaml_v2.png" />
 </details>
 
 <details>
-  <summary>Automatically created `.markdown` file (click to expand)</summary>
+  <summary>Automatically created Markdown file (click to expand)</summary>
   <img src="images/rp_markdown_v2.png" />
 </details>
 
