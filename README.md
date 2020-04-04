@@ -21,7 +21,7 @@ The ATC Response project inherits the "Actionable Analytics" paradigm from the p
 - **machine-readable** (`.yaml`) for automatic processing/integrations
 - **executable** by Incident Response Platform ([TheHive Case Templates](analytics/generated/thehive_templates/) only, at the moment)
 
-Simply saying, analytics stored in `.yaml` files, that are automatically converted to `.markdown` documents and `.json` TheHive Case Templates.
+Simply saying, the analytics are stored in `.yaml` files, that are automatically converted to `.markdown` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.
 
 #### Response Action
 
@@ -40,6 +40,7 @@ Here is an example of Response Action:
 </details>
 
 <br>
+
 Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
 
 #### Response Playbook
