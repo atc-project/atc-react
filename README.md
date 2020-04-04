@@ -45,7 +45,7 @@ Each Response Action mapped to a specific stage of [The Six Stages of Incident R
 
 #### Response Playbook
 
-is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to [MITRE's ATT&CK](https://attack.mitre.org/) or [Credibility Coalition's AMITT](https://medium.com/@credibilitycoalition/misinfosec-framework-99e3bff5935d) frameworks.
+is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Credibility Coalition's AMITT](https://medium.com/@credibilitycoalition/misinfosec-framework-99e3bff5935d) frameworks.
 
 Here is an example of Response Playbook:
 
@@ -64,7 +64,7 @@ Response Playbook could include a description of the workflow, specific conditio
 
 #### TheHive Case Templates
 
-are built on top of Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
+are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
 
 Here is the example of an imported TheHive Case Template:
 
@@ -82,9 +82,9 @@ TheHive Case Templates could be found in `generated_analytics/thehive_templates`
 
 ### Data source of ATC framework
 
-ATC Response project plays a role of data source for [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it generating markdown and confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
+ATC Response project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it generating markdown and confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
 
-Originally it was a part of ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
+Originally it was a part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
 
 ## Contacts
 
