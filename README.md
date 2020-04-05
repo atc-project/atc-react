@@ -101,9 +101,9 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 - Python 3.7
 - [PyYAML](https://pypi.org/project/PyYAML/) and [jinja2](https://pypi.org/project/Jinja2/) Python libraries. They could be installed with the next command:
-```
-python3 -m pip install -r requirements.txt
-```
+    ```
+    python3 -m pip install -r requirements.txt
+    ```
 
 ## Contacts
 
