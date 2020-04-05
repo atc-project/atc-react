@@ -37,8 +37,6 @@ Here is an example of Response Action:
   <img src="images/ra_markdown_v2.png" />
 </details>
 
-<br>
-
 Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
 
 ### Response Playbook
@@ -57,7 +55,6 @@ Here is an example of Response Playbook:
   <img src="images/rp_markdown_v2.png" />
 </details>
 
-<br>
 Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.
 
 ### TheHive Case Templates
@@ -83,6 +80,30 @@ TheHive Case Templates could be found in `generated_analytics/thehive_templates`
 ATC Response project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate markdown and confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
 
 Originally it was a part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
+
+## Usage
+
+1. Make sure you are compliant with the [requirements](#requirements)
+
+2. Modify existing `.yaml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
+
+3. When `.yaml` files are ready, convert them to `.markdown` documents and TheHive templates using this command:
+```
+python3 main.py --markdown --auto --init
+```
+You will find the outcome in the `generated_analytics` directory.  
+For other options (i.e. generate only `.markdown` documents) check `main.py` help menu:
+```
+python3 main.py --help
+```
+
+### Requirements
+
+- Python 3.7
+- [PyYAML](https://pypi.org/project/PyYAML/) and [jinja2](https://pypi.org/project/Jinja2/) Python libraries. They could be installed with the next command:
+```
+python3 -m pip install -r requirements.txt
+```
 
 ## Contacts
 
