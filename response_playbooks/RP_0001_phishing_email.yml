@@ -1,24 +1,23 @@
 title: RP_0001_phishing_email
-description: >
-  Response playbook for Phishing Email case. 
+description: Response playbook for Phishing Email case
+author: '@atc_project'
+creation_date: 31.01.2019
+severity: M
+tlp: AMBER
+pap: WHITE
 tags:
     - attack.initial_access
     - attack.t1193
     - attack.t1192
     - phishing
-severity: M
-tlp: AMBER
-pap: WHITE
-author: '@atc_project'
-creation_date: 31.01.2019
 linked_rp:
   - RP_0002_generic_post_exploitation
 identification:
   - RA_0001_identification_get_original_email
   - RA_0002_identification_extract_observables_from_email
-  - RA_0003_identification_make_sure_email_is_a_phising
+  - RA_0003_identification_make_sure_email_is_a_phishing
   - RA_0004_identification_analyse_obtained_indicators_of_compromise
-  - RA_0005_identification_find_all_phising_attack_victims
+  - RA_0005_identification_find_all_phishing_attack_victims
   - RA_0040_identification_put_on_monitoring_compromised_accounts
 containment:
   - RA_0006_containment_block_domain_on_email
@@ -35,3 +34,4 @@ workflow: |
   2. Start executing containment and eradication stages concurrently with next identification steps, as soon as you will receive infomration about malicious hosts
   3. If phishing led to code execution or remote access to victim host, immediately start executing Generic Post Exploitation Incident Response Playbook
   4. Save all timestamps of implemented actions in Incident Report draft on the fly, it will save a lot of time
+

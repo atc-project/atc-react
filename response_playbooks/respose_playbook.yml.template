@@ -11,6 +11,8 @@ tags:
     - attack.t1193           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
     - attack.t1192           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
     - phishinng              # could be custom tags as well
+linked_rp:
+  - RA_0000_something        # related RP that you would like to keep as linked and mention in the workflow
 references: 
   - https://example.com
 preparation:

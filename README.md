@@ -29,12 +29,12 @@ Here is an example of Response Action:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="images/ra_yaml_v2.png" />
+  <img src="images/ra_yaml_v3.png" />
 </details>
 
 <details>
   <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/ra_markdown_v2.png" />
+  <img src="images/ra_markdown_v3.png" />
 </details>
 
 Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
@@ -47,12 +47,12 @@ Here is an example of Response Playbook:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="images/rp_yaml_v2.png" />
+  <img src="images/rp_yaml_v3.png" />
 </details>
 
 <details>
   <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/rp_markdown_v2.png" />
+  <img src="images/rp_markdown_v3.png" />
 </details>
 
 Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.
