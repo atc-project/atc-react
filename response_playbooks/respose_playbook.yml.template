@@ -1,20 +1,22 @@
 title: RP_0000_some_name_here
 description: >
-  Some text description here. It will be merged into one line.
-tags:
-    - attack.initial_access
-    - attack.t1193
-    - attack.t1192
-    - phishinng              # could be custom tags as well
+  Some text description here. It will be merged into one line
+author: name/nickname/twitter
+creation_date: DD.MM.YYYY
 severity: M                  # L M H
 tlp: AMBER                   # WHITE GREEN AMBER RED
 pap: WHITE                   # WHITE GREEN AMBER RED
-author: Name Surname
-creation_date: DD.MM.YYYY
+tags:
+    - attack.initial_access  # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
+    - attack.t1193           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
+    - attack.t1192           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
+    - phishinng              # could be custom tags as well
 references: 
   - https://example.com
+preparation:
+  - RA_0000_something
 identification:
-  - RA_0001_identification_get_original_email         # links to atomit Response Actions.
+  - RA_0001_identification_get_original_email         # links to atomit Response Actions
 containment:
   - RA_0006_containment_block_domain_on_email         # Response Actions could be aggregated 
   - RA_0009_containment_block_url_on_proxy            # and contain links to multiple Response Actions
@@ -25,5 +27,5 @@ recovery:
 lessons_learned:
   - RA_0013_lessons_learned_develop_incident_report
 workflow: |
-    Response Playbook in markdown format.
+    Workflow in markdown format. You can put here anything you want, i.e. specific conditions/requirements or details on the order of Response Actions execution.
     Here newlines will be saved.

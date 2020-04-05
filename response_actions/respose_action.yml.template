@@ -1,16 +1,16 @@
 title: RA_0000_some_name_here
-stage: identification # containment / eradication / recovery / lessons_learned
+description: >
+  (Aggregated) Response Action for blocking threats on Network Level.
+author: name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification # preparation / containment / eradication / recovery / lessons_learned
 automation: 
   - thehive
   - demisto
   - phantom
   - etc
-author: Name Surname
-creation_date: DD.MM.YYYY
 references: 
   - https://example.com
-description: >
-  (Aggregated) Response Action for blocking threats on Network Level.
 linked_ra: # could be empty in case of single Response Action
   - RA_0006_containment_block_domain_on_email         # Response Actions could be aggregated 
   - RA_0009_containment_block_url_on_proxy            # and contain links to multiple Response Actions
