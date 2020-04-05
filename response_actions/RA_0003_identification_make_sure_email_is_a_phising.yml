@@ -1,12 +1,11 @@
 title: RA_0003_identification_make_sure_email_is_a_phising
-stage: identification
+description: Make sure the email is a phising attack
 author: '@atc_project'
 creation_date: 31.01.2019
+stage: identification
 references:
   - https://en.wikipedia.org/wiki/Phishing
   - http://www.phishing.org/phishing-examples
-description: >
-  Make sure this email is a phising attack
 workflow: |
   Check email and its metadata for evidences of phishing attack:
 

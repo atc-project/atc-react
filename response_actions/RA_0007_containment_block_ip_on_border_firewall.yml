@@ -1,9 +1,8 @@
 title: RA_0007_containment_block_ip_on_border_firewall
-stage: containment
+description: Block an IP address on a border firewall
 author: '@atc_project'
 creation_date: 31.01.2019
-description: >
-  Block ip address on border firewall.
+stage: containment
 linked_analytics:
   - MS_firewall
 workflow: |

@@ -1,13 +1,12 @@
 title: RA_0004_identification_analyse_obtained_indicators_of_compromise
+description: Aggregated Response Action for analysis of indicators of compromise
+author: '@atc_project'
+creation_date: 31.01.2019
 stage: identification
 automation:
   - thehive
-author: '@atc_project'
-creation_date: 31.01.2019
 references:
   - https://github.com/TheHive-Project/Cortex-Analyzers
-description: >
-  Aggregated Response Action for analysis of indicators of compromise
 linked_ra:
   - RA_0015_identification_analyse_domain_name
   - RA_0016_identification_analyse_filehash
