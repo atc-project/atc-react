@@ -87,15 +87,12 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 2. Modify existing `.yaml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
 
-3. When `.yaml` files are ready, convert them to `.markdown` documents and TheHive templates using this command:
+3. When `.yaml` files are ready, convert them to `.markdown` documents and TheHive templates using the following commands:
     ```
     python3 main.py --markdown --auto --init
+    python3 main.py --thehive
     ```
-    You will find the outcome in the `generated_analytics` directory.  
-    For other options (i.e. generate only `.markdown` documents) check `main.py` help menu:
-    ```
-    python3 main.py --help
-    ```
+    You will find the outcome in the `generated_analytics` directory.
 
 ### Requirements
 

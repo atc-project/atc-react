@@ -44,7 +44,6 @@ if __name__ == '__main__':
     if args.markdown:
         PopulateMarkdown(auto=args.auto, ra=args.responseactions,
                          rp=args.responseplaybook, init=args.init)
-
     elif args.thehive:
         ATCconfig = ATCutils.read_yaml_file("scripts/config.yml")
         ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")
