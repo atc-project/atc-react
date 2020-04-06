@@ -7,10 +7,10 @@ severity: M                  # L M H
 tlp: AMBER                   # WHITE GREEN AMBER RED
 pap: WHITE                   # WHITE GREEN AMBER RED
 tags:
-    - attack.initial_access  # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
-    - attack.t1193           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
-    - attack.t1192           # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
-    - phishinng              # could be custom tags as well
+    - attack.initial_access     # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
+    - amitt.strategic_planning  # use the next tag scheeme for AMITT tags: https://github.com/atc-project/atc-response/blob/master/scripts/amitt_mapping.py
+    - attack.t1193              # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
+    - phishinng                 # could be custom tags as well
 linked_rp:
   - RA_0000_something        # related RP that you would like to keep as linked and mention in the workflow
 references: 
