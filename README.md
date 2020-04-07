@@ -41,7 +41,7 @@ Each Response Action mapped to a specific stage of [The Six Stages of Incident R
 
 ### Response Playbook
 
-is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Credibility Coalition's AMITT](https://medium.com/@credibilitycoalition/misinfosec-framework-99e3bff5935d) frameworks.
+is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
 
 Here is an example of Response Playbook:
 
