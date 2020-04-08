@@ -16,7 +16,7 @@ It represents the following:
 
 is designed for describing and understanding existing Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The cells repsresent [Response Action](#response-action).  
+The cells repsresent [Response Actions](#response-action).  
 The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
 
 | Preparation              | Identification                              | Containment                     | Eradication                                    | Recovery                                    | Lessons Learned                   | 
