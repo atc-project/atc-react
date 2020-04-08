@@ -1,9 +1,8 @@
+# ATC RE&CT
 
 ![](images/logo_v1.png)
 
-# ATC RE&CT
-
-is:
+The project represents the following:
 
 1. A framework for Incident Response techniques representation
 2. A [collection](https://github.com/atc-project/atc-response/tree/master/generated_analytics/markdown_documents/Response_Playbooks) of Security Incident Response Playbooks
