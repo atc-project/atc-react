@@ -46,7 +46,7 @@ The collumns repsresent stages of [The Six Stages of Incident Response Process](
 |                          | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
 |                          | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
 
-[Practice]: generated_analytics/markdown_documents/Response_Actions/RA_0041_eradication_report_incident_to_external_companies.md
+[Practice]: generated_analytics/markdown_documents/Response_Actions/RA_0042_preparation_practice.md
 [Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_0001_identification_get_original_email.md
 [Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_0002_identification_extract_observables_from_email.md
 [Make sure email is a phishing]: generated_analytics/markdown_documents/Response_Actions/RA_0003_identification_make_sure_email_is_a_phishing.md
