@@ -1,14 +1,11 @@
-| Title                       | RA_0001_identification_get_original_email         |
-|:----------------------------|:--------------------|
+| Title                       | Get original email         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0001            |
 | **Description**             | Obtain the original phishing email   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | identification         |
-| **Automation**              | None |
-| **References**              |<ul><li>[https://www.lifewire.com/save-an-email-as-an-eml-file-in-gmail-1171956](https://www.lifewire.com/save-an-email-as-an-eml-file-in-gmail-1171956)</li><li>[https://eml.tooutlook.com/](https://eml.tooutlook.com/)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **References** |<ul><li>[https://www.lifewire.com/save-an-email-as-an-eml-file-in-gmail-1171956](https://www.lifewire.com/save-an-email-as-an-eml-file-in-gmail-1171956)</li><li>[https://eml.tooutlook.com/](https://eml.tooutlook.com/)</li></ul>|
 
 ### Workflow
 

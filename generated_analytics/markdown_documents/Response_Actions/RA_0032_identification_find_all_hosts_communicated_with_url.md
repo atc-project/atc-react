@@ -1,14 +1,12 @@
-| Title                       | RA_0032_identification_find_all_hosts_communicated_with_url         |
-|:----------------------------|:--------------------|
+| Title                       | Find all hosts communicated with url         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0032            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 

@@ -1,14 +1,12 @@
-| Title                       | RA_0008_containment_block_domain_on_dns         |
-|:----------------------------|:--------------------|
+| Title                       | Block domain on dns         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0008            |
 | **Description**             | Block a domain on a DNS server   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
-| **Automation**              | None |
-| **References**              |<ul><li>[https://en.wikipedia.org/wiki/DNS_sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        |<ul><li>MS_dns_server</li></ul> |
-
+| **References** |<ul><li>[https://en.wikipedia.org/wiki/DNS_sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole)</li></ul>|
+| **Linked Analytics** |<ul><li>MS_dns_server</li></ul>|
 
 ### Workflow
 

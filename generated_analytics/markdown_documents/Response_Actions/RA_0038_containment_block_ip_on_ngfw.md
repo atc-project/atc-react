@@ -1,14 +1,11 @@
-| Title                       | RA_0038_containment_block_ip_on_ngfw         |
-|:----------------------------|:--------------------|
+| Title                       | Block ip on ngfw         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0038            |
 | **Description**             | Block an IP address with NGFW   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
-| **Automation**              | None |
-| **References**              | None |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        |<ul><li>MS_NGFW</li></ul> |
-
+| **Linked Analytics** |<ul><li>MS_NGFW</li></ul>|
 
 ### Workflow
 

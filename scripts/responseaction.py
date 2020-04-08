@@ -50,6 +50,11 @@ class ResponseAction:
                 .get('description').strip()}
         )
 
+        self.ra_parsed_file.update(
+            {'title': ATCutils.normalize_react_title(self.ra_parsed_file
+                .get('title'))}
+        )
+
         self.content = template.render(self.ra_parsed_file)
 
     def save_markdown_file(self,

@@ -1,14 +1,12 @@
-| Title                       | RA_0030_identification_find_all_hosts_communicated_with_domain         |
-|:----------------------------|:--------------------|
+| Title                       | Find all hosts communicated with domain         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0030            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 

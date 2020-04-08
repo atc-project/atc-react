@@ -1,14 +1,12 @@
-| Title                       | RA_0021_identification_analyse_unix_elf         |
-|:----------------------------|:--------------------|
+| Title                       | Analyse unix elf         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0021            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 

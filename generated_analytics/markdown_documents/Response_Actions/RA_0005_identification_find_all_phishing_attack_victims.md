@@ -1,14 +1,12 @@
-| Title                       | RA_0005_identification_find_all_phishing_attack_victims         |
-|:----------------------------|:--------------------|
+| Title                       | Find all phishing attack victims         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0005            |
 | **Description**             | Aggregated Response Action for identification of all potential victims of the phishing attack   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              | None |
-| **Linked Response Actions** |<ul><li>[RA_0026_identification_find_emails_opened](../Response_Actions/RA_0026_identification_find_emails_opened.md)</li><li>[RA_0030_identification_find_all_hosts_communicated_with_domain](../Response_Actions/RA_0030_identification_find_all_hosts_communicated_with_domain.md)</li><li>[RA_0031_identification_find_all_hosts_communicated_with_ip](../Response_Actions/RA_0031_identification_find_all_hosts_communicated_with_ip.md)</li><li>[RA_0032_identification_find_all_hosts_communicated_with_url](../Response_Actions/RA_0032_identification_find_all_hosts_communicated_with_url.md)</li><li>[RA_0033_identification_find_files_created](../Response_Actions/RA_0033_identification_find_files_created.md)</li><li>[RA_0034_identification_find_all_victims_in_security_alerts](../Response_Actions/RA_0034_identification_find_all_victims_in_security_alerts.md)</li></ul> |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **Linked Response Actions**  |<ul><li>[RA_0026_identification_find_emails_opened](../Response_Actions/RA_0026_identification_find_emails_opened.md)</li><li>[RA_0030_identification_find_all_hosts_communicated_with_domain](../Response_Actions/RA_0030_identification_find_all_hosts_communicated_with_domain.md)</li><li>[RA_0031_identification_find_all_hosts_communicated_with_ip](../Response_Actions/RA_0031_identification_find_all_hosts_communicated_with_ip.md)</li><li>[RA_0032_identification_find_all_hosts_communicated_with_url](../Response_Actions/RA_0032_identification_find_all_hosts_communicated_with_url.md)</li><li>[RA_0033_identification_find_files_created](../Response_Actions/RA_0033_identification_find_files_created.md)</li><li>[RA_0034_identification_find_all_victims_in_security_alerts](../Response_Actions/RA_0034_identification_find_all_victims_in_security_alerts.md)</li></ul>|
 
 ### Workflow
 

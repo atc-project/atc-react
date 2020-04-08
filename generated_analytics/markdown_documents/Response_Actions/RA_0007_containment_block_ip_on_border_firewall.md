@@ -1,14 +1,11 @@
-| Title                       | RA_0007_containment_block_ip_on_border_firewall         |
-|:----------------------------|:--------------------|
+| Title                       | Block ip on border firewall         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0007            |
 | **Description**             | Block an IP address on a border firewall   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
-| **Automation**              | None |
-| **References**              | None |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        |<ul><li>MS_firewall</li></ul> |
-
+| **Linked Analytics** |<ul><li>MS_firewall</li></ul>|
 
 ### Workflow
 

@@ -1,14 +1,11 @@
-| Title                       | RA_0011_eradication_revoke_compromised_credentials         |
-|:----------------------------|:--------------------|
+| Title                       | Revoke compromised credentials         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0011            |
 | **Description**             | Response Action for revokation of compromised credentials   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | eradication         |
-| **Automation**              | None |
-| **References**              |<ul><li>[https://adsecurity.org/?p=556](https://adsecurity.org/?p=556)</li><li>[https://adsecurity.org/?p=483](https://adsecurity.org/?p=483)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **References** |<ul><li>[https://adsecurity.org/?p=556](https://adsecurity.org/?p=556)</li><li>[https://adsecurity.org/?p=483](https://adsecurity.org/?p=483)</li></ul>|
 
 ### Workflow
 

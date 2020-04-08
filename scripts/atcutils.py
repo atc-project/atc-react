@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import yaml
+import re
 import warnings
 
 from os import listdir
@@ -204,3 +205,18 @@ class ATCutils:
             file.write(content)
 
         return True
+
+    @staticmethod
+    def normalize_react_title(title):
+        """Normalize title if it is a RE&CT title in the following format:
+        RP_0003_identification_make_sure_email_is_a_phishing
+        """
+        
+        react_id_re = re.compile(r'R[AP]_\d{4}.*$')
+        if react_id_re.match(title):
+            if "_lessons_learned_" in title:
+                title = title[8:].split('_', 2)[-1].replace('_', ' ').capitalize()
+            else:
+                title = title[8:].split('_', 1)[-1].replace('_', ' ').capitalize()
+        
+        return title

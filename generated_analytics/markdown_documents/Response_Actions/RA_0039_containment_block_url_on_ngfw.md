@@ -1,14 +1,11 @@
-| Title                       | RA_0039_containment_block_url_on_ngfw         |
-|:----------------------------|:--------------------|
+| Title                       | Block url on ngfw         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0039            |
 | **Description**             | Block an URL with NGFW   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
-| **Automation**              | None |
-| **References**              | None |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        |<ul><li>MS_NGFW</li></ul> |
-
+| **Linked Analytics** |<ul><li>MS_NGFW</li></ul>|
 
 ### Workflow
 

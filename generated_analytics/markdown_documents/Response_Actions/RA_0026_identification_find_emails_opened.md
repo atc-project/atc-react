@@ -1,14 +1,12 @@
-| Title                       | RA_0026_identification_find_emails_opened         |
-|:----------------------------|:--------------------|
+| Title                       | Find emails opened         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0026            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 

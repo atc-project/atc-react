@@ -1,14 +1,12 @@
-| Title                       | RA_0029_recovery_reinstall_host_from_golden_image         |
-|:----------------------------|:--------------------|
+| Title                       | Reinstall host from golden image         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0029            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | recovery         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 

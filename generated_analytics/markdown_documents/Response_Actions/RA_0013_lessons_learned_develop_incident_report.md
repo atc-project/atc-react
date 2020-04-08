@@ -1,14 +1,11 @@
-| Title                       | RA_0013_lessons_learned_develop_incident_report         |
-|:----------------------------|:--------------------|
+| Title                       | Develop incident report         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0013            |
 | **Description**             | Develop Incident Resposne Report   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | lessons_learned         |
-| **Automation**              | None |
-| **References**              |<ul><li>[https://attack.mitre.org/tactics/enterprise/](https://attack.mitre.org/tactics/enterprise/)</li><li>[https://en.wikipedia.org/wiki/Kill_chain](https://en.wikipedia.org/wiki/Kill_chain)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **References** |<ul><li>[https://attack.mitre.org/tactics/enterprise/](https://attack.mitre.org/tactics/enterprise/)</li><li>[https://en.wikipedia.org/wiki/Kill_chain](https://en.wikipedia.org/wiki/Kill_chain)</li></ul>|
 
 ### Workflow
 

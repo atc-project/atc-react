@@ -1,14 +1,12 @@
-| Title                       | RA_0006_containment_block_domain_on_email         |
-|:----------------------------|:--------------------|
+| Title                       | Block domain on email         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0006            |
 | **Description**             | Block a phishing attack source on Email-server level   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
-| **Automation**              | None |
-| **References**              |<ul><li>[https://docs.microsoft.com/en-us/office365/securitycompliance/block-email-spam-to-prevent-false-negatives](https://docs.microsoft.com/en-us/office365/securitycompliance/block-email-spam-to-prevent-false-negatives)</li><li>[https://docs.microsoft.com/en-us/office365/securitycompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365](https://docs.microsoft.com/en-us/office365/securitycompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        |<ul><li>MS_email_server</li></ul> |
-
+| **References** |<ul><li>[https://docs.microsoft.com/en-us/office365/securitycompliance/block-email-spam-to-prevent-false-negatives](https://docs.microsoft.com/en-us/office365/securitycompliance/block-email-spam-to-prevent-false-negatives)</li><li>[https://docs.microsoft.com/en-us/office365/securitycompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365](https://docs.microsoft.com/en-us/office365/securitycompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)</li></ul>|
+| **Linked Analytics** |<ul><li>MS_email_server</li></ul>|
 
 ### Workflow
 

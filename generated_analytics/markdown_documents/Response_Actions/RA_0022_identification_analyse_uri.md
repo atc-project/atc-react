@@ -1,14 +1,12 @@
-| Title                       | RA_0022_identification_analyse_uri         |
-|:----------------------------|:--------------------|
+| Title                       | Analyse uri         |
+|:---------------------------:|:--------------------|
+| **ID**                      | RA0022            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | identification         |
-| **Automation**              |<ul><li>thehive</li></ul> |
-| **References**              |<ul><li>[https://example.com](https://example.com)</li></ul> |
-| **Linked Response Actions** | None |
-| **Linked Analytics**        | None |
-
+| **Automation** |<ul><li>thehive</li></ul>|
+| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow
 
