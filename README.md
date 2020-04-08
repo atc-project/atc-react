@@ -17,7 +17,7 @@ The cells repsresent [Response Actions](#response-action).
 
 | Preparation              | Identification                              | Containment                     | Eradication                                    | Recovery                                    | Lessons Learned                   | 
 |--------------------------|---------------------------------------------|---------------------------------|------------------------------------------------|---------------------------------------------|-----------------------------------|
-| [Practice]               | [Get original email]                        | [Block threat on network level] | [Delete malicious emails]                      | [Recovery reinstall host from golden image] | [Develop incident report]         |
+| [Practice]               | [Get original email]                        | [Block threat on network level] | [Delete malicious emails]                      | [Reinstall host from golden image] | [Develop incident report]         |
 |                          | [Extract observables from email]            | [Block domain on email]         | [Revoke compromised credentials]               |                                             | [Conduct lessons earned exercise] |
 |                          | [Make sure email is a phishing]             | [Block ip on border firewall]   | [Report phishing attack to external companies] |                                             |                                   |
 |                          | [Analyse obtained indicators of compromise] | [Block domain on DNS]           | [Report incident to external companies]        |                                             |                                   |
@@ -81,7 +81,7 @@ The cells repsresent [Response Actions](#response-action).
 [Revoke compromised credentials]: generated_analytics/markdown_documents/Response_Actions/RA_0011_eradication_revoke_compromised_credentials.md
 [Report phishing attack to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_0012_eradication_report_phishing_attack_to_external_companies.md
 [Report incident to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_0041_eradication_report_incident_to_external_companies.md
-[Recovery reinstall host from golden image]: generated_analytics/markdown_documents/Response_Actions/RA_0029_recovery_reinstall_host_from_golden_image.md
+[Reinstall host from golden image]: generated_analytics/markdown_documents/Response_Actions/RA_0029_recovery_reinstall_host_from_golden_image.md
 [Develop incident report]: generated_analytics/markdown_documents/Response_Actions/RA_0013_lessons_learned_develop_incident_report.md
 [Conduct lessons earned exercise]: generated_analytics/markdown_documents/Response_Actions/RA_0014_lessons_learned_conduct_lessons_learned_exercise.md
 
