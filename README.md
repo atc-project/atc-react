@@ -1,12 +1,8 @@
 # ATC RE&CT
 
-Actionable Security Incident Response Playbooks.
-
 ![](images/logo_v1.png)
 
-ATC RE&CT is a sub-project of [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, related to Security Incident Response process.
-
-It represents the following:
+ATC RE&CT is:
 
 1. A framework for Incident Response techniques representation
 2. A collection of Security Incident Response Playbooks
@@ -16,32 +12,32 @@ It represents the following:
 
 is designed for describing and understanding existing Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The cells repsresent [Response Actions](#response-action).  
 The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
+The cells repsresent [Response Actions](#response-action).  
 
 | Preparation              | Identification                              | Containment                     | Eradication                                    | Recovery                                    | Lessons Learned                   | 
 |--------------------------|---------------------------------------------|---------------------------------|------------------------------------------------|---------------------------------------------|-----------------------------------|
 | [Practice]               | [Get original email]                        | [Block threat on network level] | [Delete malicious emails]                      | [Recovery reinstall host from golden image] | [Develop incident report]         |
 |                          | [Extract observables from email]            | [Block domain on email]         | [Revoke compromised credentials]               |                                             | [Conduct lessons earned exercise] |
 |                          | [Make sure email is a phishing]             | [Block ip on border firewall]   | [Report phishing attack to external companies] |                                             |                                   |
-|                          | [Analyse obtained indicators of compromise] | [Block domain on dns]           | [Report incident to external companies]        |                                             |                                   |
-|                          | [Find all phishing attack victims]          | [Block url on proxy]            |                                                |                                             |                                   |
-|                          | [Analyse domain name]                       | [Block domain on ips]           |                                                |                                             |                                   |
-|                          | [Analyse filehash]                          | [Block domain on ngfw]          |                                                |                                             |                                   |
-|                          | [Analyse ip]                                | [Block ip on ips]               |                                                |                                             |                                   |
-|                          | [Analyse macos macho]                       | [Block ip on ngfw]              |                                                |                                             |                                   |
-|                          | [Analyse ms office file]                    | [Block url on ngfw]             |                                                |                                             |                                   |
-|                          | [Analyse pdf]                               |                                 |                                                |                                             |                                   |
-|                          | [Analyse unix elf]                          |                                 |                                                |                                             |                                   |
-|                          | [Analyse uri]                               |                                 |                                                |                                             |                                   |
-|                          | [Analyse windows pe]                        |                                 |                                                |                                             |                                   |
+|                          | [Analyse obtained indicators of compromise] | [Block domain on DNS]           | [Report incident to external companies]        |                                             |                                   |
+|                          | [Find all phishing attack victims]          | [Block URL on Proxy]            |                                                |                                             |                                   |
+|                          | [Analyse domain name]                       | [Block domain on IPS]           |                                                |                                             |                                   |
+|                          | [Analyse filehash]                          | [Block domain on NGFW]          |                                                |                                             |                                   |
+|                          | [Analyse IP]                                | [Block ip on IPS]               |                                                |                                             |                                   |
+|                          | [Analyse macOS macho]                       | [Block ip on NGFW]              |                                                |                                             |                                   |
+|                          | [Analyse MS Office file]                    | [Block url on NGFW]             |                                                |                                             |                                   |
+|                          | [Analyse PDF]                               |                                 |                                                |                                             |                                   |
+|                          | [Analyse Unix ELF]                          |                                 |                                                |                                             |                                   |
+|                          | [Analyse URI]                               |                                 |                                                |                                             |                                   |
+|                          | [Analyse MS Windows PE]                     |                                 |                                                |                                             |                                   |
 |                          | [Find files executed]                       |                                 |                                                |                                             |                                   |
 |                          | [Find services executed]                    |                                 |                                                |                                             |                                   |
 |                          | [Find emails opened]                        |                                 |                                                |                                             |                                   |
 |                          | [Find registry keys modified]               |                                 |                                                |                                             |                                   |
 |                          | [Find all hosts communicated with domain]   |                                 |                                                |                                             |                                   |
-|                          | [Find all hosts communicated with ip]       |                                 |                                                |                                             |                                   |
-|                          | [Find all hosts communicated with url]      |                                 |                                                |                                             |                                   |
+|                          | [Find all hosts communicated with IP]       |                                 |                                                |                                             |                                   |
+|                          | [Find all hosts communicated with URL]      |                                 |                                                |                                             |                                   |
 |                          | [Find files created]                        |                                 |                                                |                                             |                                   |
 |                          | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
 |                          | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
@@ -54,33 +50,33 @@ The collumns repsresent stages of [The Six Stages of Incident Response Process](
 [Find all phishing attack victims]: generated_analytics/markdown_documents/Response_Actions/RA_0005_identification_find_all_phishing_attack_victims.md
 [Analyse domain name]: generated_analytics/markdown_documents/Response_Actions/RA_0015_identification_analyse_domain_name.md
 [Analyse filehash]: generated_analytics/markdown_documents/Response_Actions/RA_0016_identification_analyse_filehash.md
-[Analyse ip]: generated_analytics/markdown_documents/Response_Actions/RA_0017_identification_analyse_ip.md
-[Analyse macos macho]: generated_analytics/markdown_documents/Response_Actions/RA_0018_identification_analyse_macos_macho.md
-[Analyse ms office file]: generated_analytics/markdown_documents/Response_Actions/RA_0019_identification_analyse_ms_office_file.md
-[Analyse pdf]: generated_analytics/markdown_documents/Response_Actions/RA_0020_identification_analyse_pdf.md
-[Analyse unix elf]: generated_analytics/markdown_documents/Response_Actions/RA_0021_identification_analyse_unix_elf.md
-[Analyse uri]: generated_analytics/markdown_documents/Response_Actions/RA_0022_identification_analyse_uri.md
-[Analyse windows pe]: generated_analytics/markdown_documents/Response_Actions/RA_0023_identification_analyse_windows_pe.md
+[Analyse IP]: generated_analytics/markdown_documents/Response_Actions/RA_0017_identification_analyse_ip.md
+[Analyse macOS macho]: generated_analytics/markdown_documents/Response_Actions/RA_0018_identification_analyse_macos_macho.md
+[Analyse MS Office file]: generated_analytics/markdown_documents/Response_Actions/RA_0019_identification_analyse_ms_office_file.md
+[Analyse PDF]: generated_analytics/markdown_documents/Response_Actions/RA_0020_identification_analyse_pdf.md
+[Analyse Unix ELF]: generated_analytics/markdown_documents/Response_Actions/RA_0021_identification_analyse_unix_elf.md
+[Analyse URI]: generated_analytics/markdown_documents/Response_Actions/RA_0022_identification_analyse_uri.md
+[Analyse MS Windows PE]: generated_analytics/markdown_documents/Response_Actions/RA_0023_identification_analyse_windows_pe.md
 [Find files executed]: generated_analytics/markdown_documents/Response_Actions/RA_0024_identification_find_files_executed.md
 [Find services executed]: generated_analytics/markdown_documents/Response_Actions/RA_0025_identification_find_services_executed.md
 [Find emails opened]: generated_analytics/markdown_documents/Response_Actions/RA_0026_identification_find_emails_opened.md
 [Find registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_0027_identification_find_registry_keys_modified.md
 [Find all hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_0030_identification_find_all_hosts_communicated_with_domain.md
-[Find all hosts communicated with ip]: generated_analytics/markdown_documents/Response_Actions/RA_0031_identification_find_all_hosts_communicated_with_ip.md
-[Find all hosts communicated with url]: generated_analytics/markdown_documents/Response_Actions/RA_0032_identification_find_all_hosts_communicated_with_url.md
+[Find all hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_0031_identification_find_all_hosts_communicated_with_ip.md
+[Find all hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_0032_identification_find_all_hosts_communicated_with_url.md
 [Find files created]: generated_analytics/markdown_documents/Response_Actions/RA_0033_identification_find_files_created.md
 [Find all victims in security alerts]: generated_analytics/markdown_documents/Response_Actions/RA_0034_identification_find_all_victims_in_security_alerts.md
 [Put compromised accounts on monitoring]: generated_analytics/markdown_documents/Response_Actions/RA_0040_identification_put_compromised_accounts_on_monitoring.md
 [Block threat on network level]: generated_analytics/markdown_documents/Response_Actions/RA_0028_containment_block_threat_on_network_level.md
 [Block domain on email]: generated_analytics/markdown_documents/Response_Actions/RA_0006_containment_block_domain_on_email.md
 [Block ip on border firewall]: generated_analytics/markdown_documents/Response_Actions/RA_0007_containment_block_ip_on_border_firewall.md
-[Block domain on dns]: generated_analytics/markdown_documents/Response_Actions/RA_0008_containment_block_domain_on_dns.md
-[Block url on proxy]: generated_analytics/markdown_documents/Response_Actions/RA_0009_containment_block_url_on_proxy.md
-[Block domain on ips]: generated_analytics/markdown_documents/Response_Actions/RA_0035_containment_block_domain_on_ips.md
-[Block domain on ngfw]: generated_analytics/markdown_documents/Response_Actions/RA_0036_containment_block_domain_on_ngfw.md
-[Block ip on ips]: generated_analytics/markdown_documents/Response_Actions/RA_0037_containment_block_ip_on_ips.md
-[Block ip on ngfw]: generated_analytics/markdown_documents/Response_Actions/RA_0038_containment_block_ip_on_ngfw.md
-[Block url on ngfw]: generated_analytics/markdown_documents/Response_Actions/RA_0039_containment_block_url_on_ngfw.md
+[Block domain on DNS]: generated_analytics/markdown_documents/Response_Actions/RA_0008_containment_block_domain_on_dns.md
+[Block URL on Proxy]: generated_analytics/markdown_documents/Response_Actions/RA_0009_containment_block_url_on_proxy.md
+[Block domain on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_0035_containment_block_domain_on_ips.md
+[Block domain on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0036_containment_block_domain_on_ngfw.md
+[Block ip on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_0037_containment_block_ip_on_ips.md
+[Block ip on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0038_containment_block_ip_on_ngfw.md
+[Block url on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0039_containment_block_url_on_ngfw.md
 [Delete malicious emails]: generated_analytics/markdown_documents/Response_Actions/RA_0010_eradication_delete_malicious_emails.md
 [Revoke compromised credentials]: generated_analytics/markdown_documents/Response_Actions/RA_0011_eradication_revoke_compromised_credentials.md
 [Report phishing attack to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_0012_eradication_report_phishing_attack_to_external_companies.md
