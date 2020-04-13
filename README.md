@@ -33,11 +33,11 @@ The cells repsresent [Response Actions](#response-action).
 |                          | [Analyse MS Windows PE]                     |                                 |                                                |                                             |                                   |
 |                          | [Find files executed]                       |                                 |                                                |                                             |                                   |
 |                          | [Find services executed]                    |                                 |                                                |                                             |                                   |
-|                          | [Find emails opened]                        |                                 |                                                |                                             |                                   |
+|                          | [Find users opened email]                   |                                 |                                                |                                             |                                   |
 |                          | [Find registry keys modified]               |                                 |                                                |                                             |                                   |
-|                          | [Find all hosts communicated with domain]   |                                 |                                                |                                             |                                   |
-|                          | [Find all hosts communicated with IP]       |                                 |                                                |                                             |                                   |
-|                          | [Find all hosts communicated with URL]      |                                 |                                                |                                             |                                   |
+|                          | [List hosts communicated with domain]       |                                 |                                                |                                             |                                   |
+|                          | [List hosts communicated with IP]           |                                 |                                                |                                             |                                   |
+|                          | [List hosts communicated with URL]          |                                 |                                                |                                             |                                   |
 |                          | [Find files created]                        |                                 |                                                |                                             |                                   |
 |                          | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
 |                          | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
@@ -60,11 +60,11 @@ The cells repsresent [Response Actions](#response-action).
 [Analyse MS Windows PE]: generated_analytics/markdown_documents/Response_Actions/RA_0023_identification_analyse_windows_pe.md
 [Find files executed]: generated_analytics/markdown_documents/Response_Actions/RA_0024_identification_find_files_executed.md
 [Find services executed]: generated_analytics/markdown_documents/Response_Actions/RA_0025_identification_find_services_executed.md
-[Find emails opened]: generated_analytics/markdown_documents/Response_Actions/RA_0026_identification_find_emails_opened.md
+[Find users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_0026_identification_find_users_opened_email.md
 [Find registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_0027_identification_find_registry_keys_modified.md
-[Find all hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_0030_identification_find_all_hosts_communicated_with_domain.md
-[Find all hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_0031_identification_find_all_hosts_communicated_with_ip.md
-[Find all hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_0032_identification_find_all_hosts_communicated_with_url.md
+[List hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_0030_identification_list_hosts_communicated_with_domain.md
+[List hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_0031_identification_list_hosts_communicated_with_ip.md
+[List hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_0032_identification_list_hosts_communicated_with_url.md
 [Find files created]: generated_analytics/markdown_documents/Response_Actions/RA_0033_identification_find_files_created.md
 [Find all victims in security alerts]: generated_analytics/markdown_documents/Response_Actions/RA_0034_identification_find_all_victims_in_security_alerts.md
 [Put compromised accounts on monitoring]: generated_analytics/markdown_documents/Response_Actions/RA_0040_identification_put_compromised_accounts_on_monitoring.md

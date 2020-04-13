@@ -1,6 +1,6 @@
-| Title                       | Find all hosts communicated with domain         |
+| Title                       | List hosts communicated with url         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA0030            |
+| **ID**                      | RA0032            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
@@ -11,4 +11,4 @@
 ### Workflow
 
 Description of how to handle multiple Response Actions (if it is an aggregated Response Action) or workflow for single Response Action in markdown format.
-Here newlines will be saved.  
+Here newlines will be saved.

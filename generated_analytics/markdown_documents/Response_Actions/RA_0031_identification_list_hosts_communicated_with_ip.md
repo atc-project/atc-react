@@ -1,4 +1,4 @@
-| Title                       | Find all hosts communicated with ip         |
+| Title                       | List hosts communicated with ip         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA0031            |
 | **Description**             | Response Action for   |
