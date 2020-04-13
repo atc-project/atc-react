@@ -17,17 +17,15 @@ The cells repsresent [Response Actions](#response-action).
 
 | Preparation              | Identification                              | Containment                     | Eradication                                    | Recovery                                    | Lessons Learned                   | 
 |--------------------------|---------------------------------------------|---------------------------------|------------------------------------------------|---------------------------------------------|-----------------------------------|
-| [Take trainings]         | [Get original email]                        | [Block threat on network level] | [Delete malicious emails]                      | [Reinstall host from golden image]          | [Develop incident report]         |
-| [Practice]               | [Extract observables from email]            | [Block domain on email]         | [Revoke compromised credentials]               |                                             | [Conduct lessons earned exercise] |
-|                          | [Make sure email is a phishing]             | [Block ip on border firewall]   | [Report phishing attack to external companies] |                                             |                                   |
-|                          | [Analyse obtained indicators of compromise] | [Block domain on DNS]           | [Report incident to external companies]        |                                             |                                   |
-|                          | [Find all phishing attack victims]          | [Block URL on Proxy]            |                                                |                                             |                                   |
-|                          | [Analyse domain name]                       | [Block domain on IPS]           |                                                |                                             |                                   |
-|                          | [Analyse filehash]                          | [Block domain on NGFW]          |                                                |                                             |                                   |
-|                          | [Analyse IP]                                | [Block ip on IPS]               |                                                |                                             |                                   |
-|                          | [Analyse macOS macho]                       | [Block ip on NGFW]              |                                                |                                             |                                   |
-|                          | [Analyse MS Office file]                    | [Block url on NGFW]             |                                                |                                             |                                   |
-|                          | [Analyse PDF]                               |                                 |                                                |                                             |                                   |
+| [Take trainings]         | [Get original email]                        | [Block domain on email]         | [Delete malicious emails]                      | [Reinstall host from golden image]          | [Develop incident report]         |
+| [Practice]               | [Extract observables from email]            | [Block IP on border firewall]   | [Revoke compromised credentials]               |                                             | [Conduct lessons earned exercise] |
+|                          | [Make sure email is a phishing]             | [Block domain on DNS]           | [Report phishing attack to external companies] |                                             |                                   |
+|                          | [Analyse domain name]                       | [Block URL on Proxy]            | [Report incident to external companies]        |                                             |                                   |
+|                          | [Analyse filehash]                          | [Block domain on IPS]           |                                                |                                             |                                   |
+|                          | [Analyse IP]                                | [Block domain on NGFW]          |                                                |                                             |                                   |
+|                          | [Analyse macOS macho]                       | [Block IP on IPS]               |                                                |                                             |                                   |
+|                          | [Analyse MS Office file]                    | [Block IP on NGFW]              |                                                |                                             |                                   |
+|                          | [Analyse PDF]                               | [Block URL on NGFW]             |                                                |                                             |                                   |
 |                          | [Analyse Unix ELF]                          |                                 |                                                |                                             |                                   |
 |                          | [Analyse URI]                               |                                 |                                                |                                             |                                   |
 |                          | [Analyse MS Windows PE]                     |                                 |                                                |                                             |                                   |
@@ -41,50 +39,49 @@ The cells repsresent [Response Actions](#response-action).
 |                          | [Find files created]                        |                                 |                                                |                                             |                                   |
 |                          | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
 |                          | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
+|                          |                                             |                                 |                                                |                                             |                                   |
+|                          |                                             |                                 |                                                |                                             |                                   |
 
-[Take trainings]: generated_analytics/markdown_documents/Response_Actions/RA_0043_preparation_take_trainings.md
-[Practice]: generated_analytics/markdown_documents/Response_Actions/RA_0042_preparation_practice.md
-[Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_0001_identification_get_original_email.md
-[Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_0002_identification_extract_observables_from_email.md
-[Make sure email is a phishing]: generated_analytics/markdown_documents/Response_Actions/RA_0003_identification_make_sure_email_is_a_phishing.md
-[Analyse obtained indicators of compromise]: generated_analytics/markdown_documents/Response_Actions/RA_0004_identification_analyse_obtained_indicators_of_compromise.md
-[Find all phishing attack victims]: generated_analytics/markdown_documents/Response_Actions/RA_0005_identification_find_all_phishing_attack_victims.md
-[Analyse domain name]: generated_analytics/markdown_documents/Response_Actions/RA_0015_identification_analyse_domain_name.md
-[Analyse filehash]: generated_analytics/markdown_documents/Response_Actions/RA_0016_identification_analyse_filehash.md
-[Analyse IP]: generated_analytics/markdown_documents/Response_Actions/RA_0017_identification_analyse_ip.md
-[Analyse macOS macho]: generated_analytics/markdown_documents/Response_Actions/RA_0018_identification_analyse_macos_macho.md
-[Analyse MS Office file]: generated_analytics/markdown_documents/Response_Actions/RA_0019_identification_analyse_ms_office_file.md
-[Analyse PDF]: generated_analytics/markdown_documents/Response_Actions/RA_0020_identification_analyse_pdf.md
-[Analyse Unix ELF]: generated_analytics/markdown_documents/Response_Actions/RA_0021_identification_analyse_unix_elf.md
-[Analyse URI]: generated_analytics/markdown_documents/Response_Actions/RA_0022_identification_analyse_uri.md
-[Analyse MS Windows PE]: generated_analytics/markdown_documents/Response_Actions/RA_0023_identification_analyse_windows_pe.md
-[Find files executed]: generated_analytics/markdown_documents/Response_Actions/RA_0024_identification_find_files_executed.md
-[Find services executed]: generated_analytics/markdown_documents/Response_Actions/RA_0025_identification_find_services_executed.md
-[Find users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_0026_identification_find_users_opened_email.md
-[Find registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_0027_identification_find_registry_keys_modified.md
-[List hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_0030_identification_list_hosts_communicated_with_domain.md
-[List hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_0031_identification_list_hosts_communicated_with_ip.md
-[List hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_0032_identification_list_hosts_communicated_with_url.md
-[Find files created]: generated_analytics/markdown_documents/Response_Actions/RA_0033_identification_find_files_created.md
-[Find all victims in security alerts]: generated_analytics/markdown_documents/Response_Actions/RA_0034_identification_find_all_victims_in_security_alerts.md
-[Put compromised accounts on monitoring]: generated_analytics/markdown_documents/Response_Actions/RA_0040_identification_put_compromised_accounts_on_monitoring.md
-[Block threat on network level]: generated_analytics/markdown_documents/Response_Actions/RA_0028_containment_block_threat_on_network_level.md
-[Block domain on email]: generated_analytics/markdown_documents/Response_Actions/RA_0006_containment_block_domain_on_email.md
-[Block ip on border firewall]: generated_analytics/markdown_documents/Response_Actions/RA_0007_containment_block_ip_on_border_firewall.md
-[Block domain on DNS]: generated_analytics/markdown_documents/Response_Actions/RA_0008_containment_block_domain_on_dns.md
-[Block URL on Proxy]: generated_analytics/markdown_documents/Response_Actions/RA_0009_containment_block_url_on_proxy.md
-[Block domain on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_0035_containment_block_domain_on_ips.md
-[Block domain on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0036_containment_block_domain_on_ngfw.md
-[Block ip on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_0037_containment_block_ip_on_ips.md
-[Block ip on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0038_containment_block_ip_on_ngfw.md
-[Block url on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_0039_containment_block_url_on_ngfw.md
-[Delete malicious emails]: generated_analytics/markdown_documents/Response_Actions/RA_0010_eradication_delete_malicious_emails.md
-[Revoke compromised credentials]: generated_analytics/markdown_documents/Response_Actions/RA_0011_eradication_revoke_compromised_credentials.md
-[Report phishing attack to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_0012_eradication_report_phishing_attack_to_external_companies.md
-[Report incident to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_0041_eradication_report_incident_to_external_companies.md
-[Reinstall host from golden image]: generated_analytics/markdown_documents/Response_Actions/RA_0029_recovery_reinstall_host_from_golden_image.md
-[Develop incident report]: generated_analytics/markdown_documents/Response_Actions/RA_0013_lessons_learned_develop_incident_report.md
-[Conduct lessons earned exercise]: generated_analytics/markdown_documents/Response_Actions/RA_0014_lessons_learned_conduct_lessons_learned_exercise.md
+[Take trainings]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
+[Practice]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
+[Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
+[Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
+[Make sure email is a phishing]: generated_analytics/markdown_documents/Response_Actions/RA_2102_make_sure_email_is_a_phishing.md
+[Analyse domain name]: generated_analytics/markdown_documents/Response_Actions/RA_2204_analyse_domain_name.md
+[Analyse filehash]: generated_analytics/markdown_documents/Response_Actions/RA_2404_analyse_filehash.md
+[Analyse IP]: generated_analytics/markdown_documents/Response_Actions/RA_2205_analyse_ip.md
+[Analyse macOS macho]: generated_analytics/markdown_documents/Response_Actions/RA_2405_analyse_macos_macho.md
+[Analyse MS Office file]: generated_analytics/markdown_documents/Response_Actions/RA_2406_analyse_ms_office_file.md
+[Analyse PDF]: generated_analytics/markdown_documents/Response_Actions/RA_2407_analyse_pdf.md
+[Analyse Unix ELF]: generated_analytics/markdown_documents/Response_Actions/RA_2408_analyse_unix_elf.md
+[Analyse URI]: generated_analytics/markdown_documents/Response_Actions/RA_2206_analyse_uri.md
+[Analyse MS Windows PE]: generated_analytics/markdown_documents/Response_Actions/RA_2402_analyse_windows_pe.md
+[Find files executed]: generated_analytics/markdown_documents/Response_Actions/RA_2403_find_files_executed.md
+[Find services executed]: generated_analytics/markdown_documents/Response_Actions/RA_2501_find_services_executed.md
+[Find users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_2301_find_users_opened_email.md
+[Find registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_2601_find_registry_keys_modified.md
+[List hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_2201_list_hosts_communicated_with_domain.md
+[List hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_2202_list_hosts_communicated_with_ip.md
+[List hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_2203_list_hosts_communicated_with_url.md
+[Find files created]: generated_analytics/markdown_documents/Response_Actions/RA_2401_find_files_created.md
+[Find all victims in security alerts]: generated_analytics/markdown_documents/Response_Actions/RA_2104_find_all_victims_in_security_alerts.md
+[Put compromised accounts on monitoring]: generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
+[Block domain on email]: generated_analytics/markdown_documents/Response_Actions/RA_3201_block_domain_on_email.md
+[Block IP on border firewall]: generated_analytics/markdown_documents/Response_Actions/RA_3202_block_ip_on_border_firewall.md
+[Block domain on DNS]: generated_analytics/markdown_documents/Response_Actions/RA_3203_block_domain_on_dns.md
+[Block URL on Proxy]: generated_analytics/markdown_documents/Response_Actions/RA_3204_block_url_on_proxy.md
+[Block domain on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_3205_block_domain_on_ips.md
+[Block domain on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_3206_block_domain_on_ngfw.md
+[Block IP on IPS]: generated_analytics/markdown_documents/Response_Actions/RA_3207_block_ip_on_ips.md
+[Block IP on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_3208_block_ip_on_ngfw.md
+[Block URL on NGFW]: generated_analytics/markdown_documents/Response_Actions/RA_3209_block_url_on_ngfw.md
+[Delete malicious emails]: generated_analytics/markdown_documents/Response_Actions/RA_4301_delete_malicious_emails.md
+[Revoke compromised credentials]: generated_analytics/markdown_documents/Response_Actions/RA_4701_revoke_compromised_credentials.md
+[Report phishing attack to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
+[Report incident to external companies]: generated_analytics/markdown_documents/Response_Actions/RA_4102_report_incident_to_external_companies.md
+[Reinstall host from golden image]: generated_analytics/markdown_documents/Response_Actions/RA_5101_reinstall_host_from_golden_image.md
+[Develop incident report]: generated_analytics/markdown_documents/Response_Actions/RA_6101_develop_incident_report.md
+[Conduct lessons earned exercise]: generated_analytics/markdown_documents/Response_Actions/RA_6102_conduct_lessons_learned_exercise.md
 
 
 ## Actionable Playbooks
