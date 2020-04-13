@@ -14,25 +14,41 @@ tags:
 linked_rp:
   - RP_0002_generic_post_exploitation
 identification:
-  - RA_0001_identification_get_original_email
-  - RA_0002_identification_extract_observables_from_email
-  - RA_0003_identification_make_sure_email_is_a_phishing
-  - RA_0004_identification_analyse_obtained_indicators_of_compromise
-  - RA_0005_identification_find_all_phishing_attack_victims
-  - RA_0040_identification_put_compromised_accounts_on_monitoring
+  - RA_2302_get_original_email
+  - RA_2101_extract_observables_from_email
+  - RA_2102_make_sure_email_is_a_phishing
+  - RA_2103_put_compromised_accounts_on_monitoring
 containment:
-  - RA_0006_containment_block_domain_on_email
-  - RA_0028_containment_block_threat_on_network_level
+  - RA_3201_block_domain_on_email
+  - RA_3202_block_ip_on_border_firewall
+  - RA_3203_block_domain_on_dns
+  - RA_3204_block_url_on_proxy
+  - RA_3205_block_domain_on_ips
+  - RA_3206_block_domain_on_ngfw
+  - RA_3207_block_ip_on_ips
+  - RA_3208_block_ip_on_ngfw
+  - RA_3209_block_url_on_ngfw
 eradication:
-  - RA_0010_eradication_delete_malicious_emails
-  - RA_0011_eradication_revoke_compromised_credentials
-  - RA_0012_eradication_report_phishing_attack_to_external_companies
+  - RA_4301_delete_malicious_emails
+  - RA_4701_revoke_compromised_credentials
+  - RA_4101_report_phishing_attack_to_external_companies
 lessons_learned:
-  - RA_0013_lessons_learned_develop_incident_report
-  - RA_0014_lessons_learned_conduct_lessons_learned_exercise
+  - RA_6101_develop_incident_report
+  - RA_6102_conduct_lessons_learned_exercise
 workflow: |
   1. Execute Response Actions step by step. Some of them directly connected, which means you will not be able to move forward not finishing previous step
   2. Start executing containment and eradication stages concurrently with next identification steps, as soon as you will receive infomration about malicious hosts
   3. If phishing led to code execution or remote access to victim host, immediately start executing Generic Post Exploitation Incident Response Playbook
   4. Save all timestamps of implemented actions in Incident Report draft on the fly, it will save a lot of time
+
+
+
+
+
+
+
+
+
+
+
 
