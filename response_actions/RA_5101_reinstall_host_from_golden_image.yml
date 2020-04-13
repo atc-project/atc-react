@@ -1,0 +1,14 @@
+title: RA_5101_reinstall_host_from_golden_image
+id: RA5101
+description: >
+  Response Action for 
+author: name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: recovery
+automation:
+  - thehive
+references: 
+  - https://example.com
+workflow: |
+  Description of how to handle multiple Response Actions (if it is an aggregated Response Action) or workflow for single Response Action in markdown format.
+  Here newlines will be saved.  

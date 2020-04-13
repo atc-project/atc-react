@@ -1,0 +1,13 @@
+title: RA_3206_block_domain_on_ngfw
+id: RA3206
+description: Block a domain name with NGFW
+author: '@atc_project'
+creation_date: 31.01.2019
+stage: containment
+linked_analytics:
+  - MS_NGFW
+workflow: |
+  Block domain on NGFW using native filtering functionality.
+  Warning: 
+  - If not all corporate hosts access internet through the NGFW, this Response Action cannot guarantee containment of threat.
+  - Be careful blocking domain names. Make sure it's not cloud provider or hoster. In this case you have to use blocking by URL something more specific.
