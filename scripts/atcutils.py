@@ -214,9 +214,18 @@ class ATCutils:
         
         react_id_re = re.compile(r'R[AP]_\d{4}.*$')
         if react_id_re.match(title):
-            if "_lessons_learned_" in title:
-                title = title[8:].split('_', 2)[-1].replace('_', ' ').capitalize()
-            else:
-                title = title[8:].split('_', 1)[-1].replace('_', ' ').capitalize()
-        
+            title = title[8:].split('_', 0)[-1].replace('_', ' ').capitalize()
+            new_title = ""
+            for word in title.split():
+                if word.lower() in ["ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", "elf" ]:
+                    new_title += " "
+                    new_title += word.upper()
+                    continue
+                elif word.lower() in [ "unix", "windows" ]:
+                    new_title += " "
+                    new_title += word.capitalize()
+                    continue
+                new_title += " "
+                new_title += word
+            return new_title        
         return title

@@ -1,4 +1,4 @@
-| Title                       | Compromised credentials         |
+| Title                       |  Revoke compromised credentials         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4701            |
 | **Description**             | Response Action for revokation of compromised credentials   |

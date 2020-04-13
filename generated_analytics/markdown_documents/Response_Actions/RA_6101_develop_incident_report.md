@@ -1,4 +1,4 @@
-| Title                       | Incident report         |
+| Title                       |  Develop incident report         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA6101            |
 | **Description**             | Develop Incident Resposne Report   |

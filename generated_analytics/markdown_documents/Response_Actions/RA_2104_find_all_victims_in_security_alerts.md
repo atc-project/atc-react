@@ -1,4 +1,4 @@
-| Title                       | All victims in security alerts         |
+| Title                       |  Find all victims in security alerts         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2104            |
 | **Description**             | Response Action for   |

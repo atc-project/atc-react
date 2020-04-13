@@ -1,4 +1,4 @@
-| Title                       | Files created         |
+| Title                       |  Find files created         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2401            |
 | **Description**             | Response Action for   |

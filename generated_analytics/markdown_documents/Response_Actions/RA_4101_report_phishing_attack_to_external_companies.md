@@ -1,4 +1,4 @@
-| Title                       | Phishing attack to external companies         |
+| Title                       |  Report phishing attack to external companies         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4101            |
 | **Description**             | Report phishing attack to external companies   |

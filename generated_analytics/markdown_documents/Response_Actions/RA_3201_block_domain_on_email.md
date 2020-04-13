@@ -1,4 +1,4 @@
-| Title                       | Domain on email         |
+| Title                       |  Block domain on email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3201            |
 | **Description**             | Block a phishing attack source on Email-server level   |

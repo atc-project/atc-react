@@ -23,7 +23,7 @@ The cells repsresent [Response Actions](#response-action).
 |                          | [Analyse domain name]                       | [Block URL on Proxy]            | [Report incident to external companies]        |                                             |                                   |
 |                          | [Analyse filehash]                          | [Block domain on IPS]           |                                                |                                             |                                   |
 |                          | [Analyse IP]                                | [Block domain on NGFW]          |                                                |                                             |                                   |
-|                          | [Analyse macOS macho]                       | [Block IP on IPS]               |                                                |                                             |                                   |
+|                          | [Analyse macOS Mach-O]                      | [Block IP on IPS]               |                                                |                                             |                                   |
 |                          | [Analyse MS Office file]                    | [Block IP on NGFW]              |                                                |                                             |                                   |
 |                          | [Analyse PDF]                               | [Block URL on NGFW]             |                                                |                                             |                                   |
 |                          | [Analyse Unix ELF]                          |                                 |                                                |                                             |                                   |
@@ -39,8 +39,6 @@ The cells repsresent [Response Actions](#response-action).
 |                          | [Find files created]                        |                                 |                                                |                                             |                                   |
 |                          | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
 |                          | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
-|                          |                                             |                                 |                                                |                                             |                                   |
-|                          |                                             |                                 |                                                |                                             |                                   |
 
 [Take trainings]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [Practice]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
@@ -50,7 +48,7 @@ The cells repsresent [Response Actions](#response-action).
 [Analyse domain name]: generated_analytics/markdown_documents/Response_Actions/RA_2204_analyse_domain_name.md
 [Analyse filehash]: generated_analytics/markdown_documents/Response_Actions/RA_2404_analyse_filehash.md
 [Analyse IP]: generated_analytics/markdown_documents/Response_Actions/RA_2205_analyse_ip.md
-[Analyse macOS macho]: generated_analytics/markdown_documents/Response_Actions/RA_2405_analyse_macos_macho.md
+[Analyse macOS Mach-O]: generated_analytics/markdown_documents/Response_Actions/RA_2405_analyse_macos_macho.md
 [Analyse MS Office file]: generated_analytics/markdown_documents/Response_Actions/RA_2406_analyse_ms_office_file.md
 [Analyse PDF]: generated_analytics/markdown_documents/Response_Actions/RA_2407_analyse_pdf.md
 [Analyse Unix ELF]: generated_analytics/markdown_documents/Response_Actions/RA_2408_analyse_unix_elf.md
@@ -86,7 +84,7 @@ The cells repsresent [Response Actions](#response-action).
 
 ## Actionable Playbooks
 
-The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the parent project, which means that the analytics are:
+The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
 
 - **human-readable** (`.markdown`) for sharing/using in operations
 - **machine-readable** (`.yaml`) for automatic processing/integrations

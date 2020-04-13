@@ -1,4 +1,4 @@
-| Title                       | Domain on ips         |
+| Title                       |  Block domain on IPS         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3205            |
 | **Description**             | Block a domain name with IPS   |

@@ -1,4 +1,4 @@
-| Title                       | Domain on ngfw         |
+| Title                       |  Block domain on NGFW         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3206            |
 | **Description**             | Block a domain name with NGFW   |

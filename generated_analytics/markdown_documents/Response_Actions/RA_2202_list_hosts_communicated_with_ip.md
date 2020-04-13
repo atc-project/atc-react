@@ -1,4 +1,4 @@
-| Title                       | Hosts communicated with ip         |
+| Title                       |  List hosts communicated with IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2202            |
 | **Description**             | Response Action for   |

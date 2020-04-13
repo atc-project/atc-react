@@ -1,4 +1,4 @@
-| Title                       | Ip on ngfw         |
+| Title                       |  Block IP on NGFW         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3208            |
 | **Description**             | Block an IP address with NGFW   |

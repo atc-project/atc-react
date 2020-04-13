@@ -1,4 +1,4 @@
-| Title                       | Url on ngfw         |
+| Title                       |  Block URL on NGFW         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3209            |
 | **Description**             | Block an URL with NGFW   |

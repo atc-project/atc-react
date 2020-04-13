@@ -1,4 +1,4 @@
-| Title                       | Registry keys modified         |
+| Title                       |  Find registry keys modified         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2601            |
 | **Description**             | Response Action for   |

@@ -1,4 +1,4 @@
-| Title                       | Hosts communicated with url         |
+| Title                       |  List hosts communicated with URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2203            |
 | **Description**             | Response Action for   |

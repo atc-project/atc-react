@@ -1,4 +1,4 @@
-| Title                       | Original email         |
+| Title                       |  Get original email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2302            |
 | **Description**             | Obtain the original phishing email   |

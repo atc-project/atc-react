@@ -1,4 +1,4 @@
-| Title                       | Macos macho         |
+| Title                       |  Analyse macos mach-o         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2405            |
 | **Description**             | Response Action for   |

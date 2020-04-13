@@ -1,4 +1,4 @@
-| Title                       | Users opened email         |
+| Title                       |  Find users opened email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2301            |
 | **Description**             | Response Action for   |

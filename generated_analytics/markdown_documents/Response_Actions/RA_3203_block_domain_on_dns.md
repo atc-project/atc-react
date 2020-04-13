@@ -1,4 +1,4 @@
-| Title                       | Domain on dns         |
+| Title                       |  Block domain on DNS         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3203            |
 | **Description**             | Block a domain on a DNS server   |

@@ -1,4 +1,4 @@
-| Title                       | Url on proxy         |
+| Title                       |  Block URL on proxy         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3204            |
 | **Description**             | Block an URL on a Proxy server   |

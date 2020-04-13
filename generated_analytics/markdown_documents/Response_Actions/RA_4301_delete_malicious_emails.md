@@ -1,4 +1,4 @@
-| Title                       | Malicious emails         |
+| Title                       |  Delete malicious emails         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4301            |
 | **Description**             | Delete malicious emails from a Email Server and users' email boxes   |

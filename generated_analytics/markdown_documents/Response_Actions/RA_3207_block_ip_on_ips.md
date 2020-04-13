@@ -1,4 +1,4 @@
-| Title                       | Ip on ips         |
+| Title                       |  Block IP on IPS         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3207            |
 | **Description**             | Block an IP address with IPS   |

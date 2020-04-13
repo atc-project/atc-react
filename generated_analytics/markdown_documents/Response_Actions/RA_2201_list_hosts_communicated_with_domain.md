@@ -1,4 +1,4 @@
-| Title                       | Hosts communicated with domain         |
+| Title                       |  List hosts communicated with domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2201            |
 | **Description**             | Response Action for   |

@@ -1,4 +1,4 @@
-| Title                       | Learned exercise         |
+| Title                       |  Conduct lessons learned exercise         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA6102            |
 | **Description**             | Conduct Lessons Learned exercise   |

@@ -1,4 +1,4 @@
-| Title                       | Host from golden image         |
+| Title                       |  Reinstall host from golden image         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5101            |
 | **Description**             | Response Action for   |

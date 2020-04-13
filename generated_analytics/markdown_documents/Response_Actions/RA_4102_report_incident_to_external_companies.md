@@ -1,4 +1,4 @@
-| Title                       | Incident to external companies         |
+| Title                       |  Report incident to external companies         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4102            |
 | **Description**             | Report incident to external companies   |
