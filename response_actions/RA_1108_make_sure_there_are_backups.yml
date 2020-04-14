@@ -1,0 +1,14 @@
+title: "RA_1108_make_sure_there_are_backups"
+id: "RA1108"
+description: >
+  Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

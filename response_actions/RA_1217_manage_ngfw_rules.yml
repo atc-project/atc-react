@@ -1,0 +1,14 @@
+title: "RA_1217_manage_ngfw_rules"
+id: "RA1217"
+description: >
+  Make sure you can manage NGFW rules
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.
