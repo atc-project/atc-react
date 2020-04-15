@@ -4,7 +4,7 @@
 | **Description**             | Get network architecture map. Usually, its managed by the Network security team. It will help you to choose the containment strategy, such as isolating specific network segments   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

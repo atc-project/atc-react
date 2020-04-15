@@ -1,10 +1,10 @@
-| Title                       |  Manage border firewall rules         |
+| Title                       |  Manage border Firewall rules         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1211            |
 | **Description**             | Make sure you can manage border firewall rules   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

@@ -217,11 +217,11 @@ class ATCutils:
             title = title[8:].split('_', 0)[-1].replace('_', ' ').capitalize()
             new_title = ""
             for word in title.split():
-                if word.lower() in ["ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", "elf" ]:
+                if word.lower() in ["ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", "elf", "dhcp", "vpn" ]:
                     new_title += " "
                     new_title += word.upper()
                     continue
-                elif word.lower() in [ "unix", "windows" ]:
+                elif word.lower() in [ "unix", "windows", "proxy", "firewall" ]:
                     new_title += " "
                     new_title += word.capitalize()
                     continue

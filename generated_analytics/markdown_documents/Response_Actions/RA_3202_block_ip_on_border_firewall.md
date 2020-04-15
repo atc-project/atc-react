@@ -1,4 +1,4 @@
-| Title                       |  Block IP on border firewall         |
+| Title                       |  Block IP on border Firewall         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3202            |
 | **Description**             | Block an IP address on a border firewall   |

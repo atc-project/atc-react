@@ -1,10 +1,10 @@
-| Title                       |  Manage intranet firewall rules         |
+| Title                       |  Manage intranet Firewall rules         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1212            |
 | **Description**             | Make sure you can manage intranet firewall rules   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

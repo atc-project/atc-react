@@ -4,7 +4,7 @@
 | **Description**             | Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

@@ -4,7 +4,7 @@
 | **Description**             | Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

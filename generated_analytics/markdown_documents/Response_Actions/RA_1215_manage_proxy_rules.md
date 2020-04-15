@@ -1,10 +1,10 @@
-| Title                       |  Manage proxy rules         |
+| Title                       |  Manage Proxy rules         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1215            |
 | **Description**             | Make sure you can manage Proxy rules   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Stage**                   | preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
