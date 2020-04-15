@@ -44,7 +44,7 @@ The cells repsresent [Response Actions](#response-action).
 | [Manage intranet firewall rules]                     |                                             |                                 |                                                |                                             |                                   |
 | [Manage host firewall rules]                         |                                             |                                 |                                                |                                             |                                   |
 | [Manage DNS records]                                 |                                             |                                 |                                                |                                             |                                   |
-| [Manage PROXY rules]                                 |                                             |                                 |                                                |                                             |                                   |
+| [Manage Proxy rules]                                 |                                             |                                 |                                                |                                             |                                   |
 | [Manage IPS rules]                                   |                                             |                                 |                                                |                                             |                                   |
 | [Manage NGFW rules]                                  |                                             |                                 |                                                |                                             |                                   |
 | [Get ability to find all users opened email]         |                                             |                                 |                                                |                                             |                                   |
@@ -91,7 +91,7 @@ The cells repsresent [Response Actions](#response-action).
 [Manage intranet firewall rules]: generated_analytics/markdown_documents/Response_Actions/RA_1212_manage_intranet_firewall_rules.md
 [Manage host firewall rules]: generated_analytics/markdown_documents/Response_Actions/RA_1213_manage_host_firewall_rules.md
 [Manage DNS records]: generated_analytics/markdown_documents/Response_Actions/RA_1214_manage_dns_records.md
-[Manage PROXY rules]: generated_analytics/markdown_documents/Response_Actions/RA_1215_manage_proxy_rules.md
+[Manage Proxy rules]: generated_analytics/markdown_documents/Response_Actions/RA_1215_manage_proxy_rules.md
 [Manage IPS rules]: generated_analytics/markdown_documents/Response_Actions/RA_1216_manage_ips_rules.md
 [Manage NGFW rules]: generated_analytics/markdown_documents/Response_Actions/RA_1217_manage_ngfw_rules.md
 [Get ability to find all users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_1301_get_ability_to_find_all_users_opened_email.md
