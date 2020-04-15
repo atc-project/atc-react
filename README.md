@@ -29,15 +29,15 @@ The cells repsresent [Response Actions](#response-action).
 | [Get access control matrix]                          | [Analyse Unix ELF]                          |                                 |                                                |                                             |                                   |
 | [Develop assets knowledge base]                      | [Analyse URI]                               |                                 |                                                |                                             |                                   |
 | [Check analysis toolset]                             | [Analyse MS Windows PE]                     |                                 |                                                |                                             |                                   |
-| [Access vulnerability management system logs]        | [Find files executed]                       |                                 |                                                |                                             |                                   |
-| [Access internet communication netflow logs]         | [Find services executed]                    |                                 |                                                |                                             |                                   |
-| [Access intranet communication netflow logs]         | [Find users opened email]                   |                                 |                                                |                                             |                                   |
-| [Access firewall logs]                               | [Find registry keys modified]               |                                 |                                                |                                             |                                   |
+| [Access vulnerability management system logs]        | [List processes executed]                   |                                 |                                                |                                             |                                   |
+| [Access internet communication netflow logs]         | [List services executed]                    |                                 |                                                |                                             |                                   |
+| [Access intranet communication netflow logs]         | [List users opened email]                   |                                 |                                                |                                             |                                   |
+| [Access firewall logs]                               | [List registry keys modified]               |                                 |                                                |                                             |                                   |
 | [Access NGFW logs]                                   | [List hosts communicated with domain]       |                                 |                                                |                                             |                                   |
 | [Access Proxy logs]                                  | [List hosts communicated with IP]           |                                 |                                                |                                             |                                   |
 | [Access DNS logs]                                    | [List hosts communicated with URL]          |                                 |                                                |                                             |                                   |
-| [Access VPN logs]                                    | [Find files created]                        |                                 |                                                |                                             |                                   |
-| [Access DHCP logs]                                   | [Find all victims in security alerts]       |                                 |                                                |                                             |                                   |
+| [Access VPN logs]                                    | [List files created]                        |                                 |                                                |                                             |                                   |
+| [Access DHCP logs]                                   | [List victims of security alert]            |                                 |                                                |                                             |                                   |
 | [Access network security monitoring system logs]     | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
 | [Access traffic collection data]                     |                                             |                                 |                                                |                                             |                                   |
 | [Manage border firewall rules]                       |                                             |                                 |                                                |                                             |                                   |
@@ -141,15 +141,15 @@ The cells repsresent [Response Actions](#response-action).
 [Analyse Unix ELF]: generated_analytics/markdown_documents/Response_Actions/RA_2408_analyse_unix_elf.md
 [Analyse URI]: generated_analytics/markdown_documents/Response_Actions/RA_2206_analyse_uri.md
 [Analyse MS Windows PE]: generated_analytics/markdown_documents/Response_Actions/RA_2402_analyse_windows_pe.md
-[Find files executed]: generated_analytics/markdown_documents/Response_Actions/RA_2403_find_files_executed.md
-[Find services executed]: generated_analytics/markdown_documents/Response_Actions/RA_2501_find_services_executed.md
-[Find users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_2301_find_users_opened_email.md
-[Find registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_2601_find_registry_keys_modified.md
+[List processes executed]: generated_analytics/markdown_documents/Response_Actions/RA_2403_list_processes_executed.md
+[List services executed]: generated_analytics/markdown_documents/Response_Actions/RA_2501_list_services_executed.md
+[List users opened email]: generated_analytics/markdown_documents/Response_Actions/RA_2301_list_users_opened_email.md
+[List registry keys modified]: generated_analytics/markdown_documents/Response_Actions/RA_2601_list_registry_keys_modified.md
 [List hosts communicated with domain]: generated_analytics/markdown_documents/Response_Actions/RA_2201_list_hosts_communicated_with_domain.md
 [List hosts communicated with IP]: generated_analytics/markdown_documents/Response_Actions/RA_2202_list_hosts_communicated_with_ip.md
 [List hosts communicated with URL]: generated_analytics/markdown_documents/Response_Actions/RA_2203_list_hosts_communicated_with_url.md
-[Find files created]: generated_analytics/markdown_documents/Response_Actions/RA_2401_find_files_created.md
-[Find all victims in security alerts]: generated_analytics/markdown_documents/Response_Actions/RA_2104_find_all_victims_in_security_alerts.md
+[List files created]: generated_analytics/markdown_documents/Response_Actions/RA_2401_list_files_created.md
+[List victims of security alert]: generated_analytics/markdown_documents/Response_Actions/RA_2104_list_victims_of_security_alert.md
 [Put compromised accounts on monitoring]: generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
 [Block domain on email]: generated_analytics/markdown_documents/Response_Actions/RA_3201_block_domain_on_email.md
 [Block IP on border firewall]: generated_analytics/markdown_documents/Response_Actions/RA_3202_block_ip_on_border_firewall.md

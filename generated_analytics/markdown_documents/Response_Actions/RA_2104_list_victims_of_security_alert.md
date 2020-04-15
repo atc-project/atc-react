@@ -1,6 +1,6 @@
-| Title                       |  Find users opened email         |
+| Title                       |  List victims of security alert         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2301            |
+| **ID**                      | RA2104            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |

@@ -1,6 +1,6 @@
-| Title                       |  Find all victims in security alerts         |
+| Title                       |  List services executed         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2104            |
+| **ID**                      | RA2501            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |

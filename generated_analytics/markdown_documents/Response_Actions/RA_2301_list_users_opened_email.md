@@ -1,6 +1,6 @@
-| Title                       |  Find registry keys modified         |
+| Title                       |  List users opened email         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2601            |
+| **ID**                      | RA2301            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |

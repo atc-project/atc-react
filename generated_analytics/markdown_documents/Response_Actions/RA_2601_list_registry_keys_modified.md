@@ -1,6 +1,6 @@
-| Title                       |  Find services executed         |
+| Title                       |  List registry keys modified         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2501            |
+| **ID**                      | RA2601            |
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
