@@ -1,7 +1,10 @@
 title: RA_1105_set_up_relevant_data_collection
 id: RA1105
 description: >
-  Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams. You need to provide them with a list of data that is critically important for IR process. Most of the time, data like DNS and DHCP logs are not being collected, as their value for detection is relatively low. You can refer to the existing Response Actions \(Preparation stage\) to develop the list
+  Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams. 
+  You need to provide them with a list of data that is critically important for IR process. Most of 
+  the time, data like DNS and DHCP logs are not being collected, as their value for detection is 
+  relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
 stage: preparation

@@ -1,7 +1,7 @@
 | Title                       |  Get ability to find file by content pattern         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1404            |
-| **Description**             | Make sure you have the ability to find a file by its content pattern \(i.e. specific string, keyword, binary pattern etc\)   |
+| **Description**             | Make sure you have the ability to find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | preparation         |

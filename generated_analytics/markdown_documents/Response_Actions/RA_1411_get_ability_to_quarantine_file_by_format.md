@@ -1,7 +1,7 @@
-| Title                       |  Develop communication map         |
+| Title                       |  Get ability to quarantine file by format         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA1107            |
-| **Description**             | Develop a communication map for both internal (C-level, managers and technical specialists from the other departments, that could be involved in IR process) and external communications (law enforcement, national CERTs, subject matter experts that you have lack of, etc)   |
+| **ID**                      | RA1411            |
+| **Description**             | Make sure you have the ability to block a file from being accessed by its format   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | preparation         |

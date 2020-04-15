@@ -63,6 +63,14 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to list files downloaded]               |                                             |                                 |                                                |                                             |                                   |
 | [Get ability to download file from host]             |                                             |                                 |                                                |                                             |                                   |
 | [Manage remote computer management system policies]  |                                             |                                 |                                                |                                             |                                   |
+| [Get ability to quarantine file by format]           |  											 |  							   |  												|  										      |  								  | 
+| [Get ability to quarantine file by hash]             |  											 |  							   |  												|  										      |  								  | 
+| [Get ability to quarantine file by path]             |  											 |  							   |  												|  										      |  								  | 
+| [Get ability to quarantine file by content pattern]  |  											 |  							   |  												|  										      |  								  | 
+| [Get ability to quarantine file by metadata]         |  											 |  							   |  												|  										      |  								  | 
+| [Get ability to remove file from host]               |  											 |  							   |  												|  										      |  								  | 
+
+
 
 [Take trainings]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [Practice]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
@@ -110,6 +118,14 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to list files downloaded]: generated_analytics/markdown_documents/Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md
 [Get ability to download file from host]: generated_analytics/markdown_documents/Response_Actions/RA_1410_get_ability_to_download_file_from_host.md
 [Manage remote computer management system policies]: generated_analytics/markdown_documents/Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md
+
+[Get ability to quarantine file by format]: generated_analytics/markdown_documents/Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format.md
+[Get ability to quarantine file by hash]: generated_analytics/markdown_documents/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
+[Get ability to quarantine file by path]: generated_analytics/markdown_documents/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
+[Get ability to quarantine file by content pattern]: generated_analytics/markdown_documents/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
+[Get ability to quarantine file by metadata]: generated_analytics/markdown_documents/Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md
+[Get ability to remove file from host]: generated_analytics/markdown_documents/Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md
+
 
 
 
