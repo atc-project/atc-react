@@ -1,10 +1,10 @@
-title: "RA_1212_manage_intranet_firewall_rules"
-id: "RA1212"
+title: RA_1212_manage_intranet_firewall_rules
+id: RA1212
 description: >
   Make sure you can manage intranet firewall rules
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

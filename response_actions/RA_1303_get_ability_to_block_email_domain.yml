@@ -1,10 +1,10 @@
-title: "RA_1303_get_ability_to_block_email_domain"
-id: "RA1303"
+title: RA_1303_get_ability_to_block_email_domain
+id: RA1303
 description: >
   Make sure you have the ability to block an email domain
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

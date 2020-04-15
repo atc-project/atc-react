@@ -1,10 +1,10 @@
-title: "RA_1106_set_up_a_centralized_long-term_log_storage"
-id: "RA1106"
+title: RA_1106_set_up_a_centralized_long-term_log_storage
+id: RA1106
 description: >
   Set up a centralized long-term log storage. This is one of the most critical problems companies have nowadays. Even if there is such a system, in most of the cases it stores irrelevant data or has too small retention period
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

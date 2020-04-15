@@ -1,10 +1,10 @@
-title: "RA_1103_raise_personnel_awareness"
-id: "RA1103"
+title: RA_1103_raise_personnel_awareness
+id: RA1103
 description: >
   Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

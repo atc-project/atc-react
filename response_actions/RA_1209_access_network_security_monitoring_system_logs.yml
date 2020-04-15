@@ -1,10 +1,10 @@
-title: "RA_1209_access_network_security_monitoring_system_logs"
-id: "RA1209"
+title: RA_1209_access_network_security_monitoring_system_logs
+id: RA1209
 description: >
   Make sure you have access to network security monitoring system logs
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

@@ -1,10 +1,10 @@
-title: "RA_1203_access_firewall_logs"
-id: "RA1203"
+title: RA_1203_access_firewall_logs
+id: RA1203
 description: >
   Make sure you have access to Firewall Logs
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

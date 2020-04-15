@@ -1,10 +1,10 @@
-title: "RA_1211_manage_border_firewall_rules"
-id: "RA1211"
+title: RA_1211_manage_border_firewall_rules
+id: RA1211
 description: >
   Make sure you can manage border firewall rules
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

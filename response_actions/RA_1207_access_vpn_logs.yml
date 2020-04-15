@@ -1,10 +1,10 @@
-title: "RA_1207_access_vpn_logs"
-id: "RA1207"
+title: RA_1207_access_vpn_logs
+id: RA1207
 description: >
   Make sure you have access to VPN logs
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

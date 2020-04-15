@@ -10,7 +10,7 @@ The project represents the following:
 
 ## The Framework
 
-is designed for describing and understanding existing Incident Response techniques.  
+is designed for accumulating, describing and understanding Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
 The cells repsresent [Response Actions](#response-action).  
@@ -110,6 +110,9 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to list files downloaded]: generated_analytics/markdown_documents/Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md
 [Get ability to download file from host]: generated_analytics/markdown_documents/Response_Actions/RA_1410_get_ability_to_download_file_from_host.md
 [Manage remote computer management system policies]: generated_analytics/markdown_documents/Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md
+
+
+
 [Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
 [Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
 [Make sure email is a phishing]: generated_analytics/markdown_documents/Response_Actions/RA_2102_make_sure_email_is_a_phishing.md

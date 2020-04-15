@@ -1,10 +1,10 @@
-title: "RA_1104_make_personnel_report_suspicious_activity"
-id: "RA1104"
+title: RA_1104_make_personnel_report_suspicious_activity
+id: RA1104
 description: >
   Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

@@ -1,10 +1,10 @@
-title: "RA_1204_access_ngfw_logs"
-id: "RA1204"
+title: RA_1204_access_ngfw_logs
+id: RA1204
 description: >
   Make sure you have access to NGFW Logs
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:
