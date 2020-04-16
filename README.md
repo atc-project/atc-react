@@ -247,7 +247,7 @@ Here is an example of Response Playbook:
 
 <details>
   <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/rp_markdown_v4.png" />
+  <img src="images/rp_markdown_v5.png" />
 </details>
 
 <details>
