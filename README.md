@@ -74,7 +74,7 @@ The cells repsresent [Response Actions](#response-action).
 [**Take trainings**]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [**Practice**]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
 [**Get original email**]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
-[Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
+[**Extract observables from email**]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
 [**Make sure email is a phishing**]: generated_analytics/markdown_documents/Response_Actions/RA_2102_make_sure_email_is_a_phishing.md
 [**Put compromised accounts on monitoring**]: generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
 [**Block domain on email**]: generated_analytics/markdown_documents/Response_Actions/RA_3301_block_domain_on_email.md
