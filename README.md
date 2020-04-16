@@ -219,17 +219,17 @@ Here is an example of Response Action:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="images/ra_yaml_v3.png" />
+  <img src="images/ra_yaml_v4.png" />
 </details>
 
 <details>
   <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/ra_markdown_v3.png" />
+  <img src="images/ra_markdown_v4.png" />
 </details>
 
 <details>
   <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
-  <img src="images/ra_confluence_v1.png" />
+  <img src="images/ra_confluence_v2.png" />
 </details>
 
 Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
