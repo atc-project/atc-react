@@ -4,7 +4,7 @@ description: >
   Block an email sender on the Email-server
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: containment
 automation:
   - thehive/phantom/demisto/etc
 references:
