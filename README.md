@@ -21,7 +21,7 @@ The cells repsresent [Response Actions](#response-action).
 | [Practice]                                           | [Extract observables from email]            | [Block IP on border firewall]        | [Revoke compromised credentials]               |                                             | [Conduct Lessons Learned exercise] |
 | [Raise personnel awareness]                          | [Make sure email is a phishing]             | [Block domain on DNS]                | [Report phishing attack to external companies] |                                             |                                    |
 | [Make personnel report suspicious activity]          | [Analyse domain name]                       | [Block URL on Proxy]                 | [Report incident to external companies]        |                                             |                                    |
-| [Set up relevant data collection]                    | [Analyse filehash]                          | [Block domain on IPS]                |                                                |                                             |                                    |
+| [Set up relevant data collection]                    | [Analyse filehash]                          | [Block domain on IPS]                | [Remove file from host]                        |                                             |                                    |
 | [Set up a centralized long-term log storage]         | [Analyse IP]                                | [Block domain on NGFW]               |                                                |                                             |                                    |
 | [Develop communication map]                          | [Analyse macOS Mach-O]                      | [Block IP on IPS]                    |                                                |                                             |                                    |
 | [Make sure there are backups]                        | [Analyse MS Office file]                    | [Block IP on NGFW]                   |                                                |                                             |                                    |
@@ -159,7 +159,7 @@ The cells repsresent [Response Actions](#response-action).
 [List files downloaded]: generated_analytics/markdown_documents/Response_Actions/RA_2416_list_files_downloaded.md
 [List files with tampered timestamps]: generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
 [Download file from host]: generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md
-
+[Remove file from host]: generated_analytics/markdown_documents/Response_Actions/RA_4401_remove_file_from_host.md
 
 [Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
 [Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md

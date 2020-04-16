@@ -1,0 +1,14 @@
+title: RA_4401_remove_file_from_host
+id: RA4401
+description: >
+  Remove a file from a host
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: eradication
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.
