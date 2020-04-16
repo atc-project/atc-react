@@ -17,8 +17,8 @@ The cells repsresent [Response Actions](#response-action).
 
 | Preparation                                           | Identification                           | Containment                           | Eradication                                    | Recovery                                    | Lessons Learned                    |
 |-------------------------------------------------------|------------------------------------------|---------------------------------------|------------------------------------------------|---------------------------------------------|------------------------------------|
-| [Take trainings]                                      | [Get original email]                     | [Block domain on email]               | [Delete malicious emails]                      | [Reinstall host from golden image*]         | [Develop incident report]          |
-| [Practice]                                            | [Extract observables from email]         | [Block IP on border firewall]         | [Revoke compromised credentials]               |                                             | [Conduct Lessons Learned exercise] |
+| [**Take trainings**]                                  | [Get original email]                     | [Block domain on email]               | [Delete malicious emails]                      | [Reinstall host from golden image*]         | [Develop incident report]          |
+| [**Practice**]                                        | [Extract observables from email]         | [Block IP on border firewall]         | [Revoke compromised credentials]               |                                             | [Conduct Lessons Learned exercise] |
 | [Raise personnel awareness*]                          | [Make sure email is a phishing]          | [Block domain on DNS]                 | [Report phishing attack to external companies] |                                             |                                    |
 | [Make personnel report suspicious activity*]          | [Put compromised accounts on monitoring] | [Block URL on Proxy]                  | [Report incident to external companies]        |                                             |                                    |
 | [Set up relevant data collection*]                    | [Analyse filehash*]                      | [Block domain on IPS]                 | [Remove file from host*]                       |                                             |                                    |
@@ -71,8 +71,8 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to remove file from host*]               |                                          |                                       |                                                |                                             |                                    | 
      
 
-[Take trainings]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
-[Practice]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
+[**Take trainings**]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
+[**Practice**]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
 [Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
 [Extract observables from email]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
 [Make sure email is a phishing]: generated_analytics/markdown_documents/Response_Actions/RA_2102_make_sure_email_is_a_phishing.md
