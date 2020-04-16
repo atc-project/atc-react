@@ -39,24 +39,24 @@ The cells repsresent [Response Actions](#response-action).
 | [Access VPN logs]                                    | [List files created]                        |                                 |                                                |                                             |                                   |
 | [Access DHCP logs]                                   | [List victims of security alert]            |                                 |                                                |                                             |                                   |
 | [Access network security monitoring system logs]     | [Put compromised accounts on monitoring]    |                                 |                                                |                                             |                                   |
-| [Access traffic collection data]                     |                                             |                                 |                                                |                                             |                                   |
-| [Manage border firewall rules]                       |                                             |                                 |                                                |                                             |                                   |
-| [Manage intranet firewall rules]                     |                                             |                                 |                                                |                                             |                                   |
-| [Manage host firewall rules]                         |                                             |                                 |                                                |                                             |                                   |
-| [Manage DNS records]                                 |                                             |                                 |                                                |                                             |                                   |
-| [Manage Proxy rules]                                 |                                             |                                 |                                                |                                             |                                   |
-| [Manage IPS rules]                                   |                                             |                                 |                                                |                                             |                                   |
-| [Manage NGFW rules]                                  |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find all users opened email]         |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find all users received email]       |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to block email domain]                  |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to block an email sender]               |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to delete an email]                     |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find file by format]                 |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find file by hash]                   |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find file by path]                   |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find file by content pattern]        |                                             |                                 |                                                |                                             |                                   |
-| [Get ability to find file by metadata]               |                                             |                                 |                                                |                                             |                                   |
+| [Access traffic collection data]                     | [List host vulnerabilities]                 |                                 |                                                |                                             |                                   |
+| [Manage border firewall rules]                       | [List hosts communicated by port]           |                                 |                                                |                                             |                                   |
+| [Manage intranet firewall rules]                     | [List hosts connected to VPN]               |                                 |                                                |                                             |                                   |
+| [Manage host firewall rules]                         | [List host connected to intranet]           |                                 |                                                |                                             |                                   |
+| [Manage DNS records]                                 | [Get data transferred by FTP]               |                                 |                                                |                                             |                                   |
+| [Manage Proxy rules]                                 | [Get data transferred by SMB]               |                                 |                                                |                                             |                                   |
+| [Manage IPS rules]                                   | [Get data transferred by HTTP]              |                                 |                                                |                                             |                                   |
+| [Manage NGFW rules]                                  | [List email receivers]                      |                                 |                                                |                                             |                                   |
+| [Get ability to find all users opened email]         | [Find file by format]                       |                                 |                                                |                                             |                                   |
+| [Get ability to find all users received email]       | [Find file by hash]                         |                                 |                                                |                                             |                                   |
+| [Get ability to block email domain]                  | [Find file by path]                         |                                 |                                                |                                             |                                   |
+| [Get ability to block an email sender]               | [Find file by content pattern]              |                                 |                                                |                                             |                                   |
+| [Get ability to delete an email]                     | [Find file by metadata]                     |                                 |                                                |                                             |                                   |
+| [Get ability to find file by format]                 | [List files modified]                       |                                 |                                                |                                             |                                   |
+| [Get ability to find file by hash]                   | [List files deleted]                        |                                 |                                                |                                             |                                   |
+| [Get ability to find file by path]                   | [List files downloaded]                     |                                 |                                                |                                             |                                   |
+| [Get ability to find file by content pattern]        | [List files with tampered timestamps]       |                                 |                                                |                                             |                                   |
+| [Get ability to find file by metadata]               | [Download file from host]                   |                                 |                                                |                                             |                                   |
 | [Get ability to find files with tampered timestamps] |                                             |                                 |                                                |                                             |                                   |
 | [Get ability to list files modified]                 |                                             |                                 |                                                |                                             |                                   |
 | [Get ability to list files deleted]                  |                                             |                                 |                                                |                                             |                                   |
@@ -69,6 +69,24 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by content pattern]  |  											 |  							   |  												|  										      |  								  | 
 | [Get ability to quarantine file by metadata]         |  											 |  							   |  												|  										      |  								  | 
 | [Get ability to remove file from host]               |  											 |  							   |  												|  										      |  								  | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,6 +145,24 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to remove file from host]: generated_analytics/markdown_documents/Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md
 
 
+[List host vulnerabilities]: generated_analytics/markdown_documents/Response_Actions/RA_2105_list_host_vulnerabilities.md
+[List hosts communicated by port]: generated_analytics/markdown_documents/Response_Actions/RA_2207_list_hosts_communicated_by_port.md
+[List hosts connected to VPN]: generated_analytics/markdown_documents/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md
+[List host connected to intranet]: generated_analytics/markdown_documents/Response_Actions/RA_2209_list_host_connected_to_intranet.md
+[Get data transferred by FTP]: generated_analytics/markdown_documents/Response_Actions/RA_2210_get_data_transferred_by_ftp.md
+[Get data transferred by SMB]: generated_analytics/markdown_documents/Response_Actions/RA_2211_get_data_transferred_by_smb.md
+[Get data transferred by HTTP]: generated_analytics/markdown_documents/Response_Actions/RA_2212_get_data_transferred_by_http.md
+[List email receivers]: generated_analytics/markdown_documents/Response_Actions/RA_2303_list_email_receivers.md
+[Find file by format]: generated_analytics/markdown_documents/Response_Actions/RA_2409_find_file_by_format.md
+[Find file by hash]: generated_analytics/markdown_documents/Response_Actions/RA_2410_find_file_by_hash.md
+[Find file by path]: generated_analytics/markdown_documents/Response_Actions/RA_2411_find_file_by_path.md
+[Find file by content pattern]: generated_analytics/markdown_documents/Response_Actions/RA_2412_find_file_by_content_pattern.md
+[Find file by metadata]: generated_analytics/markdown_documents/Response_Actions/RA_2413_find_file_by_metadata.md
+[List files modified]: generated_analytics/markdown_documents/Response_Actions/RA_2414_list_files_modified.md
+[List files deleted]: generated_analytics/markdown_documents/Response_Actions/RA_2415_list_files_deleted.md
+[List files downloaded]: generated_analytics/markdown_documents/Response_Actions/RA_2416_list_files_downloaded.md
+[List files with tampered timestamps]: generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
+[Download file from host]: generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md
 
 
 [Get original email]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
