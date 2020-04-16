@@ -19,7 +19,6 @@ identification:
   - RA_2102_make_sure_email_is_a_phishing
   - RA_2103_put_compromised_accounts_on_monitoring
 containment:
-  - RA_3201_block_domain_on_email
   - RA_3202_block_ip_on_border_firewall
   - RA_3203_block_domain_on_dns
   - RA_3204_block_url_on_proxy
@@ -28,6 +27,7 @@ containment:
   - RA_3207_block_ip_on_ips
   - RA_3208_block_ip_on_ngfw
   - RA_3209_block_url_on_ngfw
+  - RA_3301_block_domain_on_email
 eradication:
   - RA_4301_delete_malicious_emails
   - RA_4701_revoke_compromised_credentials

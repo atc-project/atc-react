@@ -1,7 +1,7 @@
 | Title                       |  Block domain on email         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA3201            |
-| **Description**             | Block a phishing attack source on Email-server level   |
+| **ID**                      | RA3301            |
+| **Description**             | Block an email domain on the Email-server   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |

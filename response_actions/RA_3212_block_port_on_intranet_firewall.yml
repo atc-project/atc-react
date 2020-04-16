@@ -1,0 +1,14 @@
+title: RA_3212_block_port_on_intranet_firewall
+id: RA3212
+description: >
+  Block a port on an Intranet Firewall
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

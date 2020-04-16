@@ -1,7 +1,7 @@
 | Title                       |  Block IP on NGFW         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3208            |
-| **Description**             | Block an IP address with NGFW   |
+| **Description**             | Block an IP address on an NGFW   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |

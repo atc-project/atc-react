@@ -1,7 +1,7 @@
 | Title                       |  Block domain on NGFW         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3206            |
-| **Description**             | Block a domain name with NGFW   |
+| **Description**             | Block a domain name on an NGFW   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |

@@ -1,0 +1,14 @@
+title: RA_3201_block_port_on_ngfw
+id: RA3201
+description: >
+  Block a port on an NGFW
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

@@ -11,7 +11,7 @@
 | **ATT&amp;CK Technique**  |<ul><li>[T1193: Spearphishing Attachment](https://attack.mitre.org/tactics/T1193)</li><li>[T1192: Spearphishing Link](https://attack.mitre.org/tactics/T1192)</li></ul>|
 | **Tags**          |<ul><li>phishing</li></ul> |
 | **Identification**  |<ul><li>[RA_2302_get_original_email](../Response_Actions/RA_2302_get_original_email.md)</li><li>[RA_2101_extract_observables_from_email](../Response_Actions/RA_2101_extract_observables_from_email.md)</li><li>[RA_2102_make_sure_email_is_a_phishing](../Response_Actions/RA_2102_make_sure_email_is_a_phishing.md)</li><li>[RA_2103_put_compromised_accounts_on_monitoring](../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md)</li></ul>|
-| **Containment**  |<ul><li>[RA_3201_block_domain_on_email](../Response_Actions/RA_3201_block_domain_on_email.md)</li><li>[RA_3202_block_ip_on_border_firewall](../Response_Actions/RA_3202_block_ip_on_border_firewall.md)</li><li>[RA_3203_block_domain_on_dns](../Response_Actions/RA_3203_block_domain_on_dns.md)</li><li>[RA_3204_block_url_on_proxy](../Response_Actions/RA_3204_block_url_on_proxy.md)</li><li>[RA_3205_block_domain_on_ips](../Response_Actions/RA_3205_block_domain_on_ips.md)</li><li>[RA_3206_block_domain_on_ngfw](../Response_Actions/RA_3206_block_domain_on_ngfw.md)</li><li>[RA_3207_block_ip_on_ips](../Response_Actions/RA_3207_block_ip_on_ips.md)</li><li>[RA_3208_block_ip_on_ngfw](../Response_Actions/RA_3208_block_ip_on_ngfw.md)</li><li>[RA_3209_block_url_on_ngfw](../Response_Actions/RA_3209_block_url_on_ngfw.md)</li></ul>|
+| **Containment**  |<ul><li>[RA_3202_block_ip_on_border_firewall](../Response_Actions/RA_3202_block_ip_on_border_firewall.md)</li><li>[RA_3203_block_domain_on_dns](../Response_Actions/RA_3203_block_domain_on_dns.md)</li><li>[RA_3204_block_url_on_proxy](../Response_Actions/RA_3204_block_url_on_proxy.md)</li><li>[RA_3205_block_domain_on_ips](../Response_Actions/RA_3205_block_domain_on_ips.md)</li><li>[RA_3206_block_domain_on_ngfw](../Response_Actions/RA_3206_block_domain_on_ngfw.md)</li><li>[RA_3207_block_ip_on_ips](../Response_Actions/RA_3207_block_ip_on_ips.md)</li><li>[RA_3208_block_ip_on_ngfw](../Response_Actions/RA_3208_block_ip_on_ngfw.md)</li><li>[RA_3209_block_url_on_ngfw](../Response_Actions/RA_3209_block_url_on_ngfw.md)</li><li>[RA_3301_block_domain_on_email](../Response_Actions/RA_3301_block_domain_on_email.md)</li></ul>|
 | **Eradication**  |<ul><li>[RA_4301_delete_malicious_emails](../Response_Actions/RA_4301_delete_malicious_emails.md)</li><li>[RA_4701_revoke_compromised_credentials](../Response_Actions/RA_4701_revoke_compromised_credentials.md)</li><li>[RA_4101_report_phishing_attack_to_external_companies](../Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md)</li></ul>|
 | **Lessons Learned**  |<ul><li>[RA_6101_develop_incident_report](../Response_Actions/RA_6101_develop_incident_report.md)</li><li>[RA_6102_conduct_lessons_learned_exercise](../Response_Actions/RA_6102_conduct_lessons_learned_exercise.md)</li></ul>|
 
@@ -71,10 +71,6 @@ Keep in touch with real users and in case of need ask them if they executing the
 
 #### Containment
 
-##### Block a phishing attack source on Email-server level
-
-Block malicious sender (or entire domain, if possible) on Email Server using native filtering functionality.
-
 ##### Block an IP address on a border firewall
 
 Block ip address on border firewall using native filtering functionality.
@@ -92,37 +88,41 @@ Warning:
 
 Block URL on Proxy Server using native filtering functionality. 
 Warning: If corporate Proxy usage is not mandatory and clients can access internet bypassing it (direct access is not restricted by firewall), this Response Action cannot guarantee containment of threat.
-##### Block a domain name with IPS
+##### Block a domain name on an IPS
 
 Block domain on IPS using native filtering functionality.
 Warning: 
 - If not all corporate hosts access internet through the IPS, this Response Action cannot guarantee containment of threat.
 - Be careful blocking domain names. Make sure it's not cloud provider or hoster. In this case you have to use blocking by URL something more specific.
 
-##### Block a domain name with NGFW
+##### Block a domain name on an NGFW
 
 Block domain on NGFW using native filtering functionality.
 Warning: 
 - If not all corporate hosts access internet through the NGFW, this Response Action cannot guarantee containment of threat.
 - Be careful blocking domain names. Make sure it's not cloud provider or hoster. In this case you have to use blocking by URL something more specific.
 
-##### Block an IP address with IPS
+##### Block an IP address in an IPS
 
 Block ip on IPS using native filtering functionality.
 Warning: 
 - If not all corporate hosts access internet through the IPS, this Response Action cannot guarantee containment of threat.
 - Be careful blocking IP address. Make sure it's not cloud provider or hoster. In this case you have to use blocking by URL something more specific.
-##### Block an IP address with NGFW
+##### Block an IP address on an NGFW
 
 Block an IP address with NGFW using native filtering functionality.
 Warning: 
 - If not all corporate hosts access internet through the NGFW, this Response Action cannot guarantee containment of threat.
 - Be careful blocking IP address. Make sure it's not cloud provider or hoster. In this case you have to use blocking by URL something more specific.
 
-##### Block an URL with NGFW
+##### Block an URL on an NGFW
 
 Block URL on NGFW using native filtering functionality.
 Warning: If not all corporate hosts access internet through the NGFW, this Response Action cannot guarantee containment of threat.
+
+##### Block an email domain on the Email-server
+
+Block malicious sender (or entire domain, if possible) on Email Server using native filtering functionality.
 
 #### Eradication
 

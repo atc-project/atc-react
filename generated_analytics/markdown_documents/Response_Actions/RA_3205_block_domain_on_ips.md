@@ -1,7 +1,7 @@
 | Title                       |  Block domain on IPS         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3205            |
-| **Description**             | Block a domain name with IPS   |
+| **Description**             | Block a domain name on an IPS   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |

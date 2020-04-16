@@ -1,7 +1,7 @@
 | Title                       |  Block IP on IPS         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3207            |
-| **Description**             | Block an IP address with IPS   |
+| **Description**             | Block an IP address in an IPS   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Stage**                   | containment         |
