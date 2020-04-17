@@ -4,13 +4,13 @@
 
 The project represents the following:
 
-1. A framework for Incident Response techniques representation
+1. A framework for Incident Response techniques categorisation
 2. A [collection](https://github.com/atc-project/atc-response/tree/master/generated_analytics/markdown_documents/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
-## The Framework
+## The RE&CT Framework
 
-is designed for accumulating, describing and understanding Incident Response techniques.  
+is designed for accumulating, describing and categorizing Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
 The cells repsresent [Response Actions](#response-action).  
@@ -232,7 +232,21 @@ Here is an example of Response Action:
   <img src="images/ra_confluence_v2.png" />
 </details>
 
-Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).
+Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
+The first digit of the Response Action ID reflects a stage number.  
+The second digit of the Response Action ID reflects a category it belongs to:
+
+1. General
+2. Networking
+3. Email
+4. File
+5. Processes/Services
+6. OS Configuration
+7. Identity
+
+This way, using Response Action ID, you can quickly calculate what it stage and category it belongs to. For example, [RA**2302**: Get original email](generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md) is related to Stage 2 (Identification) and Category 3 (Email).
+
+The categorization aims to improve Incident Response process maturity assessment and roadmap development.
 
 ### Response Playbook
 
