@@ -244,7 +244,7 @@ The second digit of the Response Action ID reflects a category it belongs to:
 6. OS Configuration
 7. Identity
 
-This way, using Response Action ID, you can see the stage and category it belongs to.  
+This way, using Response Action ID, you can see the Stage and Category it belongs to.  
 For example, [RA**2302**: Get original email](generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md) is related to Stage 2 (Identification) and Category 3 (Email).
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.
