@@ -1,10 +1,10 @@
-title: RA_2105_list_host_vulnerabilities
-id: RA2105
+title: RA_1304_get_ability_to_block_email_sender
+id: RA1304
 description: >
-  Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past
+  Make sure you have the ability to block an email sender
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: identification
+stage: preparation
 automation:
   - thehive/phantom/demisto/etc
 references:

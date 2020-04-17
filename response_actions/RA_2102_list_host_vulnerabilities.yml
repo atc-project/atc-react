@@ -1,10 +1,10 @@
-title: RA_1305_get_ability_to_delete_an_email
-id: RA1305
+title: RA_2102_list_host_vulnerabilities
+id: RA2105
 description: >
-  Make sure you have the ability to delete an email
+  Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past
 author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
-stage: preparation
+stage: identification
 automation:
   - thehive/phantom/demisto/etc
 references:

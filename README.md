@@ -69,13 +69,13 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by content pattern*]  |                                              |                                       |                                                    |                                     |                                        | 
 | [Get ability to quarantine file by metadata*]         |                                              |                                       |                                                    |                                     |                                        | 
 | [Get ability to remove file from host*]               |                                              |                                       |                                                    |                                     |                                        | 
-     
+
 
 [**Take trainings**]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [**Practice**]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
 [**Get original email**]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
-[**Extract observables from email**]: generated_analytics/markdown_documents/Response_Actions/RA_2101_extract_observables_from_email.md
-[**Make sure email is a phishing**]: generated_analytics/markdown_documents/Response_Actions/RA_2102_make_sure_email_is_a_phishing.md
+[**Extract observables from email**]: generated_analytics/markdown_documents/Response_Actions/RA_2305_extract_observables_from_email.md
+[**Make sure email is a phishing**]: generated_analytics/markdown_documents/Response_Actions/RA_2304_make_sure_email_is_a_phishing.md
 [**Put compromised accounts on monitoring**]: generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
 [**Block domain on email**]: generated_analytics/markdown_documents/Response_Actions/RA_3301_block_domain_on_email.md
 [**Block IP on border firewall**]: generated_analytics/markdown_documents/Response_Actions/RA_3202_block_ip_on_border_firewall.md
@@ -128,8 +128,8 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to find all users opened email*]: generated_analytics/markdown_documents/Response_Actions/RA_1301_get_ability_to_find_all_users_opened_email.md
 [Get ability to find all users received email*]: generated_analytics/markdown_documents/Response_Actions/RA_1302_get_ability_to_find_all_users_received_email.md
 [Get ability to block email domain*]: generated_analytics/markdown_documents/Response_Actions/RA_1303_get_ability_to_block_email_domain.md
-[Get ability to block an email sender*]: generated_analytics/markdown_documents/Response_Actions/RA_1304_get_ability_to_block_an_email_sender.md
-[Get ability to delete an email*]: generated_analytics/markdown_documents/Response_Actions/RA_1305_get_ability_to_delete_an_email.md
+[Get ability to block an email sender*]: generated_analytics/markdown_documents/Response_Actions/RA_1304_get_ability_to_block_email_sender.md
+[Get ability to delete an email*]: generated_analytics/markdown_documents/Response_Actions/RA_1305_get_ability_to_delete_email.md
 [Get ability to find file by format*]: generated_analytics/markdown_documents/Response_Actions/RA_1401_get_ability_to_find_file_by_format.md
 [Get ability to find file by hash*]: generated_analytics/markdown_documents/Response_Actions/RA_1402_get_ability_to_find_file_by_hash.md
 [Get ability to find file by path*]: generated_analytics/markdown_documents/Response_Actions/RA_1403_get_ability_to_find_file_by_path.md
@@ -162,7 +162,7 @@ The cells repsresent [Response Actions](#response-action).
 [Quarantine file by path*]: generated_analytics/markdown_documents/Response_Actions/RA_3403_quarantine_file_by_path.md
 [Quarantine file by content pattern*]: generated_analytics/markdown_documents/Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
 [Quarantine file by metadata*]: generated_analytics/markdown_documents/Response_Actions/RA_3405_quarantine_file_by_metadata.md
-[List host vulnerabilities*]: generated_analytics/markdown_documents/Response_Actions/RA_2105_list_host_vulnerabilities.md
+[List host vulnerabilities*]: generated_analytics/markdown_documents/Response_Actions/RA_2102_list_host_vulnerabilities.md
 [List hosts communicated by port*]: generated_analytics/markdown_documents/Response_Actions/RA_2207_list_hosts_communicated_by_port.md
 [List hosts connected to VPN*]: generated_analytics/markdown_documents/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md
 [List host connected to intranet*]: generated_analytics/markdown_documents/Response_Actions/RA_2209_list_host_connected_to_intranet.md
@@ -198,7 +198,7 @@ The cells repsresent [Response Actions](#response-action).
 [List hosts communicated with IP*]: generated_analytics/markdown_documents/Response_Actions/RA_2202_list_hosts_communicated_with_ip.md
 [List hosts communicated with URL*]: generated_analytics/markdown_documents/Response_Actions/RA_2203_list_hosts_communicated_with_url.md
 [List files created*]: generated_analytics/markdown_documents/Response_Actions/RA_2401_list_files_created.md
-[List victims of security alert*]: generated_analytics/markdown_documents/Response_Actions/RA_2104_list_victims_of_security_alert.md
+[List victims of security alert*]: generated_analytics/markdown_documents/Response_Actions/RA_2101_list_victims_of_security_alert.md
 [Reinstall host from golden image*]: generated_analytics/markdown_documents/Response_Actions/RA_5101_reinstall_host_from_golden_image.md
 
 ## Actionable Playbooks
