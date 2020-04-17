@@ -2,13 +2,13 @@
 
 RE&CT is in a constant state of development. We are always on the lookout for new information to help refine and extend what is covered. If you have additional Incident Response techniques, know about variations on one already covered, or have other relevant information, then we would like to hear from you.
 
-All contributions and feedback to RE&CT are appreciated. 
+All contributions and feedback to RE&CT are appreciated. Please don't hesitate to tell us what do you think could be improved by [submitting GitHub issue](#how-to-submit-an-issue).
 
 # How to add a new Response Action?
 
 If you would like to contribute a Response Action only, you need to follow [How to add a new feature or create a pull request](#how-to-add-a-new-feature-or-create-a-pull-request) guideline, points 1, 2, 3, 5, 7, 8, bypassing 4 and 6, since you don't need the development environment.
 
-Here is an example of good Response Action — [RA_3207_block_ip_on_ips](response_actions/RA_3207_block_ip_on_ips.yml):
+Here is an example of good Response Action — [RA3207: Block IP on IPS](response_actions/RA_3207_block_ip_on_ips.yml):
 
 ```
 title: RA_3207_block_ip_on_ips
@@ -26,22 +26,23 @@ workflow: |
   - Be careful blocking IP address. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should block a specific URL using alternative Response Action.
 ```
 
-It is vendor-agnostic (doesn't include any specific IPS configurations) and provides some important notes for a user. For now, we would like to focus on high-level definition of what should be done on a specific IR stage. It doesn't necessary to describe a specific way to configure IP blocking policy on a specific IPS solution (or any other system) since it is its basic functionality. If an organization has an IPS, we suppose that they know how to use it. If not, RE&CT will not (and doesn't suppose to) help.  
+1. It is vendor-agnostic (doesn't include any specific IPS configurations)
+2. It is detailed enough to be actionable and useful
+3. Provides some important notes for a user
+
+For now, we would like to focus on high-level definition of what should be done on a specific IR stage. It doesn't necessary to describe a specific way to configure IP blocking policy on a specific IPS solution (or any other system) since it is its basic functionality. If an organization has an IPS, we suppose that they know how to use it. If not, RE&CT will not (and doesn't suppose to) help.  
 
 Please use the same approach for your contribution.  
 
-You can pick up one of the Response Actions listed in the [issues](https://github.com/atc-project/atc-react/issues), and contribute to its content. All of the Response Actions mentioned in the issues have a special placeholder that you should use to contribute your analytics. Don't hesitate to put your name to the `author` field, since these issues and placeholders have been created for one reason — to describe the way RE&CT should grow.  
+You can pick up one of the Response Actions marked by "*" sign in the [Matrix](README.md#the-rect-framework). The links lead to GitHub issues, that you can use to contribute your analytics. All of the Response Actions mentioned in the issues have a special placeholder file with pre-defined ID and description that you should use to contribute your analytics. Don't hesitate to put your name to the `author` field, since these issues and placeholders have been created for one reason — to describe the way RE&CT should grow.  
 
-If you would like to contribute a completely new Response Action, please use a special template [Response Action template](response_actions/respose_action.yml.template).  
+If you would like to contribute a completely new Response Action, please use a special [Response Action template](response_actions/respose_action.yml.template).  
 
 # How to add a new Response Playbook?
 
 If you would like to contribute a Response Playbook only, you need to follow [How to add a new feature or create a pull request](#how-to-add-a-new-feature-or-create-a-pull-request) guideline, points 1, 2, 3, 5, 7, 8, bypassing 4 and 6, since you don't need the development environment.
 
-[Response Playbook template](response_playbooks/respose_playbook.yml.template)
-
-[RP_0001_phishing_email](response_playbooks/RP_0001_phishing_email.yml):
-
+Please use a special [Response Playbook template](response_playbooks/respose_playbook.yml.template) and existing [RP0001: Phishing email](response_playbooks/RP_0001_phishing_email.yml) response playbook as a reference.
 
 # How to submit an issue?
 
