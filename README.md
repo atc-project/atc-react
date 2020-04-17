@@ -201,6 +201,9 @@ The cells repsresent [Response Actions](#response-action).
 [List victims of security alert*]: generated_analytics/markdown_documents/Response_Actions/RA_2101_list_victims_of_security_alert.md
 [Reinstall host from golden image*]: generated_analytics/markdown_documents/Response_Actions/RA_5101_reinstall_host_from_golden_image.md
 
+Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
+The links lead to GitHub issues, that you can use to contribute your analytics.
+
 ## Actionable Playbooks
 
 The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
