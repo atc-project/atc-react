@@ -5,7 +5,7 @@
 The project represents the following:
 
 1. A framework for Incident Response techniques categorisation
-2. A [collection](https://github.com/atc-project/atc-response/tree/master/generated_analytics/markdown_documents/Response_Playbooks) of Security Incident Response Playbooks
+2. A [collection](generated_analytics/markdown_documents/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
 ## The RE&CT Framework
