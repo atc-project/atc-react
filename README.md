@@ -333,7 +333,7 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 ## Contributors
 
-Would you like to become one? You are very welcome! Use [CONTRIBUTING](https://github.com/atc-project/atomic-threat-coverage/blob/master/CONTRIBUTING.md) guidelines to contribute to the main project.
+Would you like to become one? You are very welcome! Use [CONTRIBUTING](CONTRIBUTING.md) guidelines to contribute to the main project.
 
 ## License
 
