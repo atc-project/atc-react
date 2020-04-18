@@ -70,7 +70,6 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by metadata*]         |                                              |                                       |                                                    |                                     |                                        | 
 | [Get ability to remove file from host*]               |                                              |                                       |                                                    |                                     |                                        | 
 
-
 [**Take trainings**]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [**Practice**]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
 [**Get original email**]: generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md
@@ -93,9 +92,25 @@ The cells repsresent [Response Actions](#response-action).
 [**Develop incident report**]: generated_analytics/markdown_documents/Response_Actions/RA_6101_develop_incident_report.md
 [**Conduct Lessons Learned exercise**]: generated_analytics/markdown_documents/Response_Actions/RA_6102_conduct_lessons_learned_exercise.md
 
-
-
-
+[Analyse domain name*]: https://github.com/atc-project/atc-react/issues/31
+[Analyse URI*]: https://github.com/atc-project/atc-react/issues/32
+[Analyse MS Windows PE*]: https://github.com/atc-project/atc-react/issues/33
+[List processes executed*]: https://github.com/atc-project/atc-react/issues/34
+[List services executed*]: https://github.com/atc-project/atc-react/issues/35
+[List users opened email*]: https://github.com/atc-project/atc-react/issues/36
+[List registry keys modified*]: https://github.com/atc-project/atc-react/issues/37
+[Reinstall host from golden image*]: https://github.com/atc-project/atc-react/issues/38
+[Analyse filehash*]: https://github.com/atc-project/atc-react/issues/39
+[Analyse IP*]: https://github.com/atc-project/atc-react/issues/40
+[Analyse macOS Mach-O*]: https://github.com/atc-project/atc-react/issues/41
+[Analyse MS Office file*]: https://github.com/atc-project/atc-react/issues/42
+[Analyse PDF*]: https://github.com/atc-project/atc-react/issues/43
+[Analyse Unix ELF*]: https://github.com/atc-project/atc-react/issues/44
+[List files created*]: https://github.com/atc-project/atc-react/issues/48
+[List hosts communicated with domain*]: https://github.com/atc-project/atc-react/issues/45
+[List hosts communicated with URL*]: https://github.com/atc-project/atc-react/issues/47
+[List hosts communicated with IP*]: https://github.com/atc-project/atc-react/issues/46
+[List victims of security alert*]: https://github.com/atc-project/atc-react/issues/49
 
 [Raise personnel awareness*]: generated_analytics/markdown_documents/Response_Actions/RA_1103_raise_personnel_awareness.md
 [Make personnel report suspicious activity*]: generated_analytics/markdown_documents/Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md
@@ -181,25 +196,6 @@ The cells repsresent [Response Actions](#response-action).
 [List files with tampered timestamps*]: generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
 [Download file from host*]: generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md
 [Remove file from host*]: generated_analytics/markdown_documents/Response_Actions/RA_4401_remove_file_from_host.md
-[Analyse domain name*]: generated_analytics/markdown_documents/Response_Actions/RA_2204_analyse_domain_name.md
-[Analyse filehash*]: generated_analytics/markdown_documents/Response_Actions/RA_2404_analyse_filehash.md
-[Analyse IP*]: generated_analytics/markdown_documents/Response_Actions/RA_2205_analyse_ip.md
-[Analyse macOS Mach-O*]: generated_analytics/markdown_documents/Response_Actions/RA_2405_analyse_macos_macho.md
-[Analyse MS Office file*]: generated_analytics/markdown_documents/Response_Actions/RA_2406_analyse_ms_office_file.md
-[Analyse PDF*]: generated_analytics/markdown_documents/Response_Actions/RA_2407_analyse_pdf.md
-[Analyse Unix ELF*]: generated_analytics/markdown_documents/Response_Actions/RA_2408_analyse_unix_elf.md
-[Analyse URI*]: generated_analytics/markdown_documents/Response_Actions/RA_2206_analyse_uri.md
-[Analyse MS Windows PE*]: generated_analytics/markdown_documents/Response_Actions/RA_2402_analyse_windows_pe.md
-[List processes executed*]: generated_analytics/markdown_documents/Response_Actions/RA_2403_list_processes_executed.md
-[List services executed*]: generated_analytics/markdown_documents/Response_Actions/RA_2501_list_services_executed.md
-[List users opened email*]: generated_analytics/markdown_documents/Response_Actions/RA_2301_list_users_opened_email.md
-[List registry keys modified*]: generated_analytics/markdown_documents/Response_Actions/RA_2601_list_registry_keys_modified.md
-[List hosts communicated with domain*]: generated_analytics/markdown_documents/Response_Actions/RA_2201_list_hosts_communicated_with_domain.md
-[List hosts communicated with IP*]: generated_analytics/markdown_documents/Response_Actions/RA_2202_list_hosts_communicated_with_ip.md
-[List hosts communicated with URL*]: generated_analytics/markdown_documents/Response_Actions/RA_2203_list_hosts_communicated_with_url.md
-[List files created*]: generated_analytics/markdown_documents/Response_Actions/RA_2401_list_files_created.md
-[List victims of security alert*]: generated_analytics/markdown_documents/Response_Actions/RA_2101_list_victims_of_security_alert.md
-[Reinstall host from golden image*]: generated_analytics/markdown_documents/Response_Actions/RA_5101_reinstall_host_from_golden_image.md
 
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
 The links lead to GitHub issues, that you can use to contribute your analytics.
