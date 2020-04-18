@@ -208,11 +208,11 @@ The links lead to GitHub issues, that you can use to contribute your analytics.
 
 The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
 
-- **human-readable** (`.markdown`) for sharing/using in operations
-- **machine-readable** (`.yaml`) for automatic processing/integrations
+- **human-readable** (`.md`) for sharing/using in operations
+- **machine-readable** (`.yml`) for automatic processing/integrations
 - **executable** by Incident Response Platform ([TheHive Case Templates](analytics/generated/thehive_templates/) only, at the moment)
 
-Simply saying, the analytics are stored in `.yaml` files, that are automatically converted to `.markdown` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.
+Simply saying, the analytics are stored in `.yml` files, that are automatically converted to `.md` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.
 
 ### Response Action
 
@@ -303,9 +303,9 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 1. Make sure you are compliant with the [requirements](#requirements)
 
-2. Modify existing `.yaml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
+2. Modify existing `.yml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
 
-3. When `.yaml` files are ready, convert them to `.markdown` documents and TheHive templates using the following commands:
+3. When `.yml` files are ready, convert them to `.md` documents and TheHive templates using the following commands:
     ```
     python3 main.py --markdown --auto --init
     python3 main.py --thehive
