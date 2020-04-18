@@ -4,7 +4,7 @@
 
 The project represents the following:
 
-1. A framework for Incident Response techniques categorisation
+1. A framework for Incident Response techniques categorization
 2. A [collection](generated_analytics/markdown_documents/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
