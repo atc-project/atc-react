@@ -329,7 +329,7 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 - Jakob Weinzettl, [@mrblacyk](https://github.com/mrblacyk)
 - Mateusz Wydra, [@sn0w0tter](https://github.com/sn0w0tter)
-- Daniil Yugoslavskiy, [@yugoslavskiy](https://github.com/yugoslavskiy)
+- Daniil Yugoslavskiy, [@yugoslavskiy](https://twitter.com/yugoslavskiy)
 
 ## Contributors
 
