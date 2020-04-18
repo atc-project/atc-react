@@ -52,8 +52,8 @@ The proper place for open-ended questions is [Slack](https://join.slack.com/t/at
 
 # How to add a new feature or create a pull request?
 
-1. Fork the [ATC repository](https://github.com/atc-project/atomic-threat-coverage)
-2. Clone your fork: `git clone git clone https://gitlab.com/<YOUR GITLAB USERNAME>/atomic-threat-coverage.git`
+1. Fork the [atc-react repository](https://github.com/atc-project/atc-react)
+2. Clone your fork: `git clone https://github.com/<YOUR GITHUB USERNAME>/atc-react.git`
 3. Create a new branch based on `develop`: `git checkout -b my-feature develop`
 4. Setup your Python enviroment
    - Create a new [virtual environment](https://virtualenv.pypa.io/en/stable/): `pip install virtualenv; virtualenv atc_env` and activate it:
@@ -67,4 +67,4 @@ The proper place for open-ended questions is [Slack](https://join.slack.com/t/at
    - The issue that you fixed, e.g. `Fixes #123`
    - Motivation: why did you create this PR? What functionality did you set out to improve? What was the problem + an overview of how you fixed it? Whom does it affect and how should people use it?
    - Any other useful information: links to other related Github or mailing list issues and discussions, benchmark graphs, academic papers…
-   - Note that your Pull Request should be into **develop** branch, **not master**
+   - Note that your Pull Request should be into the **develop** branch, **not master**

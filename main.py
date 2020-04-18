@@ -10,7 +10,7 @@ import argparse
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
-        description="""Main function of atc-response.
+        description="""Main function of atc-react.
 
     You can not only choose to export analytics but also to use different
     modules.

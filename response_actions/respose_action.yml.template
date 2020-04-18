@@ -1,8 +1,8 @@
 title: RA_0000_some_name_here
-id: RA0000
+id: RA0000  # define the ID based on this guideline: https://github.com/atc-project/atc-react#response-action
 description: >
-  (Aggregated) Response Action for blocking threats on Network Level.
-author: name/nickname/twitter
+  Response Action for doing something
+author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
 stage: identification # preparation / containment / eradication / recovery / lessons_learned
 automation: 
@@ -12,15 +12,9 @@ automation:
   - etc
 references: 
   - https://example.com
-linked_ra: # could be empty in case of single Response Action
-  - RA_0006_containment_block_domain_on_email         # Response Actions could be aggregated 
-  - RA_0009_containment_block_url_on_proxy            # and contain links to multiple Response Actions
-  - RA_0007_containment_block_ip_on_border_firewall
-  - RA_0008_containment_block_domain_on_dns
-  - RA_0009_containment_block_url_on_proxy
 linked_analytics:
-  - MS_something # link to mitigation systems needed for Response Action
-  - DN_something # link to Data Needed needed for Response Action
+  - MS_something # link to the Mitigation System required for the Response Action
+  - DN_something # link to the Data Needed entity, required for the Response Action
 workflow: |
-  Description of how to handle multiple Response Actions (if it is an aggregated Response Action) or workflow for single Response Action in markdown format.
+  Description of the workflow in the Markdown format.
   Here newlines will be saved.  

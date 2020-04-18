@@ -2,33 +2,33 @@ title: RP_0000_some_name_here
 id: RP0000
 description: >
   Some text description here. It will be merged into one line
-author: name/nickname/twitter
+author: your name/nickname/twitter
 creation_date: DD.MM.YYYY
 severity: M                  # L M H
 tlp: AMBER                   # WHITE GREEN AMBER RED
 pap: WHITE                   # WHITE GREEN AMBER RED
 tags:
     - attack.initial_access     # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
-    - amitt.strategic_planning  # use the next tag scheeme for AMITT tags: https://github.com/atc-project/atc-response/blob/master/scripts/amitt_mapping.py
+    - amitt.strategic_planning  # use the next tag scheeme for AMITT tags: https://github.com/atc-project/atc-react/blob/master/scripts/amitt_mapping.py
     - attack.t1193              # use the next tag scheeme for ATT&CK tags: https://github.com/Neo23x0/sigma/wiki/Tags
     - phishinng                 # could be custom tags as well
 linked_rp:
-  - RA_0000_something        # related RP that you would like to keep as linked and mention in the workflow
+  - RA_0000_something           # related RP that you would like to keep as linked and mention in the workflow
 references: 
   - https://example.com
 preparation:
   - RA_0000_something
 identification:
-  - RA_0001_identification_get_original_email         # links to atomit Response Actions
+  - RA_0001_get_original_email            # links to atomit Response Actions
 containment:
-  - RA_0006_containment_block_domain_on_email         # Response Actions could be aggregated 
-  - RA_0009_containment_block_url_on_proxy            # and contain links to multiple Response Actions
+  - RA_0006_block_domain_on_email         # Response Actions could be aggregated 
+  - RA_0009_block_url_on_proxy            # and contain links to multiple Response Actions
 eradication:
-  - RA_0010_eradication_delete_malicious_emails
+  - RA_0010_delete_malicious_emails
 recovery:
-  - RA_0029_recovery_reinstall_host_from_golden_image
+  - RA_0029_reinstall_host_from_golden_image
 lessons_learned:
-  - RA_0013_lessons_learned_develop_incident_report
+  - RA_0013_develop_incident_report
 workflow: |
     Workflow in markdown format. You can put here anything you want, i.e. specific conditions/requirements or details on the order of Response Actions execution.
     Here newlines will be saved.
