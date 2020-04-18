@@ -1,6 +1,6 @@
 title: RA_3301_block_domain_on_email
 id: RA3301
-description: Block an email domain on the Email-server
+description: Block a domain name on an Email server
 author: '@atc_project'
 creation_date: 31.01.2019
 stage: containment
@@ -10,4 +10,4 @@ references:
 linked_analytics:
   - MS_email_server
 workflow: |
-  Block malicious sender (or entire domain, if possible) on Email Server using native filtering functionality.
+  Block a domain name on an Email Server using its native filtering functionality.  
