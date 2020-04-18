@@ -10,8 +10,8 @@ If you would like to contribute a Response Action only, you need to follow [How 
 
 Here is an example of good Response Action — [RA3207: Block IP on IPS](response_actions/RA_3207_block_ip_on_ips.yml):
 
-```
-title: RA_3207_block_ip_on_ips
+```yaml
+title: RA_3207_block_IP_on_IPS
 id: RA3207
 description: Block an IP address in an IPS
 author: '@atc_project'
@@ -20,10 +20,11 @@ stage: containment
 linked_analytics:
   - MS_IPS
 workflow: |
-  Block ip on IPS using native filtering functionality.
-  Warning: 
-  - If not all corporate hosts access the internet through the IPS, you will **not** be able to contain the threat using this Response Action.
-  - Be careful blocking IP address. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should block a specific URL using alternative Response Action.
+  Block an IP address on an IPS using its native filtering functionality.  
+
+  Warning:  
+
+  - Be careful blocking IP addresses. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should (if applicable) block a specific URL using alternative Response Action  
 ```
 
 1. It is vendor-agnostic (doesn't include any specific IPS configurations)
