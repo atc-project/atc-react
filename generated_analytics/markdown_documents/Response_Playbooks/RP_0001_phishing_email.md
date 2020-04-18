@@ -19,7 +19,7 @@
 
 ### Workflow
 
-1. Execute Response Actions step by step. Some of them directly connected, which means you will not be able to move forward not finishing the previous step. Some of them are redundant, as those that are related to the blocking a threat using network filtering systems (containment stage). You need to use only one of them
+1. Execute Response Actions step by step. Some of them directly connected, which means you will not be able to move forward not finishing the previous step. Some of them are redundant, as those that are related to the blocking a threat using network filtering systems (containment stage)
 2. Start executing containment and eradication stages concurrently with next identification steps, as soon as you will receive information about malicious hosts
 3. If phishing led to code execution or remote access to victim host, immediately start executing Generic Post Exploitation Incident Response Playbook
 4. Save all timestamps of implemented actions in Incident Report draft on the fly, it will save a lot of time
