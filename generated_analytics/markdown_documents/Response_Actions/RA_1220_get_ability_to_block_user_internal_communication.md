@@ -6,7 +6,7 @@
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | preparation         |
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
-| **Linked Analytics** |<ul><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_nac</li></ul>|
+| **Requirements** |<ul><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_nac</li></ul>|
 
 ### Workflow
 

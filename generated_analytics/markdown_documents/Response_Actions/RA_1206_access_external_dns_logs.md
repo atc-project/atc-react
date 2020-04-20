@@ -6,7 +6,7 @@
 | **Creation Date**           | DD.MM.YYYY |
 | **Stage**                   | preparation         |
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
-| **Linked Analytics** |<ul><li>DN_zeek_dns_log</li></ul>|
+| **Requirements** |<ul><li>DN_zeek_dns_log</li></ul>|
 
 ### Workflow
 

@@ -7,7 +7,7 @@ creation_date: DD.MM.YYYY
 stage: preparation
 references:
   - https://example.com
-linked_analytics:
+requirements:
   - DN_zeek_dns_log
 workflow: |
   Description of the workflow for single Response Action in markdown format.

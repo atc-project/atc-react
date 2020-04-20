@@ -4,7 +4,7 @@ description: Delete malicious emails from a Email Server and users' email boxes
 author: '@atc_project'
 creation_date: 31.01.2019
 stage: eradication
-linked_analytics:
+requirements:
   - MS_email_server
 workflow: |
   Delete email from an Email Server and users' email boxes using its native functionality.

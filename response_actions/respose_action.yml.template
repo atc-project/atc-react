@@ -12,7 +12,7 @@ automation:
   - etc
 references: 
   - https://example.com
-linked_analytics:
+requirements:
   - MS_something # link to the Mitigation System required for the Response Action
   - DN_something # link to the Data Needed entity, required for the Response Action
 workflow: |
