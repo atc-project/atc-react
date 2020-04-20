@@ -30,36 +30,39 @@ The cells repsresent [Response Actions](#response-action).
 | [Develop assets knowledge base*]                      | [Analyse URI*]                                   | [**Block user internal communication**] |                                                    |                                     |                                        |
 | [Check analysis toolset*]                             | [Analyse MS Windows PE*]                         | [Block sender on email*]                |                                                    |                                     |                                        |
 | [Access vulnerability management system logs*]        | [List processes executed*]                       | [Quarantine file by format*]            |                                                    |                                     |                                        |
-| [Access internet communication netflow logs*]         | [List services executed*]                        | [Quarantine file by hash*]              |                                                    |                                     |                                        |
-| [Access intranet communication netflow logs*]         | [List users opened email*]                       | [Quarantine file by path*]              |                                                    |                                     |                                        |
-| [Access firewall logs*]                               | [List registry keys modified*]                   | [Quarantine file by content pattern*]   |                                                    |                                     |                                        |
-| [Access NGFW logs*]                                   | [List hosts communicated with internal domain*]  | [Quarantine file by metadata*]          |                                                    |                                     |                                        |
-| [Access Proxy logs*]                                  | [List hosts communicated with internal IP*]      |                                         |                                                    |                                     |                                        |
-| [Access DNS logs*]                                    | [List hosts communicated with internal URL*]     |                                         |                                                    |                                     |                                        |
-| [Access VPN logs*]                                    | [List hosts communicated with external domain*]  |                                         |                                                    |                                     |                                        |
-| [Access DHCP logs*]                                   | [List hosts communicated with external URL*]     |                                         |                                                    |                                     |                                        |
-| [Access network security monitoring system logs*]     | [List hosts communicated with external IP*]      |                                         |                                                    |                                     |                                        |
-| [Access traffic collection data*]                     | [List files created*]                            |                                         |                                                    |                                     |                                        |
-| [Manage border firewall rules*]                       | [List victims of security alert*]                |                                         |                                                    |                                     |                                        |
-| [Manage intranet firewall rules*]                     | [Analyse domain name*]                           |                                         |                                                    |                                     |                                        |
-| [Manage host firewall rules*]                         | [List host vulnerabilities*]                     |                                         |                                                    |                                     |                                        |
-| [Manage DNS records*]                                 | [List hosts communicated by port*]               |                                         |                                                    |                                     |                                        |
-| [Manage Proxy rules*]                                 | [List hosts connected to VPN*]                   |                                         |                                                    |                                     |                                        |
-| [Manage IPS rules*]                                   | [List host connected to intranet*]               |                                         |                                                    |                                     |                                        |
-| [Manage NGFW rules*]                                  | [Get data transferred by FTP*]                   |                                         |                                                    |                                     |                                        |
-| [Get ability to list users opened email*]             | [Get data transferred by SMB*]                   |                                         |                                                    |                                     |                                        |
-| [Get ability to list users received email*]           | [Get data transferred by HTTP*]                  |                                         |                                                    |                                     |                                        |
-| [Get ability to block email domain*]                  | [List email receivers*]                          |                                         |                                                    |                                     |                                        |
-| [Get ability to block an email sender*]               | [Find file by format*]                           |                                         |                                                    |                                     |                                        |
-| [Get ability to delete an email*]                     | [Find file by hash*]                             |                                         |                                                    |                                     |                                        |
-| [Get ability to find file by format*]                 | [Find file by path*]                             |                                         |                                                    |                                     |                                        |
-| [Get ability to find file by hash*]                   | [Find file by content pattern*]                  |                                         |                                                    |                                     |                                        |
-| [Get ability to find file by path*]                   | [Find file by metadata*]                         |                                         |                                                    |                                     |                                        |
-| [Get ability to find file by content pattern*]        | [List files modified*]                           |                                         |                                                    |                                     |                                        |
-| [Get ability to find file by metadata*]               | [List files deleted*]                            |                                         |                                                    |                                     |                                        |
-| [Get ability to find files with tampered timestamps*] | [List files downloaded*]                         |                                         |                                                    |                                     |                                        |
-| [Get ability to list files modified*]                 | [List files with tampered timestamps*]           |                                         |                                                    |                                     |                                        |
-| [Get ability to list files deleted*]                  | [Download file from host*]                       |                                         |                                                    |                                     |                                        |
+| [Access VPN logs*]                                    | [List services executed*]                        | [Quarantine file by hash*]              |                                                    |                                     |                                        |
+| [Access DHCP logs*]                                   | [List users opened email*]                       | [Quarantine file by path*]              |                                                    |                                     |                                        |
+| [Access external network flow logs*]                  | [List registry keys modified*]                   | [Quarantine file by content pattern*]   |                                                    |                                     |                                        |
+| [Access internal network flow logs*]                  | [List hosts communicated with internal domain*]  | [Quarantine file by metadata*]          |                                                    |                                     |                                        |
+| [Access internal http logs*]                          | [List hosts communicated with internal IP*]      |                                         |                                                    |                                     |                                        |
+| [Access external http logs*]                          | [List hosts communicated with internal URL*]     |                                         |                                                    |                                     |                                        |
+| [Access internal dns logs*]                           | [List hosts communicated with external domain*]  |                                         |                                                    |                                     |                                        |
+| [Access external dns logs*]                           | [List hosts communicated with external URL*]     |                                         |                                                    |                                     |                                        |
+| [Access internal packet capture data*]                | [List hosts communicated with external IP*]      |                                         |                                                    |                                     |                                        |
+| [Access external packet capture data*]                | [List files created*]                            |                                         |                                                    |                                     |                                        |
+| [Get ability to block external ip address*]           | [List victims of security alert*]                |                                         |                                                    |                                     |                                        |
+| [Get ability to block internal ip address*]           | [Analyse domain name*]                           |                                         |                                                    |                                     |                                        |
+| [Get ability to block external domain*]               | [List host vulnerabilities*]                     |                                         |                                                    |                                     |                                        |
+| [Get ability to block internal domain*]               | [List hosts communicated by port*]               |                                         |                                                    |                                     |                                        |
+| [Get ability to block external url*]                  | [List hosts connected to VPN*]                   |                                         |                                                    |                                     |                                        |
+| [Get ability to block internal url*]                  | [List host connected to intranet*]               |                                         |                                                    |                                     |                                        |
+| [Get ability to block port external communication*]   | [Get data transferred by FTP*]                   |                                         |                                                    |                                     |                                        |
+| [Get ability to block port internal communication*]   | [Get data transferred by SMB*]                   |                                         |                                                    |                                     |                                        |
+| [Get ability to block user external communication*]   | [Get data transferred by HTTP*]                  |                                         |                                                    |                                     |                                        |
+| [Get ability to block user internal communication*]   | [List email receivers*]                          |                                         |                                                    |                                     |                                        |
+| [Get ability to list users opened email*]             | [Find file by format*]                           |                                         |                                                    |                                     |                                        |
+| [Get ability to list users received email*]           | [Find file by hash*]                             |                                         |                                                    |                                     |                                        |
+| [Get ability to block email domain*]                  | [Find file by path*]                             |                                         |                                                    |                                     |                                        |
+| [Get ability to block an email sender*]               | [Find file by content pattern*]                  |                                         |                                                    |                                     |                                        |
+| [Get ability to delete an email*]                     | [Find file by metadata*]                         |                                         |                                                    |                                     |                                        |
+| [Get ability to find file by format*]                 | [List files modified*]                           |                                         |                                                    |                                     |                                        |
+| [Get ability to find file by hash*]                   | [List files deleted*]                            |                                         |                                                    |                                     |                                        |
+| [Get ability to find file by path*]                   | [List files downloaded*]                         |                                         |                                                    |                                     |                                        |
+| [Get ability to find file by content pattern*]        | [List files with tampered timestamps*]           |                                         |                                                    |                                     |                                        |
+| [Get ability to find file by metadata*]               | [Download file from host*]                       |                                         |                                                    |                                     |                                        |
+| [Get ability to find files with tampered timestamps*] |                                                  |                                         |                                                    |                                     |                                        |
+| [Get ability to list files modified*]                 |                                                  |                                         |                                                    |                                     |                                        |
+| [Get ability to list files deleted*]                  |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to list files downloaded*]               |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to download file from host*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Manage remote computer management system policies*]  |                                                  |                                         |                                                    |                                     |                                        |
@@ -69,13 +72,6 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by content pattern*]  |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by metadata*]         |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to remove file from host*]               |                                                  |                                         |                                                    |                                     |                                        |
-
-
-
-
-
-
-
 
 [**Take trainings**]: generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md
 [**Practice**]: generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md
@@ -134,23 +130,10 @@ The cells repsresent [Response Actions](#response-action).
 [Develop assets knowledge base*]: generated_analytics/markdown_documents/Response_Actions/RA_1111_develop_assets_knowledge_base.md
 [Check analysis toolset*]: generated_analytics/markdown_documents/Response_Actions/RA_1112_check_analysis_toolset.md
 [Access vulnerability management system logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1113_access_vulnerability_management_system_logs.md
-[Access internet communication netflow logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1201_access_internet_communication_netflow_logs.md
-[Access intranet communication netflow logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1202_access_intranet_communication_netflow_logs.md
-[Access firewall logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1203_access_firewall_logs.md
-[Access NGFW logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1204_access_ngfw_logs.md
-[Access Proxy logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1205_access_proxy_logs.md
-[Access DNS logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1206_access_dns_logs.md
+
 [Access VPN logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1207_access_vpn_logs.md
 [Access DHCP logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1208_access_dhcp_logs.md
-[Access network security monitoring system logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1209_access_network_security_monitoring_system_logs.md
-[Access traffic collection data*]: generated_analytics/markdown_documents/Response_Actions/RA_1210_access_traffic_collection_data.md
-[Manage border firewall rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1211_manage_border_firewall_rules.md
-[Manage intranet firewall rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1212_manage_intranet_firewall_rules.md
-[Manage host firewall rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1213_manage_host_firewall_rules.md
-[Manage DNS records*]: generated_analytics/markdown_documents/Response_Actions/RA_1214_manage_dns_records.md
-[Manage Proxy rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1215_manage_proxy_rules.md
-[Manage IPS rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1216_manage_ips_rules.md
-[Manage NGFW rules*]: generated_analytics/markdown_documents/Response_Actions/RA_1217_manage_ngfw_rules.md
+
 [Get ability to list users opened email*]: generated_analytics/markdown_documents/Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md
 [Get ability to list users received email*]: generated_analytics/markdown_documents/Response_Actions/RA_1302_get_ability_to_list_users_received_email.md
 [Get ability to block email domain*]: generated_analytics/markdown_documents/Response_Actions/RA_1303_get_ability_to_block_email_domain.md
@@ -198,13 +181,29 @@ The cells repsresent [Response Actions](#response-action).
 [List files with tampered timestamps*]: generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
 [Download file from host*]: generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md
 [Remove file from host*]: generated_analytics/markdown_documents/Response_Actions/RA_4401_remove_file_from_host.md
-
-[List hosts communicated with external domain*]: RA_2213_list_hosts_communicated_with_external_domain.md
-[List hosts communicated with external URL*]: RA_2214_list_hosts_communicated_with_external_ip.md
-[List hosts communicated with external IP*]: RA_2215_list_hosts_communicated_with_external_url.md
-
+[List hosts communicated with external domain*]: generated_analytics/markdown_documents/Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md
+[List hosts communicated with external URL*]: generated_analytics/markdown_documents/Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md
+[List hosts communicated with external IP*]: generated_analytics/markdown_documents/Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md
 
 
+[Access external network flow logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1201_access_external_network_flow_logs.md
+[Access internal network flow logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1202_access_internal_network_flow_logs.md
+[Access internal http logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1203_access_internal_http_logs.md
+[Access external http logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1204_access_external_http_logs.md
+[Access internal dns logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1205_access_internal_dns_logs.md
+[Access external dns logs*]: generated_analytics/markdown_documents/Response_Actions/RA_1206_access_external_dns_logs.md
+[Access internal packet capture data*]: generated_analytics/markdown_documents/Response_Actions/RA_1209_access_internal_packet_capture_data.md
+[Access external packet capture data*]: generated_analytics/markdown_documents/Response_Actions/RA_1210_access_external_packet_capture_data.md
+[Get ability to block external ip address*]: generated_analytics/markdown_documents/Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md
+[Get ability to block internal ip address*]: generated_analytics/markdown_documents/Response_Actions/RA_1212_get_ability_to_block_internal_ip_address.md
+[Get ability to block external domain*]: generated_analytics/markdown_documents/Response_Actions/RA_1213_get_ability_to_block_external_domain.md
+[Get ability to block internal domain*]: generated_analytics/markdown_documents/Response_Actions/RA_1214_get_ability_to_block_internal_domain.md
+[Get ability to block external url*]: generated_analytics/markdown_documents/Response_Actions/RA_1215_get_ability_to_block_external_url.md
+[Get ability to block internal url*]: generated_analytics/markdown_documents/Response_Actions/RA_1216_get_ability_to_block_internal_url.md
+[Get ability to block port external communication*]: generated_analytics/markdown_documents/Response_Actions/RA_1217_get_ability_to_block_port_external_communication.md
+[Get ability to block port internal communication*]: generated_analytics/markdown_documents/Response_Actions/RA_1218_get_ability_to_block_port_internal_communication.md
+[Get ability to block user external communication*]: generated_analytics/markdown_documents/Response_Actions/RA_1219_get_ability_to_block_user_external_communication.md
+[Get ability to block user internal communication*]: generated_analytics/markdown_documents/Response_Actions/RA_1220_get_ability_to_block_user_internal_communication.md
 
 
 
