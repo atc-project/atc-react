@@ -8,26 +8,29 @@ All contributions and feedback to RE&CT are appreciated. Please don't hesitate t
 
 If you would like to contribute a Response Action only, you need to follow [How to add a new feature or create a pull request](#how-to-add-a-new-feature-or-create-a-pull-request) guideline, points 1, 2, 3, 5, 7, 8, bypassing 4 and 6, since you don't need the development environment.
 
-Here is an example of good Response Action — [RA3207: Block IP on IPS](response_actions/RA_3207_block_ip_on_ips.yml):
+Here is an example of good Response Action — [RA3201: Block external IP address](response_actions/RA_3201_block_external_ip_address.yml):
 
 ```yaml
-title: RA_3207_block_IP_on_IPS
-id: RA3207
-description: Block an IP address in an IPS
+title: RA_3201_block_external_ip_address
+id: RA3201
+description: >
+  Block an external IP address from being accessed by corporate assets
 author: '@atc_project'
 creation_date: 31.01.2019
 stage: containment
-linked_analytics:
-  - MS_IPS
+requirements:
+  - MS_border_firewall
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_host_firewall
 workflow: |
-  Block an IP address on an IPS using its native filtering functionality.  
-
+  Block an external IP address from being accessed by corporate assets, using the most efficient way.  
   Warning:  
-
-  - Be careful blocking IP addresses. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should (if applicable) block a specific URL using alternative Response Action  
+  - Be careful blocking IP addresses. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should block (if applicable) a specific URL using alternative Response Action   
 ```
 
-1. It is vendor-agnostic (doesn't include any specific IPS configurations)
+1. It is system-agnostic: it doesn't include any specific system, they are listed in the `requirements` field and could be easily extendable
 2. It is detailed enough to be actionable and useful
 3. Provides some important notes for a user
 
