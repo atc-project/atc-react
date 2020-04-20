@@ -18,17 +18,17 @@ preparation:
   - RA_1102_take_trainings
   - RA_1104_make_personnel_report_suspicious_activity
   - RA_1103_raise_personnel_awareness
-  - RA_1301_get_ability_to_find_all_users_opened_email
-  - RA_1302_get_ability_to_find_all_users_received_email
+  - RA_1301_get_ability_to_list_users_opened_email
+  - RA_1302_get_ability_to_list_users_received_email
   - RA_1303_get_ability_to_block_email_domain
   - RA_1304_get_ability_to_block_email_sender
   - RA_1305_get_ability_to_delete_email
-  - RA_1211_manage_border_firewall_rules
-  - RA_1213_manage_host_firewall_rules
-  - RA_1214_manage_dns_records
-  - RA_1215_manage_proxy_rules
-  - RA_1216_manage_ips_rules
-  - RA_1217_manage_ngfw_rules
+  - RA_1201_access_external_network_flow_logs
+  - RA_1204_access_external_http_logs
+  - RA_1206_access_external_dns_logs
+  - RA_1211_get_ability_to_block_external_ip_address
+  - RA_1213_get_ability_to_block_external_domain
+  - RA_1215_get_ability_to_block_external_url
 identification:
   - RA_2302_get_original_email
   - RA_2301_list_users_opened_email
@@ -36,15 +36,13 @@ identification:
   - RA_2304_make_sure_email_is_a_phishing
   - RA_2305_extract_observables_from_email
   - RA_2103_put_compromised_accounts_on_monitoring
+  - RA_2213_list_hosts_communicated_with_external_domain
+  - RA_2214_list_hosts_communicated_with_external_ip
+  - RA_2215_list_hosts_communicated_with_external_url
 containment:
-  - RA_3202_block_ip_on_border_firewall
-  - RA_3203_block_domain_on_dns
-  - RA_3204_block_url_on_proxy
-  - RA_3205_block_domain_on_ips
-  - RA_3206_block_domain_on_ngfw
-  - RA_3207_block_ip_on_ips
-  - RA_3208_block_ip_on_ngfw
-  - RA_3209_block_url_on_ngfw
+  - RA_3201_block_external_ip_address
+  - RA_3203_block_external_domain
+  - RA_3205_block_external_url
   - RA_3301_block_domain_on_email
   - RA_3302_block_sender_on_email
 eradication:

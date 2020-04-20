@@ -1,0 +1,15 @@
+title: RA_3202_block_internal_ip_address
+id: RA3202
+description: >
+  Block an internal IP address from being accessed by corporate assets
+author: '@atc_project'
+creation_date: 31.01.2019
+stage: containment
+linked_analytics:
+  - MS_intranet_firewall
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_host_firewall
+workflow: |
+  Block an internal IP address from being accessed by corporate assets, using the most efficient way.

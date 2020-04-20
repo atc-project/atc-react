@@ -1,0 +1,17 @@
+title: RA_1220_get_ability_to_block_user_internal_communication
+id: RA1220
+description: >
+  Make sure you can block a user for internal communications
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+linked_analytics:
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_nac
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

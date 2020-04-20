@@ -1,0 +1,18 @@
+title: RA_1212_get_ability_to_block_internal_ip_address
+id: RA1212
+description: >
+  Make sure you can block an internal IP address from being accessed by corporate assets
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+linked_analytics:
+  - MS_intranet_firewall
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_host_firewall
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

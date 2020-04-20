@@ -1,0 +1,17 @@
+title: RA_1213_get_ability_to_block_external_domain
+id: RA1213
+description: >
+  Make sure you can block an external domain name from being accessed by corporate assets
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+linked_analytics:
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_dns_server
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

@@ -1,0 +1,14 @@
+title: RA_3210_block_user_internal_communication
+id: RA3210
+description: >
+  Block a user for internal communications
+author: '@atc_project'
+creation_date: 31.01.2019
+stage: containment
+linked_analytics:
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_nac
+workflow: |
+  Block a user for internal communications, using the most efficient way.
