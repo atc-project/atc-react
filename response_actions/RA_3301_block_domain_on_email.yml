@@ -7,7 +7,7 @@ stage: containment
 references:
   - https://docs.microsoft.com/en-us/office365/securitycompliance/block-email-spam-to-prevent-false-negatives
   - https://docs.microsoft.com/en-us/office365/securitycompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365
-linked_analytics:
+requirements:
   - MS_email_server
 workflow: |
   Block a domain name on an Email Server using its native filtering functionality.  
