@@ -50,14 +50,14 @@ At the same time, we assume that you already have a strong technical background 
 ##### Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have the ability to list users who opened a particular email
 
@@ -68,62 +68,62 @@ Here newlines will be saved.
 ##### Make sure you have the ability to list users who received a particular email
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have the ability to block an email domain
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have the ability to block an email sender
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have the ability to delete an email
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have access to external communication Network Flow logs
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have access to external communication HTTP logs
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you have access to external communication DNS logs
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you can block an external IP address from being accessed by corporate assets
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you can block an external domain name from being accessed by corporate assets
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure you can block an external URL from being accessed by corporate assets
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 #### Identification
 
@@ -143,14 +143,14 @@ Ask for the email in `.EML` format. Instructions:
 ##### Response Action for 
 
 
-Description of how to handle multiple Response Actions (if it is an aggregated Response Action) or workflow for single Response Action in markdown format.
+Description of the workflow for the Response Action in markdown format.  
 Here newlines will be saved.  
 
 ##### List receivers of a specific email
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 ##### Make sure an email is a phishing attack
 
@@ -231,8 +231,8 @@ Block a domain name on an Email Server using its native filtering functionality.
 ##### Block an email sender on the Email-server
 
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
 
 #### Eradication
 
