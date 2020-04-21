@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   build:
-     docker:
+    docker:
       - image: circleci/python:3.7.7
     steps:
       - checkout
