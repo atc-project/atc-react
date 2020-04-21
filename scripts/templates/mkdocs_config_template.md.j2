@@ -1,0 +1,19 @@
+site_name: ATC RE&CT
+docs_dir: ./generated_analytics/markdown_documents/
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_style: github
+    collapse_navigation: true
+
+nav:
+- Introduction:
+    - RE&CT: README.md
+- Response Actions:
+{%- for stage_name, stage_actions in stages -%}
+    {%- if stage_actions is not none and stage_actions|length -%}
+    {{'\n'}}    - {{stage_name}}:
+    	{%- for action_title, action_filename in stage_actions -%} {{'\n'}}        - "{{action_title}}": ./Response_Actions/{{action_filename}}.md {%- endfor -%}
+    {%- endif -%}
+{%- endfor %}

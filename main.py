@@ -3,6 +3,7 @@
 from scripts.populatemarkdown import PopulateMarkdown
 from scripts.thehive_templates import RPTheHive
 from scripts.atcutils import ATCutils
+from scripts.generate_mkdocs_config import GenerateMkdocs
 
 # Others
 import argparse
@@ -23,6 +24,8 @@ if __name__ == '__main__':
                        help='Export analytics to Markdown repository')
     group.add_argument('-T', '--thehive', action='store_true',
                        help='Generate TheHive Case templates')
+    group.add_argument('-MK', '--mkdocs', action='store_true',
+                       help='Generate mkdofc navigation file')
 
     # Mutually exclusive group for chosing type of data
     group2 = parser.add_mutually_exclusive_group(required=False)
@@ -44,6 +47,8 @@ if __name__ == '__main__':
     if args.markdown:
         PopulateMarkdown(auto=args.auto, ra=args.responseactions,
                          rp=args.responseplaybook, init=args.init)
+    elif args.mkdocs:
+        GenerateMkdocs()
     elif args.thehive:
         ATCconfig = ATCutils.read_yaml_file("scripts/config.yml")
         ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")
