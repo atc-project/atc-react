@@ -86,6 +86,8 @@ class GenerateMkdocs:
             ('deter', deter)
         ]
 
+        playbooks = []
+
         data_to_render = {}
 
         for i in range(len(ras)):
@@ -110,7 +112,17 @@ class GenerateMkdocs:
         stages = [(stage_name.replace('_', ' ').capitalize(),
                    stage_list) for stage_name, stage_list in stages]
         
+        for i in range(len(rps)):
+
+            rp_updated_title = rps[i].get('id')\
+                + ":"\
+                + ATCutils.normalize_react_title(rps[i].get('title'))
+
+            playbooks.append((rp_updated_title, rp_filenames[i]))
+
+
         data_to_render.update({'stages': stages})
+        data_to_render.update({'playbooks': playbooks})
         
         content = template.render(data_to_render)
         ATCutils.write_file('mkdocs.yml', content)
