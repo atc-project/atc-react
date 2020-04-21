@@ -5,11 +5,14 @@ orbs:
 
 jobs:
   build:
+     docker:
+      - image: circleci/python:3.7.7
     steps:
       - checkout
       - run:
           name: Generate  markdown documents, thehive templates and 
           command: |
+            python -m pip install -r requirements.txt
             python ./main.py --markdown --auto --init
             python ./main.py --thehive
             python ./main.py -MK
