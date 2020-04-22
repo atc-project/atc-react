@@ -140,6 +140,18 @@ class ATCutils:
         return rule_text
 
     @staticmethod
+    def load_yamls_with_paths(path):
+        yamls = [join(path, f) for f in listdir(path) if isfile(
+            join(path, f)) if f.endswith('.yaml') or f.endswith('.yml')]
+        result = []
+        for yaml in yamls:
+            try:
+                result.append(ATCutils.read_yaml_file(yaml))
+            except ScannerError:
+                raise ScannerError('yaml is bad! %s' % yaml)
+        return (result, yamls)
+
+    @staticmethod
     def read_yaml_file(path):
         """Open the yaml file and load it to the variable.
         Return created list"""

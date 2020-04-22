@@ -1,0 +1,34 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.7.7
+    steps:
+      - add_ssh_keys 
+      - checkout
+      - run:
+          name: Generate  markdown documents, thehive templates and mkdocs navigation (config) file
+          command: |
+            python -m pip install -r requirements.txt
+            python ./main.py --markdown --auto --init
+            python ./main.py --thehive
+            python ./main.py -MK
+            echo ""
+            echo ""
+            git status
+            echo ""
+            echo ""
+            git diff-index HEAD --
+            if git diff-index --quiet HEAD -- ; then
+              echo "Not committing documentation because there are no changes"
+            elif [[ $(echo "${CIRCLE_BRANCH}" | grep -c "master") -gt 0 ]]; then
+              echo "Not committing documentation because we are on a master branch"
+            else
+              git config credential.helper 'cache --timeout=120'
+              git config user.email "<email>"
+              git config user.name "CircleCI ATC RE&CT doc generator"
+              git add --all
+              git commit -am "Generate all the analytics from job=$CIRCLE_JOB branch=${CIRCLE_BRANCH} [skip ci]"
+              git push -u origin ${CIRCLE_BRANCH}
+            fi
