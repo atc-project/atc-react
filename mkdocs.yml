@@ -1,14 +1,11 @@
 site_name: ATC RE&CT
-docs_dir: ./generated_analytics/markdown_documents/
+#site_dir: docs/
+docs_dir: generated_analytics/markdown_documents/
 
 theme:
-    name: 'rtd_dropdown'
-    collapse_by_default: false
+    name: readthedocs
+    #name: 'rtd-dropdown'
     highlightjs: true
-    hljs_languages:
-        - yaml
-        - markdown
-    hljs_style: github
 
 nav:
     - Introduction:
