@@ -2,10 +2,8 @@ site_name: ATC RE&CT
 docs_dir: ./generated_analytics/markdown_documents/
 
 theme:
-    name: 'rtd-dropdown'
-    highlightjs: true
-    hljs_style: github
-    collapse_navigation: true
+    name: 'mkdocs'
+    custom_dir: rtd_dropdown/
 
 nav:
 - Introduction:
