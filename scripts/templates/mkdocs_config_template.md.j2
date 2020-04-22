@@ -19,8 +19,8 @@ nav:
             {%- endif -%}
         {%- endfor %}
     {%- if playbooks is not none and playbooks|length -%}
-    {{'\n'}}- Response Playbooks:
+    {{'\n'}}    - Response Playbooks:
         {%- for playbook_title, playbook_path in playbooks -%}
-            {{'\n'}}    - "{{playbook_title}}": ./Response_Playbooks/{{playbook_path}}.md
+            {{'\n'}}        - "{{playbook_title}}": ./Response_Playbooks/{{playbook_path}}.md
         {%- endfor -%}
     {%- endif -%}
