@@ -110,7 +110,7 @@ class GenerateMkdocs:
                 lessons_learned.append((ra_updated_title, ra_filenames[i]))
         
         stages = [(stage_name.replace('_', ' ').capitalize(),
-                   stage_list) for stage_name, stage_list in stages]
+                   sorted(stage_list)) for stage_name, stage_list in stages]
         
         for i in range(len(rps)):
 
@@ -120,9 +120,8 @@ class GenerateMkdocs:
 
             playbooks.append((rp_updated_title, rp_filenames[i]))
 
-
         data_to_render.update({'stages': stages})
-        data_to_render.update({'playbooks': playbooks})
+        data_to_render.update({'playbooks': sorted(playbooks)})
         
         content = template.render(data_to_render)
         ATCutils.write_file('mkdocs.yml', content)
