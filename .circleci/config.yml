@@ -1,16 +1,14 @@
 version: 2.1
 
-orbs:
-  python: circleci/python@0.2.1
-
 jobs:
   build:
     docker:
       - image: circleci/python:3.7.7
     steps:
+      - add_ssh_keys 
       - checkout
       - run:
-          name: Generate  markdown documents, thehive templates and 
+          name: Generate  markdown documents, thehive templates and mkdocs navigation (config) file
           command: |
             python -m pip install -r requirements.txt
             python ./main.py --markdown --auto --init
@@ -24,16 +22,13 @@ jobs:
             git diff-index HEAD --
             if git diff-index --quiet HEAD -- ; then
               echo "Not committing documentation because there are no changes"
-            #elif [[ "${CIRCLE_BRANCH}" == "master" ]]; then
-            #  echo "Not committing documentation because we are on master and doc changes should be part of pull request branches"
-            elif [[ $(echo "develop" | grep -c "pull") -gt 0 ]]; then
-              echo "Not committing documentation because we are on a pull request branch that we don't have push permissions to"
+            elif [[ $(echo "${CIRCLE_BRANCH}" | grep -c "master") -gt 0 ]]; then
+              echo "Not committing documentation because we are on a master branch"
             else
               git config credential.helper 'cache --timeout=120'
               git config user.email "<email>"
               git config user.name "CircleCI ATC RE&CT doc generator"
               git add --all
-              git commit -am "Generate docs from job=$CIRCLE_JOB branch=develop"
-              git push -u origin develop
+              git commit -am "Generate docs from job=$CIRCLE_JOB branch=${CIRCLE_BRANCH}"
+              git push -u origin ${CIRCLE_BRANCH}
             fi
-
