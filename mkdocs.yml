@@ -2,7 +2,7 @@ site_name: ATC RE&CT
 docs_dir: ./generated_analytics/markdown_documents/
 
 theme:
-    name: 'mkdocs'
+    name: 'rtd-dropdown'
     custom_dir: ./generated_analytics/markdown_documents/rtd_dropdown/
 
 nav:
