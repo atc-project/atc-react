@@ -3,9 +3,7 @@ docs_dir: ./generated_analytics/markdown_documents/
 
 theme:
     name: 'mkdocs'
-    highlightjs: true
-    hljs_style: github
-    collapse_navigation: true
+    custom_dir: rtd_dropdown/
 
 nav:
 - Introduction:
