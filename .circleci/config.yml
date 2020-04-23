@@ -2,8 +2,10 @@ version: 2.1
 
 jobs:
   build:
-    branches:
-      only: develop
+    filters:
+      branches:
+        only:
+          - develop
     docker:
       - image: circleci/python:3.7.7
     steps:
