@@ -3,8 +3,15 @@ site_dir: docs/
 docs_dir: generated_analytics/markdown_documents/
 
 theme:
-    name: readthedocs
-    highlightjs: true
+    name: null
+    custom_dir: 'readthedocs/'
+    navigation_depth: 5
+
+extra_css:
+  - extra.css
+
+markdown_extensions:
+    - tables
 
 nav:
     - Introduction:
