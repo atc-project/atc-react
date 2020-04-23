@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>RE&CT - ATC RE&CT</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link href="extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "RE&CT";
+    var mkdocs_page_input_path = "README.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> ATC RE&CT</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Introduction</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href=".">RE&CT</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#the-rect-framework">The RE&amp;CT Framework</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#actionable-playbooks">Actionable Playbooks</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action">Response Action</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-playbook">Response Playbook</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thehive-case-templates">TheHive Case Templates</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-source-of-the-atc-framework">Data source of the ATC framework</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#requirements">Requirements</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contacts">Contacts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#authors">Authors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#roadmap">Roadmap</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#license">License</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Response Actions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Preparation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1101_practice/">RA1101: Practice</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1102_take_trainings/">RA1102: Take trainings</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1103_raise_personnel_awareness/">RA1103: Raise personnel awareness</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1104_make_personnel_report_suspicious_activity/">RA1104: Make personnel report suspicious activity</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1105_set_up_relevant_data_collection/">RA1105: Set up relevant data collection</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage/">RA1106: Set up a centralized long-term log storage</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1107_develop_communication_map/">RA1107: Develop communication map</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1108_make_sure_there_are_backups/">RA1108: Make sure there are backups</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1109_get_network_architecture_map/">RA1109: Get network architecture map</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1110_get_access_control_matrix/">RA1110: Get access control matrix</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1111_develop_assets_knowledge_base/">RA1111: Develop assets knowledge base</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1112_check_analysis_toolset/">RA1112: Check analysis toolset</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1113_access_vulnerability_management_system_logs/">RA1113: Access vulnerability management system logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1201_access_external_network_flow_logs/">RA1201: Access external network flow logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1202_access_internal_network_flow_logs/">RA1202: Access internal network flow logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1203_access_internal_http_logs/">RA1203: Access internal HTTP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1204_access_external_http_logs/">RA1204: Access external HTTP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1205_access_internal_dns_logs/">RA1205: Access internal DNS logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1206_access_external_dns_logs/">RA1206: Access external DNS logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1207_access_vpn_logs/">RA1207: Access VPN logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1208_access_dhcp_logs/">RA1208: Access DHCP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1209_access_internal_packet_capture_data/">RA1209: Access internal packet capture data</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1210_access_external_packet_capture_data/">RA1210: Access external packet capture data</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1211_get_ability_to_block_external_ip_address/">RA1211: Get ability to block external IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1212_get_ability_to_block_internal_ip_address/">RA1212: Get ability to block internal IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1213_get_ability_to_block_external_domain/">RA1213: Get ability to block external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1214_get_ability_to_block_internal_domain/">RA1214: Get ability to block internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1215_get_ability_to_block_external_url/">RA1215: Get ability to block external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1216_get_ability_to_block_internal_url/">RA1216: Get ability to block internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1217_get_ability_to_block_port_external_communication/">RA1217: Get ability to block port external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1218_get_ability_to_block_port_internal_communication/">RA1218: Get ability to block port internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1219_get_ability_to_block_user_external_communication/">RA1219: Get ability to block user external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1220_get_ability_to_block_user_internal_communication/">RA1220: Get ability to block user internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1301_get_ability_to_list_users_opened_email/">RA1301: Get ability to list users opened email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1302_get_ability_to_list_users_received_email/">RA1302: Get ability to list users received email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1303_get_ability_to_block_email_domain/">RA1303: Get ability to block email domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1304_get_ability_to_block_email_sender/">RA1304: Get ability to block email sender</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1305_get_ability_to_delete_email/">RA1305: Get ability to delete email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1401_get_ability_to_find_file_by_format/">RA1401: Get ability to find file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1402_get_ability_to_find_file_by_hash/">RA1402: Get ability to find file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1403_get_ability_to_find_file_by_path/">RA1403: Get ability to find file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern/">RA1404: Get ability to find file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1405_get_ability_to_find_file_by_metadata/">RA1405: Get ability to find file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps/">RA1406: Get ability to find files with tampered timestamps</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1407_get_ability_to_list_files_modified/">RA1407: Get ability to list files modified</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1408_get_ability_to_list_files_deleted/">RA1408: Get ability to list files deleted</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1409_get_ability_to_list_files_downloaded/">RA1409: Get ability to list files downloaded</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1410_get_ability_to_download_file_from_host/">RA1410: Get ability to download file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format/">RA1411: Get ability to quarantine file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash/">RA1412: Get ability to quarantine file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path/">RA1413: Get ability to quarantine file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern/">RA1414: Get ability to quarantine file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata/">RA1415: Get ability to quarantine file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1416_get_ability_to_remove_file_from_host/">RA1416: Get ability to remove file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_1601_manage_remote_computer_management_system_policies/">RA1601: Manage remote computer management system policies</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Identification</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2305_extract_observables_from_email/">RA2101: Extract observables from email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/">RA2103: Put compromised accounts on monitoring</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2101_list_victims_of_security_alert/">RA2104: List victims of security alert</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2304_make_sure_email_is_a_phishing/">RA2104: Make sure email is a phishing</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2102_list_host_vulnerabilities/">RA2105: List host vulnerabilities</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2201_list_hosts_communicated_with_internal_domain/">RA2201: List hosts communicated with internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2202_list_hosts_communicated_with_internal_ip/">RA2202: List hosts communicated with internal IP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2203_list_hosts_communicated_with_internal_url/">RA2203: List hosts communicated with internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2204_analyse_domain_name/">RA2204: Analyse domain name</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2205_analyse_ip/">RA2205: Analyse IP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2206_analyse_uri/">RA2206: Analyse URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2207_list_hosts_communicated_by_port/">RA2207: List hosts communicated by port</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2208_list_hosts_connected_to_vpn/">RA2208: List hosts connected to VPN</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2209_list_host_connected_to_intranet/">RA2209: List host connected to intranet</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2210_get_data_transferred_by_ftp/">RA2210: Get data transferred by FTP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2211_get_data_transferred_by_smb/">RA2211: Get data transferred by SMB</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2212_get_data_transferred_by_http/">RA2212: Get data transferred by HTTP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/">RA2213: List hosts communicated with external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/">RA2214: List hosts communicated with external ip.</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2215_list_hosts_communicated_with_external_url/">RA2215: List hosts communicated with external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2301_list_users_opened_email/">RA2301: List users opened email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2302_get_original_email/">RA2302: Get original email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2303_list_email_receivers/">RA2303: List email receivers</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2401_list_files_created/">RA2401: List files created</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2402_analyse_windows_pe/">RA2402: Analyse Windows PE</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2403_list_processes_executed/">RA2403: List processes executed</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2404_analyse_filehash/">RA2404: Analyse filehash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2405_analyse_macos_macho/">RA2405: Analyse macos mach-o</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2406_analyse_ms_office_file/">RA2406: Analyse MS office file</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2407_analyse_pdf/">RA2407: Analyse PDF</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2408_analyse_unix_elf/">RA2408: Analyse Unix ELF</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2409_find_file_by_format/">RA2409: Find file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2410_find_file_by_hash/">RA2410: Find file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2411_find_file_by_path/">RA2411: Find file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2412_find_file_by_content_pattern/">RA2412: Find file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2413_find_file_by_metadata/">RA2413: Find file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2414_list_files_modified/">RA2414: List files modified</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2415_list_files_deleted/">RA2415: List files deleted</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2416_list_files_downloaded/">RA2416: List files downloaded</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2417_list_files_with_tampered_timestamps/">RA2417: List files with tampered timestamps</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2418_download_file_from_host/">RA2418: Download file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2501_list_services_executed/">RA2501: List services executed</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_2601_list_registry_keys_modified/">RA2601: List registry keys modified</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Containment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3201_block_external_ip_address/">RA3201: Block external IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3202_block_internal_ip_address/">RA3202: Block internal IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3203_block_external_domain/">RA3203: Block external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3204_block_internal_domain/">RA3204: Block internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3205_block_external_url/">RA3205: Block external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3206_block_internal_url/">RA3206: Block internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3207_block_port_external_communication/">RA3207: Block port external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3208_block_port_internal_communication/">RA3208: Block port internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3209_block_user_external_communication/">RA3209: Block user external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3210_block_user_internal_communication/">RA3210: Block user internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3301_block_domain_on_email/">RA3301: Block domain on email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3302_block_sender_on_email/">RA3302: Block sender on email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3401_quarantine_file_by_format/">RA3401: Quarantine file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3402_quarantine_file_by_hash/">RA3402: Quarantine file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3403_quarantine_file_by_path/">RA3403: Quarantine file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3404_quarantine_file_by_content_pattern/">RA3404: Quarantine file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_3405_quarantine_file_by_metadata/">RA3405: Quarantine file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Eradication</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4101_report_phishing_attack_to_external_companies/">RA4101: Report phishing attack to external companies</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4102_report_incident_to_external_companies/">RA4102: Report incident to external companies</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4301_delete_malicious_emails/">RA4301: Delete malicious emails</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4401_remove_file_from_host/">RA4401: Remove file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4701_revoke_compromised_credentials/">RA4701: Revoke compromised credentials</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Recovery</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_5101_reinstall_host_from_golden_image/">RA5101: Reinstall host from golden image</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Lessons learned</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_6101_develop_incident_report/">RA6101: Develop incident report</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_6102_conduct_lessons_learned_exercise/">RA6102: Conduct lessons learned exercise</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Response Playbooks</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/">RP0001: Phishing email</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#preparation">Preparation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#practice-in-the-real-environment-sharpen-response-actions-within-your-organization">Practice in the real environment. Sharpen Response Actions within your organization</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#take-training-courses-to-gain-relevant-knowledge">Take training courses to gain relevant knowledge</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#develop-a-simplified-company-wide-known-way-to-contact-ir-team-in-case-of-suspicious-activity-on-the-user-system-make-sure-that-the-personnel-is-aware-of-it-can-and-will-use-it">Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#raise-personnel-awareness-regarding-phishing-ransomware-social-engineering-and-other-attacks">Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-block-an-email-sender">Make sure you have the ability to block an email sender</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-delete-an-email">Make sure you have the ability to delete an email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-access-to-external-communication-network-flow-logs">Make sure you have access to external communication Network Flow logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-access-to-external-communication-http-logs">Make sure you have access to external communication HTTP logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-access-to-external-communication-dns-logs">Make sure you have access to external communication DNS logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-can-block-an-external-ip-address-from-being-accessed-by-corporate-assets">Make sure you can block an external IP address from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-can-block-an-external-domain-name-from-being-accessed-by-corporate-assets">Make sure you can block an external domain name from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#identification">Identification</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#obtain-the-original-phishing-email">Obtain the original phishing email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#response-action-for">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#list-receivers-of-a-specific-email">List receivers of a specific email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#make-sure-an-email-is-a-phishing-attack">Make sure an email is a phishing attack</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#extract-all-observables-from-the-original-phishing-email">Extract all observables from the original phishing email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#put-potentially-compromised-accounts-on-monitoring">Put (potentially) compromised accounts on monitoring</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#response-action-for_1">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#response-action-for_2">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#response-action-for_3">Response Action for</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#containment">Containment</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#block-an-external-ip-address-from-being-accessed-by-corporate-assets">Block an external IP address from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#block-an-external-domain-name-from-being-accessed-by-corporate-assets">Block an external domain name from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#block-an-external-url-from-being-accessed-by-corporate-assets">Block an external URL from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#block-a-domain-name-on-an-email-server">Block a domain name on an Email server</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#block-an-email-sender-on-the-email-server">Block an email sender on the Email-server</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#eradication">Eradication</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#delete-malicious-emails-from-a-email-server-and-users-email-boxes">Delete malicious emails from a Email Server and users' email boxes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#response-action-for-compromised-credentials-revocation">Response Action for compromised credentials revocation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#report-phishing-attack-to-external-companies">Report phishing attack to external companies</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#lessons-learned">Lessons learned</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#develop-the-incident-report">Develop the incident report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="Response_Playbooks/RP_0001_phishing_email/#conduct-lessons-learned-exercise">Conduct Lessons Learned exercise</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">ATC RE&CT</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Introduction &raquo;</li>
+        
+      
+    
+    <li>RE&CT</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="atc-rect">ATC RE&amp;CT</h1>
+<p><img alt="" src="logo_v1.png" /></p>
+<p>The project represents the following:</p>
+<ol>
+<li>A framework for Incident Response techniques categorization</li>
+<li>A <a href="generated_analytics/markdown_documents/Response_Playbooks">collection</a> of Security Incident Response Playbooks</li>
+<li>A data source of the <a href="https://github.com/atc-project/atomic-threat-coverage">Atomic Threat Coverage</a> framework</li>
+</ol>
+<h2 id="the-rect-framework">The RE&amp;CT Framework</h2>
+<p>is designed for accumulating, describing and categorizing Incident Response techniques.<br />
+RE&amp;CT's philosophy is based on the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> framework.<br />
+The collumns repsresent stages of <a href="https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/">The Six Stages of Incident Response Process</a>.<br />
+The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
+<table>
+<thead>
+<tr>
+<th align="center">Preparation</th>
+<th align="center">Identification</th>
+<th align="center">Containment</th>
+<th align="center">Eradication</th>
+<th align="center">Recovery</th>
+<th align="center">Lessons Learned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md"><strong>Take trainings</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md"><strong>Get original email</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3301_block_domain_on_email.md"><strong>Block domain on email</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4301_delete_malicious_emails.md"><strong>Delete malicious emails</strong></a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/38">Reinstall host from golden image*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_6101_develop_incident_report.md"><strong>Develop incident report</strong></a></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md"><strong>Practice</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2305_extract_observables_from_email.md"><strong>Extract observables from email</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3201_block_external_ip_address.md"><strong>Block external IP address</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4701_revoke_compromised_credentials.md"><strong>Revoke compromised credentials</strong></a></td>
+<td align="center"></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_6102_conduct_lessons_learned_exercise.md"><strong>Conduct Lessons Learned exercise</strong></a></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1103_raise_personnel_awareness.md">Raise personnel awareness*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2304_make_sure_email_is_a_phishing.md"><strong>Make sure email is a phishing</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3202_block_internal_ip_address.md"><strong>Block internal IP address</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md"><strong>Report phishing attack to external companies</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md">Make personnel report suspicious activity*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md"><strong>Put compromised accounts on monitoring</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3203_block_external_domain.md"><strong>Block external domain</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4102_report_incident_to_external_companies.md"><strong>Report incident to external companies</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1105_set_up_relevant_data_collection.md">Set up relevant data collection*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/39">Analyse filehash*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3204_block_internal_domain.md"><strong>Block internal domain</strong></a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4401_remove_file_from_host.md">Remove file from host*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage.md">Set up a centralized long-term log storage*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/40">Analyse IP*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3205_block_external_url.md"><strong>Block external URL</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1107_develop_communication_map.md">Develop communication map*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/41">Analyse macOS Mach-O*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3206_block_internal_url.md"><strong>Block internal URL</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1108_make_sure_there_are_backups.md">Make sure there are backups*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/42">Analyse MS Office file*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3207_block_port_external_communication.md"><strong>Block port external communication</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1109_get_network_architecture_map.md">Get network architecture map*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/43">Analyse PDF*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3208_block_port_internal_communication.md"><strong>Block port internal communication</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1110_get_access_control_matrix.md">Get access control matrix*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/44">Analyse Unix ELF*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3209_block_user_external_communication.md"><strong>Block user external communication</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1111_develop_assets_knowledge_base.md">Develop assets knowledge base*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/32">Analyse URI*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3210_block_user_internal_communication.md"><strong>Block user internal communication</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1112_check_analysis_toolset.md">Check analysis toolset*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/33">Analyse MS Windows PE*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3302_block_sender_on_email.md">Block sender on email*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1113_access_vulnerability_management_system_logs.md">Access vulnerability management system logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/34">List processes executed*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3401_quarantine_file_by_format.md">Quarantine file by format*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1207_access_vpn_logs.md">Access VPN logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/35">List services executed*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3402_quarantine_file_by_hash.md">Quarantine file by hash*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1208_access_dhcp_logs.md">Access DHCP logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/36">List users opened email*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3403_quarantine_file_by_path.md">Quarantine file by path*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1201_access_external_network_flow_logs.md">Access external network flow logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/37">List registry keys modified*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3404_quarantine_file_by_content_pattern.md">Quarantine file by content pattern*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1202_access_internal_network_flow_logs.md">Access internal network flow logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/45">List hosts communicated with internal domain*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3405_quarantine_file_by_metadata.md">Quarantine file by metadata*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1203_access_internal_http_logs.md">Access internal http logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/46">List hosts communicated with internal IP*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1204_access_external_http_logs.md">Access external http logs*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/47">List hosts communicated with internal URL*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1205_access_internal_dns_logs.md">Access internal dns logs*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md">List hosts communicated with external domain*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1206_access_external_dns_logs.md">Access external dns logs*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md">List hosts communicated with external URL*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1209_access_internal_packet_capture_data.md">Access internal packet capture data*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md">List hosts communicated with external IP*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1210_access_external_packet_capture_data.md">Access external packet capture data*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/48">List files created*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md">Get ability to block external ip address*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/49">List victims of security alert*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1212_get_ability_to_block_internal_ip_address.md">Get ability to block internal ip address*</a></td>
+<td align="center"><a href="https://github.com/atc-project/atc-react/issues/31">Analyse domain name*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1213_get_ability_to_block_external_domain.md">Get ability to block external domain*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2102_list_host_vulnerabilities.md">List host vulnerabilities*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1214_get_ability_to_block_internal_domain.md">Get ability to block internal domain*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2207_list_hosts_communicated_by_port.md">List hosts communicated by port*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1215_get_ability_to_block_external_url.md">Get ability to block external url*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md">List hosts connected to VPN*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1216_get_ability_to_block_internal_url.md">Get ability to block internal url*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2209_list_host_connected_to_intranet.md">List host connected to intranet*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1217_get_ability_to_block_port_external_communication.md">Get ability to block port external communication*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2210_get_data_transferred_by_ftp.md">Get data transferred by FTP*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1218_get_ability_to_block_port_internal_communication.md">Get ability to block port internal communication*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2211_get_data_transferred_by_smb.md">Get data transferred by SMB*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1219_get_ability_to_block_user_external_communication.md">Get ability to block user external communication*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2212_get_data_transferred_by_http.md">Get data transferred by HTTP*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1220_get_ability_to_block_user_internal_communication.md">Get ability to block user internal communication*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2303_list_email_receivers.md">List email receivers*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md">Get ability to list users opened email*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2409_find_file_by_format.md">Find file by format*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1302_get_ability_to_list_users_received_email.md">Get ability to list users received email*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2410_find_file_by_hash.md">Find file by hash*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1303_get_ability_to_block_email_domain.md">Get ability to block email domain*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2411_find_file_by_path.md">Find file by path*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1304_get_ability_to_block_email_sender.md">Get ability to block an email sender*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2412_find_file_by_content_pattern.md">Find file by content pattern*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1305_get_ability_to_delete_email.md">Get ability to delete an email*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2413_find_file_by_metadata.md">Find file by metadata*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1401_get_ability_to_find_file_by_format.md">Get ability to find file by format*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2414_list_files_modified.md">List files modified*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1402_get_ability_to_find_file_by_hash.md">Get ability to find file by hash*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2415_list_files_deleted.md">List files deleted*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1403_get_ability_to_find_file_by_path.md">Get ability to find file by path*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2416_list_files_downloaded.md">List files downloaded*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern.md">Get ability to find file by content pattern*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md">List files with tampered timestamps*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1405_get_ability_to_find_file_by_metadata.md">Get ability to find file by metadata*</a></td>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md">Download file from host*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps.md">Get ability to find files with tampered timestamps*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1407_get_ability_to_list_files_modified.md">Get ability to list files modified*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1408_get_ability_to_list_files_deleted.md">Get ability to list files deleted*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md">Get ability to list files downloaded*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1410_get_ability_to_download_file_from_host.md">Get ability to download file from host*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md">Manage remote computer management system policies*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format.md">Get ability to quarantine file by format*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md">Get ability to quarantine file by hash*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md">Get ability to quarantine file by path*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md">Get ability to quarantine file by content pattern*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md">Get ability to quarantine file by metadata*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md">Get ability to remove file from host*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>Response Actions marked by "*" sign are just placeholders, listed to define the way RE&amp;CT will grow.<br />
+The links lead to GitHub issues, that you can use to contribute your analytics.</p>
+<h2 id="actionable-playbooks">Actionable Playbooks</h2>
+<p>The ATC RE&amp;CT project inherits the "Actionable Analytics" paradigm from the <a href="https://github.com/atc-project/atomic-threat-coverage">ATC</a> project, which means that the analytics are:</p>
+<ul>
+<li><strong>human-readable</strong> (<code>.md</code>) for sharing/using in operations</li>
+<li><strong>machine-readable</strong> (<code>.yml</code>) for automatic processing/integrations</li>
+<li><strong>executable</strong> by Incident Response Platform (<a href="analytics/generated/thehive_templates/">TheHive Case Templates</a> only, at the moment)</li>
+</ul>
+<p>Simply saying, the analytics are stored in <code>.yml</code> files, that are automatically converted to <code>.md</code> documents (with <a href="https://palletsprojects.com/p/jinja/">jinja</a>) and <code>.json</code> TheHive Case Templates.</p>
+<h3 id="response-action">Response Action</h3>
+<p>is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks and TheHive Case Templates' tasks. </p>
+<p>Here is an example of Response Action:</p>
+<details>
+  <summary>Initial YAML file (click to expand)</summary>
+  <img src="images/ra_yaml_v4.png" />
+</details>
+
+<details>
+  <summary>Automatically created Markdown file (click to expand)</summary>
+  <img src="images/ra_markdown_v4.png" />
+</details>
+
+<details>
+  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
+  <img src="images/ra_confluence_v2.png" />
+</details>
+
+<p>Each Response Action mapped to a specific stage of <a href="https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/">The Six Stages of Incident Response Process</a>.<br />
+The first digit of the Response Action ID reflects a stage number.<br />
+The second digit of the Response Action ID reflects a category it belongs to:</p>
+<ol>
+<li>General</li>
+<li>Networking</li>
+<li>Email</li>
+<li>File</li>
+<li>Processes/Services</li>
+<li>OS Configuration</li>
+<li>Identity</li>
+</ol>
+<p>This way, using Response Action ID, you can see the Stage and Category it belongs to.<br />
+For example, <a href="generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md">RA<strong>23</strong>02: Get original email</a> is related to Stage <strong>2</strong> (Identification) and Category <strong>3</strong> (Email).</p>
+<p>The categorization aims to improve Incident Response process maturity assessment and roadmap development.</p>
+<h3 id="response-playbook">Response Playbook</h3>
+<p>is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> or <a href="https://github.com/misinfosecproject/amitt_framework">Misinfosec's  AMITT</a> frameworks.</p>
+<p>Here is an example of Response Playbook:</p>
+<details>
+  <summary>Initial YAML file (click to expand)</summary>
+  <img src="images/rp_yaml_v4.png" />
+</details>
+
+<details>
+  <summary>Automatically created Markdown file (click to expand)</summary>
+  <img src="images/rp_markdown_v5.png" />
+</details>
+
+<details>
+  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
+  <img src="images/rp_confluence_v1.png" />
+</details>
+
+<p>Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.</p>
+<h3 id="thehive-case-templates">TheHive Case Templates</h3>
+<p>are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). </p>
+<p>Here is the example of an imported TheHive Case Template:</p>
+<details>
+  <summary>Imported TheHive Case Template, made on top of a Response Playbook (click to expand)</summary>
+  <img src="images/thehive_case_template_v1.png" />
+</details>
+
+<details>
+  <summary>One of the Tasks in TheHive Case, made on top of a Response Action (click to expand)</summary>
+  <img src="images/thehive_case_task_v1.png" />
+</details>
+
+<p>TheHive Case Templates could be found in <code>generated_analytics/thehive_templates</code> directory and could be imported to TheHive via its web interface.</p>
+<h2 id="data-source-of-the-atc-framework">Data source of the ATC framework</h2>
+<p>ATC RE&amp;CT project plays a role of data source for the <a href="https://github.com/atc-project/atomic-threat-coverage">Atomic Threat Coverage</a> framework, that uses it to generate markdown and confluence knowledge bases, ATT&amp;CK Navigator profiles, Elasticsearch indexes and <a href="https://github.com/atc-project/atomic-threat-coverage#how-it-works">other</a> analytics. </p>
+<p>Originally it was a part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. </p>
+<h2 id="usage">Usage</h2>
+<ol>
+<li>
+<p>Make sure you are compliant with the <a href="#requirements">requirements</a></p>
+</li>
+<li>
+<p>Modify existing <code>.yml</code> files, or develop your own analytics using the templates of <a href="response_actions/respose_action.yml.template">Response Actions</a> or <a href="response_playbooks/respose_playbook.yml.template">Response Playbooks</a>. They should be stored in the directories according to their type.</p>
+</li>
+<li>
+<p>When <code>.yml</code> files are ready, convert them to <code>.md</code> documents and TheHive templates using the following commands:
+    <code>python3 main.py --markdown --auto --init
+    python3 main.py --thehive</code>
+    You will find the outcome in the <code>generated_analytics</code> directory.</p>
+</li>
+</ol>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Python 3.7</li>
+<li><a href="https://pypi.org/project/PyYAML/">PyYAML</a> and <a href="https://pypi.org/project/Jinja2/">jinja2</a> Python libraries. They could be installed with the following command:
+    <code>python3 -m pip install -r requirements.txt</code></li>
+</ul>
+<h2 id="contacts">Contacts</h2>
+<ul>
+<li>Folow us on <a href="https://twitter.com/atc_project">Twitter</a> for updates</li>
+<li>Join discussions in <a href="https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA">Slack</a> or <a href="https://t.me/atomic_threat_coverage">Telegram</a> </li>
+</ul>
+<h2 id="authors">Authors</h2>
+<ul>
+<li>Jakob Weinzettl, <a href="https://github.com/mrblacyk">@mrblacyk</a></li>
+<li>Mateusz Wydra, <a href="https://github.com/sn0w0tter">@sn0w0tter</a></li>
+<li>Daniil Yugoslavskiy, <a href="https://twitter.com/yugoslavskiy">@yugoslavskiy</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<p>Would you like to become one? You are very welcome! Our <a href="CONTRIBUTING.md">CONTRIBUTING</a> guideline is a good starting point.</p>
+<h2 id="roadmap">Roadmap</h2>
+<p>The roadmap and related discussions could be found in the project <a href="https://github.com/atc-project/atc-react/issues">issues</a>.</p>
+<h2 id="license">License</h2>
+<p>See the <a href="LICENSE">LICENSE</a> file.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+        <span style="margin-left: 15px"><a href="Response_Actions/RA_1101_practice/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(false);
+        };
+    </script>
+
+</body>
+</html>

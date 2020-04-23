@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>RP0001: Phishing email - ATC RE&CT</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link href="../../extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "RP0001: Phishing email";
+    var mkdocs_page_input_path = "Response_Playbooks/RP_0001_phishing_email.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> ATC RE&CT</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Introduction</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">RE&CT</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../..#the-rect-framework">The RE&amp;CT Framework</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#actionable-playbooks">Actionable Playbooks</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="../..#response-action">Response Action</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="../..#response-playbook">Response Playbook</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="../..#thehive-case-templates">TheHive Case Templates</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#data-source-of-the-atc-framework">Data source of the ATC framework</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#usage">Usage</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="../..#requirements">Requirements</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#contacts">Contacts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#authors">Authors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#contributors">Contributors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#roadmap">Roadmap</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../..#license">License</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Response Actions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Preparation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1101_practice/">RA1101: Practice</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1102_take_trainings/">RA1102: Take trainings</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1103_raise_personnel_awareness/">RA1103: Raise personnel awareness</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1104_make_personnel_report_suspicious_activity/">RA1104: Make personnel report suspicious activity</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1105_set_up_relevant_data_collection/">RA1105: Set up relevant data collection</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage/">RA1106: Set up a centralized long-term log storage</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1107_develop_communication_map/">RA1107: Develop communication map</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1108_make_sure_there_are_backups/">RA1108: Make sure there are backups</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1109_get_network_architecture_map/">RA1109: Get network architecture map</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1110_get_access_control_matrix/">RA1110: Get access control matrix</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1111_develop_assets_knowledge_base/">RA1111: Develop assets knowledge base</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1112_check_analysis_toolset/">RA1112: Check analysis toolset</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1113_access_vulnerability_management_system_logs/">RA1113: Access vulnerability management system logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1201_access_external_network_flow_logs/">RA1201: Access external network flow logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1202_access_internal_network_flow_logs/">RA1202: Access internal network flow logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1203_access_internal_http_logs/">RA1203: Access internal HTTP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1204_access_external_http_logs/">RA1204: Access external HTTP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1205_access_internal_dns_logs/">RA1205: Access internal DNS logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1206_access_external_dns_logs/">RA1206: Access external DNS logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1207_access_vpn_logs/">RA1207: Access VPN logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1208_access_dhcp_logs/">RA1208: Access DHCP logs</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1209_access_internal_packet_capture_data/">RA1209: Access internal packet capture data</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1210_access_external_packet_capture_data/">RA1210: Access external packet capture data</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1211_get_ability_to_block_external_ip_address/">RA1211: Get ability to block external IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1212_get_ability_to_block_internal_ip_address/">RA1212: Get ability to block internal IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1213_get_ability_to_block_external_domain/">RA1213: Get ability to block external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1214_get_ability_to_block_internal_domain/">RA1214: Get ability to block internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1215_get_ability_to_block_external_url/">RA1215: Get ability to block external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1216_get_ability_to_block_internal_url/">RA1216: Get ability to block internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1217_get_ability_to_block_port_external_communication/">RA1217: Get ability to block port external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1218_get_ability_to_block_port_internal_communication/">RA1218: Get ability to block port internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1219_get_ability_to_block_user_external_communication/">RA1219: Get ability to block user external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1220_get_ability_to_block_user_internal_communication/">RA1220: Get ability to block user internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1301_get_ability_to_list_users_opened_email/">RA1301: Get ability to list users opened email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1302_get_ability_to_list_users_received_email/">RA1302: Get ability to list users received email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1303_get_ability_to_block_email_domain/">RA1303: Get ability to block email domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1304_get_ability_to_block_email_sender/">RA1304: Get ability to block email sender</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1305_get_ability_to_delete_email/">RA1305: Get ability to delete email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1401_get_ability_to_find_file_by_format/">RA1401: Get ability to find file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1402_get_ability_to_find_file_by_hash/">RA1402: Get ability to find file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1403_get_ability_to_find_file_by_path/">RA1403: Get ability to find file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern/">RA1404: Get ability to find file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1405_get_ability_to_find_file_by_metadata/">RA1405: Get ability to find file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps/">RA1406: Get ability to find files with tampered timestamps</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1407_get_ability_to_list_files_modified/">RA1407: Get ability to list files modified</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1408_get_ability_to_list_files_deleted/">RA1408: Get ability to list files deleted</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1409_get_ability_to_list_files_downloaded/">RA1409: Get ability to list files downloaded</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1410_get_ability_to_download_file_from_host/">RA1410: Get ability to download file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format/">RA1411: Get ability to quarantine file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash/">RA1412: Get ability to quarantine file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path/">RA1413: Get ability to quarantine file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern/">RA1414: Get ability to quarantine file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata/">RA1415: Get ability to quarantine file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1416_get_ability_to_remove_file_from_host/">RA1416: Get ability to remove file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1601_manage_remote_computer_management_system_policies/">RA1601: Manage remote computer management system policies</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Identification</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2305_extract_observables_from_email/">RA2101: Extract observables from email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/">RA2103: Put compromised accounts on monitoring</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2101_list_victims_of_security_alert/">RA2104: List victims of security alert</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2304_make_sure_email_is_a_phishing/">RA2104: Make sure email is a phishing</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2102_list_host_vulnerabilities/">RA2105: List host vulnerabilities</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2201_list_hosts_communicated_with_internal_domain/">RA2201: List hosts communicated with internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2202_list_hosts_communicated_with_internal_ip/">RA2202: List hosts communicated with internal IP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2203_list_hosts_communicated_with_internal_url/">RA2203: List hosts communicated with internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2204_analyse_domain_name/">RA2204: Analyse domain name</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2205_analyse_ip/">RA2205: Analyse IP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2206_analyse_uri/">RA2206: Analyse URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2207_list_hosts_communicated_by_port/">RA2207: List hosts communicated by port</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2208_list_hosts_connected_to_vpn/">RA2208: List hosts connected to VPN</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2209_list_host_connected_to_intranet/">RA2209: List host connected to intranet</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2210_get_data_transferred_by_ftp/">RA2210: Get data transferred by FTP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2211_get_data_transferred_by_smb/">RA2211: Get data transferred by SMB</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2212_get_data_transferred_by_http/">RA2212: Get data transferred by HTTP</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/">RA2213: List hosts communicated with external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/">RA2214: List hosts communicated with external ip.</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2215_list_hosts_communicated_with_external_url/">RA2215: List hosts communicated with external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2301_list_users_opened_email/">RA2301: List users opened email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2302_get_original_email/">RA2302: Get original email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2303_list_email_receivers/">RA2303: List email receivers</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2401_list_files_created/">RA2401: List files created</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2402_analyse_windows_pe/">RA2402: Analyse Windows PE</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2403_list_processes_executed/">RA2403: List processes executed</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2404_analyse_filehash/">RA2404: Analyse filehash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2405_analyse_macos_macho/">RA2405: Analyse macos mach-o</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2406_analyse_ms_office_file/">RA2406: Analyse MS office file</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2407_analyse_pdf/">RA2407: Analyse PDF</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2408_analyse_unix_elf/">RA2408: Analyse Unix ELF</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2409_find_file_by_format/">RA2409: Find file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2410_find_file_by_hash/">RA2410: Find file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2411_find_file_by_path/">RA2411: Find file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2412_find_file_by_content_pattern/">RA2412: Find file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2413_find_file_by_metadata/">RA2413: Find file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2414_list_files_modified/">RA2414: List files modified</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2415_list_files_deleted/">RA2415: List files deleted</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2416_list_files_downloaded/">RA2416: List files downloaded</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2417_list_files_with_tampered_timestamps/">RA2417: List files with tampered timestamps</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2418_download_file_from_host/">RA2418: Download file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2501_list_services_executed/">RA2501: List services executed</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2601_list_registry_keys_modified/">RA2601: List registry keys modified</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Containment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3201_block_external_ip_address/">RA3201: Block external IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3202_block_internal_ip_address/">RA3202: Block internal IP address</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3203_block_external_domain/">RA3203: Block external domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3204_block_internal_domain/">RA3204: Block internal domain</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3205_block_external_url/">RA3205: Block external URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3206_block_internal_url/">RA3206: Block internal URL</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3207_block_port_external_communication/">RA3207: Block port external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3208_block_port_internal_communication/">RA3208: Block port internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3209_block_user_external_communication/">RA3209: Block user external communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3210_block_user_internal_communication/">RA3210: Block user internal communication</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3301_block_domain_on_email/">RA3301: Block domain on email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3302_block_sender_on_email/">RA3302: Block sender on email</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3401_quarantine_file_by_format/">RA3401: Quarantine file by format</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3402_quarantine_file_by_hash/">RA3402: Quarantine file by hash</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3403_quarantine_file_by_path/">RA3403: Quarantine file by path</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3404_quarantine_file_by_content_pattern/">RA3404: Quarantine file by content pattern</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_3405_quarantine_file_by_metadata/">RA3405: Quarantine file by metadata</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Eradication</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_4101_report_phishing_attack_to_external_companies/">RA4101: Report phishing attack to external companies</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_4102_report_incident_to_external_companies/">RA4102: Report incident to external companies</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_4301_delete_malicious_emails/">RA4301: Delete malicious emails</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_4401_remove_file_from_host/">RA4401: Remove file from host</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_4701_revoke_compromised_credentials/">RA4701: Revoke compromised credentials</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Recovery</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_5101_reinstall_host_from_golden_image/">RA5101: Reinstall host from golden image</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Lessons learned</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_6101_develop_incident_report/">RA6101: Develop incident report</a>
+    <ul>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_6102_conduct_lessons_learned_exercise/">RA6102: Conduct lessons learned exercise</a>
+    <ul>
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Response Playbooks</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">RP0001: Phishing email</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#preparation">Preparation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#practice-in-the-real-environment-sharpen-response-actions-within-your-organization">Practice in the real environment. Sharpen Response Actions within your organization</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#take-training-courses-to-gain-relevant-knowledge">Take training courses to gain relevant knowledge</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#develop-a-simplified-company-wide-known-way-to-contact-ir-team-in-case-of-suspicious-activity-on-the-user-system-make-sure-that-the-personnel-is-aware-of-it-can-and-will-use-it">Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#raise-personnel-awareness-regarding-phishing-ransomware-social-engineering-and-other-attacks">Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-block-an-email-sender">Make sure you have the ability to block an email sender</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-delete-an-email">Make sure you have the ability to delete an email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-access-to-external-communication-network-flow-logs">Make sure you have access to external communication Network Flow logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-access-to-external-communication-http-logs">Make sure you have access to external communication HTTP logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-access-to-external-communication-dns-logs">Make sure you have access to external communication DNS logs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-can-block-an-external-ip-address-from-being-accessed-by-corporate-assets">Make sure you can block an external IP address from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-can-block-an-external-domain-name-from-being-accessed-by-corporate-assets">Make sure you can block an external domain name from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#identification">Identification</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#obtain-the-original-phishing-email">Obtain the original phishing email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action-for">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#list-receivers-of-a-specific-email">List receivers of a specific email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-an-email-is-a-phishing-attack">Make sure an email is a phishing attack</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#extract-all-observables-from-the-original-phishing-email">Extract all observables from the original phishing email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#put-potentially-compromised-accounts-on-monitoring">Put (potentially) compromised accounts on monitoring</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action-for_1">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action-for_2">Response Action for</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action-for_3">Response Action for</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#containment">Containment</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#block-an-external-ip-address-from-being-accessed-by-corporate-assets">Block an external IP address from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#block-an-external-domain-name-from-being-accessed-by-corporate-assets">Block an external domain name from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#block-an-external-url-from-being-accessed-by-corporate-assets">Block an external URL from being accessed by corporate assets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#block-a-domain-name-on-an-email-server">Block a domain name on an Email server</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#block-an-email-sender-on-the-email-server">Block an email sender on the Email-server</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eradication">Eradication</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#delete-malicious-emails-from-a-email-server-and-users-email-boxes">Delete malicious emails from a Email Server and users' email boxes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#response-action-for-compromised-credentials-revocation">Response Action for compromised credentials revocation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#report-phishing-attack-to-external-companies">Report phishing attack to external companies</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lessons-learned">Lessons learned</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#develop-the-incident-report">Develop the incident report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#conduct-lessons-learned-exercise">Conduct Lessons Learned exercise</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">ATC RE&CT</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Response Playbooks &raquo;</li>
+        
+      
+    
+    <li>RP0001: Phishing email</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <table>
+<thead>
+<tr>
+<th align="center">Title</th>
+<th align="left">Phishing email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>ID</strong></td>
+<td align="left">RP0001</td>
+</tr>
+<tr>
+<td align="center"><strong>Description</strong></td>
+<td align="left">Response playbook for Phishing Email case</td>
+</tr>
+<tr>
+<td align="center"><strong>Author</strong></td>
+<td align="left">@atc_project</td>
+</tr>
+<tr>
+<td align="center"><strong>Creation Date</strong></td>
+<td align="left">31.01.2019</td>
+</tr>
+<tr>
+<td align="center"><strong>Severity</strong></td>
+<td align="left">M</td>
+</tr>
+<tr>
+<td align="center"><strong>TLP</strong></td>
+<td align="left">AMBER</td>
+</tr>
+<tr>
+<td align="center"><strong>PAP</strong></td>
+<td align="left">WHITE</td>
+</tr>
+<tr>
+<td align="center"><strong>ATT&amp;CK Tactic</strong></td>
+<td align="left"><ul><li><a href="https://attack.mitre.org/tactics/TA0001">TA0001: Initial Access</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>ATT&amp;CK Technique</strong></td>
+<td align="left"><ul><li><a href="https://attack.mitre.org/tactics/T1193">T1193: Spearphishing Attachment</a></li><li><a href="https://attack.mitre.org/tactics/T1192">T1192: Spearphishing Link</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Tags</strong></td>
+<td align="left"><ul><li>phishing</li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Preparation</strong></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_1101_practice/">RA1101: Practice</a></li><li><a href="../../Response_Actions/RA_1102_take_trainings/">RA1102: Take trainings</a></li><li><a href="../../Response_Actions/RA_1104_make_personnel_report_suspicious_activity/">RA1104: Make personnel report suspicious activity</a></li><li><a href="../../Response_Actions/RA_1103_raise_personnel_awareness/">RA1103: Raise personnel awareness</a></li><li><a href="../../Response_Actions/RA_1301_get_ability_to_list_users_opened_email/">RA1301: Get ability to list users opened email</a></li><li><a href="../../Response_Actions/RA_1302_get_ability_to_list_users_received_email/">RA1302: Get ability to list users received email</a></li><li><a href="../../Response_Actions/RA_1303_get_ability_to_block_email_domain/">RA1303: Get ability to block email domain</a></li><li><a href="../../Response_Actions/RA_1304_get_ability_to_block_email_sender/">RA1304: Get ability to block email sender</a></li><li><a href="../../Response_Actions/RA_1305_get_ability_to_delete_email/">RA1305: Get ability to delete email</a></li><li><a href="../../Response_Actions/RA_1201_access_external_network_flow_logs/">RA1201: Access external network flow logs</a></li><li><a href="../../Response_Actions/RA_1204_access_external_http_logs/">RA1204: Access external HTTP logs</a></li><li><a href="../../Response_Actions/RA_1206_access_external_dns_logs/">RA1206: Access external DNS logs</a></li><li><a href="../../Response_Actions/RA_1211_get_ability_to_block_external_ip_address/">RA1211: Get ability to block external IP address</a></li><li><a href="../../Response_Actions/RA_1213_get_ability_to_block_external_domain/">RA1213: Get ability to block external domain</a></li><li><a href="../../Response_Actions/RA_1215_get_ability_to_block_external_url/">RA1215: Get ability to block external URL</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Identification</strong></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_2302_get_original_email/">RA2302: Get original email</a></li><li><a href="../../Response_Actions/RA_2301_list_users_opened_email/">RA2301: List users opened email</a></li><li><a href="../../Response_Actions/RA_2303_list_email_receivers/">RA2303: List email receivers</a></li><li><a href="../../Response_Actions/RA_2304_make_sure_email_is_a_phishing/">RA2104: Make sure email is a phishing</a></li><li><a href="../../Response_Actions/RA_2305_extract_observables_from_email/">RA2101: Extract observables from email</a></li><li><a href="../../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/">RA2103: Put compromised accounts on monitoring</a></li><li><a href="../../Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/">RA2213: List hosts communicated with external domain</a></li><li><a href="../../Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/">RA2214: List hosts communicated with external ip.</a></li><li><a href="../../Response_Actions/RA_2215_list_hosts_communicated_with_external_url/">RA2215: List hosts communicated with external URL</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Containment</strong></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_3201_block_external_ip_address/">RA3201: Block external IP address</a></li><li><a href="../../Response_Actions/RA_3203_block_external_domain/">RA3203: Block external domain</a></li><li><a href="../../Response_Actions/RA_3205_block_external_url/">RA3205: Block external URL</a></li><li><a href="../../Response_Actions/RA_3301_block_domain_on_email/">RA3301: Block domain on email</a></li><li><a href="../../Response_Actions/RA_3302_block_sender_on_email/">RA3302: Block sender on email</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Eradication</strong></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_4301_delete_malicious_emails/">RA4301: Delete malicious emails</a></li><li><a href="../../Response_Actions/RA_4701_revoke_compromised_credentials/">RA4701: Revoke compromised credentials</a></li><li><a href="../../Response_Actions/RA_4101_report_phishing_attack_to_external_companies/">RA4101: Report phishing attack to external companies</a></li></ul></td>
+</tr>
+<tr>
+<td align="center"><strong>Lessons learned</strong></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_6101_develop_incident_report/">RA6101: Develop incident report</a></li><li><a href="../../Response_Actions/RA_6102_conduct_lessons_learned_exercise/">RA6102: Conduct lessons learned exercise</a></li></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workflow">Workflow</h3>
+<ol>
+<li>Execute Response Actions step by step. Some of them directly connected, which means you will not be able to move forward not finishing the previous step. Some of them are redundant, as those that are related to the blocking a threat using network filtering systems (containment stage)</li>
+<li>Start executing containment and eradication stages concurrently with next identification steps, as soon as you will receive information about malicious hosts</li>
+<li>If phishing led to code execution or remote access to victim host, immediately start executing Generic Post Exploitation Incident Response Playbook</li>
+<li>Save all timestamps of implemented actions in Incident Report draft on the fly, it will save a lot of time</li>
+</ol>
+<h4 id="preparation">Preparation</h4>
+<h5 id="practice-in-the-real-environment-sharpen-response-actions-within-your-organization">Practice in the real environment. Sharpen Response Actions within your organization</h5>
+<p>Make sure that most of the Response Action has been performed on an internal exercise by your Incident Response Team.<br />
+You need to make sure that when an Incident will happen, the team will not just try to follow the playbooks they see first time in their lives, but will be able to quickly execute the actual steps in <strong>your environment</strong>, i.e. blocking an IP address or a domain name.  </p>
+<h5 id="take-training-courses-to-gain-relevant-knowledge">Take training courses to gain relevant knowledge</h5>
+<blockquote>
+<p>We do not rise to the level of our expectations. We fall to the level of our training.  </p>
+</blockquote>
+<p>Here are some relevant training courses that will help you in the Incident Response activities:  </p>
+<ol>
+<li><a href="https://chrissanders.org/training/investigationtheory/">Investigation Theory</a> by Chris Sanders. We recommend you to have it as a mandatory training for every member of your Incident Response team  </li>
+<li><a href="https://www.offensive-security.com/courses-and-certifications/">Offensive Security</a> trainings. We recommend <a href="https://www.offensive-security.com/pwk-oscp/">PWK</a> to begin with  </li>
+<li><a href="https://digital-forensics.sans.org/training/courses">SANS Digital Forensics &amp; Incident Response</a> trainings  </li>
+</ol>
+<p>Offensive Security trainings are in the list because to fight a threat, you need to understand their motivation, tactics, and techniques.  </p>
+<p>At the same time, we assume that you already have a strong technical background in fundamental disciplines — Networking, Operating Systems, and Programming.  </p>
+<h5 id="develop-a-simplified-company-wide-known-way-to-contact-ir-team-in-case-of-suspicious-activity-on-the-user-system-make-sure-that-the-personnel-is-aware-of-it-can-and-will-use-it">Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="raise-personnel-awareness-regarding-phishing-ransomware-social-engineering-and-other-attacks">Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</h5>
+<p>Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.</p>
+<h5 id="make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-the-ability-to-block-an-email-sender">Make sure you have the ability to block an email sender</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-the-ability-to-delete-an-email">Make sure you have the ability to delete an email</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-access-to-external-communication-network-flow-logs">Make sure you have access to external communication Network Flow logs</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-access-to-external-communication-http-logs">Make sure you have access to external communication HTTP logs</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-have-access-to-external-communication-dns-logs">Make sure you have access to external communication DNS logs</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-can-block-an-external-ip-address-from-being-accessed-by-corporate-assets">Make sure you can block an external IP address from being accessed by corporate assets</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-can-block-an-external-domain-name-from-being-accessed-by-corporate-assets">Make sure you can block an external domain name from being accessed by corporate assets</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h4 id="identification">Identification</h4>
+<h5 id="obtain-the-original-phishing-email">Obtain the original phishing email</h5>
+<p>Obtain the original email from one of the available/fastest options:  </p>
+<ul>
+<li>Email Team/Email server: if there is such option  </li>
+<li>Person who reported the attack (if it wasn't detected automatically or reported by victims)  </li>
+<li>Victims: if they reported the attack  </li>
+</ul>
+<p>Ask for the email in <code>.EML</code> format. Instructions:  </p>
+<ol>
+<li>Drug and drop email from Email client to Desktop  </li>
+<li>Archive with password "infected" and send to IR specialists by email  </li>
+</ol>
+<h5 id="response-action-for">Response Action for</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="list-receivers-of-a-specific-email">List receivers of a specific email</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="make-sure-an-email-is-a-phishing-attack">Make sure an email is a phishing attack</h5>
+<p>Check an email and its metadata for evidences of phishing attack:  </p>
+<ul>
+<li><strong>Impersonalisation attempts</strong>: sender is trying to identify himself as somebody he is not  </li>
+<li><strong>Suspicious askings or offers</strong>: download "invoice", click on link with something important etc  </li>
+<li><strong>Psychological manipulations</strong>: invoking a sense of urgency or fear is a common phishing tactic  </li>
+<li><strong>Spelling mistakes</strong>: legitimate messages usually don't have spelling mistakes or poor grammar  </li>
+</ul>
+<p>Explore references of the article to make yourself familiar with phishing attacks history and examples.  </p>
+<h5 id="extract-all-observables-from-the-original-phishing-email">Extract all observables from the original phishing email</h5>
+<p>Extract the data for further response steps:  </p>
+<ul>
+<li>attachments (using munpack tool: <code>munpack email.eml</code>)  </li>
+<li>from, to, cc  </li>
+<li>subject of the email  </li>
+<li>received servers path  </li>
+<li>list of URLs from the text content of the mail body and attachments  </li>
+</ul>
+<p>This Response Action could be automated with <a href="https://blog.thehive-project.org/2018/07/31/emlparser-a-new-cortex-analyzer-for-eml-files/">TheHive EmlParser</a>.  </p>
+<h5 id="put-potentially-compromised-accounts-on-monitoring">Put (potentially) compromised accounts on monitoring</h5>
+<p>Start monitoring for authentification attempts and all potentially harmful actions from (potentially) compromised accounts.<br />
+Look for anomalies, unusual network connections, unusual geolocation/time of work, actions that were never executed before.<br />
+Keep in touch with the real users and, in case of need, ask them if they executing some suspicious actions by themselves or not.  </p>
+<h5 id="response-action-for_1">Response Action for</h5>
+<p>Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.</p>
+<h5 id="response-action-for_2">Response Action for</h5>
+<p>Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.</p>
+<h5 id="response-action-for_3">Response Action for</h5>
+<p>Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.</p>
+<h4 id="containment">Containment</h4>
+<h5 id="block-an-external-ip-address-from-being-accessed-by-corporate-assets">Block an external IP address from being accessed by corporate assets</h5>
+<p>Block an external IP address from being accessed by corporate assets, using the most efficient way.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Be careful blocking IP addresses. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster IP address, you should block (if applicable) a specific URL using alternative Response Action   </li>
+</ul>
+<h5 id="block-an-external-domain-name-from-being-accessed-by-corporate-assets">Block an external domain name from being accessed by corporate assets</h5>
+<p>Block an external domain name from being accessed by corporate assets, using the most efficient way.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Be careful blocking doman names. Make sure it's not a cloud provider or a hoster. If you would like to block something that is hosted on a well-known cloud provider or on a big hoster doman, you should block (if applicable) a specific URL using alternative Response Action   </li>
+</ul>
+<h5 id="block-an-external-url-from-being-accessed-by-corporate-assets">Block an external URL from being accessed by corporate assets</h5>
+<p>Block an external URL from being accessed by corporate assets, using the most efficient way.  </p>
+<h5 id="block-a-domain-name-on-an-email-server">Block a domain name on an Email server</h5>
+<p>Block a domain name on an Email Server using its native filtering functionality.  </p>
+<h5 id="block-an-email-sender-on-the-email-server">Block an email sender on the Email-server</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h4 id="eradication">Eradication</h4>
+<h5 id="delete-malicious-emails-from-a-email-server-and-users-email-boxes">Delete malicious emails from a Email Server and users' email boxes</h5>
+<p>Delete email from an Email Server and users' email boxes using its native functionality.</p>
+<h5 id="response-action-for-compromised-credentials-revocation">Response Action for compromised credentials revocation</h5>
+<p>On this step, you supposed to know what kind of credentials have been compromised.<br />
+You need to revoke them in your Identity and Access Management system where they were created (i.e. Windows AD) using native functionality.  </p>
+<p>Warning:  </p>
+<ul>
+<li>If the adversary has generated Golden Ticket in Windows Domain/forest, you have to revoke KRBTGT Account password <strong>twice</strong> for each domain in a forest and proceed to monitor malicious activity for next 20 minutes (Domain Controller KDC service doesn’t perform validate the user account until the TGT is older than 20 minutes old)</li>
+</ul>
+<h5 id="report-phishing-attack-to-external-companies">Report phishing attack to external companies</h5>
+<p>Report phishing attack to external companites:  </p>
+<ol>
+<li><a href="https://www.sei.cmu.edu/education-outreach/computer-security-incident-response-teams/national-csirts/">National Computer Security Incident Response Teams (CSIRTs)</a>  </li>
+<li><a href="http://www.us-cert.gov/nav/report_phishing.html">U.S. government-operated website</a>  </li>
+<li><a href="http://antiphishing.org/report-phishing/">Anti-Phishing Working Group (APWG)</a>  </li>
+<li><a href="https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en">Google Safe Browsing</a>  </li>
+<li><a href="https://www.ic3.gov/default.aspx">The FBI's Intenet Crime Complaint Center (IC3)</a>  </li>
+</ol>
+<p>This Response Action could be automated with <a href="https://blog.thehive-project.org/2017/06/19/thehive-cortex-and-misp-how-they-all-fit-together/">TheHive and MISP integration</a>.  </p>
+<h4 id="lessons-learned">Lessons learned</h4>
+<h5 id="develop-the-incident-report">Develop the incident report</h5>
+<p>Develop the Incident Report using your corporate template.  </p>
+<p>It should include:  </p>
+<ol>
+<li>Executive Summary with a short description of damage, actions taken, root cause, and key metrics (Time To Detect, Time To Respond, Time To Recover etc)  </li>
+<li>Detailed timeline of adversary actions mapped to <a href="https://attack.mitre.org/tactics/enterprise/">ATT&amp;CK tactics</a> (you can use the <a href="https://en.wikipedia.org/wiki/Kill_chain">Kill Chain</a>, but most probably most of the actions will be in Actions On Objective stage, which is not very representative and useful)  </li>
+<li>Detailed timeline of actions taken by Incident Response Team  </li>
+<li>Root Cause Analysis and Recommendations for improvements based on its conclusion  </li>
+<li>List of specialists involved in Incident Response with their roles  </li>
+</ol>
+<h5 id="conduct-lessons-learned-exercise">Conduct Lessons Learned exercise</h5>
+<p>The Lessons Learned phase evaluates the team's performance through each step. 
+The goal of the phase is to discover how to improve the incident response process.<br />
+Basically, you need to answer some basic questions, using the incident report:  </p>
+<ul>
+<li>What happened?  </li>
+<li>What did we do well?  </li>
+<li>What could we have done better?  </li>
+<li>What will we do differently next time?  </li>
+</ul>
+<p>Keep in mind that the incident report is the key.<br />
+For example, if Time To Respond is too long, it was caused by some problem.<br />
+The only way to solve it is to bring it up and start working on it.  </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../Response_Actions/RA_6102_conduct_lessons_learned_exercise/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(false);
+        };
+    </script>
+
+</body>
+</html>
