@@ -211,7 +211,8 @@ The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC
 - **machine-readable** (`.yml`) for automatic processing/integrations
 - **executable** by Incident Response Platform ([TheHive Case Templates](thehive_templates/) only, at the moment)
 
-Simply saying, the analytics are stored in `.yml` files, that are automatically converted to `.md` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.
+Simply saying, the analytics are stored in `.yml` files, that are automatically converted to `.md` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.  
+For information about customization and usage, please refer to the [usage](https://github.com/atc-project/atc-react#usage) section of the project README.  
 
 ### Response Action
 

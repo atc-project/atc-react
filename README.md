@@ -4,13 +4,15 @@
 
 The project represents the following:
 
-1. A framework for Incident Response techniques categorization
-2. A [collection](docs/Response_Playbooks) of Security Incident Response Playbooks
+1. A [framework](https://atc-project.github.io/atc-react/) for Incident Response techniques categorization
+2. A community-driven [collection](docs/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
 ## The RE&CT Framework
 
 is designed for accumulating, describing and categorizing Incident Response techniques.  
+There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
+
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
 The cells repsresent [Response Actions](#response-action).  
@@ -316,6 +318,16 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
     python3 main.py --thehive
     ```
     You will find the outcome in the `docs` directory.
+
+4. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
+    ```
+    python3 main.py -MK
+    python3 -m mkdocs build
+    ```
+    The website will be stored in the `site` directory.  You can preview it with the next command:
+    ```
+    python3 -m mkdocs serve
+    ```
 
 ### Requirements
 
