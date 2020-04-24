@@ -8,7 +8,7 @@ def create_markdown_dirs():
     config = ATCutils.load_config('scripts/config.yml')
     base_dir = Path(config.get(
         'md_name_of_root_directory',
-        '../generated_analytics/markdown_documents'
+        '../docs'
     ))
 
     target_dir_list = ['Response_Actions', 'Response_Playbooks']

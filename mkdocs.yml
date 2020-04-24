@@ -1,21 +1,19 @@
-site_name: ATC RE&CT
-site_dir: docs/
-docs_dir: generated_analytics/markdown_documents/
+site_name: RE&CT
+site_dir: site/
+docs_dir: docs/
 
 theme:
     name: null
-    custom_dir: 'readthedocs/'
+    custom_dir: 'docs/readthedocs/'
     navigation_depth: 5
+    titles_only: false
 
-extra_css:
-  - extra.css
-
-markdown_extensions:
-    - tables
+repo_url: https://github.com/atc-project/atc-react
+edit_uri: blob/master/docs/
 
 nav:
     - Introduction:
-        - RE&CT: README.md
+        - RE&CT: index.md
     - Response Actions:
         - Preparation:
             - "RA1101: Practice": ./Response_Actions/RA_1101_practice.md
