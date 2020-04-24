@@ -9,17 +9,16 @@
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>RE&CT - ATC RE&CT</title>
+  <title>RE&CT - RE&CT</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/theme_extra.css" />
-  <link href="extra.css" rel="stylesheet" />
   
   <script>
     // Current page data
     var mkdocs_page_name = "RE&CT";
-    var mkdocs_page_input_path = "README.md";
+    var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -36,7 +35,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> ATC RE&CT</a>
+        <a href="." class="icon icon-home"> RE&CT</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -49,8 +48,6 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href=".">RE&CT</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#the-rect-framework">The RE&amp;CT Framework</a>
-    </li>
     <li class="toctree-l2"><a class="reference internal" href="#actionable-playbooks">Actionable Playbooks</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#response-action">Response Action</a>
@@ -61,17 +58,7 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#data-source-of-the-atc-framework">Data source of the ATC framework</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#requirements">Requirements</a>
-    </li>
-        </ul>
-    </li>
     <li class="toctree-l2"><a class="reference internal" href="#contacts">Contacts</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#authors">Authors</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a>
     </li>
@@ -705,7 +692,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">ATC RE&CT</a>
+        <a href=".">RE&CT</a>
       </nav>
 
       
@@ -724,6 +711,9 @@
     <li>RE&CT</li>
     <li class="wy-breadcrumbs-aside">
       
+        <a href="https://github.com/atc-project/atc-react/blob/master/docs/index.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
     </li>
   </ul>
   
@@ -732,16 +722,9 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="atc-rect">ATC RE&amp;CT</h1>
-<p><img alt="" src="logo_v1.png" /></p>
-<p>The project represents the following:</p>
-<ol>
-<li>A framework for Incident Response techniques categorization</li>
-<li>A <a href="generated_analytics/markdown_documents/Response_Playbooks">collection</a> of Security Incident Response Playbooks</li>
-<li>A data source of the <a href="https://github.com/atc-project/atomic-threat-coverage">Atomic Threat Coverage</a> framework</li>
-</ol>
-<h2 id="the-rect-framework">The RE&amp;CT Framework</h2>
-<p>is designed for accumulating, describing and categorizing Incident Response techniques.<br />
+                <h1 id="rect">RE&amp;CT</h1>
+<p><img alt="" src="images/logo_v1.png" /></p>
+<p>The RE&amp;CT Framework is designed for accumulating, describing and categorizing Incident Response techniques.<br />
 RE&amp;CT's philosophy is based on the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> framework.<br />
 The collumns repsresent stages of <a href="https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/">The Six Stages of Incident Response Process</a>.<br />
 The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
@@ -758,143 +741,143 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1102_take_trainings.md"><strong>Take trainings</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md"><strong>Get original email</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3301_block_domain_on_email.md"><strong>Block domain on email</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4301_delete_malicious_emails.md"><strong>Delete malicious emails</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_1102_take_trainings/"><strong>Take trainings</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_2302_get_original_email/"><strong>Get original email</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3301_block_domain_on_email/"><strong>Block domain on email</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_4301_delete_malicious_emails/"><strong>Delete malicious emails</strong></a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/38">Reinstall host from golden image*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_6101_develop_incident_report.md"><strong>Develop incident report</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_6101_develop_incident_report/"><strong>Develop incident report</strong></a></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1101_practice.md"><strong>Practice</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2305_extract_observables_from_email.md"><strong>Extract observables from email</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3201_block_external_ip_address.md"><strong>Block external IP address</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4701_revoke_compromised_credentials.md"><strong>Revoke compromised credentials</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_1101_practice/"><strong>Practice</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_2305_extract_observables_from_email/"><strong>Extract observables from email</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3201_block_external_ip_address/"><strong>Block external IP address</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_4701_revoke_compromised_credentials/"><strong>Revoke compromised credentials</strong></a></td>
 <td align="center"></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_6102_conduct_lessons_learned_exercise.md"><strong>Conduct Lessons Learned exercise</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_6102_conduct_lessons_learned_exercise/"><strong>Conduct Lessons Learned exercise</strong></a></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1103_raise_personnel_awareness.md">Raise personnel awareness*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2304_make_sure_email_is_a_phishing.md"><strong>Make sure email is a phishing</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3202_block_internal_ip_address.md"><strong>Block internal IP address</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md"><strong>Report phishing attack to external companies</strong></a></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md">Make personnel report suspicious activity*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md"><strong>Put compromised accounts on monitoring</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3203_block_external_domain.md"><strong>Block external domain</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4102_report_incident_to_external_companies.md"><strong>Report incident to external companies</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_1103_raise_personnel_awareness/">Raise personnel awareness*</a></td>
+<td align="center"><a href="Response_Actions/RA_2304_make_sure_email_is_a_phishing/"><strong>Make sure email is a phishing</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3202_block_internal_ip_address/"><strong>Block internal IP address</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_4101_report_phishing_attack_to_external_companies/"><strong>Report phishing attack to external companies</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1105_set_up_relevant_data_collection.md">Set up relevant data collection*</a></td>
+<td align="center"><a href="Response_Actions/RA_1104_make_personnel_report_suspicious_activity/">Make personnel report suspicious activity*</a></td>
+<td align="center"><a href="Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/"><strong>Put compromised accounts on monitoring</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3203_block_external_domain/"><strong>Block external domain</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_4102_report_incident_to_external_companies/"><strong>Report incident to external companies</strong></a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="Response_Actions/RA_1105_set_up_relevant_data_collection/">Set up relevant data collection*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/39">Analyse filehash*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3204_block_internal_domain.md"><strong>Block internal domain</strong></a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_4401_remove_file_from_host.md">Remove file from host*</a></td>
+<td align="center"><a href="Response_Actions/RA_3204_block_internal_domain/"><strong>Block internal domain</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_4401_remove_file_from_host/">Remove file from host*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage.md">Set up a centralized long-term log storage*</a></td>
+<td align="center"><a href="Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage/">Set up a centralized long-term log storage*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/40">Analyse IP*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3205_block_external_url.md"><strong>Block external URL</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3205_block_external_url/"><strong>Block external URL</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1107_develop_communication_map.md">Develop communication map*</a></td>
+<td align="center"><a href="Response_Actions/RA_1107_develop_communication_map/">Develop communication map*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/41">Analyse macOS Mach-O*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3206_block_internal_url.md"><strong>Block internal URL</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3206_block_internal_url/"><strong>Block internal URL</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1108_make_sure_there_are_backups.md">Make sure there are backups*</a></td>
+<td align="center"><a href="Response_Actions/RA_1108_make_sure_there_are_backups/">Make sure there are backups*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/42">Analyse MS Office file*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3207_block_port_external_communication.md"><strong>Block port external communication</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3207_block_port_external_communication/"><strong>Block port external communication</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1109_get_network_architecture_map.md">Get network architecture map*</a></td>
+<td align="center"><a href="Response_Actions/RA_1109_get_network_architecture_map/">Get network architecture map*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/43">Analyse PDF*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3208_block_port_internal_communication.md"><strong>Block port internal communication</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3208_block_port_internal_communication/"><strong>Block port internal communication</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1110_get_access_control_matrix.md">Get access control matrix*</a></td>
+<td align="center"><a href="Response_Actions/RA_1110_get_access_control_matrix/">Get access control matrix*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/44">Analyse Unix ELF*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3209_block_user_external_communication.md"><strong>Block user external communication</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3209_block_user_external_communication/"><strong>Block user external communication</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1111_develop_assets_knowledge_base.md">Develop assets knowledge base*</a></td>
+<td align="center"><a href="Response_Actions/RA_1111_develop_assets_knowledge_base/">Develop assets knowledge base*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/32">Analyse URI*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3210_block_user_internal_communication.md"><strong>Block user internal communication</strong></a></td>
+<td align="center"><a href="Response_Actions/RA_3210_block_user_internal_communication/"><strong>Block user internal communication</strong></a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1112_check_analysis_toolset.md">Check analysis toolset*</a></td>
+<td align="center"><a href="Response_Actions/RA_1112_check_analysis_toolset/">Check analysis toolset*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/33">Analyse MS Windows PE*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3302_block_sender_on_email.md">Block sender on email*</a></td>
+<td align="center"><a href="Response_Actions/RA_3302_block_sender_on_email/">Block sender on email*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1113_access_vulnerability_management_system_logs.md">Access vulnerability management system logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1113_access_vulnerability_management_system_logs/">Access vulnerability management system logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/34">List processes executed*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3401_quarantine_file_by_format.md">Quarantine file by format*</a></td>
+<td align="center"><a href="Response_Actions/RA_3401_quarantine_file_by_format/">Quarantine file by format*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1207_access_vpn_logs.md">Access VPN logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1207_access_vpn_logs/">Access VPN logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/35">List services executed*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3402_quarantine_file_by_hash.md">Quarantine file by hash*</a></td>
+<td align="center"><a href="Response_Actions/RA_3402_quarantine_file_by_hash/">Quarantine file by hash*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1208_access_dhcp_logs.md">Access DHCP logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1208_access_dhcp_logs/">Access DHCP logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/36">List users opened email*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3403_quarantine_file_by_path.md">Quarantine file by path*</a></td>
+<td align="center"><a href="Response_Actions/RA_3403_quarantine_file_by_path/">Quarantine file by path*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1201_access_external_network_flow_logs.md">Access external network flow logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1201_access_external_network_flow_logs/">Access external network flow logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/37">List registry keys modified*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3404_quarantine_file_by_content_pattern.md">Quarantine file by content pattern*</a></td>
+<td align="center"><a href="Response_Actions/RA_3404_quarantine_file_by_content_pattern/">Quarantine file by content pattern*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1202_access_internal_network_flow_logs.md">Access internal network flow logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1202_access_internal_network_flow_logs/">Access internal network flow logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/45">List hosts communicated with internal domain*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_3405_quarantine_file_by_metadata.md">Quarantine file by metadata*</a></td>
+<td align="center"><a href="Response_Actions/RA_3405_quarantine_file_by_metadata/">Quarantine file by metadata*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1203_access_internal_http_logs.md">Access internal http logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1203_access_internal_http_logs/">Access internal http logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/46">List hosts communicated with internal IP*</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -902,7 +885,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1204_access_external_http_logs.md">Access external http logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_1204_access_external_http_logs/">Access external http logs*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/47">List hosts communicated with internal URL*</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -910,31 +893,31 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1205_access_internal_dns_logs.md">Access internal dns logs*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md">List hosts communicated with external domain*</a></td>
+<td align="center"><a href="Response_Actions/RA_1205_access_internal_dns_logs/">Access internal dns logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/">List hosts communicated with external domain*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1206_access_external_dns_logs.md">Access external dns logs*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md">List hosts communicated with external URL*</a></td>
+<td align="center"><a href="Response_Actions/RA_1206_access_external_dns_logs/">Access external dns logs*</a></td>
+<td align="center"><a href="Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/">List hosts communicated with external URL*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1209_access_internal_packet_capture_data.md">Access internal packet capture data*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md">List hosts communicated with external IP*</a></td>
+<td align="center"><a href="Response_Actions/RA_1209_access_internal_packet_capture_data/">Access internal packet capture data*</a></td>
+<td align="center"><a href="Response_Actions/RA_2215_list_hosts_communicated_with_external_url/">List hosts communicated with external IP*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1210_access_external_packet_capture_data.md">Access external packet capture data*</a></td>
+<td align="center"><a href="Response_Actions/RA_1210_access_external_packet_capture_data/">Access external packet capture data*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/48">List files created*</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -942,7 +925,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md">Get ability to block external ip address*</a></td>
+<td align="center"><a href="Response_Actions/RA_1211_get_ability_to_block_external_ip_address/">Get ability to block external ip address*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/49">List victims of security alert*</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -950,7 +933,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1212_get_ability_to_block_internal_ip_address.md">Get ability to block internal ip address*</a></td>
+<td align="center"><a href="Response_Actions/RA_1212_get_ability_to_block_internal_ip_address/">Get ability to block internal ip address*</a></td>
 <td align="center"><a href="https://github.com/atc-project/atc-react/issues/31">Analyse domain name*</a></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -958,159 +941,151 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1213_get_ability_to_block_external_domain.md">Get ability to block external domain*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2102_list_host_vulnerabilities.md">List host vulnerabilities*</a></td>
+<td align="center"><a href="Response_Actions/RA_1213_get_ability_to_block_external_domain/">Get ability to block external domain*</a></td>
+<td align="center"><a href="Response_Actions/RA_2102_list_host_vulnerabilities/">List host vulnerabilities*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1214_get_ability_to_block_internal_domain.md">Get ability to block internal domain*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2207_list_hosts_communicated_by_port.md">List hosts communicated by port*</a></td>
+<td align="center"><a href="Response_Actions/RA_1214_get_ability_to_block_internal_domain/">Get ability to block internal domain*</a></td>
+<td align="center"><a href="Response_Actions/RA_2207_list_hosts_communicated_by_port/">List hosts communicated by port*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1215_get_ability_to_block_external_url.md">Get ability to block external url*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md">List hosts connected to VPN*</a></td>
+<td align="center"><a href="Response_Actions/RA_1215_get_ability_to_block_external_url/">Get ability to block external url*</a></td>
+<td align="center"><a href="Response_Actions/RA_2208_list_hosts_connected_to_vpn/">List hosts connected to VPN*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1216_get_ability_to_block_internal_url.md">Get ability to block internal url*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2209_list_host_connected_to_intranet.md">List host connected to intranet*</a></td>
+<td align="center"><a href="Response_Actions/RA_1216_get_ability_to_block_internal_url/">Get ability to block internal url*</a></td>
+<td align="center"><a href="Response_Actions/RA_2209_list_host_connected_to_intranet/">List host connected to intranet*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1217_get_ability_to_block_port_external_communication.md">Get ability to block port external communication*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2210_get_data_transferred_by_ftp.md">Get data transferred by FTP*</a></td>
+<td align="center"><a href="Response_Actions/RA_1217_get_ability_to_block_port_external_communication/">Get ability to block port external communication*</a></td>
+<td align="center"><a href="Response_Actions/RA_2210_get_data_transferred_by_ftp/">Get data transferred by FTP*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1218_get_ability_to_block_port_internal_communication.md">Get ability to block port internal communication*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2211_get_data_transferred_by_smb.md">Get data transferred by SMB*</a></td>
+<td align="center"><a href="Response_Actions/RA_1218_get_ability_to_block_port_internal_communication/">Get ability to block port internal communication*</a></td>
+<td align="center"><a href="Response_Actions/RA_2211_get_data_transferred_by_smb/">Get data transferred by SMB*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1219_get_ability_to_block_user_external_communication.md">Get ability to block user external communication*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2212_get_data_transferred_by_http.md">Get data transferred by HTTP*</a></td>
+<td align="center"><a href="Response_Actions/RA_1219_get_ability_to_block_user_external_communication/">Get ability to block user external communication*</a></td>
+<td align="center"><a href="Response_Actions/RA_2212_get_data_transferred_by_http/">Get data transferred by HTTP*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1220_get_ability_to_block_user_internal_communication.md">Get ability to block user internal communication*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2303_list_email_receivers.md">List email receivers*</a></td>
+<td align="center"><a href="Response_Actions/RA_1220_get_ability_to_block_user_internal_communication/">Get ability to block user internal communication*</a></td>
+<td align="center"><a href="Response_Actions/RA_2303_list_email_receivers/">List email receivers*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md">Get ability to list users opened email*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2409_find_file_by_format.md">Find file by format*</a></td>
+<td align="center"><a href="Response_Actions/RA_1301_get_ability_to_list_users_opened_email/">Get ability to list users opened email*</a></td>
+<td align="center"><a href="Response_Actions/RA_2409_find_file_by_format/">Find file by format*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1302_get_ability_to_list_users_received_email.md">Get ability to list users received email*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2410_find_file_by_hash.md">Find file by hash*</a></td>
+<td align="center"><a href="Response_Actions/RA_1302_get_ability_to_list_users_received_email/">Get ability to list users received email*</a></td>
+<td align="center"><a href="Response_Actions/RA_2410_find_file_by_hash/">Find file by hash*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1303_get_ability_to_block_email_domain.md">Get ability to block email domain*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2411_find_file_by_path.md">Find file by path*</a></td>
+<td align="center"><a href="Response_Actions/RA_1303_get_ability_to_block_email_domain/">Get ability to block email domain*</a></td>
+<td align="center"><a href="Response_Actions/RA_2411_find_file_by_path/">Find file by path*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1304_get_ability_to_block_email_sender.md">Get ability to block an email sender*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2412_find_file_by_content_pattern.md">Find file by content pattern*</a></td>
+<td align="center"><a href="Response_Actions/RA_1304_get_ability_to_block_email_sender/">Get ability to block an email sender*</a></td>
+<td align="center"><a href="Response_Actions/RA_2412_find_file_by_content_pattern/">Find file by content pattern*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1305_get_ability_to_delete_email.md">Get ability to delete an email*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2413_find_file_by_metadata.md">Find file by metadata*</a></td>
+<td align="center"><a href="Response_Actions/RA_1305_get_ability_to_delete_email/">Get ability to delete an email*</a></td>
+<td align="center"><a href="Response_Actions/RA_2413_find_file_by_metadata/">Find file by metadata*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1401_get_ability_to_find_file_by_format.md">Get ability to find file by format*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2414_list_files_modified.md">List files modified*</a></td>
+<td align="center"><a href="Response_Actions/RA_1401_get_ability_to_find_file_by_format/">Get ability to find file by format*</a></td>
+<td align="center"><a href="Response_Actions/RA_2414_list_files_modified/">List files modified*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1402_get_ability_to_find_file_by_hash.md">Get ability to find file by hash*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2415_list_files_deleted.md">List files deleted*</a></td>
+<td align="center"><a href="Response_Actions/RA_1402_get_ability_to_find_file_by_hash/">Get ability to find file by hash*</a></td>
+<td align="center"><a href="Response_Actions/RA_2415_list_files_deleted/">List files deleted*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1403_get_ability_to_find_file_by_path.md">Get ability to find file by path*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2416_list_files_downloaded.md">List files downloaded*</a></td>
+<td align="center"><a href="Response_Actions/RA_1403_get_ability_to_find_file_by_path/">Get ability to find file by path*</a></td>
+<td align="center"><a href="Response_Actions/RA_2416_list_files_downloaded/">List files downloaded*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern.md">Get ability to find file by content pattern*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md">List files with tampered timestamps*</a></td>
+<td align="center"><a href="Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern/">Get ability to find file by content pattern*</a></td>
+<td align="center"><a href="Response_Actions/RA_2417_list_files_with_tampered_timestamps/">List files with tampered timestamps*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1405_get_ability_to_find_file_by_metadata.md">Get ability to find file by metadata*</a></td>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_2418_download_file_from_host.md">Download file from host*</a></td>
+<td align="center"><a href="Response_Actions/RA_1405_get_ability_to_find_file_by_metadata/">Get ability to find file by metadata*</a></td>
+<td align="center"><a href="Response_Actions/RA_2418_download_file_from_host/">Download file from host*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps.md">Get ability to find files with tampered timestamps*</a></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1407_get_ability_to_list_files_modified.md">Get ability to list files modified*</a></td>
+<td align="center"><a href="Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps/">Get ability to find files with tampered timestamps*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1118,7 +1093,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1408_get_ability_to_list_files_deleted.md">Get ability to list files deleted*</a></td>
+<td align="center"><a href="Response_Actions/RA_1407_get_ability_to_list_files_modified/">Get ability to list files modified*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1126,7 +1101,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md">Get ability to list files downloaded*</a></td>
+<td align="center"><a href="Response_Actions/RA_1408_get_ability_to_list_files_deleted/">Get ability to list files deleted*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1134,7 +1109,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1410_get_ability_to_download_file_from_host.md">Get ability to download file from host*</a></td>
+<td align="center"><a href="Response_Actions/RA_1409_get_ability_to_list_files_downloaded/">Get ability to list files downloaded*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1142,7 +1117,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md">Manage remote computer management system policies*</a></td>
+<td align="center"><a href="Response_Actions/RA_1410_get_ability_to_download_file_from_host/">Get ability to download file from host*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1150,7 +1125,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format.md">Get ability to quarantine file by format*</a></td>
+<td align="center"><a href="Response_Actions/RA_1601_manage_remote_computer_management_system_policies/">Manage remote computer management system policies*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1158,7 +1133,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md">Get ability to quarantine file by hash*</a></td>
+<td align="center"><a href="Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format/">Get ability to quarantine file by format*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1166,7 +1141,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md">Get ability to quarantine file by path*</a></td>
+<td align="center"><a href="Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash/">Get ability to quarantine file by hash*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1174,7 +1149,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md">Get ability to quarantine file by content pattern*</a></td>
+<td align="center"><a href="Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path/">Get ability to quarantine file by path*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1182,7 +1157,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md">Get ability to quarantine file by metadata*</a></td>
+<td align="center"><a href="Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern/">Get ability to quarantine file by content pattern*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1190,7 +1165,15 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="generated_analytics/markdown_documents/Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md">Get ability to remove file from host*</a></td>
+<td align="center"><a href="Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata/">Get ability to quarantine file by metadata*</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="Response_Actions/RA_1416_get_ability_to_remove_file_from_host/">Get ability to remove file from host*</a></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1199,6 +1182,7 @@ The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <p>Response Actions marked by "*" sign are just placeholders, listed to define the way RE&amp;CT will grow.<br />
 The links lead to GitHub issues, that you can use to contribute your analytics.</p>
 <h2 id="actionable-playbooks">Actionable Playbooks</h2>
@@ -1206,27 +1190,11 @@ The links lead to GitHub issues, that you can use to contribute your analytics.<
 <ul>
 <li><strong>human-readable</strong> (<code>.md</code>) for sharing/using in operations</li>
 <li><strong>machine-readable</strong> (<code>.yml</code>) for automatic processing/integrations</li>
-<li><strong>executable</strong> by Incident Response Platform (<a href="analytics/generated/thehive_templates/">TheHive Case Templates</a> only, at the moment)</li>
+<li><strong>executable</strong> by Incident Response Platform (<a href="thehive_templates/">TheHive Case Templates</a> only, at the moment)</li>
 </ul>
 <p>Simply saying, the analytics are stored in <code>.yml</code> files, that are automatically converted to <code>.md</code> documents (with <a href="https://palletsprojects.com/p/jinja/">jinja</a>) and <code>.json</code> TheHive Case Templates.</p>
 <h3 id="response-action">Response Action</h3>
-<p>is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks and TheHive Case Templates' tasks. </p>
-<p>Here is an example of Response Action:</p>
-<details>
-  <summary>Initial YAML file (click to expand)</summary>
-  <img src="images/ra_yaml_v4.png" />
-</details>
-
-<details>
-  <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/ra_markdown_v4.png" />
-</details>
-
-<details>
-  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
-  <img src="images/ra_confluence_v2.png" />
-</details>
-
+<p>is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. </p>
 <p>Each Response Action mapped to a specific stage of <a href="https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/">The Six Stages of Incident Response Process</a>.<br />
 The first digit of the Response Action ID reflects a stage number.<br />
 The second digit of the Response Action ID reflects a category it belongs to:</p>
@@ -1240,26 +1208,10 @@ The second digit of the Response Action ID reflects a category it belongs to:</p
 <li>Identity</li>
 </ol>
 <p>This way, using Response Action ID, you can see the Stage and Category it belongs to.<br />
-For example, <a href="generated_analytics/markdown_documents/Response_Actions/RA_2302_get_original_email.md">RA<strong>23</strong>02: Get original email</a> is related to Stage <strong>2</strong> (Identification) and Category <strong>3</strong> (Email).</p>
+For example, <a href="Response_Actions/RA_2302_get_original_email/">RA<strong>23</strong>02: Get original email</a> is related to Stage <strong>2</strong> (Identification) and Category <strong>3</strong> (Email).</p>
 <p>The categorization aims to improve Incident Response process maturity assessment and roadmap development.</p>
 <h3 id="response-playbook">Response Playbook</h3>
 <p>is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> or <a href="https://github.com/misinfosecproject/amitt_framework">Misinfosec's  AMITT</a> frameworks.</p>
-<p>Here is an example of Response Playbook:</p>
-<details>
-  <summary>Initial YAML file (click to expand)</summary>
-  <img src="images/rp_yaml_v4.png" />
-</details>
-
-<details>
-  <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="images/rp_markdown_v5.png" />
-</details>
-
-<details>
-  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
-  <img src="images/rp_confluence_v1.png" />
-</details>
-
 <p>Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.</p>
 <h3 id="thehive-case-templates">TheHive Case Templates</h3>
 <p>are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). </p>
@@ -1274,48 +1226,19 @@ For example, <a href="generated_analytics/markdown_documents/Response_Actions/RA
   <img src="images/thehive_case_task_v1.png" />
 </details>
 
-<p>TheHive Case Templates could be found in <code>generated_analytics/thehive_templates</code> directory and could be imported to TheHive via its web interface.</p>
-<h2 id="data-source-of-the-atc-framework">Data source of the ATC framework</h2>
-<p>ATC RE&amp;CT project plays a role of data source for the <a href="https://github.com/atc-project/atomic-threat-coverage">Atomic Threat Coverage</a> framework, that uses it to generate markdown and confluence knowledge bases, ATT&amp;CK Navigator profiles, Elasticsearch indexes and <a href="https://github.com/atc-project/atomic-threat-coverage#how-it-works">other</a> analytics. </p>
-<p>Originally it was a part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. </p>
-<h2 id="usage">Usage</h2>
-<ol>
-<li>
-<p>Make sure you are compliant with the <a href="#requirements">requirements</a></p>
-</li>
-<li>
-<p>Modify existing <code>.yml</code> files, or develop your own analytics using the templates of <a href="response_actions/respose_action.yml.template">Response Actions</a> or <a href="response_playbooks/respose_playbook.yml.template">Response Playbooks</a>. They should be stored in the directories according to their type.</p>
-</li>
-<li>
-<p>When <code>.yml</code> files are ready, convert them to <code>.md</code> documents and TheHive templates using the following commands:
-    <code>python3 main.py --markdown --auto --init
-    python3 main.py --thehive</code>
-    You will find the outcome in the <code>generated_analytics</code> directory.</p>
-</li>
-</ol>
-<h3 id="requirements">Requirements</h3>
-<ul>
-<li>Python 3.7</li>
-<li><a href="https://pypi.org/project/PyYAML/">PyYAML</a> and <a href="https://pypi.org/project/Jinja2/">jinja2</a> Python libraries. They could be installed with the following command:
-    <code>python3 -m pip install -r requirements.txt</code></li>
-</ul>
+<p><br>
+TheHive Case Templates could be found in <code>docs/thehive_templates</code> directory and could be imported to TheHive via its web interface.</p>
 <h2 id="contacts">Contacts</h2>
 <ul>
 <li>Folow us on <a href="https://twitter.com/atc_project">Twitter</a> for updates</li>
 <li>Join discussions in <a href="https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA">Slack</a> or <a href="https://t.me/atomic_threat_coverage">Telegram</a> </li>
 </ul>
-<h2 id="authors">Authors</h2>
-<ul>
-<li>Jakob Weinzettl, <a href="https://github.com/mrblacyk">@mrblacyk</a></li>
-<li>Mateusz Wydra, <a href="https://github.com/sn0w0tter">@sn0w0tter</a></li>
-<li>Daniil Yugoslavskiy, <a href="https://twitter.com/yugoslavskiy">@yugoslavskiy</a></li>
-</ul>
 <h2 id="contributors">Contributors</h2>
-<p>Would you like to become one? You are very welcome! Our <a href="CONTRIBUTING.md">CONTRIBUTING</a> guideline is a good starting point.</p>
+<p>Would you like to become one? You are very welcome! Our <a href="https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> guideline is a good starting point.</p>
 <h2 id="roadmap">Roadmap</h2>
 <p>The roadmap and related discussions could be found in the project <a href="https://github.com/atc-project/atc-react/issues">issues</a>.</p>
 <h2 id="license">License</h2>
-<p>See the <a href="LICENSE">LICENSE</a> file.</p>
+<p>See the <a href="https://github.com/atc-project/atc-react/blob/master/LICENSE">LICENSE</a> file.</p>
               
             </div>
           </div>
@@ -1341,6 +1264,8 @@ For example, <a href="generated_analytics/markdown_documents/Response_Actions/RA
 
   <div class="rst-versions" role="note" aria-label="versions">
     <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/atc-project/atc-react/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
       
