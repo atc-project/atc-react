@@ -4,7 +4,8 @@
 | **Description**             | Make sure you have access to internal communication Packet Capture data   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | preparation         |
+| **Category**                | Networking      |
+| **Stage**                   | Preparation         |
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 | **Requirements** |<ul><li>DN_PCAP</li></ul>|
 

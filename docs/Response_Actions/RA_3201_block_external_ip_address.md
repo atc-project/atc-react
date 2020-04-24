@@ -4,7 +4,8 @@
 | **Description**             | Block an external IP address from being accessed by corporate assets   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Stage**                   | containment         |
+| **Category**                | Networking      |
+| **Stage**                   | Containment         |
 | **Requirements** |<ul><li>MS_border_firewall</li><li>MS_border_proxy</li><li>MS_border_ips</li><li>MS_border_ngfw</li><li>MS_host_firewall</li></ul>|
 
 ### Workflow

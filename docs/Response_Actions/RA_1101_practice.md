@@ -4,7 +4,8 @@
 | **Description**             | Practice in the real environment. Sharpen Response Actions within your organization   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 08.04.2020 |
-| **Stage**                   | preparation         |
+| **Category**                | General      |
+| **Stage**                   | Preparation         |
 
 ### Workflow
 

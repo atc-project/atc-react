@@ -4,7 +4,8 @@
 | **Description**             | Put (potentially) compromised accounts on monitoring   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Stage**                   | identification         |
+| **Category**                | General      |
+| **Stage**                   | Identification         |
 
 ### Workflow
 

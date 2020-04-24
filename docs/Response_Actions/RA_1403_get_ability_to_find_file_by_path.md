@@ -4,7 +4,8 @@
 | **Description**             | Make sure you have the ability to find a file by its path, including name   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | preparation         |
+| **Category**                | File      |
+| **Stage**                   | Preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

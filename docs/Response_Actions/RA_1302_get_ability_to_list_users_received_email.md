@@ -4,7 +4,8 @@
 | **Description**             | Make sure you have the ability to list users who received a particular email   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | preparation         |
+| **Category**                | Email      |
+| **Stage**                   | Preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

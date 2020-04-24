@@ -4,7 +4,8 @@
 | **Description**             | Remove a file from a host   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | eradication         |
+| **Category**                | File      |
+| **Stage**                   | Eradication         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
