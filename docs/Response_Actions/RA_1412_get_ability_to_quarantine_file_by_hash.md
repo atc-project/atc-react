@@ -4,7 +4,8 @@
 | **Description**             | Make sure you have the ability to block a file from being accessed by its hash   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | preparation         |
+| **Category**                | File      |
+| **Stage**                   | Preparation         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

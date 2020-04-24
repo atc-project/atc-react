@@ -4,7 +4,8 @@
 | **Description**             | Take training courses to gain relevant knowledge   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 08.04.2020 |
-| **Stage**                   | preparation         |
+| **Category**                | General      |
+| **Stage**                   | Preparation         |
 
 ### Workflow
 

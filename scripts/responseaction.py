@@ -55,6 +55,15 @@ class ResponseAction:
                 .get('title'))}
         )
 
+        self.ra_parsed_file.update(
+            {'category': ATCutils.get_ra_category(self.ra_parsed_file
+                .get('id'))}
+        )
+
+        self.ra_parsed_file.update(
+            {'stage': self.ra_parsed_file.get('stage').capitalize()}
+        )
+
         self.content = template.render(self.ra_parsed_file)
 
     def save_markdown_file(self,

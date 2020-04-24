@@ -4,7 +4,8 @@
 | **Description**             | Block an email sender on the Email-server   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | containment         |
+| **Category**                | Email      |
+| **Stage**                   | Containment         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

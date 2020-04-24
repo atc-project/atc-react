@@ -4,7 +4,8 @@
 | **Description**             | Develop the incident report   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Stage**                   | lessons_learned         |
+| **Category**                | General      |
+| **Stage**                   | Lessons_learned         |
 | **References** |<ul><li>[https://attack.mitre.org/tactics/enterprise/](https://attack.mitre.org/tactics/enterprise/)</li><li>[https://en.wikipedia.org/wiki/Kill_chain](https://en.wikipedia.org/wiki/Kill_chain)</li></ul>|
 
 ### Workflow

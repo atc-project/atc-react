@@ -4,7 +4,8 @@
 | **Description**             | Response Action for compromised credentials revocation   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Stage**                   | eradication         |
+| **Category**                | Identity      |
+| **Stage**                   | Eradication         |
 | **References** |<ul><li>[https://adsecurity.org/?p=556](https://adsecurity.org/?p=556)</li><li>[https://adsecurity.org/?p=483](https://adsecurity.org/?p=483)</li></ul>|
 
 ### Workflow

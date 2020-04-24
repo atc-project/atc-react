@@ -243,3 +243,25 @@ class ATCutils:
                 new_title += word
             return new_title        
         return title
+
+    @staticmethod
+    def get_ra_category(ra_id):
+        """Get a Response Action category, i.e. file, network, email, etc
+        Using the the RA ID
+        """
+        categories = {
+          "General": 1,
+          "Networking": 2,
+          "Email": 3,
+          "File": 4,
+          "Processes": 5,
+          "Configuration": 6,
+          "Identity": 7
+        }
+
+        for name, number in categories.items():
+            category_re = re.compile(r'RA\d{1}' + str(number) + '.*$')
+            if category_re.match(ra_id):
+                return name
+
+        return "N/A"

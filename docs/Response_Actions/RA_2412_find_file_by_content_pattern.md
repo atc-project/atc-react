@@ -4,7 +4,8 @@
 | **Description**             | Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Stage**                   | identification         |
+| **Category**                | File      |
+| **Stage**                   | Identification         |
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
