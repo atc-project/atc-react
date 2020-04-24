@@ -321,10 +321,10 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 4. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
     ```
-    python3 main.py -MK
+    python3 main.py -MK      	# automatic mkdocs config (navigation) generation
     python3 -m mkdocs build
     ```
-    The website will be stored in the `site` directory.  You can preview it with the next command:
+    The website will be stored in the `site` directory.  You can preview it with the following command:
     ```
     python3 -m mkdocs serve
     ```
@@ -332,7 +332,7 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 ### Requirements
 
 - Python 3.7
-- [PyYAML](https://pypi.org/project/PyYAML/) and [jinja2](https://pypi.org/project/Jinja2/) Python libraries. They could be installed with the following command:
+- [PyYAML](https://pypi.org/project/PyYAML/), [mkdocs](https://pypi.org/project/mkdocs/) and [jinja2](https://pypi.org/project/Jinja2/) Python libraries. They could be installed with the following command:
     ```
     python3 -m pip install -r requirements.txt
     ```
