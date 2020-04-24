@@ -1,6 +1,6 @@
 # ATC RE&CT
 
-![](docs/images/logo_v1.png)
+![](docs/images/logo_v2.png)
 
 The project represents the following:
 

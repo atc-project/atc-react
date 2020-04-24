@@ -1,6 +1,6 @@
 # RE&CT
 
-![](images/logo_v1.png)
+![](images/logo_v2.png)
 
 The RE&CT Framework is designed for accumulating, describing and categorizing Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
