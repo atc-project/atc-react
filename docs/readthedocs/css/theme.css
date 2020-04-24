@@ -4513,7 +4513,7 @@ button[disabled] {
     float: left;
     top: 100%;
     min-width: 100%;
-    background: #fcfcfc;
+    background: #ffffff;
     z-index: 100;
     border: solid 1px #cfd7dd;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
@@ -4571,7 +4571,7 @@ button[disabled] {
 }
 
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu {
-    background: #fcfcfc;
+    background: #ffffff;
     margin-top: 2px
 }
 
@@ -5964,14 +5964,14 @@ article ol li ul li {
     padding: .4045em 1.618em;
     font-weight: bold;
     position: relative;
-    background: #fcfcfc;
+    background: #ffffff;
     border: none;
     padding-left: 1.618em -4px
 }
 
 .wy-menu-vertical li.on a:hover,
 .wy-menu-vertical li.current>a:hover {
-    background: #fcfcfc
+    background: #ffffff
 }
 
 .wy-menu-vertical li.on a:hover span.toctree-expand,
@@ -6108,7 +6108,7 @@ article ol li ul li {
     text-align: center;
     padding: .809em;
     display: block;
-    color: #fcfcfc;
+    color: #ffffff;
     margin-bottom: .809em
 }
 
@@ -6131,7 +6131,7 @@ article ol li ul li {
 
 .wy-side-nav-search>a,
 .wy-side-nav-search .wy-dropdown>a {
-    color: #fcfcfc;
+    color: #ffffff;
     font-size: 100%;
     font-weight: bold;
     display: inline-block;
@@ -6209,7 +6209,7 @@ article ol li ul li {
 }
 
 .wy-body-for-nav {
-    background: #fcfcfc
+    background: #ffffff
 }
 
 .wy-grid-for-nav {
@@ -6286,7 +6286,7 @@ article ol li ul li {
 
 .wy-nav-content-wrap {
     margin-left: 300px;
-    background: #fcfcfc;
+    background: #ffffff;
     min-height: 100%
 }
 
@@ -6387,7 +6387,7 @@ footer span.commit .rst-content tt,
 
 @media screen and (max-width: 768px) {
     .wy-body-for-nav {
-        background: #fcfcfc
+        background: #ffffff
     }
     .wy-nav-top {
         display: block
@@ -6430,7 +6430,7 @@ footer span.commit .rst-content tt,
     }
     .wy-nav-content {
         margin: 0;
-        background: #fcfcfc
+        background: #ffffff
     }
 }
 
@@ -6514,7 +6514,7 @@ footer span.commit .rst-content tt,
 .rst-versions .rst-current-version .rst-content code.download span:first-child,
 .rst-content code.download .rst-versions .rst-current-version span:first-child,
 .rst-versions .rst-current-version .icon {
-    color: #fcfcfc
+    color: #ffffff
 }
 
 .rst-versions .rst-current-version .fa-book,
@@ -6569,7 +6569,7 @@ footer span.commit .rst-content tt,
 .rst-versions .rst-other-versions dd a {
     display: inline-block;
     padding: 6px;
-    color: #fcfcfc
+    color: #ffffff
 }
 
 .rst-versions.rst-badge {
