@@ -4,7 +4,7 @@
 | **Description**             | Make sure you have access to internal communication HTTP logs   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Category**                | Networking      |
+| **Category**                | Network      |
 | **Stage**                   | Preparation         |
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 | **Requirements** |<ul><li>DN_zeek_http_log</li></ul>|

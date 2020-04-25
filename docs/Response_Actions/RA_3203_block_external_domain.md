@@ -4,7 +4,7 @@
 | **Description**             | Block an external domain name from being accessed by corporate assets   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Category**                | Networking      |
+| **Category**                | Network      |
 | **Stage**                   | Containment         |
 | **References** |<ul><li>[https://en.wikipedia.org/wiki/DNS_sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole)</li></ul>|
 | **Requirements** |<ul><li>MS_border_proxy</li><li>MS_border_ips</li><li>MS_border_ngfw</li><li>MS_dns_server</li></ul>|

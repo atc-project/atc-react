@@ -4,7 +4,7 @@
 | **Description**             | Make sure you can block a network port for internal communications   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Category**                | Networking      |
+| **Category**                | Network      |
 | **Stage**                   | Preparation         |
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 | **Requirements** |<ul><li>MS_intranet_firewall</li><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_host_firewall</li></ul>|

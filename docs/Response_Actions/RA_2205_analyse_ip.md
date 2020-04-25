@@ -4,7 +4,7 @@
 | **Description**             | Response Action for   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
-| **Category**                | Networking      |
+| **Category**                | Network      |
 | **Stage**                   | Identification         |
 | **Automation** |<ul><li>thehive</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|

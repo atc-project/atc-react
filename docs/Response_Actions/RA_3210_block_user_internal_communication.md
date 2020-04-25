@@ -4,7 +4,7 @@
 | **Description**             | Block a user for internal communications   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Category**                | Networking      |
+| **Category**                | Network      |
 | **Stage**                   | Containment         |
 | **Requirements** |<ul><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_nac</li></ul>|
 
