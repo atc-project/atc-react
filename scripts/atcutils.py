@@ -241,7 +241,7 @@ class ATCutils:
                     continue
                 new_title += " "
                 new_title += word
-            return new_title        
+            return new_title
         return title
 
     @staticmethod
@@ -251,10 +251,10 @@ class ATCutils:
         """
         categories = {
           "General": 1,
-          "Networking": 2,
+          "Network": 2,
           "Email": 3,
           "File": 4,
-          "Processes": 5,
+          "Process": 5,
           "Configuration": 6,
           "Identity": 7
         }

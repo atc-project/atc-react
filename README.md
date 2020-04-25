@@ -247,11 +247,11 @@ The first digit of the Response Action ID reflects a stage number.
 The second digit of the Response Action ID reflects a category it belongs to:
 
 1. General
-2. Networking
+2. Network
 3. Email
 4. File
-5. Processes/Services
-6. OS Configuration
+5. Process
+6. Configuration
 7. Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
