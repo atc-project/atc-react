@@ -4,7 +4,10 @@ from stix2 import MemoryStore, CustomObject, properties
 ATCconfig = ATCutils.load_config("scripts/config.yml")
 stix_mem = MemoryStore()
 
-@CustomObject('x-react-stage', [ ( 'name', properties.StringProperty(required=True)), ( 'description', properties.StringProperty()) ] )
+@CustomObject('x-react-stage', [ 
+    ( 'name', properties.StringProperty(required=True)), 
+    ( 'description', properties.StringProperty()),
+    ( 'external_references', properties.ObjectReferenceProperty())] )
 class ReactStage(object):
     def __init__(self, name=None, **kwargs):
         list_of_stages = ['Preparation','Identification','Containment','Eradication','Recovery','Lessons Learned']
@@ -25,19 +28,29 @@ class ReactAction(object):
 @CustomObject('x-react-matrix', [ 
     ( 'name', properties.StringProperty(required=True)), 
     ( 'description', properties.StringProperty()), 
-    ( 'tactic_refs', properties.ListProperty(properties.StringProperty)), 
-    ( 'external_references', properties.ObjectReferenceProperty()) ] )
+    ( 'tactic_refs', properties.ListProperty(properties.StringProperty)) ] )
 class ReactMatrix(object):
     def __init__(self, name=None, **kwargs):
         pass
 
+
+external_references = []
+
+for i in range(1,7):
+    external_references.append([{
+        "source_name": "atc-react",
+        "external_id": "RS000" + str(i),
+        "url": "https://atc-project.github.io/atc-react/Response_Stages/"
+    }])
+
+
 # define stages order
-preparation = ReactStage(name="Preparation", description="description", x_react_shortname="preparation", allow_custom=True )
-identification = ReactStage(name="Identification", description="description", x_react_shortname="identification" , allow_custom=True )
-containment = ReactStage(name="Containment", description="description", x_react_shortname="containment" , allow_custom=True )
-eradication = ReactStage(name="Eradication", description="description", x_react_shortname="eradication" , allow_custom=True )
-recovery = ReactStage(name="Recovery", description="description", x_react_shortname="recovery" , allow_custom=True )
-lessons_learned = ReactStage(name="Lessons Learned", description="description", x_react_shortname="lessons-learned" , allow_custom=True )
+preparation = ReactStage(name="Preparation", external_references=external_references[0], description="description", x_react_shortname="preparation", allow_custom=True )
+identification = ReactStage(name="Identification", external_references=external_references[1], description="description", x_react_shortname="identification" , allow_custom=True )
+containment = ReactStage(name="Containment", external_references=external_references[2], description="description", x_react_shortname="containment" , allow_custom=True )
+eradication = ReactStage(name="Eradication", external_references=external_references[3], description="description", x_react_shortname="eradication" , allow_custom=True )
+recovery = ReactStage(name="Recovery", external_references=external_references[4], description="description", x_react_shortname="recovery" , allow_custom=True )
+lessons_learned = ReactStage(name="Lessons Learned", external_references=external_references[5], description="description", x_react_shortname="lessons-learned" , allow_custom=True )
 
 tactic_refs = []
 
