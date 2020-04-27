@@ -133,7 +133,9 @@ class GenerateSTIX:
                 name=normalized_title, 
                 description=ras[i].get('description'),
                 external_references=external_references,
-                kill_chain_phases=kill_chain_phases
+                kill_chain_phases=kill_chain_phases,
+                x_mitre_platforms=['Windows', 'Linux', 'macOS'],
+                allow_custom=True
             )
 
             stix_mem.add(ra)
@@ -149,33 +151,3 @@ class GenerateSTIX:
         stix_mem.add(react_matrix)
 
         stix_mem.save_to_file("docs/react.json")
-
-
-#     ( 'name', properties.StringProperty(required=True)), 
-#     ( 'description', properties.StringProperty()), 
-#     ( 'external_references', properties.ObjectReferenceProperty()),
-#     ( 'kill_chain_phases', properties.ListProperty(properties.StringProperty)) ] )
-    
-
-# # prepare list of RAs
-
-
-# # prepare list of RAs
-
-
-
-
-
-
-
-
-
-
-# ra = ReactAction(name="lol", external_references=list_of_external_references)
-
-
-
-# "name": "Strategic Planning",
-# "description": "Defining the desired end state that is the set of required conditions that defines achievement of all objectives.",
-
-

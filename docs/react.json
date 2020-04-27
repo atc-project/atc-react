@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--f20df03c-fcc8-46d3-8b9a-e5bce117abff",
+    "id": "bundle--d3a126fd-fc35-4755-a2eb-ae5bf9f91b53",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-react-action",
-            "id": "x-react-action--f60e51bf-6328-46c9-a139-ce17f9502adc",
-            "created": "2020-04-27T00:05:19.551Z",
-            "modified": "2020-04-27T00:05:19.551Z",
+            "id": "x-react-action--a2e08f03-bb93-4164-b403-8e2d66209caf",
+            "created": "2020-04-27T02:15:58.564Z",
+            "modified": "2020-04-27T02:15:58.564Z",
             "name": " Make sure email is a phishing",
             "description": "Make sure an email is a phishing attack",
             "external_references": [
@@ -22,13 +22,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--82ece2a6-9a58-4078-ac71-dc426020c064",
-            "created": "2020-04-27T00:05:19.551Z",
-            "modified": "2020-04-27T00:05:19.551Z",
+            "id": "x-react-action--f2d78a1e-a7fc-4497-b7cf-c7d25eabe820",
+            "created": "2020-04-27T02:15:58.564Z",
+            "modified": "2020-04-27T02:15:58.564Z",
             "name": " Quarantine file by hash",
             "description": "Quarantine a file by its hash\n",
             "external_references": [
@@ -43,13 +48,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8108b196-59df-4199-b356-06e535d01176",
-            "created": "2020-04-27T00:05:19.551Z",
-            "modified": "2020-04-27T00:05:19.551Z",
+            "id": "x-react-action--9452bbff-1c1e-4e0c-bf75-2ae70d850b74",
+            "created": "2020-04-27T02:15:58.564Z",
+            "modified": "2020-04-27T02:15:58.564Z",
             "name": " Get data transferred by SMB",
             "description": "Get the data being transferred by SMB at the moment or at a particular time in the past\n",
             "external_references": [
@@ -64,13 +74,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--587594bb-1a24-4fd6-a996-7682e8ec039a",
-            "created": "2020-04-27T00:05:19.551Z",
-            "modified": "2020-04-27T00:05:19.551Z",
+            "id": "x-react-action--76d7002d-4ef5-4045-9c76-eacb054e0314",
+            "created": "2020-04-27T02:15:58.564Z",
+            "modified": "2020-04-27T02:15:58.564Z",
             "name": " List host vulnerabilities",
             "description": "Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past\n",
             "external_references": [
@@ -85,13 +100,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8e72b5a3-cfe4-4a72-82af-f3dbc59b5554",
-            "created": "2020-04-27T00:05:19.551Z",
-            "modified": "2020-04-27T00:05:19.551Z",
+            "id": "x-react-action--8657eaca-2636-4ba8-a5dd-a14a34831675",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " Block user external communication",
             "description": "Block a user for external communications\n",
             "external_references": [
@@ -106,13 +126,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b9c1a644-f233-4944-99cc-d19f8c7cb9af",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--05c31784-52c8-4dc5-842a-d9f2148527bb",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " List hosts connected to VPN",
             "description": "List hosts connected to a VPN at the moment or at a particular time in the past\n",
             "external_references": [
@@ -127,13 +152,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e77e7af0-c96d-4570-b5d3-e428bc28fb08",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--1027f7e4-fa64-4a1f-85af-a7ff5b8f15af",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " Access internal HTTP logs",
             "description": "Make sure you have access to internal communication HTTP logs\n",
             "external_references": [
@@ -148,13 +178,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2e264c13-2de6-42fb-a7bd-899110779c19",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--ed86bd19-e583-4a46-9e5f-155fa94ec672",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " Get data transferred by FTP",
             "description": "Get the data being transferred by FTP at the moment or at a particular time in the past\n",
             "external_references": [
@@ -169,13 +204,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--4ce4a8b9-d9ba-437a-bc6d-85fa2c677c86",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--6b124b2a-b8a4-493e-8627-8696aece2d50",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " Access external network flow logs",
             "description": "Make sure you have access to external communication Network Flow logs\n",
             "external_references": [
@@ -190,13 +230,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--da9e63ff-98ac-4e49-9692-c28933913427",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--a0b577aa-5d6e-4d2c-9fd2-d88f4e7cb08e",
+            "created": "2020-04-27T02:15:58.565Z",
+            "modified": "2020-04-27T02:15:58.565Z",
             "name": " Get ability to block internal URL",
             "description": "Make sure you can block an internal URL from being accessed by corporate assets\n",
             "external_references": [
@@ -211,13 +256,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--36348fc9-cdfb-439f-9274-1af00d639cac",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--de4009c6-5515-4109-b110-fee0f6678410",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " Reinstall host from golden image",
             "description": "Response Action for \n",
             "external_references": [
@@ -232,13 +282,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "recovery"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--fa61c3e7-2cb1-4cb7-a7a9-23c1b76d5934",
-            "created": "2020-04-27T00:05:19.552Z",
-            "modified": "2020-04-27T00:05:19.552Z",
+            "id": "x-react-action--3516aed6-2ca6-41ce-b3d9-7696c7cfc752",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " Report phishing attack to external companies",
             "description": "Report phishing attack to external companies",
             "external_references": [
@@ -253,13 +308,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "eradication"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--296925dd-bbcc-4f3f-a0da-905c6a577bbd",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--9441ad5b-f717-4ae5-b157-efac42c7624b",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " Get ability to quarantine file by hash",
             "description": "Make sure you have the ability to block a file from being accessed by its hash\n",
             "external_references": [
@@ -274,13 +334,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--61af9b31-1c08-4214-8ae1-1154df8f3d08",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--cc7f599e-36cb-4c68-946c-b92e7b89e918",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " Get data transferred by HTTP",
             "description": "Get the data being transferred by HTTP at the moment or at a particular time in the past\n",
             "external_references": [
@@ -295,13 +360,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--06d19e2d-19da-4d65-aa1d-4a3e3c112632",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--3539dbb9-e973-478e-b02c-df4345bae7d5",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " List hosts communicated with external domain",
             "description": "Response Action for \n",
             "external_references": [
@@ -316,13 +386,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--638d71ec-8e4d-4905-a76a-ed23beb54d27",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--5a95c21b-369d-46cd-815a-648e27ea3139",
+            "created": "2020-04-27T02:15:58.566Z",
+            "modified": "2020-04-27T02:15:58.566Z",
             "name": " Get ability to find file by content pattern",
             "description": "Make sure you have the ability to find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -337,13 +412,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--14b14933-98e1-47d4-828d-334f36e11eb0",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--e5872ddf-013b-4a2a-a59d-437631b9690d",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " List files with tampered timestamps",
             "description": "List files with tampered timestamps\n",
             "external_references": [
@@ -358,13 +438,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c9017883-cf76-4182-b04f-cfbb1ef56d4f",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--5f8b94f7-1f35-4350-8e7f-17c7963d6e85",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " List hosts communicated with external ip.",
             "description": "Response Action for \n",
             "external_references": [
@@ -379,13 +464,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1bf80554-7fc5-41b9-a368-bd726a195652",
-            "created": "2020-04-27T00:05:19.553Z",
-            "modified": "2020-04-27T00:05:19.553Z",
+            "id": "x-react-action--b48f12e6-234a-4d63-9484-a4392018980b",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " Practice",
             "description": "Practice in the real environment. Sharpen Response Actions within your organization",
             "external_references": [
@@ -400,13 +490,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--dc668c55-7079-45d9-8af2-3a55998d5084",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--f96e7c0c-a544-4a5b-a202-a40d6b1f05fc",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " List hosts communicated with external URL",
             "description": "Response Action for\n",
             "external_references": [
@@ -421,13 +516,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6e4c4a96-9c72-4480-ae5a-79237547701c",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--306658ac-7f02-4feb-9491-e76222c55392",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " Find file by content pattern",
             "description": "Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -442,13 +542,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c079aa73-9c23-455b-970a-f1c292f7fa79",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--3c1fbdf6-b18e-404e-801e-49cb54c921ba",
+            "created": "2020-04-27T02:15:58.567Z",
+            "modified": "2020-04-27T02:15:58.567Z",
             "name": " Get ability to list users received email",
             "description": "Make sure you have the ability to list users who received a particular email\n",
             "external_references": [
@@ -463,13 +568,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--974de1c8-a578-42a4-8e0f-acfbfe9e55f5",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--15172ac1-2ed6-429e-a830-db907e20db0c",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Get ability to quarantine file by content pattern",
             "description": "Make sure you have the ability to block a file from being accessed by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -484,13 +594,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--5d2c51d5-f17e-4762-9c5c-2107a7159835",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--f7368475-d92b-4095-ab65-30219046e1d5",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Block user internal communication",
             "description": "Block a user for internal communications\n",
             "external_references": [
@@ -505,13 +620,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f0e33372-d8a7-4fc5-87df-f60cbb243440",
-            "created": "2020-04-27T00:05:19.554Z",
-            "modified": "2020-04-27T00:05:19.554Z",
+            "id": "x-react-action--ca5b2627-fbd3-480c-97a5-2fc1bf350ace",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Access external packet capture data",
             "description": "Make sure you have access to external communication Packet Capture data\n",
             "external_references": [
@@ -526,13 +646,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--14d778a2-5147-472f-9eb3-63504d3611f1",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--352ea6b1-cc03-42b7-9ce4-feb1a8d7541e",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Get ability to block port internal communication",
             "description": "Make sure you can block a network port for internal communications\n",
             "external_references": [
@@ -547,13 +672,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--71c8a901-31f2-4781-ab52-c42c7fe4fad9",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--b9b98e1c-c7c5-4898-a11b-8e2a83172255",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Quarantine file by path",
             "description": "Quarantine a file by its path\n",
             "external_references": [
@@ -568,13 +698,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d97d3ca3-8d5e-40ea-be6d-f6a2d6e71f45",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--9d27bb61-9e31-4643-9520-ae2047ed5dab",
+            "created": "2020-04-27T02:15:58.568Z",
+            "modified": "2020-04-27T02:15:58.568Z",
             "name": " Block internal URL",
             "description": "Block an internal URL from being accessed by corporate assets\n",
             "external_references": [
@@ -589,13 +724,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--dff79680-e959-4547-be13-7dd12bc9c77b",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--19ed224c-8c81-4200-ae8d-123bf415601f",
+            "created": "2020-04-27T02:15:58.569Z",
+            "modified": "2020-04-27T02:15:58.569Z",
             "name": " Get ability to find file by format",
             "description": "Make sure you have the ability to find a file by its format\n",
             "external_references": [
@@ -610,13 +750,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2943c069-5a62-4be3-8b9f-3b0f6fc09adf",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--f98fe60b-3372-4fd6-a3ae-0918a17d22ba",
+            "created": "2020-04-27T02:15:58.569Z",
+            "modified": "2020-04-27T02:15:58.569Z",
             "name": " Set up a centralized long-term log storage",
             "description": "Set up a centralized long-term log storage. This is one of the most critical problems companies have nowadays. Even if there is such a system, in most of the cases it stores irrelevant data or has too small retention period\n",
             "external_references": [
@@ -631,13 +776,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1b0f2a76-849c-4562-a968-f6d7bdc7699c",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--f9143155-1db0-4fff-b555-eda3fee155f0",
+            "created": "2020-04-27T02:15:58.569Z",
+            "modified": "2020-04-27T02:15:58.569Z",
             "name": " Get ability to quarantine file by path",
             "description": "Make sure you have the ability to block a file from being accessed by its path, including name\n",
             "external_references": [
@@ -652,13 +802,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6da24dc1-6aaf-4125-a55b-b969800406e2",
-            "created": "2020-04-27T00:05:19.555Z",
-            "modified": "2020-04-27T00:05:19.555Z",
+            "id": "x-react-action--5f439d25-22c5-454a-8cc7-23f7119327f0",
+            "created": "2020-04-27T02:15:58.569Z",
+            "modified": "2020-04-27T02:15:58.569Z",
             "name": " List hosts communicated by port",
             "description": "List hosts communicating by a specific port at the moment or at a particular time in the past\n",
             "external_references": [
@@ -673,13 +828,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--817261ec-bc51-4af0-87ef-77dd0b213744",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--71a663ec-451a-4f5d-a76c-3806e631206a",
+            "created": "2020-04-27T02:15:58.569Z",
+            "modified": "2020-04-27T02:15:58.569Z",
             "name": " Analyse IP",
             "description": "Response Action for \n",
             "external_references": [
@@ -694,13 +854,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9b68bbf3-dc75-4498-8e9f-2498e8a84ca2",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--658130cb-a2e7-47fc-800c-7a39bc1f8eb6",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " Get ability to quarantine file by format",
             "description": "Make sure you have the ability to block a file from being accessed by its format\n",
             "external_references": [
@@ -715,13 +880,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--082a5131-5ad7-4d9f-a849-db899b5385ee",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--2c9dbf6e-6775-4195-8af6-23372d9726a0",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " Block port external communication",
             "description": "Block a network port for external communications\n",
             "external_references": [
@@ -736,13 +906,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d100440b-be85-4ce9-8255-1d5d654db4e8",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--0af2236b-5cc2-4a7e-82d0-3b7df23ca0a0",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " Raise personnel awareness",
             "description": "Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks\n",
             "external_references": [
@@ -757,13 +932,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--cade7ea6-6019-4703-bd01-a92c92fda54a",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--eb896791-f9be-4a2a-a39c-d29e29b85950",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " List victims of security alert",
             "description": "Response Action for\n",
             "external_references": [
@@ -778,13 +958,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--94bf7045-e901-4687-ab8a-d211f52b51d0",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--1c6d56cc-fdac-4f5f-96e8-e82ae1b83209",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " List registry keys modified",
             "description": "Response Action for \n",
             "external_references": [
@@ -799,13 +984,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--bbba6f2f-99ae-4ad2-8faa-dd6cfb3fd954",
-            "created": "2020-04-27T00:05:19.556Z",
-            "modified": "2020-04-27T00:05:19.556Z",
+            "id": "x-react-action--bb1e67fa-e6bc-4014-8ca2-c844d865f6cb",
+            "created": "2020-04-27T02:15:58.570Z",
+            "modified": "2020-04-27T02:15:58.570Z",
             "name": " List hosts communicated with internal domain",
             "description": "Response Action for \n",
             "external_references": [
@@ -820,13 +1010,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0ec66f73-b778-4ba6-ad83-e78a662b3113",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--6a7e5e03-42fb-4f54-b0dc-563d7cee6f5b",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Get ability to block user internal communication",
             "description": "Make sure you can block a user for internal communications\n",
             "external_references": [
@@ -841,13 +1036,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--113c929e-7113-44d0-9de0-00b0e097cc92",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--623a131a-0c96-453c-95ef-2926cb4670e6",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Extract observables from email",
             "description": "Extract all observables from the original phishing email",
             "external_references": [
@@ -862,13 +1062,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--4d4bafc2-2dbe-4e74-865e-c6377349a574",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--94bb343b-e958-46e7-8f97-1f45dc07458a",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Get ability to find files with tampered timestamps",
             "description": "Make sure you have the ability to find files with tampered timestamp\n",
             "external_references": [
@@ -883,13 +1088,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--429baca6-49a7-46ee-828a-cd56f640da95",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--2d7fe2af-3dc4-4fbc-9cff-731e7a132a0e",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Check analysis toolset",
             "description": "Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well\n",
             "external_references": [
@@ -904,13 +1114,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--dcc06344-863f-48da-8416-6a0f1cc48b49",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--62f55026-2684-4c2a-9c70-a53d9717f940",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Block sender on email",
             "description": "Block an email sender on the Email-server\n",
             "external_references": [
@@ -925,13 +1140,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--45027622-d461-4b7e-a22e-6b223598a776",
-            "created": "2020-04-27T00:05:19.557Z",
-            "modified": "2020-04-27T00:05:19.557Z",
+            "id": "x-react-action--cdd7d801-277b-4807-b45d-4892a431bd67",
+            "created": "2020-04-27T02:15:58.571Z",
+            "modified": "2020-04-27T02:15:58.571Z",
             "name": " Find file by format",
             "description": "Find a file by its format\n",
             "external_references": [
@@ -946,13 +1166,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--53eec117-d04a-4c62-85c5-b9245e7ddb6d",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--779cfb6b-3057-41b2-91e7-9409275b0678",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " Remove file from host",
             "description": "Remove a file from a host\n",
             "external_references": [
@@ -967,13 +1192,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "eradication"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c3d0c4b1-c601-44bf-8bab-82a598db953a",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--0a3384ba-e257-4412-85be-c7d1aaa11b4f",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " Access DHCP logs",
             "description": "Make sure you have access to DHCP logs\n",
             "external_references": [
@@ -988,13 +1218,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8d152482-bfd2-4bf4-924e-3b3c430ea910",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--4b877b70-888f-4d23-9e30-714bb0b55971",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " Get ability to download file from host",
             "description": "Make sure you have the ability to download a specific file from a host\n",
             "external_references": [
@@ -1009,13 +1244,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d52bec1e-aea7-480f-aefe-60fa15af2dbe",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--865a50da-279b-458d-9bc4-7142e425ac2b",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " List hosts communicated with internal URL",
             "description": "Response Action for\n",
             "external_references": [
@@ -1030,13 +1270,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8d6de95a-45ef-4b1b-b3ea-20254f32a89e",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--3894cba7-aafd-4e0e-b403-cfacad851db4",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " Set up relevant data collection",
             "description": "Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams.  You need to provide them with a list of data that is critically important for IR process. Most of  the time, data like DNS and DHCP logs are not being collected, as their value for detection is  relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list\n",
             "external_references": [
@@ -1051,13 +1296,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2daac0c2-ec22-4c7c-964c-4cca2cbeb014",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--1d96945b-a369-40d2-881f-353698dd886d",
+            "created": "2020-04-27T02:15:58.572Z",
+            "modified": "2020-04-27T02:15:58.572Z",
             "name": " Develop incident report",
             "description": "Develop the incident report",
             "external_references": [
@@ -1072,13 +1322,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "lessons-learned"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2d3293b7-eef8-495c-b04c-bc2f348b402f",
-            "created": "2020-04-27T00:05:19.558Z",
-            "modified": "2020-04-27T00:05:19.558Z",
+            "id": "x-react-action--2cb07d8c-e9d7-4f89-9253-547b6d7de28c",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " Get ability to block email domain",
             "description": "Make sure you have the ability to block an email domain\n",
             "external_references": [
@@ -1093,13 +1348,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--84d5bcd5-ea10-4c46-88cc-ca7884098fcb",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--ebe0e401-bda5-42c8-b0c5-c672698c51ea",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " Make personnel report suspicious activity",
             "description": "Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it\n",
             "external_references": [
@@ -1114,13 +1374,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--359abb7a-ca62-4257-9c76-bb60166db328",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--bc604972-3af0-4779-a9a9-ba37f673a293",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " Put compromised accounts on monitoring",
             "description": "Put (potentially) compromised accounts on monitoring",
             "external_references": [
@@ -1135,13 +1400,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c5dadc11-61e9-487b-ab3f-0ecf2f300a1c",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--554862b5-d0da-454a-8f4b-99573f843875",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " List host connected to intranet",
             "description": "List hosts connected to the intranet at the moment or connected at a particular time in the past\n",
             "external_references": [
@@ -1156,13 +1426,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8f4bdaa4-f7ca-4d50-9dc7-9d819eff0463",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--16cef485-d202-454c-82b3-b309232a412b",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " Make sure there are backups",
             "description": "Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data\n",
             "external_references": [
@@ -1177,13 +1452,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c2b90293-0d45-4b5e-9470-f06b2e9619db",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--85ff3f34-dc1f-4444-b3ac-0dd9f0fd3b9f",
+            "created": "2020-04-27T02:15:58.573Z",
+            "modified": "2020-04-27T02:15:58.573Z",
             "name": " Get ability to find file by metadata",
             "description": "Make sure you have the ability to find file by its metadata (i.e. permissions, MAC times)\n",
             "external_references": [
@@ -1198,13 +1478,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1a3aa755-a3c9-4e5c-813b-6480b7e1f7de",
-            "created": "2020-04-27T00:05:19.559Z",
-            "modified": "2020-04-27T00:05:19.559Z",
+            "id": "x-react-action--ff9bd5d1-733b-4822-8322-3a5cfaf4a6a5",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Access internal packet capture data",
             "description": "Make sure you have access to internal communication Packet Capture data\n",
             "external_references": [
@@ -1219,13 +1504,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d77dd2e1-0a23-459f-afe6-3480ae836647",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--707210de-276a-4070-908a-50c106cf81cc",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Get ability to list files deleted",
             "description": "Make sure you have the ability to list files deleted at a specific time range\n",
             "external_references": [
@@ -1240,13 +1530,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3e778ba3-f1ac-4758-854c-14abb9256d58",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--d3ea0ea5-96b5-497f-8e01-d54be1e437da",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Get ability to block user external communication",
             "description": "Make sure you can block a user for external communications\n",
             "external_references": [
@@ -1261,13 +1556,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8ba315aa-97d6-4037-9e43-7c616d04ec78",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--26bfcd45-aa57-4533-a32e-672125670671",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Get ability to block external URL",
             "description": "Make sure you can block an external URL from being accessed by corporate assets\n",
             "external_references": [
@@ -1282,13 +1582,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d1789069-9f18-49b9-a3c2-26007afa5dc6",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--4a7d40a2-3dd1-4c32-87b9-86a729dbcc72",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Access external DNS logs",
             "description": "Make sure you have access to external communication DNS logs\n",
             "external_references": [
@@ -1303,13 +1608,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6e013e22-22a0-4f67-8169-e595f689cf36",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--5894a84d-7e75-4c35-8339-6475f4adc671",
+            "created": "2020-04-27T02:15:58.574Z",
+            "modified": "2020-04-27T02:15:58.574Z",
             "name": " Find file by hash",
             "description": "Find a file by its hash\n",
             "external_references": [
@@ -1324,13 +1634,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--dec1cd73-1e0a-4a8a-84ed-1da8c2c942b1",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--81541368-5504-4d31-87b1-75fa9afd9eb2",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " Manage remote computer management system policies",
             "description": "Make sure you can manage Remote Computer Management system policies\n",
             "external_references": [
@@ -1345,13 +1660,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2248ab1a-bd6c-4ad7-a674-6139620cf569",
-            "created": "2020-04-27T00:05:19.560Z",
-            "modified": "2020-04-27T00:05:19.560Z",
+            "id": "x-react-action--003d2419-7a7b-4d9d-95e9-32b03e55ce52",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " Block external URL",
             "description": "Block an external URL from being accessed by corporate assets\n",
             "external_references": [
@@ -1366,13 +1686,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6ffc0691-d191-4903-9f0f-ef67a51d91a6",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--4fc5505f-22cf-4ed4-b8f6-da6f99e7b2d1",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " Get ability to remove file from host",
             "description": "Make sure you have the ability to remove a file from a remote host\n",
             "external_references": [
@@ -1387,13 +1712,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2366dad9-823b-4fc9-8790-f5afbe10b5b6",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--5a5ba385-30b5-4d53-8045-06d650f6c47f",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " List email receivers",
             "description": "List receivers of a specific email\n",
             "external_references": [
@@ -1408,13 +1738,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e543cc6e-6f9c-4b39-818e-17d187f98a1f",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--0fcb87a0-cd29-4465-80f0-11c77810dda6",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " Develop communication map",
             "description": "Develop a communication map for both internal (C-level, managers and technical specialists from the other departments, that could be involved in IR process) and external communications (law enforcement, national CERTs, subject matter experts that you have lack of, etc)\n",
             "external_references": [
@@ -1429,13 +1764,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a3d6d9d1-0eb0-48bb-a00c-51ddfec3b044",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--d460ca28-cbb3-402e-8963-5d6b9a33fe3c",
+            "created": "2020-04-27T02:15:58.575Z",
+            "modified": "2020-04-27T02:15:58.575Z",
             "name": " Conduct lessons learned exercise",
             "description": "Conduct Lessons Learned exercise",
             "external_references": [
@@ -1450,13 +1790,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "lessons-learned"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--46487a28-cd6a-4105-abd6-c95333ec89c1",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--208deef9-53ec-47a7-8324-e19d06a461d8",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " List files modified",
             "description": "List files modified at a particular time in the past\n",
             "external_references": [
@@ -1471,13 +1816,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--44675938-d833-4fd2-8e00-578ab9c55457",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--6d8f54c5-37d9-40f8-9e47-af90cc43b778",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " Find file by metadata",
             "description": "Find a file by metadata (i.e. permissions, MAC times)\n",
             "external_references": [
@@ -1492,13 +1842,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--5035b470-dbf5-4eae-8259-23b9b049e488",
-            "created": "2020-04-27T00:05:19.561Z",
-            "modified": "2020-04-27T00:05:19.561Z",
+            "id": "x-react-action--0f3828aa-8224-4909-8eac-5695ea2f3148",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " Get ability to block internal IP address",
             "description": "Make sure you can block an internal IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -1513,13 +1868,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d985e700-7fba-449c-88e7-f2014622c386",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--5b3f6a6e-9211-4b2d-ba6c-acbf41ba4012",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " List services executed",
             "description": "Response Action for \n",
             "external_references": [
@@ -1534,13 +1894,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--33748c27-d442-46fa-bf76-32ef1c1fae30",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--9ddeed16-9ae1-48e8-848b-a192e12d0e4d",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " Get ability to list files modified",
             "description": "Make sure you have the ability to list files modified at specific time range\n",
             "external_references": [
@@ -1555,13 +1920,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--bcfeef12-7c75-4e6b-8d4a-01e283bb88ed",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--cf73947d-e98a-4f96-b085-df9d321c5a9a",
+            "created": "2020-04-27T02:15:58.576Z",
+            "modified": "2020-04-27T02:15:58.576Z",
             "name": " Access VPN logs",
             "description": "Make sure you have access to VPN logs\n",
             "external_references": [
@@ -1576,13 +1946,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9b6237aa-bf4e-4f2e-8646-ad5a69f0574f",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--8f4060ee-5b49-417f-84c3-b0af63b7cb86",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Block port internal communication",
             "description": "Block a network port for internal communications\n",
             "external_references": [
@@ -1597,13 +1972,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--02c8043e-ec75-4962-aa2f-23e414ff985f",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--0590830a-dba6-454b-aa3c-240518aaf30c",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Block internal IP address",
             "description": "Block an internal IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -1618,13 +1998,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7d2371ad-d25b-4526-bd05-d6c5fc3a2c54",
-            "created": "2020-04-27T00:05:19.562Z",
-            "modified": "2020-04-27T00:05:19.562Z",
+            "id": "x-react-action--c39665c7-c98e-44dc-9ded-43924f72f458",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Access internal network flow logs",
             "description": "Make sure you have access to internal communication Network Flow logs\n",
             "external_references": [
@@ -1639,13 +2024,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0398e479-9fdc-4a76-af73-321d45094563",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--3d82daea-7232-48c7-bd37-54d3ed5e5e5f",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Access vulnerability management system logs",
             "description": "Access vulnerability management system logs. It will help to identify the vulnerabilities a specific host had at a specific time in the past\n",
             "external_references": [
@@ -1660,13 +2050,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3e4f163c-a1a9-4a6c-9df4-ba46b64d5246",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--b6605ad9-6453-41f2-a6d7-dd394b8ac58a",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Get ability to delete email",
             "description": "Make sure you have the ability to delete an email\n",
             "external_references": [
@@ -1681,13 +2076,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--63c4e975-58ab-405e-86c5-b47229cff809",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--db615836-d71d-419c-9ee2-1c1c1d62696a",
+            "created": "2020-04-27T02:15:58.577Z",
+            "modified": "2020-04-27T02:15:58.577Z",
             "name": " Analyse Unix ELF",
             "description": "Response Action for \n",
             "external_references": [
@@ -1702,13 +2102,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--984c49f7-4699-42c3-8652-1276e43e5c7f",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--336ac701-b25c-43ee-9ffe-54002cd64df5",
+            "created": "2020-04-27T02:15:58.578Z",
+            "modified": "2020-04-27T02:15:58.578Z",
             "name": " Find file by path",
             "description": "Find a file by its path (including its name)\n",
             "external_references": [
@@ -1723,13 +2128,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2d572e01-9877-480d-934f-af70879f49f6",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--2c3fdf6e-c7d7-42d6-aa29-3f3b817d13df",
+            "created": "2020-04-27T02:15:58.578Z",
+            "modified": "2020-04-27T02:15:58.578Z",
             "name": " List files downloaded",
             "description": "List files downloaded from the internet at a particular time in the past\n",
             "external_references": [
@@ -1744,13 +2154,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a668ec2b-85fc-4978-a981-dc6156f2be3d",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--16d9b487-154f-43e9-ba3f-73cccf93dc0e",
+            "created": "2020-04-27T02:15:58.578Z",
+            "modified": "2020-04-27T02:15:58.578Z",
             "name": " Analyse macos mach-o",
             "description": "Response Action for \n",
             "external_references": [
@@ -1765,13 +2180,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d03a726d-14a9-4eab-b787-c00e0474db36",
-            "created": "2020-04-27T00:05:19.563Z",
-            "modified": "2020-04-27T00:05:19.563Z",
+            "id": "x-react-action--f7bb4a3a-aa5b-4f0f-9937-b4cbed118a1c",
+            "created": "2020-04-27T02:15:58.578Z",
+            "modified": "2020-04-27T02:15:58.578Z",
             "name": " Analyse MS office file",
             "description": "Response Action for \n",
             "external_references": [
@@ -1786,13 +2206,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--62df82f1-b8dc-4605-bda5-5accb497477d",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--b67e0839-3511-4129-a636-1d2a645920f8",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Block internal domain",
             "description": "Block an internal domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -1807,13 +2232,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0701f0d5-602e-42bf-8229-4e8388088c62",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--5d91a0ed-3bab-44bf-9c37-9ad1b0f830be",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Analyse PDF",
             "description": "Response Action for \n",
             "external_references": [
@@ -1828,13 +2258,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--51d98eba-5bbb-4085-812b-2501c0337592",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--4c16ed9c-1682-45dd-8b87-97185c6abfff",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Block external IP address",
             "description": "Block an external IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -1849,13 +2284,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--34174bd3-74b3-4b46-a48a-2fa657860037",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--e9d16905-5706-48d1-86fd-aa93e764dbf0",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Analyse Windows PE",
             "description": "Response Action for \n",
             "external_references": [
@@ -1870,13 +2310,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8babeba4-6d84-49e7-82d5-1ed1480202ce",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--b6edaa2b-96dc-4643-aeb2-0c0707e80a19",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Get ability to block external domain",
             "description": "Make sure you can block an external domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -1891,13 +2336,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c6375b34-2adf-4570-bf5a-6ad655e6a969",
-            "created": "2020-04-27T00:05:19.564Z",
-            "modified": "2020-04-27T00:05:19.564Z",
+            "id": "x-react-action--36fdf60d-71f8-41f4-a4ba-fd572423d626",
+            "created": "2020-04-27T02:15:58.579Z",
+            "modified": "2020-04-27T02:15:58.579Z",
             "name": " Get ability to block email sender",
             "description": "Make sure you have the ability to block an email sender\n",
             "external_references": [
@@ -1912,13 +2362,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--aa81ead5-dc13-4ab3-96d2-73736f7d57a7",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--967fc7eb-5876-4037-bdaf-3823d4e319a4",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " List hosts communicated with internal IP",
             "description": "Response Action for \n",
             "external_references": [
@@ -1933,13 +2388,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c9971c96-6611-4b82-bce2-140e355e3d98",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--324c08e1-95d1-4067-b847-74e1a958d40e",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " Get ability to block internal domain",
             "description": "Make sure you can block an internal domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -1954,13 +2414,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--81d4c593-b925-492f-93a5-34125cc1ac8f",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--abe68faa-453a-4243-8e62-325ab064819d",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " Analyse filehash",
             "description": "Response Action for \n",
             "external_references": [
@@ -1975,13 +2440,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--715acea4-176f-474b-bda8-ddcda04a3388",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--57b91240-5e5f-456c-a639-aa2d486f9a46",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " Revoke compromised credentials",
             "description": "Response Action for compromised credentials revocation",
             "external_references": [
@@ -1996,13 +2466,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "eradication"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--061b6016-2e75-45c5-9590-d78195f42bce",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--8807ae9c-d47f-4ea0-b25c-eb4b2c974384",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " Get ability to find file by path",
             "description": "Make sure you have the ability to find a file by its path, including name\n",
             "external_references": [
@@ -2017,13 +2492,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9c3d9f89-bb0a-4dc3-bf12-a0d00ac4b872",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--89a9e75a-36e0-4556-b0a5-a851846b01ca",
+            "created": "2020-04-27T02:15:58.580Z",
+            "modified": "2020-04-27T02:15:58.580Z",
             "name": " Get ability to quarantine file by metadata",
             "description": "Make sure you have the ability to block a file from being accessed by its metadata (i.e. permissions, MAC times)\n",
             "external_references": [
@@ -2038,13 +2518,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e377ddff-2387-420e-914f-77581c1f49d6",
-            "created": "2020-04-27T00:05:19.565Z",
-            "modified": "2020-04-27T00:05:19.565Z",
+            "id": "x-react-action--996b9445-d7fb-4d22-a759-065b26947fec",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " Analyse domain name",
             "description": "Response Action for \n",
             "external_references": [
@@ -2059,13 +2544,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a8ec71ff-b0ba-4396-a486-4226ac6b3800",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--0520c301-a89c-429e-8ec5-b6f623af51d6",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " List processes executed",
             "description": "Response Action for \n",
             "external_references": [
@@ -2080,13 +2570,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e5036907-bb23-40e8-95da-75a5b0480b65",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--d9a038cf-371f-45f5-81ed-50f55269b0a3",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " Analyse URL",
             "description": "Response Action for \n",
             "external_references": [
@@ -2101,13 +2596,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8c7fcbf1-d3a3-4719-b664-727e20309b7a",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--0fe0b80d-5837-44fa-bed7-5b22500a4405",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " List files created",
             "description": "Response Action for \n",
             "external_references": [
@@ -2122,13 +2622,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--58726125-bc37-436e-89e4-2e48aa5c5ba4",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--7320608b-4c57-4c58-8c4c-ed8385bed7d7",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " Access internal DNS logs",
             "description": "Make sure you have access to internal communication DNS logs\n",
             "external_references": [
@@ -2143,13 +2648,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--779963fa-f51b-4a98-b79d-66cb2e92c1c6",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--12aaf828-2bf2-41a6-aad1-e6686c1c86ba",
+            "created": "2020-04-27T02:15:58.581Z",
+            "modified": "2020-04-27T02:15:58.581Z",
             "name": " Get ability to block external IP address",
             "description": "Make sure you can block an external IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -2164,13 +2674,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f9aae72f-c60a-4898-84b0-fdd7edf51b51",
-            "created": "2020-04-27T00:05:19.566Z",
-            "modified": "2020-04-27T00:05:19.566Z",
+            "id": "x-react-action--dd310b6a-1cd3-42bd-9398-a762b52960ac",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " Get ability to list users opened email",
             "description": "Make sure you have the ability to list users who opened a particular email\n",
             "external_references": [
@@ -2185,13 +2700,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ddf362d0-7f0e-4a75-baba-2cf337c56141",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--ce9f974b-232e-44ba-8f77-46811c33eaba",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " List users opened email",
             "description": "Response Action for \n",
             "external_references": [
@@ -2206,13 +2726,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--31d2bf6c-10bf-44b6-bd5a-a991db510886",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--8c8aa7de-3ab9-4b5a-9b63-13e7fae4e1b0",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " Get network architecture map",
             "description": "Get network architecture map. Usually, its managed by the Network security team. It will help you to choose the containment strategy, such as isolating specific network segments\n",
             "external_references": [
@@ -2227,13 +2752,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8b86d4c7-da20-4254-8b05-f202c8d9cf0f",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--c23f2d56-01ce-473f-86b6-bc34387a3e86",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " Quarantine file by metadata",
             "description": "Quarantine a file by its metadata\n",
             "external_references": [
@@ -2248,13 +2778,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d0e50d8c-0e21-41fc-b5dc-ab57af327823",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--67036758-1a63-430d-b1fe-cc156462ba26",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " List files deleted",
             "description": "List files deleted at a particular time in the past\n",
             "external_references": [
@@ -2269,13 +2804,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b094ce19-b280-4ed1-8f60-952c547e8bde",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--62c96c4a-4bb6-4b5e-ba66-5a8c5c0e88b2",
+            "created": "2020-04-27T02:15:58.582Z",
+            "modified": "2020-04-27T02:15:58.582Z",
             "name": " Develop assets knowledge base",
             "description": "Develop assets knowledge base. It will help you to compare observed activity with a normal activity profile for a specific host, user or network segment\n",
             "external_references": [
@@ -2290,13 +2830,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f5de6957-c45a-406c-927e-a6387eed2a64",
-            "created": "2020-04-27T00:05:19.567Z",
-            "modified": "2020-04-27T00:05:19.567Z",
+            "id": "x-react-action--ba0a312e-5428-4977-ba29-c4ed71a8d74d",
+            "created": "2020-04-27T02:15:58.583Z",
+            "modified": "2020-04-27T02:15:58.583Z",
             "name": " Delete malicious emails",
             "description": "Delete malicious emails from a Email Server and users' email boxes",
             "external_references": [
@@ -2311,13 +2856,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "eradication"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--606e3ed3-307f-4f71-9ee7-90779503e4af",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--a1f26086-b3d7-47d7-ad97-f83bcad495c0",
+            "created": "2020-04-27T02:15:58.583Z",
+            "modified": "2020-04-27T02:15:58.583Z",
             "name": " Get ability to block port external communication",
             "description": "Make sure you can block a network port for external communications\n",
             "external_references": [
@@ -2332,13 +2882,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--20cdbd23-8921-49ca-b99f-8f38e7bb1a73",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--bfe85d6f-aa44-4fe1-a4fb-97a1e0ece649",
+            "created": "2020-04-27T02:15:58.583Z",
+            "modified": "2020-04-27T02:15:58.583Z",
             "name": " Report incident to external companies",
             "description": "Report incident to external companies",
             "external_references": [
@@ -2353,13 +2908,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "eradication"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--04b01747-1016-41ca-b275-8d73ed38dfdb",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--a2ab7c51-a623-430d-ab13-c262c317c62a",
+            "created": "2020-04-27T02:15:58.583Z",
+            "modified": "2020-04-27T02:15:58.583Z",
             "name": " Get ability to list files downloaded",
             "description": "Make sure you have the ability to list files downloaded from the internet at a specific time range\n",
             "external_references": [
@@ -2374,13 +2934,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--69a4d776-c81e-4cda-9f50-d9a97eb499ea",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--2a558963-149b-4eaf-b581-0b746a3301a0",
+            "created": "2020-04-27T02:15:58.583Z",
+            "modified": "2020-04-27T02:15:58.583Z",
             "name": " Block external domain",
             "description": "Block an external domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -2395,13 +2960,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7e70fb52-4cb9-49d7-89be-c11c2df7ad73",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--4845ae71-b772-463f-851e-0adf0fd8f66c",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Take trainings",
             "description": "Take training courses to gain relevant knowledge",
             "external_references": [
@@ -2416,13 +2986,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a35b61e1-b973-4029-9cff-46c166c188cb",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--3f885a10-db1a-43e2-9b9c-68901f66996e",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Access external HTTP logs",
             "description": "Make sure you have access to external communication HTTP logs\n",
             "external_references": [
@@ -2437,13 +3012,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2bcea1b7-b538-45cf-9827-c7c2674e1265",
-            "created": "2020-04-27T00:05:19.568Z",
-            "modified": "2020-04-27T00:05:19.568Z",
+            "id": "x-react-action--a10e4327-b3d1-4b8b-9cae-66dde5f001a5",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Get original email",
             "description": "Obtain the original phishing email",
             "external_references": [
@@ -2458,13 +3038,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7a7953ae-bde9-4a47-898c-08046cd1a8b3",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--1578a601-c162-4541-8612-371e14b61bd4",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Get ability to find file by hash",
             "description": "Make sure you have the ability to find a file by its hash\n",
             "external_references": [
@@ -2479,13 +3064,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3f086986-81ec-44ed-9716-3abcdbc2fc6a",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--44cf7036-45ff-4e1a-a46a-908995c33a1f",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Quarantine file by content pattern",
             "description": "Quarantine a file by its content pattern\n",
             "external_references": [
@@ -2500,13 +3090,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--2aa7def2-da63-4007-ae61-45d76a7476a0",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--168a54a7-6f72-407f-9ddb-5a96b7c6af25",
+            "created": "2020-04-27T02:15:58.584Z",
+            "modified": "2020-04-27T02:15:58.584Z",
             "name": " Get access control matrix",
             "description": "Get Access Control Matrix. Usually, its managed by the Network security team. It will help you to identify adversary opportunities, such as laterally movement and so on\n",
             "external_references": [
@@ -2521,13 +3116,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "preparation"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e5f4ae79-94bc-4098-99c3-5deceb913453",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--b1079ff9-7669-46b9-85df-0869d486b9ef",
+            "created": "2020-04-27T02:15:58.585Z",
+            "modified": "2020-04-27T02:15:58.585Z",
             "name": " Download file from host",
             "description": "Download a file from a host\n",
             "external_references": [
@@ -2542,13 +3142,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "identification"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--bcc93437-f5f5-4322-97d2-2d731175c2bd",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--9b1e035b-3576-400e-bbab-97c78eb502af",
+            "created": "2020-04-27T02:15:58.585Z",
+            "modified": "2020-04-27T02:15:58.585Z",
             "name": " Quarantine file by format",
             "description": "Quarantine a file by its format\n",
             "external_references": [
@@ -2563,13 +3168,18 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e5b06360-5e2a-408e-b24b-05404f910e74",
-            "created": "2020-04-27T00:05:19.569Z",
-            "modified": "2020-04-27T00:05:19.569Z",
+            "id": "x-react-action--b08c7490-27b8-428b-b4d5-38b39ac5d5e3",
+            "created": "2020-04-27T02:15:58.585Z",
+            "modified": "2020-04-27T02:15:58.585Z",
             "name": " Block domain on email",
             "description": "Block a domain name on an Email server",
             "external_references": [
@@ -2584,70 +3194,75 @@
                     "kill_chain_name": "atc-react",
                     "phase_name": "containment"
                 }
+            ],
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
             ]
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--656b1686-7895-460a-a77b-0992d278de98",
-            "created": "2020-04-27T00:05:19.350Z",
-            "modified": "2020-04-27T00:05:19.350Z",
+            "id": "x-react-stage--470ecf67-971a-41aa-9867-ac41a085ae59",
+            "created": "2020-04-27T02:15:58.328Z",
+            "modified": "2020-04-27T02:15:58.328Z",
             "name": "Preparation",
             "x_react_shortname": "preparation"
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--23686f2b-a51d-4b1e-a02f-aa2c5b4f12cb",
-            "created": "2020-04-27T00:05:19.350Z",
-            "modified": "2020-04-27T00:05:19.350Z",
+            "id": "x-react-stage--92c42492-43ed-4ed0-ae79-29f8b05e66a4",
+            "created": "2020-04-27T02:15:58.328Z",
+            "modified": "2020-04-27T02:15:58.328Z",
             "name": "Identification",
             "x_react_shortname": "identification"
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--6ba1ea6b-a4f8-4750-b40c-f0e33a12352a",
-            "created": "2020-04-27T00:05:19.350Z",
-            "modified": "2020-04-27T00:05:19.350Z",
+            "id": "x-react-stage--d387b955-b4b3-4738-8a29-1179a44a098d",
+            "created": "2020-04-27T02:15:58.328Z",
+            "modified": "2020-04-27T02:15:58.328Z",
             "name": "Containment",
             "x_react_shortname": "containment"
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--456dea7e-829a-40f4-afb1-5db3fdfb5d11",
-            "created": "2020-04-27T00:05:19.350Z",
-            "modified": "2020-04-27T00:05:19.350Z",
+            "id": "x-react-stage--95af0315-6b74-4de1-ab7f-1970fbf6e9bc",
+            "created": "2020-04-27T02:15:58.329Z",
+            "modified": "2020-04-27T02:15:58.329Z",
             "name": "Eradication",
             "x_react_shortname": "eradication"
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--0e037d3e-4de1-41a4-97a2-9213f0d4f0fd",
-            "created": "2020-04-27T00:05:19.350Z",
-            "modified": "2020-04-27T00:05:19.350Z",
+            "id": "x-react-stage--8702cddc-e56e-481a-abda-8a35b1f0ac39",
+            "created": "2020-04-27T02:15:58.329Z",
+            "modified": "2020-04-27T02:15:58.329Z",
             "name": "Recovery",
             "x_react_shortname": "recovery"
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--7b82d15b-a4b7-4487-8896-5b252d69d648",
-            "created": "2020-04-27T00:05:19.351Z",
-            "modified": "2020-04-27T00:05:19.351Z",
+            "id": "x-react-stage--b9ba6fe5-b4f2-4332-8de9-c3d91c370004",
+            "created": "2020-04-27T02:15:58.329Z",
+            "modified": "2020-04-27T02:15:58.329Z",
             "name": "Lessons Learned",
             "x_react_shortname": "lessons-learned"
         },
         {
             "type": "x-react-matrix",
-            "id": "x-react-matrix--fc643788-e48b-467c-abba-99a6a4e4b438",
-            "created": "2020-04-27T00:05:19.351Z",
-            "modified": "2020-04-27T00:05:19.351Z",
+            "id": "x-react-matrix--c145d0f4-b11a-44b8-b58c-2fe4a5de89dc",
+            "created": "2020-04-27T02:15:58.329Z",
+            "modified": "2020-04-27T02:15:58.329Z",
             "name": "RE&CT Matrix",
             "description": "The full RE&CT Matrix, without any mappings but names",
             "tactic_refs": [
-                "x-react-stage--656b1686-7895-460a-a77b-0992d278de98",
-                "x-react-stage--23686f2b-a51d-4b1e-a02f-aa2c5b4f12cb",
-                "x-react-stage--6ba1ea6b-a4f8-4750-b40c-f0e33a12352a",
-                "x-react-stage--456dea7e-829a-40f4-afb1-5db3fdfb5d11",
-                "x-react-stage--0e037d3e-4de1-41a4-97a2-9213f0d4f0fd",
-                "x-react-stage--7b82d15b-a4b7-4487-8896-5b252d69d648"
+                "x-react-stage--470ecf67-971a-41aa-9867-ac41a085ae59",
+                "x-react-stage--92c42492-43ed-4ed0-ae79-29f8b05e66a4",
+                "x-react-stage--d387b955-b4b3-4738-8a29-1179a44a098d",
+                "x-react-stage--95af0315-6b74-4de1-ab7f-1970fbf6e9bc",
+                "x-react-stage--8702cddc-e56e-481a-abda-8a35b1f0ac39",
+                "x-react-stage--b9ba6fe5-b4f2-4332-8de9-c3d91c370004"
             ]
         }
     ]
