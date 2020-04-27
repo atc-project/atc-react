@@ -32,12 +32,12 @@ class ReactMatrix(object):
         pass
 
 # define stages order
-preparation = ReactStage(name="Preparation", x_react_shortname="preparation", allow_custom=True )
-identification = ReactStage(name="Identification", x_react_shortname="identification" , allow_custom=True )
-containment = ReactStage(name="Containment", x_react_shortname="containment" , allow_custom=True )
-eradication = ReactStage(name="Eradication", x_react_shortname="eradication" , allow_custom=True )
-recovery = ReactStage(name="Recovery", x_react_shortname="recovery" , allow_custom=True )
-lessons_learned = ReactStage(name="Lessons Learned", x_react_shortname="lessons-learned" , allow_custom=True )
+preparation = ReactStage(name="Preparation", description="description", x_react_shortname="preparation", allow_custom=True )
+identification = ReactStage(name="Identification", description="description", x_react_shortname="identification" , allow_custom=True )
+containment = ReactStage(name="Containment", description="description", x_react_shortname="containment" , allow_custom=True )
+eradication = ReactStage(name="Eradication", description="description", x_react_shortname="eradication" , allow_custom=True )
+recovery = ReactStage(name="Recovery", description="description", x_react_shortname="recovery" , allow_custom=True )
+lessons_learned = ReactStage(name="Lessons Learned", description="description", x_react_shortname="lessons-learned" , allow_custom=True )
 
 tactic_refs = []
 
