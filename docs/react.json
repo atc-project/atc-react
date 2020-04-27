@@ -1,0 +1,2654 @@
+{
+    "type": "bundle",
+    "id": "bundle--f20df03c-fcc8-46d3-8b9a-e5bce117abff",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--f60e51bf-6328-46c9-a139-ce17f9502adc",
+            "created": "2020-04-27T00:05:19.551Z",
+            "modified": "2020-04-27T00:05:19.551Z",
+            "name": " Make sure email is a phishing",
+            "description": "Make sure an email is a phishing attack",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2304_make_sure_email_is_a_phishing",
+                    "external_id": "RA2104"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--82ece2a6-9a58-4078-ac71-dc426020c064",
+            "created": "2020-04-27T00:05:19.551Z",
+            "modified": "2020-04-27T00:05:19.551Z",
+            "name": " Quarantine file by hash",
+            "description": "Quarantine a file by its hash\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3402_quarantine_file_by_hash",
+                    "external_id": "RA3402"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8108b196-59df-4199-b356-06e535d01176",
+            "created": "2020-04-27T00:05:19.551Z",
+            "modified": "2020-04-27T00:05:19.551Z",
+            "name": " Get data transferred by SMB",
+            "description": "Get the data being transferred by SMB at the moment or at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2211_get_data_transferred_by_smb",
+                    "external_id": "RA2211"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--587594bb-1a24-4fd6-a996-7682e8ec039a",
+            "created": "2020-04-27T00:05:19.551Z",
+            "modified": "2020-04-27T00:05:19.551Z",
+            "name": " List host vulnerabilities",
+            "description": "Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2102_list_host_vulnerabilities",
+                    "external_id": "RA2105"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8e72b5a3-cfe4-4a72-82af-f3dbc59b5554",
+            "created": "2020-04-27T00:05:19.551Z",
+            "modified": "2020-04-27T00:05:19.551Z",
+            "name": " Block user external communication",
+            "description": "Block a user for external communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3209_block_user_external_communication",
+                    "external_id": "RA3209"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--b9c1a644-f233-4944-99cc-d19f8c7cb9af",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " List hosts connected to VPN",
+            "description": "List hosts connected to a VPN at the moment or at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2208_list_hosts_connected_to_vpn",
+                    "external_id": "RA2208"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e77e7af0-c96d-4570-b5d3-e428bc28fb08",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Access internal HTTP logs",
+            "description": "Make sure you have access to internal communication HTTP logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1203_access_internal_http_logs",
+                    "external_id": "RA1203"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2e264c13-2de6-42fb-a7bd-899110779c19",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Get data transferred by FTP",
+            "description": "Get the data being transferred by FTP at the moment or at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2210_get_data_transferred_by_ftp",
+                    "external_id": "RA2210"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--4ce4a8b9-d9ba-437a-bc6d-85fa2c677c86",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Access external network flow logs",
+            "description": "Make sure you have access to external communication Network Flow logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1201_access_external_network_flow_logs",
+                    "external_id": "RA1201"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--da9e63ff-98ac-4e49-9692-c28933913427",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Get ability to block internal URL",
+            "description": "Make sure you can block an internal URL from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1216_get_ability_to_block_internal_url",
+                    "external_id": "RA1216"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--36348fc9-cdfb-439f-9274-1af00d639cac",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Reinstall host from golden image",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_5101_reinstall_host_from_golden_image",
+                    "external_id": "RA5101"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "recovery"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--fa61c3e7-2cb1-4cb7-a7a9-23c1b76d5934",
+            "created": "2020-04-27T00:05:19.552Z",
+            "modified": "2020-04-27T00:05:19.552Z",
+            "name": " Report phishing attack to external companies",
+            "description": "Report phishing attack to external companies",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_4101_report_phishing_attack_to_external_companies",
+                    "external_id": "RA4101"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "eradication"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--296925dd-bbcc-4f3f-a0da-905c6a577bbd",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " Get ability to quarantine file by hash",
+            "description": "Make sure you have the ability to block a file from being accessed by its hash\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash",
+                    "external_id": "RA1412"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--61af9b31-1c08-4214-8ae1-1154df8f3d08",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " Get data transferred by HTTP",
+            "description": "Get the data being transferred by HTTP at the moment or at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2212_get_data_transferred_by_http",
+                    "external_id": "RA2212"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--06d19e2d-19da-4d65-aa1d-4a3e3c112632",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " List hosts communicated with external domain",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2213_list_hosts_communicated_with_external_domain",
+                    "external_id": "RA2213"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--638d71ec-8e4d-4905-a76a-ed23beb54d27",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " Get ability to find file by content pattern",
+            "description": "Make sure you have the ability to find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern",
+                    "external_id": "RA1404"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--14b14933-98e1-47d4-828d-334f36e11eb0",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " List files with tampered timestamps",
+            "description": "List files with tampered timestamps\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2417_list_files_with_tampered_timestamps",
+                    "external_id": "RA2417"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c9017883-cf76-4182-b04f-cfbb1ef56d4f",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " List hosts communicated with external ip.",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2214_list_hosts_communicated_with_external_ip",
+                    "external_id": "RA2214"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--1bf80554-7fc5-41b9-a368-bd726a195652",
+            "created": "2020-04-27T00:05:19.553Z",
+            "modified": "2020-04-27T00:05:19.553Z",
+            "name": " Practice",
+            "description": "Practice in the real environment. Sharpen Response Actions within your organization",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1101_practice",
+                    "external_id": "RA1101"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--dc668c55-7079-45d9-8af2-3a55998d5084",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " List hosts communicated with external URL",
+            "description": "Response Action for\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2215_list_hosts_communicated_with_external_url",
+                    "external_id": "RA2215"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--6e4c4a96-9c72-4480-ae5a-79237547701c",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " Find file by content pattern",
+            "description": "Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2412_find_file_by_content_pattern",
+                    "external_id": "RA2412"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c079aa73-9c23-455b-970a-f1c292f7fa79",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " Get ability to list users received email",
+            "description": "Make sure you have the ability to list users who received a particular email\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1302_get_ability_to_list_users_received_email",
+                    "external_id": "RA1302"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--974de1c8-a578-42a4-8e0f-acfbfe9e55f5",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " Get ability to quarantine file by content pattern",
+            "description": "Make sure you have the ability to block a file from being accessed by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern",
+                    "external_id": "RA1414"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--5d2c51d5-f17e-4762-9c5c-2107a7159835",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " Block user internal communication",
+            "description": "Block a user for internal communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3210_block_user_internal_communication",
+                    "external_id": "RA3210"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--f0e33372-d8a7-4fc5-87df-f60cbb243440",
+            "created": "2020-04-27T00:05:19.554Z",
+            "modified": "2020-04-27T00:05:19.554Z",
+            "name": " Access external packet capture data",
+            "description": "Make sure you have access to external communication Packet Capture data\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1210_access_external_packet_capture_data",
+                    "external_id": "RA1210"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--14d778a2-5147-472f-9eb3-63504d3611f1",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Get ability to block port internal communication",
+            "description": "Make sure you can block a network port for internal communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1218_get_ability_to_block_port_internal_communication",
+                    "external_id": "RA1218"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--71c8a901-31f2-4781-ab52-c42c7fe4fad9",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Quarantine file by path",
+            "description": "Quarantine a file by its path\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3403_quarantine_file_by_path",
+                    "external_id": "RA3403"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d97d3ca3-8d5e-40ea-be6d-f6a2d6e71f45",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Block internal URL",
+            "description": "Block an internal URL from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3206_block_internal_url",
+                    "external_id": "RA3206"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--dff79680-e959-4547-be13-7dd12bc9c77b",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Get ability to find file by format",
+            "description": "Make sure you have the ability to find a file by its format\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1401_get_ability_to_find_file_by_format",
+                    "external_id": "RA1401"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2943c069-5a62-4be3-8b9f-3b0f6fc09adf",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Set up a centralized long-term log storage",
+            "description": "Set up a centralized long-term log storage. This is one of the most critical problems companies have nowadays. Even if there is such a system, in most of the cases it stores irrelevant data or has too small retention period\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage",
+                    "external_id": "RA1106"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--1b0f2a76-849c-4562-a968-f6d7bdc7699c",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " Get ability to quarantine file by path",
+            "description": "Make sure you have the ability to block a file from being accessed by its path, including name\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path",
+                    "external_id": "RA1413"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--6da24dc1-6aaf-4125-a55b-b969800406e2",
+            "created": "2020-04-27T00:05:19.555Z",
+            "modified": "2020-04-27T00:05:19.555Z",
+            "name": " List hosts communicated by port",
+            "description": "List hosts communicating by a specific port at the moment or at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2207_list_hosts_communicated_by_port",
+                    "external_id": "RA2207"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--817261ec-bc51-4af0-87ef-77dd0b213744",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " Analyse IP",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2205_analyse_ip",
+                    "external_id": "RA2205"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--9b68bbf3-dc75-4498-8e9f-2498e8a84ca2",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " Get ability to quarantine file by format",
+            "description": "Make sure you have the ability to block a file from being accessed by its format\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format",
+                    "external_id": "RA1411"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--082a5131-5ad7-4d9f-a849-db899b5385ee",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " Block port external communication",
+            "description": "Block a network port for external communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3207_block_port_external_communication",
+                    "external_id": "RA3207"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d100440b-be85-4ce9-8255-1d5d654db4e8",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " Raise personnel awareness",
+            "description": "Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1103_raise_personnel_awareness",
+                    "external_id": "RA1103"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--cade7ea6-6019-4703-bd01-a92c92fda54a",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " List victims of security alert",
+            "description": "Response Action for\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2101_list_victims_of_security_alert",
+                    "external_id": "RA2104"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--94bf7045-e901-4687-ab8a-d211f52b51d0",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " List registry keys modified",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2601_list_registry_keys_modified",
+                    "external_id": "RA2601"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--bbba6f2f-99ae-4ad2-8faa-dd6cfb3fd954",
+            "created": "2020-04-27T00:05:19.556Z",
+            "modified": "2020-04-27T00:05:19.556Z",
+            "name": " List hosts communicated with internal domain",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2201_list_hosts_communicated_with_internal_domain",
+                    "external_id": "RA2201"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--0ec66f73-b778-4ba6-ad83-e78a662b3113",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Get ability to block user internal communication",
+            "description": "Make sure you can block a user for internal communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1220_get_ability_to_block_user_internal_communication",
+                    "external_id": "RA1220"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--113c929e-7113-44d0-9de0-00b0e097cc92",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Extract observables from email",
+            "description": "Extract all observables from the original phishing email",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2305_extract_observables_from_email",
+                    "external_id": "RA2101"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--4d4bafc2-2dbe-4e74-865e-c6377349a574",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Get ability to find files with tampered timestamps",
+            "description": "Make sure you have the ability to find files with tampered timestamp\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps",
+                    "external_id": "RA1406"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--429baca6-49a7-46ee-828a-cd56f640da95",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Check analysis toolset",
+            "description": "Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1112_check_analysis_toolset",
+                    "external_id": "RA1112"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--dcc06344-863f-48da-8416-6a0f1cc48b49",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Block sender on email",
+            "description": "Block an email sender on the Email-server\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3302_block_sender_on_email",
+                    "external_id": "RA3302"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--45027622-d461-4b7e-a22e-6b223598a776",
+            "created": "2020-04-27T00:05:19.557Z",
+            "modified": "2020-04-27T00:05:19.557Z",
+            "name": " Find file by format",
+            "description": "Find a file by its format\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2409_find_file_by_format",
+                    "external_id": "RA2409"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--53eec117-d04a-4c62-85c5-b9245e7ddb6d",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Remove file from host",
+            "description": "Remove a file from a host\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_4401_remove_file_from_host",
+                    "external_id": "RA4401"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "eradication"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c3d0c4b1-c601-44bf-8bab-82a598db953a",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Access DHCP logs",
+            "description": "Make sure you have access to DHCP logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1208_access_dhcp_logs",
+                    "external_id": "RA1208"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8d152482-bfd2-4bf4-924e-3b3c430ea910",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Get ability to download file from host",
+            "description": "Make sure you have the ability to download a specific file from a host\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1410_get_ability_to_download_file_from_host",
+                    "external_id": "RA1410"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d52bec1e-aea7-480f-aefe-60fa15af2dbe",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " List hosts communicated with internal URL",
+            "description": "Response Action for\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2203_list_hosts_communicated_with_internal_url",
+                    "external_id": "RA2203"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8d6de95a-45ef-4b1b-b3ea-20254f32a89e",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Set up relevant data collection",
+            "description": "Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams.  You need to provide them with a list of data that is critically important for IR process. Most of  the time, data like DNS and DHCP logs are not being collected, as their value for detection is  relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1105_set_up_relevant_data_collection",
+                    "external_id": "RA1105"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2daac0c2-ec22-4c7c-964c-4cca2cbeb014",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Develop incident report",
+            "description": "Develop the incident report",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_6101_develop_incident_report",
+                    "external_id": "RA6101"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "lessons-learned"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2d3293b7-eef8-495c-b04c-bc2f348b402f",
+            "created": "2020-04-27T00:05:19.558Z",
+            "modified": "2020-04-27T00:05:19.558Z",
+            "name": " Get ability to block email domain",
+            "description": "Make sure you have the ability to block an email domain\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1303_get_ability_to_block_email_domain",
+                    "external_id": "RA1303"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--84d5bcd5-ea10-4c46-88cc-ca7884098fcb",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " Make personnel report suspicious activity",
+            "description": "Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1104_make_personnel_report_suspicious_activity",
+                    "external_id": "RA1104"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--359abb7a-ca62-4257-9c76-bb60166db328",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " Put compromised accounts on monitoring",
+            "description": "Put (potentially) compromised accounts on monitoring",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring",
+                    "external_id": "RA2103"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c5dadc11-61e9-487b-ab3f-0ecf2f300a1c",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " List host connected to intranet",
+            "description": "List hosts connected to the intranet at the moment or connected at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2209_list_host_connected_to_intranet",
+                    "external_id": "RA2209"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8f4bdaa4-f7ca-4d50-9dc7-9d819eff0463",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " Make sure there are backups",
+            "description": "Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1108_make_sure_there_are_backups",
+                    "external_id": "RA1108"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c2b90293-0d45-4b5e-9470-f06b2e9619db",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " Get ability to find file by metadata",
+            "description": "Make sure you have the ability to find file by its metadata (i.e. permissions, MAC times)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1405_get_ability_to_find_file_by_metadata",
+                    "external_id": "RA1405"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--1a3aa755-a3c9-4e5c-813b-6480b7e1f7de",
+            "created": "2020-04-27T00:05:19.559Z",
+            "modified": "2020-04-27T00:05:19.559Z",
+            "name": " Access internal packet capture data",
+            "description": "Make sure you have access to internal communication Packet Capture data\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1209_access_internal_packet_capture_data",
+                    "external_id": "RA1209"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d77dd2e1-0a23-459f-afe6-3480ae836647",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Get ability to list files deleted",
+            "description": "Make sure you have the ability to list files deleted at a specific time range\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1408_get_ability_to_list_files_deleted",
+                    "external_id": "RA1408"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--3e778ba3-f1ac-4758-854c-14abb9256d58",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Get ability to block user external communication",
+            "description": "Make sure you can block a user for external communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1219_get_ability_to_block_user_external_communication",
+                    "external_id": "RA1219"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8ba315aa-97d6-4037-9e43-7c616d04ec78",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Get ability to block external URL",
+            "description": "Make sure you can block an external URL from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1215_get_ability_to_block_external_url",
+                    "external_id": "RA1215"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d1789069-9f18-49b9-a3c2-26007afa5dc6",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Access external DNS logs",
+            "description": "Make sure you have access to external communication DNS logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1206_access_external_dns_logs",
+                    "external_id": "RA1206"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--6e013e22-22a0-4f67-8169-e595f689cf36",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Find file by hash",
+            "description": "Find a file by its hash\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2410_find_file_by_hash",
+                    "external_id": "RA2410"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--dec1cd73-1e0a-4a8a-84ed-1da8c2c942b1",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Manage remote computer management system policies",
+            "description": "Make sure you can manage Remote Computer Management system policies\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1601_manage_remote_computer_management_system_policies",
+                    "external_id": "RA1601"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2248ab1a-bd6c-4ad7-a674-6139620cf569",
+            "created": "2020-04-27T00:05:19.560Z",
+            "modified": "2020-04-27T00:05:19.560Z",
+            "name": " Block external URL",
+            "description": "Block an external URL from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3205_block_external_url",
+                    "external_id": "RA3205"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--6ffc0691-d191-4903-9f0f-ef67a51d91a6",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " Get ability to remove file from host",
+            "description": "Make sure you have the ability to remove a file from a remote host\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1416_get_ability_to_remove_file_from_host",
+                    "external_id": "RA1416"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2366dad9-823b-4fc9-8790-f5afbe10b5b6",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " List email receivers",
+            "description": "List receivers of a specific email\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2303_list_email_receivers",
+                    "external_id": "RA2303"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e543cc6e-6f9c-4b39-818e-17d187f98a1f",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " Develop communication map",
+            "description": "Develop a communication map for both internal (C-level, managers and technical specialists from the other departments, that could be involved in IR process) and external communications (law enforcement, national CERTs, subject matter experts that you have lack of, etc)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1107_develop_communication_map",
+                    "external_id": "RA1107"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--a3d6d9d1-0eb0-48bb-a00c-51ddfec3b044",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " Conduct lessons learned exercise",
+            "description": "Conduct Lessons Learned exercise",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_6102_conduct_lessons_learned_exercise",
+                    "external_id": "RA6102"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "lessons-learned"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--46487a28-cd6a-4105-abd6-c95333ec89c1",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " List files modified",
+            "description": "List files modified at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2414_list_files_modified",
+                    "external_id": "RA2414"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--44675938-d833-4fd2-8e00-578ab9c55457",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " Find file by metadata",
+            "description": "Find a file by metadata (i.e. permissions, MAC times)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2413_find_file_by_metadata",
+                    "external_id": "RA2413"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--5035b470-dbf5-4eae-8259-23b9b049e488",
+            "created": "2020-04-27T00:05:19.561Z",
+            "modified": "2020-04-27T00:05:19.561Z",
+            "name": " Get ability to block internal IP address",
+            "description": "Make sure you can block an internal IP address from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1212_get_ability_to_block_internal_ip_address",
+                    "external_id": "RA1212"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d985e700-7fba-449c-88e7-f2014622c386",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " List services executed",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2501_list_services_executed",
+                    "external_id": "RA2501"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--33748c27-d442-46fa-bf76-32ef1c1fae30",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " Get ability to list files modified",
+            "description": "Make sure you have the ability to list files modified at specific time range\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1407_get_ability_to_list_files_modified",
+                    "external_id": "RA1407"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--bcfeef12-7c75-4e6b-8d4a-01e283bb88ed",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " Access VPN logs",
+            "description": "Make sure you have access to VPN logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1207_access_vpn_logs",
+                    "external_id": "RA1207"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--9b6237aa-bf4e-4f2e-8646-ad5a69f0574f",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " Block port internal communication",
+            "description": "Block a network port for internal communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3208_block_port_internal_communication",
+                    "external_id": "RA3208"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--02c8043e-ec75-4962-aa2f-23e414ff985f",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " Block internal IP address",
+            "description": "Block an internal IP address from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3202_block_internal_ip_address",
+                    "external_id": "RA3202"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--7d2371ad-d25b-4526-bd05-d6c5fc3a2c54",
+            "created": "2020-04-27T00:05:19.562Z",
+            "modified": "2020-04-27T00:05:19.562Z",
+            "name": " Access internal network flow logs",
+            "description": "Make sure you have access to internal communication Network Flow logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1202_access_internal_network_flow_logs",
+                    "external_id": "RA1202"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--0398e479-9fdc-4a76-af73-321d45094563",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Access vulnerability management system logs",
+            "description": "Access vulnerability management system logs. It will help to identify the vulnerabilities a specific host had at a specific time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1113_access_vulnerability_management_system_logs",
+                    "external_id": "RA1113"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--3e4f163c-a1a9-4a6c-9df4-ba46b64d5246",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Get ability to delete email",
+            "description": "Make sure you have the ability to delete an email\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1305_get_ability_to_delete_email",
+                    "external_id": "RA1305"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--63c4e975-58ab-405e-86c5-b47229cff809",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Analyse Unix ELF",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2408_analyse_unix_elf",
+                    "external_id": "RA2408"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--984c49f7-4699-42c3-8652-1276e43e5c7f",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Find file by path",
+            "description": "Find a file by its path (including its name)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2411_find_file_by_path",
+                    "external_id": "RA2411"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2d572e01-9877-480d-934f-af70879f49f6",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " List files downloaded",
+            "description": "List files downloaded from the internet at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2416_list_files_downloaded",
+                    "external_id": "RA2416"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--a668ec2b-85fc-4978-a981-dc6156f2be3d",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Analyse macos mach-o",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2405_analyse_macos_macho",
+                    "external_id": "RA2405"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d03a726d-14a9-4eab-b787-c00e0474db36",
+            "created": "2020-04-27T00:05:19.563Z",
+            "modified": "2020-04-27T00:05:19.563Z",
+            "name": " Analyse MS office file",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2406_analyse_ms_office_file",
+                    "external_id": "RA2406"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--62df82f1-b8dc-4605-bda5-5accb497477d",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Block internal domain",
+            "description": "Block an internal domain name from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3204_block_internal_domain",
+                    "external_id": "RA3204"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--0701f0d5-602e-42bf-8229-4e8388088c62",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Analyse PDF",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2407_analyse_pdf",
+                    "external_id": "RA2407"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--51d98eba-5bbb-4085-812b-2501c0337592",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Block external IP address",
+            "description": "Block an external IP address from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3201_block_external_ip_address",
+                    "external_id": "RA3201"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--34174bd3-74b3-4b46-a48a-2fa657860037",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Analyse Windows PE",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2402_analyse_windows_pe",
+                    "external_id": "RA2402"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8babeba4-6d84-49e7-82d5-1ed1480202ce",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Get ability to block external domain",
+            "description": "Make sure you can block an external domain name from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1213_get_ability_to_block_external_domain",
+                    "external_id": "RA1213"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c6375b34-2adf-4570-bf5a-6ad655e6a969",
+            "created": "2020-04-27T00:05:19.564Z",
+            "modified": "2020-04-27T00:05:19.564Z",
+            "name": " Get ability to block email sender",
+            "description": "Make sure you have the ability to block an email sender\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1304_get_ability_to_block_email_sender",
+                    "external_id": "RA1304"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--aa81ead5-dc13-4ab3-96d2-73736f7d57a7",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " List hosts communicated with internal IP",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2202_list_hosts_communicated_with_internal_ip",
+                    "external_id": "RA2202"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--c9971c96-6611-4b82-bce2-140e355e3d98",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Get ability to block internal domain",
+            "description": "Make sure you can block an internal domain name from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1214_get_ability_to_block_internal_domain",
+                    "external_id": "RA1214"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--81d4c593-b925-492f-93a5-34125cc1ac8f",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Analyse filehash",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2404_analyse_filehash",
+                    "external_id": "RA2404"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--715acea4-176f-474b-bda8-ddcda04a3388",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Revoke compromised credentials",
+            "description": "Response Action for compromised credentials revocation",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_4701_revoke_compromised_credentials",
+                    "external_id": "RA4701"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "eradication"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--061b6016-2e75-45c5-9590-d78195f42bce",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Get ability to find file by path",
+            "description": "Make sure you have the ability to find a file by its path, including name\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1403_get_ability_to_find_file_by_path",
+                    "external_id": "RA1403"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--9c3d9f89-bb0a-4dc3-bf12-a0d00ac4b872",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Get ability to quarantine file by metadata",
+            "description": "Make sure you have the ability to block a file from being accessed by its metadata (i.e. permissions, MAC times)\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata",
+                    "external_id": "RA1415"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e377ddff-2387-420e-914f-77581c1f49d6",
+            "created": "2020-04-27T00:05:19.565Z",
+            "modified": "2020-04-27T00:05:19.565Z",
+            "name": " Analyse domain name",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2204_analyse_domain_name",
+                    "external_id": "RA2204"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--a8ec71ff-b0ba-4396-a486-4226ac6b3800",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " List processes executed",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2403_list_processes_executed",
+                    "external_id": "RA2403"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e5036907-bb23-40e8-95da-75a5b0480b65",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " Analyse URL",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2206_analyse_uri",
+                    "external_id": "RA2206"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8c7fcbf1-d3a3-4719-b664-727e20309b7a",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " List files created",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2401_list_files_created",
+                    "external_id": "RA2401"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--58726125-bc37-436e-89e4-2e48aa5c5ba4",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " Access internal DNS logs",
+            "description": "Make sure you have access to internal communication DNS logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1205_access_internal_dns_logs",
+                    "external_id": "RA1205"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--779963fa-f51b-4a98-b79d-66cb2e92c1c6",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " Get ability to block external IP address",
+            "description": "Make sure you can block an external IP address from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1211_get_ability_to_block_external_ip_address",
+                    "external_id": "RA1211"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--f9aae72f-c60a-4898-84b0-fdd7edf51b51",
+            "created": "2020-04-27T00:05:19.566Z",
+            "modified": "2020-04-27T00:05:19.566Z",
+            "name": " Get ability to list users opened email",
+            "description": "Make sure you have the ability to list users who opened a particular email\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1301_get_ability_to_list_users_opened_email",
+                    "external_id": "RA1301"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--ddf362d0-7f0e-4a75-baba-2cf337c56141",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " List users opened email",
+            "description": "Response Action for \n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2301_list_users_opened_email",
+                    "external_id": "RA2301"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--31d2bf6c-10bf-44b6-bd5a-a991db510886",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " Get network architecture map",
+            "description": "Get network architecture map. Usually, its managed by the Network security team. It will help you to choose the containment strategy, such as isolating specific network segments\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1109_get_network_architecture_map",
+                    "external_id": "RA1109"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--8b86d4c7-da20-4254-8b05-f202c8d9cf0f",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " Quarantine file by metadata",
+            "description": "Quarantine a file by its metadata\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3405_quarantine_file_by_metadata",
+                    "external_id": "RA3405"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--d0e50d8c-0e21-41fc-b5dc-ab57af327823",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " List files deleted",
+            "description": "List files deleted at a particular time in the past\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2415_list_files_deleted",
+                    "external_id": "RA2415"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--b094ce19-b280-4ed1-8f60-952c547e8bde",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " Develop assets knowledge base",
+            "description": "Develop assets knowledge base. It will help you to compare observed activity with a normal activity profile for a specific host, user or network segment\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1111_develop_assets_knowledge_base",
+                    "external_id": "RA1111"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--f5de6957-c45a-406c-927e-a6387eed2a64",
+            "created": "2020-04-27T00:05:19.567Z",
+            "modified": "2020-04-27T00:05:19.567Z",
+            "name": " Delete malicious emails",
+            "description": "Delete malicious emails from a Email Server and users' email boxes",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_4301_delete_malicious_emails",
+                    "external_id": "RA4301"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "eradication"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--606e3ed3-307f-4f71-9ee7-90779503e4af",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Get ability to block port external communication",
+            "description": "Make sure you can block a network port for external communications\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1217_get_ability_to_block_port_external_communication",
+                    "external_id": "RA1217"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--20cdbd23-8921-49ca-b99f-8f38e7bb1a73",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Report incident to external companies",
+            "description": "Report incident to external companies",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_4102_report_incident_to_external_companies",
+                    "external_id": "RA4102"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "eradication"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--04b01747-1016-41ca-b275-8d73ed38dfdb",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Get ability to list files downloaded",
+            "description": "Make sure you have the ability to list files downloaded from the internet at a specific time range\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1409_get_ability_to_list_files_downloaded",
+                    "external_id": "RA1409"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--69a4d776-c81e-4cda-9f50-d9a97eb499ea",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Block external domain",
+            "description": "Block an external domain name from being accessed by corporate assets\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3203_block_external_domain",
+                    "external_id": "RA3203"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--7e70fb52-4cb9-49d7-89be-c11c2df7ad73",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Take trainings",
+            "description": "Take training courses to gain relevant knowledge",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1102_take_trainings",
+                    "external_id": "RA1102"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--a35b61e1-b973-4029-9cff-46c166c188cb",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Access external HTTP logs",
+            "description": "Make sure you have access to external communication HTTP logs\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1204_access_external_http_logs",
+                    "external_id": "RA1204"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2bcea1b7-b538-45cf-9827-c7c2674e1265",
+            "created": "2020-04-27T00:05:19.568Z",
+            "modified": "2020-04-27T00:05:19.568Z",
+            "name": " Get original email",
+            "description": "Obtain the original phishing email",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2302_get_original_email",
+                    "external_id": "RA2302"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--7a7953ae-bde9-4a47-898c-08046cd1a8b3",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Get ability to find file by hash",
+            "description": "Make sure you have the ability to find a file by its hash\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1402_get_ability_to_find_file_by_hash",
+                    "external_id": "RA1402"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--3f086986-81ec-44ed-9716-3abcdbc2fc6a",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Quarantine file by content pattern",
+            "description": "Quarantine a file by its content pattern\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3404_quarantine_file_by_content_pattern",
+                    "external_id": "RA3404"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--2aa7def2-da63-4007-ae61-45d76a7476a0",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Get access control matrix",
+            "description": "Get Access Control Matrix. Usually, its managed by the Network security team. It will help you to identify adversary opportunities, such as laterally movement and so on\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_1110_get_access_control_matrix",
+                    "external_id": "RA1110"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "preparation"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e5f4ae79-94bc-4098-99c3-5deceb913453",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Download file from host",
+            "description": "Download a file from a host\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_2418_download_file_from_host",
+                    "external_id": "RA2418"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "identification"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--bcc93437-f5f5-4322-97d2-2d731175c2bd",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Quarantine file by format",
+            "description": "Quarantine a file by its format\n",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3401_quarantine_file_by_format",
+                    "external_id": "RA3401"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-action",
+            "id": "x-react-action--e5b06360-5e2a-408e-b24b-05404f910e74",
+            "created": "2020-04-27T00:05:19.569Z",
+            "modified": "2020-04-27T00:05:19.569Z",
+            "name": " Block domain on email",
+            "description": "Block a domain name on an Email server",
+            "external_references": [
+                {
+                    "source_name": "atc-react",
+                    "url": "https://atc-project.github.io/atc-react/Response_Actions/RA_3301_block_domain_on_email",
+                    "external_id": "RA3301"
+                }
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "atc-react",
+                    "phase_name": "containment"
+                }
+            ]
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--656b1686-7895-460a-a77b-0992d278de98",
+            "created": "2020-04-27T00:05:19.350Z",
+            "modified": "2020-04-27T00:05:19.350Z",
+            "name": "Preparation",
+            "x_react_shortname": "preparation"
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--23686f2b-a51d-4b1e-a02f-aa2c5b4f12cb",
+            "created": "2020-04-27T00:05:19.350Z",
+            "modified": "2020-04-27T00:05:19.350Z",
+            "name": "Identification",
+            "x_react_shortname": "identification"
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--6ba1ea6b-a4f8-4750-b40c-f0e33a12352a",
+            "created": "2020-04-27T00:05:19.350Z",
+            "modified": "2020-04-27T00:05:19.350Z",
+            "name": "Containment",
+            "x_react_shortname": "containment"
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--456dea7e-829a-40f4-afb1-5db3fdfb5d11",
+            "created": "2020-04-27T00:05:19.350Z",
+            "modified": "2020-04-27T00:05:19.350Z",
+            "name": "Eradication",
+            "x_react_shortname": "eradication"
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--0e037d3e-4de1-41a4-97a2-9213f0d4f0fd",
+            "created": "2020-04-27T00:05:19.350Z",
+            "modified": "2020-04-27T00:05:19.350Z",
+            "name": "Recovery",
+            "x_react_shortname": "recovery"
+        },
+        {
+            "type": "x-react-stage",
+            "id": "x-react-stage--7b82d15b-a4b7-4487-8896-5b252d69d648",
+            "created": "2020-04-27T00:05:19.351Z",
+            "modified": "2020-04-27T00:05:19.351Z",
+            "name": "Lessons Learned",
+            "x_react_shortname": "lessons-learned"
+        },
+        {
+            "type": "x-react-matrix",
+            "id": "x-react-matrix--fc643788-e48b-467c-abba-99a6a4e4b438",
+            "created": "2020-04-27T00:05:19.351Z",
+            "modified": "2020-04-27T00:05:19.351Z",
+            "name": "RE&CT Matrix",
+            "description": "The full RE&CT Matrix, without any mappings but names",
+            "tactic_refs": [
+                "x-react-stage--656b1686-7895-460a-a77b-0992d278de98",
+                "x-react-stage--23686f2b-a51d-4b1e-a02f-aa2c5b4f12cb",
+                "x-react-stage--6ba1ea6b-a4f8-4750-b40c-f0e33a12352a",
+                "x-react-stage--456dea7e-829a-40f4-afb1-5db3fdfb5d11",
+                "x-react-stage--0e037d3e-4de1-41a4-97a2-9213f0d4f0fd",
+                "x-react-stage--7b82d15b-a4b7-4487-8896-5b252d69d648"
+            ]
+        }
+    ]
+}
