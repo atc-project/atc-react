@@ -3,6 +3,12 @@
 ![](images/logo_v2.png)
 
 The RE&CT Framework is designed for accumulating, describing and categorizing Incident Response techniques.  
+
+The main use cases are:
+
+- Prioritize development for Incident Response capabilities  
+- Gap analysis — determine "coverage" of a set of Incident Response capabilities  
+
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The columns represent [Incident Response stages](responsestages.md).  
 The cells repsresent [Response Actions](#response-action).  

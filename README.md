@@ -10,12 +10,12 @@ The project represents the following:
 
 ## The RE&CT Framework
 
-is designed for accumulating, describing and categorizing Incident Response techniques. 
+is designed for accumulating, describing and categorizing actionable Incident Response techniques. 
 
 The main use cases are:
 
 - Prioritize development for Incident Response capabilities
-- Determine "coverage" of a set of Incident Response capabilities, gap analysis
+- Gap analysis — determine "coverage" of a set of Incident Response capabilities
 
 There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
 
