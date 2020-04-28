@@ -14,7 +14,7 @@ is designed for accumulating, describing and categorizing actionable Incident Re
 
 The main use cases are:
 
-- Prioritize development for Incident Response capabilities
+- Prioritization of Incident Response capabilities development
 - Gap analysis — determine "coverage" of a set of Incident Response capabilities
 
 There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
