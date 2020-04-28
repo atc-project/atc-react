@@ -2,7 +2,7 @@
 
 ![](images/logo_v2.png)
 
-The RE&CT Framework is designed for accumulating, describing and categorizing Incident Response techniques.  
+The RE&CT Framework is designed for accumulating, describing and categorizing actionable Incident Response techniques.  
 
 The main use cases are:
 
