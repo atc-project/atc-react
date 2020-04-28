@@ -3,24 +3,27 @@
 # Import ATC classes
 from scripts.responseaction import ResponseAction
 from scripts.responseplaybook import ResponsePlaybook
+from scripts.responsestage import ResponseStage
 
 # Import ATC Utils
 from scripts.atcutils import ATCutils
 from scripts.init_markdown import create_markdown_dirs
+from jinja2 import Environment, FileSystemLoader
 
 # Others
 import glob
 import traceback
 import sys
 
+env = Environment(loader=FileSystemLoader('scripts/templates'))
 ATCconfig = ATCutils.load_config("scripts/config.yml")
 
 
 class PopulateMarkdown:
     """Class for populating markdown repo"""
 
-    def __init__(self, ra=False, rp=False, auto=False,
-                 ra_path=False, rp_path=False,
+    def __init__(self, ra=False, rp=False, rs=False, auto=False,
+                 ra_path=False, rp_path=False, rs_path=False,
                  atc_dir=False, init=False):
         """Init"""
 
@@ -42,12 +45,19 @@ class PopulateMarkdown:
         if auto:
             self.response_action(ra_path)
             self.response_playbook(rp_path)
+            self.response_stage(rs_path)
 
         if ra:
             self.response_action(ra_path)
+            self.response_stage(rs_path)
 
         if rp:
             self.response_playbook(rp_path)
+            self.response_stage(rs_path)
+
+        if rp:
+            self.response_stage(rs_path)
+
 
     def init_export(self):
         try:
@@ -101,3 +111,52 @@ class PopulateMarkdown:
                 traceback.print_exc(file=sys.stdout)
                 print('-' * 60)
         print("Response Playbooks populated!")
+
+    def response_stage(self, rs_path):
+        """Populate Response Actions"""
+
+        print("Populating Response Actions..")
+        if rs_path:
+            rs_list = glob.glob(rs_path + '*.yml')
+        else:
+            rs_dir = ATCconfig.get('response_stages_dir')
+            rs_list = glob.glob(rs_dir + '/*.yml')
+
+        for rs_file in rs_list:
+            try:
+                rs = ResponseStage(rs_file)
+                rs.render_template("markdown")
+                rs.save_markdown_file(atc_dir=self.atc_dir)
+            except Exception as e:
+                print(rs_file + " failed\n\n%s\n\n" % e)
+                print("Err message: %s" % e)
+                print('-' * 60)
+                traceback.print_exc(file=sys.stdout)
+                print('-' * 60)
+
+        template = env.get_template(
+            'markdown_responsestage_main_template.j2'
+        )
+
+        rss, rs_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_stages_dir'))
+
+        rs_filenames = [_rs_path.split('/')[-1].replace('.yml', '') for _rs_path in rs_paths]
+
+        rss_dict = {}
+        rss_list = []
+
+        for i in range(len(rss)):
+
+            rs_title = rss[i].get('title')
+            rs_id = rss[i].get('id')
+            rs_description = rss[i].get('description')
+
+            rss_list.append((rs_id, rs_title, rs_description))
+
+        rss_dict.update({'rss_list': sorted(rss_list)})
+
+        content = template.render(rss_dict)
+
+        ATCutils.write_file('docs/response_stages.md', content)
+        print("Response Stages populated!")
+

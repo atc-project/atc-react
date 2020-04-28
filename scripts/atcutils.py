@@ -265,3 +265,24 @@ class ATCutils:
                 return name
 
         return "N/A"
+
+    @staticmethod
+    def normalize_rs_name(rs_name):
+        """Revieve a Response Stage name, i.e. reparation, lessons_learned, etc
+        Return normalized RS name
+        """
+
+        stages = {
+          "preparation": "Preparation",
+          "identification": "Identification",
+          "containment": "Containment",
+          "eradication": "Eradication",
+          "recovery": "Recovery",
+          "lessons_learned": "Lessons Learned"
+        }
+
+        for stage_name, normal_stage_name in stages.items():
+            if rs_name == stage_name:
+                return normal_stage_name
+
+        return "N/A"

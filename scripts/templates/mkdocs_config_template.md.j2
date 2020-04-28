@@ -13,8 +13,10 @@ edit_uri: blob/master/docs/
 
 nav:
     - Introduction:
-        - RE&CT: index.md
-    - Response Actions:
+        - RE&CT Framework: index.md
+        - Response Stages: response_stages.md
+{%- if stages is not none and stages|length -%}
+{{'\n'}}    - Response Actions:
 {%- for stage_name, stage_actions in stages -%}
     {%- if stage_actions is not none and stage_actions|length -%}
         {{'\n'}}        - {{stage_name}}:
@@ -22,6 +24,7 @@ nav:
             {{'\n'}}            - "{{action_title}}": ./Response_Actions/{{action_filename}}.md {%- endfor -%}
     {%- endif -%}
 {%- endfor %}
+{%- endif -%}
 {%- if playbooks is not none and playbooks|length -%}
     {{'\n'}}    - Response Playbooks:
     {%- for playbook_title, playbook_path in playbooks -%}
