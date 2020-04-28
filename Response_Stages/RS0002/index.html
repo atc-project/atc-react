@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Containment - RE&CT</title>
+  <title>Identification - RE&CT</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -17,8 +17,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Containment";
-    var mkdocs_page_input_path = "Response_Stages/RS0003.md";
+    var mkdocs_page_name = "Identification";
+    var mkdocs_page_input_path = "Response_Stages/RS0002.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -64,7 +64,7 @@
     </li>
     </ul>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../response_stages/">Response Stages</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../../responsestages/">Response Stages</a>
     <ul>
     </ul>
                     </li>
@@ -704,10 +704,10 @@
     
       
     
-    <li>Containment</li>
+    <li>Identification</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/atc-project/atc-react/blob/master/docs/Response_Stages/RS0003.md"
+        <a href="https://github.com/atc-project/atc-react/blob/master/docs/Response_Stages/RS0002.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -718,9 +718,9 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="containment">Containment</h1>
-<p><strong>ID</strong>: RS0003</p>
-<p>Prevent a threat from achieving its objectives and/or spreading around an environment.</p>
+                <h1 id="identification">Identification</h1>
+<p><strong>ID</strong>: RS0002</p>
+<p>Gather information about a threat that has triggered a security incident, its TTPs, and affected assets.</p>
 <h2 id="response-actions">Response Actions</h2>
 <table>
 <thead>
@@ -732,89 +732,219 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3402_quarantine_file_by_hash/">RA3402</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3402_quarantine_file_by_hash/"> Quarantine file by hash</a></td>
-<td>Quarantine a file by its hash</td>
+<td align="center"><a href="../../Response_Actions/RA_2304_make_sure_email_is_a_phishing/">RA2104</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2304_make_sure_email_is_a_phishing/"> Make sure email is a phishing</a></td>
+<td>Make sure an email is a phishing attack</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3209_block_user_external_communication/">RA3209</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3209_block_user_external_communication/"> Block user external communication</a></td>
-<td>Block a user for external communications</td>
+<td align="center"><a href="../../Response_Actions/RA_2211_get_data_transferred_by_smb/">RA2211</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2211_get_data_transferred_by_smb/"> Get data transferred by SMB</a></td>
+<td>Get the data being transferred by SMB at the moment or at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3210_block_user_internal_communication/">RA3210</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3210_block_user_internal_communication/"> Block user internal communication</a></td>
-<td>Block a user for internal communications</td>
+<td align="center"><a href="../../Response_Actions/RA_2102_list_host_vulnerabilities/">RA2105</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2102_list_host_vulnerabilities/"> List host vulnerabilities</a></td>
+<td>Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3403_quarantine_file_by_path/">RA3403</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3403_quarantine_file_by_path/"> Quarantine file by path</a></td>
-<td>Quarantine a file by its path</td>
+<td align="center"><a href="../../Response_Actions/RA_2208_list_hosts_connected_to_vpn/">RA2208</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2208_list_hosts_connected_to_vpn/"> List hosts connected to VPN</a></td>
+<td>List hosts connected to a VPN at the moment or at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3206_block_internal_url/">RA3206</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3206_block_internal_url/"> Block internal URL</a></td>
-<td>Block an internal URL from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2210_get_data_transferred_by_ftp/">RA2210</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2210_get_data_transferred_by_ftp/"> Get data transferred by FTP</a></td>
+<td>Get the data being transferred by FTP at the moment or at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3207_block_port_external_communication/">RA3207</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3207_block_port_external_communication/"> Block port external communication</a></td>
-<td>Block a network port for external communications</td>
+<td align="center"><a href="../../Response_Actions/RA_2212_get_data_transferred_by_http/">RA2212</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2212_get_data_transferred_by_http/"> Get data transferred by HTTP</a></td>
+<td>Get the data being transferred by HTTP at the moment or at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3302_block_sender_on_email/">RA3302</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3302_block_sender_on_email/"> Block sender on email</a></td>
-<td>Block an email sender on the Email-server</td>
+<td align="center"><a href="../../Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/">RA2213</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2213_list_hosts_communicated_with_external_domain/"> List hosts communicated with external domain</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3205_block_external_url/">RA3205</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3205_block_external_url/"> Block external URL</a></td>
-<td>Block an external URL from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2417_list_files_with_tampered_timestamps/">RA2417</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2417_list_files_with_tampered_timestamps/"> List files with tampered timestamps</a></td>
+<td>List files with tampered timestamps</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3208_block_port_internal_communication/">RA3208</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3208_block_port_internal_communication/"> Block port internal communication</a></td>
-<td>Block a network port for internal communications</td>
+<td align="center"><a href="../../Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/">RA2214</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2214_list_hosts_communicated_with_external_ip/"> List hosts communicated with external ip.</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3202_block_internal_ip_address/">RA3202</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3202_block_internal_ip_address/"> Block internal IP address</a></td>
-<td>Block an internal IP address from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2215_list_hosts_communicated_with_external_url/">RA2215</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2215_list_hosts_communicated_with_external_url/"> List hosts communicated with external URL</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3204_block_internal_domain/">RA3204</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3204_block_internal_domain/"> Block internal domain</a></td>
-<td>Block an internal domain name from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2412_find_file_by_content_pattern/">RA2412</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2412_find_file_by_content_pattern/"> Find file by content pattern</a></td>
+<td>Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3201_block_external_ip_address/">RA3201</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3201_block_external_ip_address/"> Block external IP address</a></td>
-<td>Block an external IP address from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2207_list_hosts_communicated_by_port/">RA2207</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2207_list_hosts_communicated_by_port/"> List hosts communicated by port</a></td>
+<td>List hosts communicating by a specific port at the moment or at a particular time in the past</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3405_quarantine_file_by_metadata/">RA3405</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3405_quarantine_file_by_metadata/"> Quarantine file by metadata</a></td>
-<td>Quarantine a file by its metadata</td>
+<td align="center"><a href="../../Response_Actions/RA_2205_analyse_ip/">RA2205</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2205_analyse_ip/"> Analyse IP</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3203_block_external_domain/">RA3203</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3203_block_external_domain/"> Block external domain</a></td>
-<td>Block an external domain name from being accessed by corporate assets</td>
+<td align="center"><a href="../../Response_Actions/RA_2101_list_victims_of_security_alert/">RA2104</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2101_list_victims_of_security_alert/"> List victims of security alert</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3404_quarantine_file_by_content_pattern/">RA3404</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3404_quarantine_file_by_content_pattern/"> Quarantine file by content pattern</a></td>
-<td>Quarantine a file by its content pattern</td>
+<td align="center"><a href="../../Response_Actions/RA_2601_list_registry_keys_modified/">RA2601</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2601_list_registry_keys_modified/"> List registry keys modified</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3401_quarantine_file_by_format/">RA3401</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3401_quarantine_file_by_format/"> Quarantine file by format</a></td>
-<td>Quarantine a file by its format</td>
+<td align="center"><a href="../../Response_Actions/RA_2201_list_hosts_communicated_with_internal_domain/">RA2201</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2201_list_hosts_communicated_with_internal_domain/"> List hosts communicated with internal domain</a></td>
+<td>Response Action for</td>
 </tr>
 <tr>
-<td align="center"><a href="../../Response_Actions/RA_3301_block_domain_on_email/">RA3301</a></td>
-<td align="center"><a href="../../Response_Actions/RA_3301_block_domain_on_email/"> Block domain on email</a></td>
-<td>Block a domain name on an Email server</td>
+<td align="center"><a href="../../Response_Actions/RA_2305_extract_observables_from_email/">RA2101</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2305_extract_observables_from_email/"> Extract observables from email</a></td>
+<td>Extract all observables from the original phishing email</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2409_find_file_by_format/">RA2409</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2409_find_file_by_format/"> Find file by format</a></td>
+<td>Find a file by its format</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2203_list_hosts_communicated_with_internal_url/">RA2203</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2203_list_hosts_communicated_with_internal_url/"> List hosts communicated with internal URL</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/">RA2103</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring/"> Put compromised accounts on monitoring</a></td>
+<td>Put (potentially) compromised accounts on monitoring</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2209_list_host_connected_to_intranet/">RA2209</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2209_list_host_connected_to_intranet/"> List host connected to intranet</a></td>
+<td>List hosts connected to the intranet at the moment or connected at a particular time in the past</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2410_find_file_by_hash/">RA2410</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2410_find_file_by_hash/"> Find file by hash</a></td>
+<td>Find a file by its hash</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2303_list_email_receivers/">RA2303</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2303_list_email_receivers/"> List email receivers</a></td>
+<td>List receivers of a specific email</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2414_list_files_modified/">RA2414</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2414_list_files_modified/"> List files modified</a></td>
+<td>List files modified at a particular time in the past</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2413_find_file_by_metadata/">RA2413</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2413_find_file_by_metadata/"> Find file by metadata</a></td>
+<td>Find a file by metadata (i.e. permissions, MAC times)</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2501_list_services_executed/">RA2501</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2501_list_services_executed/"> List services executed</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2408_analyse_unix_elf/">RA2408</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2408_analyse_unix_elf/"> Analyse Unix ELF</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2411_find_file_by_path/">RA2411</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2411_find_file_by_path/"> Find file by path</a></td>
+<td>Find a file by its path (including its name)</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2416_list_files_downloaded/">RA2416</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2416_list_files_downloaded/"> List files downloaded</a></td>
+<td>List files downloaded from the internet at a particular time in the past</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2405_analyse_macos_macho/">RA2405</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2405_analyse_macos_macho/"> Analyse macos mach-o</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2406_analyse_ms_office_file/">RA2406</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2406_analyse_ms_office_file/"> Analyse MS office file</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2407_analyse_pdf/">RA2407</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2407_analyse_pdf/"> Analyse PDF</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2402_analyse_windows_pe/">RA2402</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2402_analyse_windows_pe/"> Analyse Windows PE</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2202_list_hosts_communicated_with_internal_ip/">RA2202</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2202_list_hosts_communicated_with_internal_ip/"> List hosts communicated with internal IP</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2404_analyse_filehash/">RA2404</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2404_analyse_filehash/"> Analyse filehash</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2204_analyse_domain_name/">RA2204</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2204_analyse_domain_name/"> Analyse domain name</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2403_list_processes_executed/">RA2403</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2403_list_processes_executed/"> List processes executed</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2206_analyse_uri/">RA2206</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2206_analyse_uri/"> Analyse URL</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2401_list_files_created/">RA2401</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2401_list_files_created/"> List files created</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2301_list_users_opened_email/">RA2301</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2301_list_users_opened_email/"> List users opened email</a></td>
+<td>Response Action for</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2415_list_files_deleted/">RA2415</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2415_list_files_deleted/"> List files deleted</a></td>
+<td>List files deleted at a particular time in the past</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2302_get_original_email/">RA2302</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2302_get_original_email/"> Get original email</a></td>
+<td>Obtain the original phishing email</td>
+</tr>
+<tr>
+<td align="center"><a href="../../Response_Actions/RA_2418_download_file_from_host/">RA2418</a></td>
+<td align="center"><a href="../../Response_Actions/RA_2418_download_file_from_host/"> Download file from host</a></td>
+<td>Download a file from a host</td>
 </tr>
 </tbody>
 </table>
