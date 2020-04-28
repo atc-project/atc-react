@@ -20,7 +20,7 @@ jobs:
             python ./main.py -MK
             python ./main.py --stix
             python ./main.py -NAV
-            cd ./script/ && python ./update_react_mapping.py
+            cd ./scripts/ && python ./update_react_mapping.py
             echo ""
             echo ""
             git status
