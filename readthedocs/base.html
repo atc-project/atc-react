@@ -87,6 +87,7 @@
         {%- block site_nav %}
         {%- set navlevel = 1 %}
         {%- for nav_item in nav %}
+        {% if nav_item.title != "hidden" %}
             {%- if nav_item.is_section %}
                 <p class="caption"><span class="caption-text">{{ nav_item.title }}</span></p>
                 <ul{% if nav_item.active %} class="current"{% endif %}>
@@ -102,6 +103,7 @@
                         {%- include 'nav.html' %}
                     </li>
                 </ul>
+          {%- endif %}
             {%- endif %}
         {%- endfor %}
     {%- endblock %}
