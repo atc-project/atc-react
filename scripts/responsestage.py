@@ -67,7 +67,7 @@ class ResponseStage:
                 ra_description = ras[i].get('description').strip()
                 stage_list.append((ra_id, ra_filename, ra_title, ra_description))
 
-        self.ra_parsed_file.update({'stage_list': stage_list})
+        self.ra_parsed_file.update({'stage_list': sorted(stage_list)})
 
         self.content = template.render(self.ra_parsed_file)
 

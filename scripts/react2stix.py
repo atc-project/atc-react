@@ -40,7 +40,7 @@ for i in range(1,7):
     external_references.append([{
         "source_name": "atc-react",
         "external_id": "RS000" + str(i),
-        "url": "https://atc-project.github.io/atc-react/Response_Stages/"
+        "url": "https://atc-project.github.io/atc-react/Response_Stages/" + "RS000" + str(i)
     }])
 
 
