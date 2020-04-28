@@ -1,4 +1,5 @@
 <a class="{% if not nav_item.is_link %}reference internal{% endif %}{% if nav_item.active%} current{%endif%}" href="{% if not nav_item.is_section %}{{ nav_item.url|url }}{% else %}#{% endif %}">{{ nav_item.title }}</a>
+{% if not nav_item.title.startswith("_") %}
 {%- set navlevel = navlevel + 1 %}
 {%- if navlevel <= config.theme.navigation_depth
     and ((nav_item.is_page and nav_item.toc.items
@@ -18,5 +19,6 @@
             {%- endfor %}
         {%- endif %}
     </ul>
+{%- endif %}
 {%- endif %}
 {%- set navlevel = navlevel - 1 %}
