@@ -18,6 +18,7 @@ jobs:
             python ./main.py --markdown --auto --init
             python ./main.py --thehive
             python ./main.py -MK
+            python ./main.py --stix
             echo ""
             echo ""
             git status
