@@ -2,8 +2,8 @@
 
 from scripts.atcutils import ATCutils
 from jinja2 import Environment, FileSystemLoader
+from scripts.react_mapping import rs_mapping
 import os
-
 
 ATCconfig = ATCutils.load_config("scripts/config.yml")
 
@@ -22,10 +22,12 @@ class ResponseAction:
         # Init methods
         self.parse_into_fields(self.yaml_file)
 
+
     def parse_into_fields(self, yaml_file):
         """Description"""
 
         self.ra_parsed_file = ATCutils.read_yaml_file(yaml_file)
+
 
     def render_template(self, template_type):
         """Description
@@ -55,13 +57,20 @@ class ResponseAction:
                 .get('title'))}
         )
 
+        stage_list = []
+        stage = self.ra_parsed_file.get('stage')
+
+        for rs_id, rs_name in rs_mapping.items():
+            if ATCutils.normalize_rs_name(stage) == rs_name:
+                stage_list.append((rs_id, rs_name))
+
         self.ra_parsed_file.update(
-            {'category': ATCutils.get_ra_category(self.ra_parsed_file
-                .get('id'))}
+            {'stage': stage_list}
         )
 
         self.ra_parsed_file.update(
-            {'stage': self.ra_parsed_file.get('stage').capitalize()}
+            {'category': ATCutils.get_ra_category(self.ra_parsed_file
+                .get('id'))}
         )
 
         self.content = template.render(self.ra_parsed_file)

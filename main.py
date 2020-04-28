@@ -39,6 +39,8 @@ if __name__ == '__main__':
                         help='Build response action part')
     group2.add_argument('-RP', '--responseplaybook', action='store_true',
                         help='Build response playbook part')
+    group2.add_argument('-RS', '--responsestage', action='store_true',
+                        help='Build response stage part')
 
     # Init capabilities
     parser.add_argument('-i', '--init', action='store_true',
@@ -49,7 +51,7 @@ if __name__ == '__main__':
 
     if args.markdown:
         PopulateMarkdown(auto=args.auto, ra=args.responseactions,
-                         rp=args.responseplaybook, init=args.init)
+                         rp=args.responseplaybook, rs=args.responsestage, init=args.init)
     elif args.mkdocs:
         GenerateMkdocs()
     elif args.stix:

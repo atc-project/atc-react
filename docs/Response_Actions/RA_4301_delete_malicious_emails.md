@@ -5,7 +5,7 @@
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
-| **Stage**                   | Eradication         |
+| **Stage**                   |[RS0004: Eradication](../Response_Stages/RS0004.md)| 
 | **Requirements** |<ul><li>MS_email_server</li></ul>|
 
 ### Workflow

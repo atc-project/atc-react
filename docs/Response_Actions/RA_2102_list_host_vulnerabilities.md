@@ -5,7 +5,7 @@
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | General      |
-| **Stage**                   | Identification         |
+| **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 

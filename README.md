@@ -4,17 +4,23 @@
 
 The project represents the following:
 
-1. A [framework](https://atc-project.github.io/atc-react/) for Incident Response techniques categorization
+1. A [framework](https://atc-project.github.io/atc-react/) — knowledge base of Incident Response techniques
 2. A community-driven [collection](docs/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
 ## The RE&CT Framework
 
-is designed for accumulating, describing and categorizing Incident Response techniques.  
+is designed for accumulating, describing and categorizing Incident Response techniques. 
+
+The main use cases are:
+
+- Prioritize development for Incident Response capabilities
+- Determine "coverage" of a set of Incident Response capabilities, gap analysis
+
 There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
 
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The collumns repsresent stages of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
+The columns represent [Incident Response stages](response_stages.md).  
 The cells repsresent [Response Actions](#response-action).  
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
@@ -242,7 +248,7 @@ Here is an example of Response Action:
   <img src="docs/images/ra_confluence_v2.png" />
 </details>
 
-Each Response Action mapped to a specific stage of [The Six Stages of Incident Response Process](https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/).  
+Each Response Action mapped to a specific [Incident Response stage](response_stages.md).  
 The first digit of the Response Action ID reflects a stage number.  
 The second digit of the Response Action ID reflects a category it belongs to:
 

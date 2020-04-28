@@ -3,6 +3,7 @@
 # Import ATC classes
 from scripts.responseaction import ResponseAction
 from scripts.responseplaybook import ResponsePlaybook
+from scripts.responsestage import ResponseStage
 
 # Import ATC Utils
 from scripts.atcutils import ATCutils
@@ -19,8 +20,8 @@ ATCconfig = ATCutils.load_config("scripts/config.yml")
 class GenerateMkdocs:
     """Class for populating mkdocs config file (navigation)"""
 
-    def __init__(self, ra=False, rp=False, auto=False,
-                 ra_path=False, rp_path=False,
+    def __init__(self, ra=False, rp=False, rs=False, auto=False,
+                 ra_path=False, rp_path=False, rs_path=False,
                  atc_dir=False, init=False):
         """Init"""
 
@@ -34,12 +35,16 @@ class GenerateMkdocs:
         if auto:
             self.response_action(ra_path)
             self.response_playbook(rp_path)
+            self.response_stage(rs_path)
 
         if ra:
             self.response_action(ra_path)
 
         if rp:
             self.response_playbook(rp_path)
+
+        if rs:
+            self.response_stage(rs_path)
 
         if ra_path:
             ras, ra_paths = ATCutils.load_yamls_with_paths(ra_path)
@@ -51,9 +56,15 @@ class GenerateMkdocs:
         else:
             rps, rp_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_playbooks_dir'))
 
-        
+        if rs_path:
+            rss, rs_paths = ATCutils.load_yamls_with_paths(rs_path)
+        else:
+            rss, rs_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_stages_dir'))
+
+
         ra_filenames = [ra_path.split('/')[-1].replace('.yml', '') for ra_path in ra_paths]
         rp_filenames = [rp_path.split('/')[-1].replace('.yml', '') for rp_path in rp_paths]
+        rs_filenames = [rs_path.split('/')[-1].replace('.yml', '') for rs_path in rs_paths]
 
         # Point to the templates directory
         env = Environment(loader=FileSystemLoader('scripts/templates'))
@@ -120,8 +131,19 @@ class GenerateMkdocs:
 
             playbooks.append((rp_updated_title, rp_filenames[i]))
 
+        rs_list = []
+
+        for i in range(len(rss)):
+
+            rs_title = rss[i].get('title')
+            rs_id = rss[i].get('id')
+
+            rs_list.append((rs_title, rs_id))
+
+
         data_to_render.update({'stages': stages})
         data_to_render.update({'playbooks': sorted(playbooks)})
+        data_to_render.update({'rs_list': rs_list})
         
         content = template.render(data_to_render)
         ATCutils.write_file('mkdocs.yml', content)

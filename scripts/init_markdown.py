@@ -11,7 +11,7 @@ def create_markdown_dirs():
         '../docs'
     ))
 
-    target_dir_list = ['Response_Actions', 'Response_Playbooks']
+    target_dir_list = ['Response_Actions', 'Response_Playbooks' , 'Response_Stages']
 
     for item in target_dir_list:
         (base_dir / item).mkdir(parents=True, exist_ok=True)

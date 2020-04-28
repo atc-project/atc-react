@@ -5,7 +5,7 @@
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |
-| **Stage**                   | Eradication         |
+| **Stage**                   |[RS0004: Eradication](../Response_Stages/RS0004.md)| 
 | **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
