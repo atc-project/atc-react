@@ -157,6 +157,6 @@ class PopulateMarkdown:
 
         content = template.render(rss_dict)
 
-        ATCutils.write_file('docs/response_stages.md', content)
+        ATCutils.write_file('docs/responsestages.md', content)
         print("Response Stages populated!")
 

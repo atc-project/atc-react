@@ -4,7 +4,7 @@
 
 The RE&CT Framework is designed for accumulating, describing and categorizing Incident Response techniques.  
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The columns represent [Incident Response stages](response_stages.md).  
+The columns represent [Incident Response stages](responsestages.md).  
 The cells repsresent [Response Actions](#response-action).  
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
@@ -218,7 +218,7 @@ For information about customization and usage, please refer to the [usage](https
 
 is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
 
-Each Response Action mapped to a specific [Incident Response stage](response_stages.md).  
+Each Response Action mapped to a specific [Incident Response stage](responsestages.md).  
 The first digit of the Response Action ID reflects a stage number.  
 The second digit of the Response Action ID reflects a category it belongs to:
 

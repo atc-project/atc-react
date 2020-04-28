@@ -20,7 +20,7 @@ The main use cases are:
 There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
 
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The columns represent [Incident Response stages](https://atc-project.github.io/atc-react/response_stages/).  
+The columns represent [Incident Response stages](https://atc-project.github.io/atc-react/responsestages/).  
 The cells repsresent [Response Actions](#response-action).  
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
@@ -248,7 +248,7 @@ Here is an example of Response Action:
   <img src="docs/images/ra_confluence_v2.png" />
 </details>
 
-Each Response Action mapped to a specific [Incident Response stage](https://atc-project.github.io/atc-react/response_stages/).  
+Each Response Action mapped to a specific [Incident Response stage](https://atc-project.github.io/atc-react/responsestages/).  
 The first digit of the Response Action ID reflects a stage number.  
 The second digit of the Response Action ID reflects a category it belongs to:
 
