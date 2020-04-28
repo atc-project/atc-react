@@ -1,10 +1,10 @@
 | Title                       |  Make sure email is a phishing         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2104            |
+| **ID**                      | RA2304            |
 | **Description**             | Make sure an email is a phishing attack   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
-| **Category**                | General      |
+| **Category**                | Email      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
 | **References** |<ul><li>[https://en.wikipedia.org/wiki/Phishing](https://en.wikipedia.org/wiki/Phishing)</li><li>[http://www.phishing.org/phishing-examples](http://www.phishing.org/phishing-examples)</li></ul>|
 
