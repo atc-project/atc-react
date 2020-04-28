@@ -318,10 +318,11 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 
 2. Modify existing `.yml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
 
-3. When `.yml` files are ready, convert them to `.md` documents and TheHive templates using the following commands:
+3. When `.yml` files are ready, convert them to `.md` documents, TheHive templates and [RE&CT Navigator](https://github.com/atc-project/react-navigator) profile using the following commands:
     ```
     python3 main.py --markdown --auto --init
     python3 main.py --thehive
+    python3 main.py -NAV
     ```
     You will find the outcome in the `docs` directory.
 
@@ -338,7 +339,7 @@ Originally it was a part of the ATC, but we decided to move it into a separate p
 ### Requirements
 
 - Python 3.7
-- [PyYAML](https://pypi.org/project/PyYAML/), [mkdocs](https://pypi.org/project/mkdocs/) and [jinja2](https://pypi.org/project/Jinja2/) Python libraries. They could be installed with the following command:
+- [PyYAML](https://pypi.org/project/PyYAML/), [mkdocs](https://pypi.org/project/mkdocs/), [jinja2](https://pypi.org/project/Jinja2/) and [stix2](https://pypi.org/project/stix2/) (optionally)  Python libraries. They could be installed with the following command:
     ```
     python3 -m pip install -r requirements.txt
     ```

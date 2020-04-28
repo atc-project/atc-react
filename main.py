@@ -5,6 +5,7 @@ from scripts.thehive_templates import RPTheHive
 from scripts.atcutils import ATCutils
 from scripts.generate_mkdocs_config import GenerateMkdocs
 from scripts.react2stix import GenerateSTIX
+from scripts.react_navigator import GenerateNavigator
 
 # Others
 import argparse
@@ -29,6 +30,8 @@ if __name__ == '__main__':
                        help='Generate mkdofc navigation file')
     group.add_argument('-STIX', '--stix', action='store_true',
                        help='Generate STIX objects')
+    group.add_argument('-NAV', '--navigator', action='store_true',
+                       help='Generate RE&CT Navigator profile')
 
     # Mutually exclusive group for chosing type of data
     group2 = parser.add_mutually_exclusive_group(required=False)
@@ -56,6 +59,8 @@ if __name__ == '__main__':
         GenerateMkdocs()
     elif args.stix:
         GenerateSTIX()
+    elif args.navigator:
+        GenerateNavigator()
     elif args.thehive:
         ATCconfig = ATCutils.read_yaml_file("scripts/config.yml")
         ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")

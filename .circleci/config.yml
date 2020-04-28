@@ -19,6 +19,8 @@ jobs:
             python ./main.py --thehive
             python ./main.py -MK
             python ./main.py --stix
+            python ./main.py -NAV
+            cd ./script/update_react_mapping.py
             echo ""
             echo ""
             git status
