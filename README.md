@@ -4,7 +4,7 @@
 
 The project represents the following:
 
-1. A [framework](https://atc-project.github.io/atc-react/) — knowledge base of Incident Response techniques
+1. A [framework](https://atc-project.github.io/atc-react/) — knowledge base of actionable Incident Response techniques
 2. A community-driven [collection](docs/Response_Playbooks) of Security Incident Response Playbooks
 3. A data source of the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework
 
