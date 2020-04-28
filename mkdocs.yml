@@ -11,10 +11,13 @@ theme:
 repo_url: https://github.com/atc-project/atc-react
 edit_uri: blob/master/docs/
 
+plugins:
+    - awesome-pages
+
 nav:
     - Introduction:
         - RE&CT Framework: index.md
-        - Response Stages: response_stages.md
+        - Response Stages: responsestages.md
     - Response Actions:
         - Preparation:
             - "RA1101: Practice": ./Response_Actions/RA_1101_practice.md
