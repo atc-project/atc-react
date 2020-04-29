@@ -72,8 +72,7 @@ nav:
             - "RA1412: Get ability to quarantine file by hash": ./Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
             - "RA1413: Get ability to quarantine file by path": ./Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
             - "RA1414: Get ability to quarantine file by content pattern": ./Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
-            - "RA1415: Get ability to quarantine file by metadata": ./Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md
-            - "RA1416: Get ability to remove file from host": ./Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md
+            - "RA1415: Get ability to remove file from host": ./Response_Actions/RA_1415_get_ability_to_remove_file_from_host.md
             - "RA1601: Manage remote computer management system policies": ./Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md
         - Identification:
             - "RA2101: List victims of security alert": ./Response_Actions/RA_2101_list_victims_of_security_alert.md
@@ -136,11 +135,10 @@ nav:
             - "RA3402: Quarantine file by hash": ./Response_Actions/RA_3402_quarantine_file_by_hash.md
             - "RA3403: Quarantine file by path": ./Response_Actions/RA_3403_quarantine_file_by_path.md
             - "RA3404: Quarantine file by content pattern": ./Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
-            - "RA3405: Quarantine file by metadata": ./Response_Actions/RA_3405_quarantine_file_by_metadata.md
         - Eradication:
             - "RA4101: Report phishing attack to external companies": ./Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
             - "RA4102: Report incident to external companies": ./Response_Actions/RA_4102_report_incident_to_external_companies.md
-            - "RA4301: Delete malicious emails": ./Response_Actions/RA_4301_delete_malicious_emails.md
+            - "RA4301: Delete email": ./Response_Actions/RA_4301_delete_email.md
             - "RA4401: Remove file from host": ./Response_Actions/RA_4401_remove_file_from_host.md
             - "RA4701: Revoke compromised credentials": ./Response_Actions/RA_4701_revoke_compromised_credentials.md
         - Recovery:

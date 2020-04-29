@@ -1,4 +1,4 @@
-# ATC RE&CT
+# RE&CT
 
 ![](docs/images/logo_v2.png)
 
@@ -25,7 +25,7 @@ The cells repsresent [Response Actions](#response-action).
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
 |:-----------------------------------------------------:|:------------------------------------------------:|:---------------------------------------:|:--------------------------------------------------:|:-----------------------------------:|:--------------------------------------:|
-| [**Take trainings**]                                  | [**Get original email**]                         | [**Block domain on email**]             | [**Delete malicious emails**]                      | [Reinstall host from golden image*] | [**Develop incident report**]          |
+| [**Take trainings**]                                  | [**Get original email**]                         | [**Block domain on email**]             | [**Delete email**]                                 | [Reinstall host from golden image*] | [**Develop incident report**]          |
 | [**Practice**]                                        | [**Extract observables from email**]             | [**Block external IP address**]         | [**Revoke compromised credentials**]               |                                     | [**Conduct Lessons Learned exercise**] |
 | [Raise personnel awareness*]                          | [**Make sure email is a phishing**]              | [**Block internal IP address**]         | [**Report phishing attack to external companies**] |                                     |                                        |
 | [Make personnel report suspicious activity*]          | [**Put compromised accounts on monitoring**]     | [**Block external domain**]             | [**Report incident to external companies**]        |                                     |                                        |
@@ -41,7 +41,7 @@ The cells repsresent [Response Actions](#response-action).
 | [Access VPN logs*]                                    | [List services executed*]                        | [Quarantine file by hash*]              |                                                    |                                     |                                        |
 | [Access DHCP logs*]                                   | [List users opened email*]                       | [Quarantine file by path*]              |                                                    |                                     |                                        |
 | [Access external network flow logs*]                  | [List registry keys modified*]                   | [Quarantine file by content pattern*]   |                                                    |                                     |                                        |
-| [Access internal network flow logs*]                  | [List hosts communicated with internal domain*]  | [Quarantine file by metadata*]          |                                                    |                                     |                                        |
+| [Access internal network flow logs*]                  | [List hosts communicated with internal domain*]  |                                         |                                                    |                                     |                                        |
 | [Access internal http logs*]                          | [List hosts communicated with internal IP*]      |                                         |                                                    |                                     |                                        |
 | [Access external http logs*]                          | [List hosts communicated with internal URL*]     |                                         |                                                    |                                     |                                        |
 | [Access internal dns logs*]                           | [List hosts communicated with external domain*]  |                                         |                                                    |                                     |                                        |
@@ -78,7 +78,6 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by hash*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by path*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by content pattern*]  |                                                  |                                         |                                                    |                                     |                                        |
-| [Get ability to quarantine file by metadata*]         |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to remove file from host*]               |                                                  |                                         |                                                    |                                     |                                        |
 
 [**Take trainings**]: docs/Response_Actions/RA_1102_take_trainings.md
@@ -98,7 +97,7 @@ The cells repsresent [Response Actions](#response-action).
 [**Block user external communication**]: docs/Response_Actions/RA_3209_block_user_external_communication.md
 [**Block user internal communication**]: docs/Response_Actions/RA_3210_block_user_internal_communication.md
 [**Block domain on email**]: docs/Response_Actions/RA_3301_block_domain_on_email.md
-[**Delete malicious emails**]: docs/Response_Actions/RA_4301_delete_malicious_emails.md
+[**Delete email**]: docs/Response_Actions/RA_4301_delete_email.md
 [**Revoke compromised credentials**]: docs/Response_Actions/RA_4701_revoke_compromised_credentials.md
 [**Report phishing attack to external companies**]: docs/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
 [**Report incident to external companies**]: docs/Response_Actions/RA_4102_report_incident_to_external_companies.md
@@ -162,14 +161,12 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to quarantine file by hash*]: docs/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
 [Get ability to quarantine file by path*]: docs/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
 [Get ability to quarantine file by content pattern*]: docs/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
-[Get ability to quarantine file by metadata*]: docs/Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md
-[Get ability to remove file from host*]: docs/Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md
+[Get ability to remove file from host*]: docs/Response_Actions/RA_1415_get_ability_to_remove_file_from_host.md
 [Block sender on email*]: docs/Response_Actions/RA_3302_block_sender_on_email.md
 [Quarantine file by format*]: docs/Response_Actions/RA_3401_quarantine_file_by_format.md
 [Quarantine file by hash*]: docs/Response_Actions/RA_3402_quarantine_file_by_hash.md
 [Quarantine file by path*]: docs/Response_Actions/RA_3403_quarantine_file_by_path.md
 [Quarantine file by content pattern*]: docs/Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
-[Quarantine file by metadata*]: docs/Response_Actions/RA_3405_quarantine_file_by_metadata.md
 [List host vulnerabilities*]: docs/Response_Actions/RA_2102_list_host_vulnerabilities.md
 [List hosts communicated by port*]: docs/Response_Actions/RA_2207_list_hosts_communicated_by_port.md
 [List hosts connected to VPN*]: docs/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md

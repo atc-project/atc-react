@@ -1,7 +1,7 @@
-| Title                       |  Get ability to quarantine file by metadata         |
+| Title                       |  Get ability to remove file from host         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1415            |
-| **Description**             | Make sure you have the ability to block a file from being accessed by its metadata (i.e. permissions, MAC times)   |
+| **Description**             | Make sure you have the ability to remove a file from a remote host   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

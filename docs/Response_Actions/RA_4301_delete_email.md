@@ -1,7 +1,7 @@
-| Title                       |  Delete malicious emails         |
+| Title                       |  Delete email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4301            |
-| **Description**             | Delete malicious emails from a Email Server and users' email boxes   |
+| **Description**             | Delete an email from an Email Server and users' email boxes   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
