@@ -15,7 +15,7 @@ The cells repsresent [Response Actions](#response-action).
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
 |:-----------------------------------------------------:|:------------------------------------------------:|:---------------------------------------:|:--------------------------------------------------:|:-----------------------------------:|:--------------------------------------:|
-| [**Take trainings**]                                  | [**Get original email**]                         | [**Block domain on email**]             | [**Delete malicious emails**]                      | [Reinstall host from golden image*] | [**Develop incident report**]          |
+| [**Take trainings**]                                  | [**Get original email**]                         | [**Block domain on email**]             | [**Delete email**]                                 | [Reinstall host from golden image*] | [**Develop incident report**]          |
 | [**Practice**]                                        | [**Extract observables from email**]             | [**Block external IP address**]         | [**Revoke compromised credentials**]               |                                     | [**Conduct Lessons Learned exercise**] |
 | [Raise personnel awareness*]                          | [**Make sure email is a phishing**]              | [**Block internal IP address**]         | [**Report phishing attack to external companies**] |                                     |                                        |
 | [Make personnel report suspicious activity*]          | [**Put compromised accounts on monitoring**]     | [**Block external domain**]             | [**Report incident to external companies**]        |                                     |                                        |
@@ -89,7 +89,7 @@ The cells repsresent [Response Actions](#response-action).
 [**Block user external communication**]: ./Response_Actions/RA_3209_block_user_external_communication.md
 [**Block user internal communication**]: ./Response_Actions/RA_3210_block_user_internal_communication.md
 [**Block domain on email**]: ./Response_Actions/RA_3301_block_domain_on_email.md
-[**Delete malicious emails**]: ./Response_Actions/RA_4301_delete_malicious_emails.md
+[**Delete email**]: ./Response_Actions/RA_4301_delete_email.md
 [**Revoke compromised credentials**]: ./Response_Actions/RA_4701_revoke_compromised_credentials.md
 [**Report phishing attack to external companies**]: ./Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
 [**Report incident to external companies**]: ./Response_Actions/RA_4102_report_incident_to_external_companies.md
