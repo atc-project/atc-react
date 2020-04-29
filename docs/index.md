@@ -31,7 +31,7 @@ The cells repsresent [Response Actions](#response-action).
 | [Access VPN logs*]                                    | [List services executed*]                        | [Quarantine file by hash*]              |                                                    |                                     |                                        |
 | [Access DHCP logs*]                                   | [List users opened email*]                       | [Quarantine file by path*]              |                                                    |                                     |                                        |
 | [Access external network flow logs*]                  | [List registry keys modified*]                   | [Quarantine file by content pattern*]   |                                                    |                                     |                                        |
-| [Access internal network flow logs*]                  | [List hosts communicated with internal domain*]  | [Quarantine file by metadata*]          |                                                    |                                     |                                        |
+| [Access internal network flow logs*]                  | [List hosts communicated with internal domain*]  | 										 |                                                    |                                     |                                        |
 | [Access internal http logs*]                          | [List hosts communicated with internal IP*]      |                                         |                                                    |                                     |                                        |
 | [Access external http logs*]                          | [List hosts communicated with internal URL*]     |                                         |                                                    |                                     |                                        |
 | [Access internal dns logs*]                           | [List hosts communicated with external domain*]  |                                         |                                                    |                                     |                                        |
@@ -68,7 +68,6 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by hash*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by path*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by content pattern*]  |                                                  |                                         |                                                    |                                     |                                        |
-| [Get ability to quarantine file by metadata*]         |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to remove file from host*]               |                                                  |                                         |                                                    |                                     |                                        |
 
 <br>
@@ -154,14 +153,12 @@ The cells repsresent [Response Actions](#response-action).
 [Get ability to quarantine file by hash*]: ./Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
 [Get ability to quarantine file by path*]: ./Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
 [Get ability to quarantine file by content pattern*]: ./Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
-[Get ability to quarantine file by metadata*]: ./Response_Actions/RA_1415_get_ability_to_quarantine_file_by_metadata.md
-[Get ability to remove file from host*]: ./Response_Actions/RA_1416_get_ability_to_remove_file_from_host.md
+[Get ability to remove file from host*]: ./Response_Actions/RA_1415_get_ability_to_remove_file_from_host.md
 [Block sender on email*]: ./Response_Actions/RA_3302_block_sender_on_email.md
 [Quarantine file by format*]: ./Response_Actions/RA_3401_quarantine_file_by_format.md
 [Quarantine file by hash*]: ./Response_Actions/RA_3402_quarantine_file_by_hash.md
 [Quarantine file by path*]: ./Response_Actions/RA_3403_quarantine_file_by_path.md
 [Quarantine file by content pattern*]: ./Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
-[Quarantine file by metadata*]: ./Response_Actions/RA_3405_quarantine_file_by_metadata.md
 [List host vulnerabilities*]: ./Response_Actions/RA_2102_list_host_vulnerabilities.md
 [List hosts communicated by port*]: ./Response_Actions/RA_2207_list_hosts_communicated_by_port.md
 [List hosts connected to VPN*]: ./Response_Actions/RA_2208_list_hosts_connected_to_vpn.md

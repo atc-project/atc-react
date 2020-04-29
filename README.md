@@ -1,4 +1,4 @@
-# ATC RE&CT
+# RE&CT
 
 ![](docs/images/logo_v2.png)
 
@@ -78,8 +78,8 @@ The cells repsresent [Response Actions](#response-action).
 | [Get ability to quarantine file by hash*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by path*]             |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to quarantine file by content pattern*]  |                                                  |                                         |                                                    |                                     |                                        |
-| [Get ability to quarantine file by metadata*]         |                                                  |                                         |                                                    |                                     |                                        |
 | [Get ability to remove file from host*]               |                                                  |                                         |                                                    |                                     |                                        |
+
 
 [**Take trainings**]: docs/Response_Actions/RA_1102_take_trainings.md
 [**Practice**]: docs/Response_Actions/RA_1101_practice.md
