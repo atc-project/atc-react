@@ -24,5 +24,5 @@ for object in react_json["objects"]:
         rs_mapping.update({rs_id: rs_name})
 
 with open('react_mapping.py', 'w') as fp:
-    fp.write("ra_mapping = " + json.dumps(ra_mapping, indent=4) + '\n')
-    fp.write("rs_mapping = " + json.dumps(rs_mapping, indent=4))
+    fp.write("ra_mapping = " + json.dumps(ra_mapping, sort_keys=True, indent=4) + '\n')
+    fp.write("rs_mapping = " + json.dumps(rs_mapping, sort_keys=True, indent=4))
