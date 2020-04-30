@@ -116,7 +116,7 @@ ra_mapping = {
     "RA4102": " Report incident to external companies",
     "RA4301": " Delete email",
     "RA4401": " Remove file from host",
-    "RA4701": " Revoke compromised credentials",
+    "RA4701": " Revoke authentication credentials",
     "RA5101": " Reinstall host from golden image",
     "RA6101": " Develop incident report",
     "RA6102": " Conduct lessons learned exercise"
