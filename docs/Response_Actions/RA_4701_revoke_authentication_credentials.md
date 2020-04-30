@@ -1,7 +1,7 @@
-| Title                       |  Revoke compromised credentials         |
+| Title                       |  Revoke authentication credentials         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4701            |
-| **Description**             | Response Action for compromised credentials revocation   |
+| **Description**             | Revoke authentication credentials   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Identity      |
@@ -10,7 +10,7 @@
 
 ### Workflow
 
-On this step, you supposed to know what kind of credentials have been compromised.  
+On this step, you supposed to know what kind of credentials have been compromised/you would like to revoke.  
 You need to revoke them in your Identity and Access Management system where they were created (i.e. Windows AD) using native functionality.  
 
 Warning:  
