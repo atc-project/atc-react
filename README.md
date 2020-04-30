@@ -12,21 +12,24 @@ The project represents the following:
 
 is designed for accumulating, describing and categorizing actionable Incident Response techniques. 
 
-The main use cases are:
-
-- Prioritization of Incident Response capabilities development
-- Gap analysis — determine "coverage" of a set of Incident Response capabilities
-
-There is a [website](https://atc-project.github.io/atc-react/) where you can observe all analytics.  
-
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The columns represent [Incident Response stages](https://atc-project.github.io/atc-react/responsestages/).  
 The cells repsresent [Response Actions](#response-action).  
 
+The main use cases:
+
+- Prioritization of Incident Response capabilities development
+- Gap analysis — determine "coverage" of a set of Incident Response capabilities
+
+The main resources:
+
+- RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
+- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for observing the big picture  
+
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
 |:-----------------------------------------------------:|:------------------------------------------------:|:---------------------------------------:|:--------------------------------------------------:|:-----------------------------------:|:--------------------------------------:|
 | [**Take trainings**]                                  | [**Get original email**]                         | [**Block domain on email**]             | [**Delete email**]                                 | [Reinstall host from golden image*] | [**Develop incident report**]          |
-| [**Practice**]                                        | [**Extract observables from email**]             | [**Block external IP address**]         | [**Revoke compromised credentials**]               |                                     | [**Conduct Lessons Learned exercise**] |
+| [**Practice**]                                        | [**Extract observables from email**]             | [**Block external IP address**]         | [**Revoke authentication credentials**]               |                                     | [**Conduct Lessons Learned exercise**] |
 | [Raise personnel awareness*]                          | [**Make sure email is a phishing**]              | [**Block internal IP address**]         | [**Report phishing attack to external companies**] |                                     |                                        |
 | [Make personnel report suspicious activity*]          | [**Put compromised accounts on monitoring**]     | [**Block external domain**]             | [**Report incident to external companies**]        |                                     |                                        |
 | [Set up relevant data collection*]                    | [Analyse filehash*]                              | [**Block internal domain**]             | [Remove file from host*]                           |                                     |                                        |
@@ -98,7 +101,7 @@ The cells repsresent [Response Actions](#response-action).
 [**Block user internal communication**]: docs/Response_Actions/RA_3210_block_user_internal_communication.md
 [**Block domain on email**]: docs/Response_Actions/RA_3301_block_domain_on_email.md
 [**Delete email**]: docs/Response_Actions/RA_4301_delete_email.md
-[**Revoke compromised credentials**]: docs/Response_Actions/RA_4701_revoke_compromised_credentials.md
+[**Revoke authentication credentials**]: docs/Response_Actions/RA_4701_revoke_authentication_credentials.md
 [**Report phishing attack to external companies**]: docs/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
 [**Report incident to external companies**]: docs/Response_Actions/RA_4102_report_incident_to_external_companies.md
 [**Develop incident report**]: docs/Response_Actions/RA_6101_develop_incident_report.md
