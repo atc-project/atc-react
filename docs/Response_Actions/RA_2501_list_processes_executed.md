@@ -1,4 +1,4 @@
-| Title                       |  List services executed         |
+| Title                       |  List processes executed         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2501            |
 | **Description**             | Response Action for   |

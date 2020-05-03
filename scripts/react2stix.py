@@ -163,4 +163,8 @@ class GenerateSTIX:
 
         stix_mem.add(react_matrix)
 
-        stix_mem.save_to_file("docs/react.json")
+        try:
+            stix_mem.save_to_file("docs/react.json")
+            print("[+] Created react.json STIX file")
+        except:
+            print("[-] Failed to create react.json STIX file")
