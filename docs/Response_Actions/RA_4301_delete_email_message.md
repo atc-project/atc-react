@@ -1,7 +1,7 @@
-| Title                       |  Delete email         |
+| Title                       |  Delete email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4301            |
-| **Description**             | Delete an email from an Email Server and users' email boxes   |
+| **Description**             | Delete an email message from an Email Server and users' email boxes   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
@@ -10,4 +10,4 @@
 
 ### Workflow
 
-Delete email from an Email Server and users' email boxes using its native functionality.
+Delete an email message from an Email Server and users' email boxes using its native functionality.

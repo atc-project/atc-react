@@ -1,7 +1,7 @@
-| Title                       |  Get ability to delete email         |
+| Title                       |  Get ability to delete email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1305            |
-| **Description**             | Make sure you have the ability to delete an email   |
+| **Description**             | Make sure you have the ability to delete an email message   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Email      |
