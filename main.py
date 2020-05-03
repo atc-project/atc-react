@@ -22,6 +22,8 @@ if __name__ == '__main__':
     # Mutually exclusive group for chosing the output of the script
     group = parser.add_mutually_exclusive_group(required=True)
 
+    group.add_argument('-ALL', '--all', action='store_true',
+                        help='Build all the analytics')
     group.add_argument('-M', '--markdown', action='store_true',
                        help='Export analytics to Markdown repository')
     group.add_argument('-T', '--thehive', action='store_true',
@@ -55,6 +57,12 @@ if __name__ == '__main__':
     if args.markdown:
         PopulateMarkdown(auto=args.auto, ra=args.responseactions,
                          rp=args.responseplaybook, rs=args.responsestage, init=args.init)
+    elif args.all:
+        PopulateMarkdown(auto=args.auto, ra=args.responseactions,
+                         rp=args.responseplaybook, rs=args.responsestage, init=args.init)
+        GenerateMkdocs()
+        GenerateSTIX()
+        GenerateNavigator()
     elif args.mkdocs:
         GenerateMkdocs()
     elif args.stix:
@@ -64,8 +72,9 @@ if __name__ == '__main__':
     elif args.thehive:
         ATCconfig = ATCutils.read_yaml_file("scripts/config.yml")
         ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")
-        print("HINT: Make sure proper directories are " +
-              "configured in the scripts/config.yml")
+        #print("HINT: Make sure proper directories are " +
+        #      "configured in the scripts/config.yml")
+        
         if ATCconfig.get(
                 'response_playbooks_dir',
                 ATCconfig2.get('response_playbooks_dir')) and \
@@ -86,6 +95,6 @@ if __name__ == '__main__':
                     'thehive_templates_dir',
                     ATCconfig2.get('thehive_templates_dir'))
             )
-            print("Done!")
+            print("[+] TheHive Templates generated!")
         else:
-            print("ERROR: Dirs were not provided in the config")
+            print("[!] Failed to populateTheHive Templates. Directories were not provided in the config")

@@ -69,7 +69,7 @@ class PopulateMarkdown:
     def response_action(self, ra_path):
         """Populate Response Actions"""
 
-        print("Populating Response Actions..")
+        print("[*] Populating Response Actions..")
         if ra_path:
             ra_list = glob.glob(ra_path + '*.yml')
         else:
@@ -87,12 +87,12 @@ class PopulateMarkdown:
                 print('-' * 60)
                 traceback.print_exc(file=sys.stdout)
                 print('-' * 60)
-        print("Response Actions populated!")
+        print("[+] Response Actions populated!")
 
     def response_playbook(self, rp_path):
         """Populate Response Playbooks"""
 
-        print("Populating Response Playbooks..")
+        print("[*] Populating Response Playbooks..")
         if rp_path:
             rp_list = glob.glob(rp_path + '*.yml')
         else:
@@ -110,12 +110,12 @@ class PopulateMarkdown:
                 print('-' * 60)
                 traceback.print_exc(file=sys.stdout)
                 print('-' * 60)
-        print("Response Playbooks populated!")
+        print("[+] Response Playbooks populated!")
 
     def response_stage(self, rs_path):
         """Populate Response Actions"""
 
-        print("Populating Response Actions..")
+        print("[*] Populating Response Actions..")
         if rs_path:
             rs_list = glob.glob(rs_path + '*.yml')
         else:
@@ -158,5 +158,5 @@ class PopulateMarkdown:
         content = template.render(rss_dict)
 
         ATCutils.write_file('docs/responsestages.md', content)
-        print("Response Stages populated!")
+        print("[+] Response Stages populated!")
 

@@ -1,7 +1,7 @@
 | Title                       |  Find file by metadata         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2413            |
-| **Description**             | Find a file by metadata (i.e. permissions, MAC times)   |
+| **Description**             | Find a file by metadata (i.e. signature, permissions, MAC times)   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

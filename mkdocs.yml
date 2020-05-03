@@ -100,7 +100,6 @@ nav:
             - "RA2305: Extract observables from email": ./Response_Actions/RA_2305_extract_observables_from_email.md
             - "RA2401: List files created": ./Response_Actions/RA_2401_list_files_created.md
             - "RA2402: Analyse Windows PE": ./Response_Actions/RA_2402_analyse_windows_pe.md
-            - "RA2403: List processes executed": ./Response_Actions/RA_2403_list_processes_executed.md
             - "RA2404: Analyse filehash": ./Response_Actions/RA_2404_analyse_filehash.md
             - "RA2405: Analyse macos mach-o": ./Response_Actions/RA_2405_analyse_macos_macho.md
             - "RA2406: Analyse MS office file": ./Response_Actions/RA_2406_analyse_ms_office_file.md
@@ -116,7 +115,7 @@ nav:
             - "RA2416: List files downloaded": ./Response_Actions/RA_2416_list_files_downloaded.md
             - "RA2417: List files with tampered timestamps": ./Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
             - "RA2418: Download file from host": ./Response_Actions/RA_2418_download_file_from_host.md
-            - "RA2501: List services executed": ./Response_Actions/RA_2501_list_services_executed.md
+            - "RA2501: List processes executed": ./Response_Actions/RA_2501_list_processes_executed.md
             - "RA2601: List registry keys modified": ./Response_Actions/RA_2601_list_registry_keys_modified.md
         - Containment:
             - "RA3201: Block external IP address": ./Response_Actions/RA_3201_block_external_ip_address.md

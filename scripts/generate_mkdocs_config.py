@@ -146,5 +146,9 @@ class GenerateMkdocs:
         data_to_render.update({'rs_list': rs_list})
         
         content = template.render(data_to_render)
-        ATCutils.write_file('mkdocs.yml', content)
+        try:
+            ATCutils.write_file('mkdocs.yml', content)
+            print("[+] Created mkdocs.yml")
+        except:
+            print("[-] Failed to create mkdocs.yml")
         

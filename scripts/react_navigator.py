@@ -7,7 +7,7 @@ from os import listdir
 from os.path import isfile, join
 import json
 
-ATCconfig = ATCutils.load_config("config.yml")
+ATCconfig = ATCutils.load_config("scripts/config.yml")
 
 NAVIGATOR_TEMPLATE = {
     "name": "RE&CT",

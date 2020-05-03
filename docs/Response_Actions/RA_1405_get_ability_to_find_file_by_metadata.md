@@ -1,7 +1,7 @@
 | Title                       |  Get ability to find file by metadata         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1405            |
-| **Description**             | Make sure you have the ability to find file by its metadata (i.e. permissions, MAC times)   |
+| **Description**             | Make sure you have the ability to find file by its metadata (i.e. signature, permissions, MAC times)   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |
