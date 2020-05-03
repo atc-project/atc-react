@@ -2,6 +2,7 @@
 
 from scripts.atcutils import ATCutils
 from scripts.react_mapping import ra_mapping
+from scripts.update_react_mapping import UpdateReactMapping
 
 from os import listdir
 from os.path import isfile, join
@@ -77,6 +78,8 @@ category_colors = {
 class GenerateNavigator:
 
     def __init__(self):
+
+        UpdateReactMapping()
 
         response_actions = []
         for ra_id, ra_name in ra_mapping.items():
