@@ -22,7 +22,7 @@ preparation:
   - RA_1302_get_ability_to_list_users_received_email
   - RA_1303_get_ability_to_block_email_domain
   - RA_1304_get_ability_to_block_email_sender
-  - RA_1305_get_ability_to_delete_email
+  - RA_1305_get_ability_to_delete_email_message
   - RA_1201_access_external_network_flow_logs
   - RA_1204_access_external_http_logs
   - RA_1206_access_external_dns_logs
@@ -46,7 +46,7 @@ containment:
   - RA_3301_block_domain_on_email
   - RA_3302_block_sender_on_email
 eradication:
-  - RA_4301_delete_email
+  - RA_4301_delete_email_message
   - RA_4701_revoke_authentication_credentials
   - RA_4101_report_phishing_attack_to_external_companies
 lessons_learned:
