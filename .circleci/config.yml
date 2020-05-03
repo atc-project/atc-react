@@ -14,13 +14,16 @@ jobs:
       - run:
           name: Generate  markdown documents, thehive templates and mkdocs navigation (config) file
           command: |
+            if [[ $(echo "${CIRCLE_BRANCH}" | grep -c "gh-pages") -gt 0 ]]; then
+              echo "Not committing documentation because we are on a gh-pages branch"
+              exit 0
+            fi
             python -m pip install -r requirements.txt
             python ./main.py --markdown --auto --init
             python ./main.py --thehive
             python ./main.py -MK
             python ./main.py --stix
             python ./main.py -NAV
-            cd ./scripts/ && python ./update_react_mapping.py
             echo ""
             echo ""
             git status
