@@ -77,29 +77,29 @@ The main resources:
 
 <br>
 
-[**Take trainings**]: docs/Response_Actions/RA_1102_take_trainings.md
-[**Practice**]: docs/Response_Actions/RA_1101_practice.md
-[**Get original email**]: docs/Response_Actions/RA_2302_get_original_email.md
-[**Extract observables from email**]: docs/Response_Actions/RA_2305_extract_observables_from_email.md
-[**Make sure email is a phishing**]: docs/Response_Actions/RA_2304_make_sure_email_is_a_phishing.md
-[**Put compromised accounts on monitoring**]: docs/Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
-[**Block external IP address**]: docs/Response_Actions/RA_3201_block_external_ip_address.md
-[**Block internal IP address**]: docs/Response_Actions/RA_3202_block_internal_ip_address.md
-[**Block external domain**]: docs/Response_Actions/RA_3203_block_external_domain.md
-[**Block internal domain**]: docs/Response_Actions/RA_3204_block_internal_domain.md
-[**Block external URL**]: docs/Response_Actions/RA_3205_block_external_url.md
-[**Block internal URL**]: docs/Response_Actions/RA_3206_block_internal_url.md
-[**Block port external communication**]: docs/Response_Actions/RA_3207_block_port_external_communication.md
-[**Block port internal communication**]: docs/Response_Actions/RA_3208_block_port_internal_communication.md
-[**Block user external communication**]: docs/Response_Actions/RA_3209_block_user_external_communication.md
-[**Block user internal communication**]: docs/Response_Actions/RA_3210_block_user_internal_communication.md
-[**Block domain on email**]: docs/Response_Actions/RA_3301_block_domain_on_email.md
-[**Delete email message**]: docs/Response_Actions/RA_4301_delete_email_message.md
-[**Revoke authentication credentials**]: docs/Response_Actions/RA_4701_revoke_authentication_credentials.md
-[**Report phishing attack to external companies**]: docs/Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
-[**Report incident to external companies**]: docs/Response_Actions/RA_4102_report_incident_to_external_companies.md
-[**Develop incident report**]: docs/Response_Actions/RA_6101_develop_incident_report.md
-[**Conduct Lessons Learned exercise**]: docs/Response_Actions/RA_6102_conduct_lessons_learned_exercise.md
+[**Take trainings**]: Response_Actions/RA_1102_take_trainings.md
+[**Practice**]: Response_Actions/RA_1101_practice.md
+[**Get original email**]: Response_Actions/RA_2302_get_original_email.md
+[**Extract observables from email**]: Response_Actions/RA_2305_extract_observables_from_email.md
+[**Make sure email is a phishing**]: Response_Actions/RA_2304_make_sure_email_is_a_phishing.md
+[**Put compromised accounts on monitoring**]: Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md
+[**Block external IP address**]: Response_Actions/RA_3201_block_external_ip_address.md
+[**Block internal IP address**]: Response_Actions/RA_3202_block_internal_ip_address.md
+[**Block external domain**]: Response_Actions/RA_3203_block_external_domain.md
+[**Block internal domain**]: Response_Actions/RA_3204_block_internal_domain.md
+[**Block external URL**]: Response_Actions/RA_3205_block_external_url.md
+[**Block internal URL**]: Response_Actions/RA_3206_block_internal_url.md
+[**Block port external communication**]: Response_Actions/RA_3207_block_port_external_communication.md
+[**Block port internal communication**]: Response_Actions/RA_3208_block_port_internal_communication.md
+[**Block user external communication**]: Response_Actions/RA_3209_block_user_external_communication.md
+[**Block user internal communication**]: Response_Actions/RA_3210_block_user_internal_communication.md
+[**Block domain on email**]: Response_Actions/RA_3301_block_domain_on_email.md
+[**Delete email message**]: Response_Actions/RA_4301_delete_email_message.md
+[**Revoke authentication credentials**]: Response_Actions/RA_4701_revoke_authentication_credentials.md
+[**Report phishing attack to external companies**]: Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md
+[**Report incident to external companies**]: Response_Actions/RA_4102_report_incident_to_external_companies.md
+[**Develop incident report**]: Response_Actions/RA_6101_develop_incident_report.md
+[**Conduct Lessons Learned exercise**]: Response_Actions/RA_6102_conduct_lessons_learned_exercise.md
 
 [Analyse domain name*]: https://github.com/atc-project/atc-react/issues/31
 [Analyse URI*]: https://github.com/atc-project/atc-react/issues/32
@@ -123,89 +123,89 @@ The main resources:
 
 [List victims of security alert*]: https://github.com/atc-project/atc-react/issues/49
 
-[Raise personnel awareness*]: docs/Response_Actions/RA_1103_raise_personnel_awareness.md
-[Make personnel report suspicious activity*]: docs/Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md
-[Set up relevant data collection*]: docs/Response_Actions/RA_1105_set_up_relevant_data_collection.md
-[Set up a centralized long-term log storage*]: docs/Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage.md
-[Develop communication map*]: docs/Response_Actions/RA_1107_develop_communication_map.md
-[Make sure there are backups*]: docs/Response_Actions/RA_1108_make_sure_there_are_backups.md
-[Get network architecture map*]: docs/Response_Actions/RA_1109_get_network_architecture_map.md
-[Get access control matrix*]: docs/Response_Actions/RA_1110_get_access_control_matrix.md
-[Develop assets knowledge base*]: docs/Response_Actions/RA_1111_develop_assets_knowledge_base.md
-[Check analysis toolset*]: docs/Response_Actions/RA_1112_check_analysis_toolset.md
-[Access vulnerability management system logs*]: docs/Response_Actions/RA_1113_access_vulnerability_management_system_logs.md
+[Raise personnel awareness*]: Response_Actions/RA_1103_raise_personnel_awareness.md
+[Make personnel report suspicious activity*]: Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md
+[Set up relevant data collection*]: Response_Actions/RA_1105_set_up_relevant_data_collection.md
+[Set up a centralized long-term log storage*]: Response_Actions/RA_1106_set_up_a_centralized_long-term_log_storage.md
+[Develop communication map*]: Response_Actions/RA_1107_develop_communication_map.md
+[Make sure there are backups*]: Response_Actions/RA_1108_make_sure_there_are_backups.md
+[Get network architecture map*]: Response_Actions/RA_1109_get_network_architecture_map.md
+[Get access control matrix*]: Response_Actions/RA_1110_get_access_control_matrix.md
+[Develop assets knowledge base*]: Response_Actions/RA_1111_develop_assets_knowledge_base.md
+[Check analysis toolset*]: Response_Actions/RA_1112_check_analysis_toolset.md
+[Access vulnerability management system logs*]: Response_Actions/RA_1113_access_vulnerability_management_system_logs.md
 
-[Access VPN logs*]: docs/Response_Actions/RA_1207_access_vpn_logs.md
-[Access DHCP logs*]: docs/Response_Actions/RA_1208_access_dhcp_logs.md
+[Access VPN logs*]: Response_Actions/RA_1207_access_vpn_logs.md
+[Access DHCP logs*]: Response_Actions/RA_1208_access_dhcp_logs.md
 
-[Get ability to list users opened email*]: docs/Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md
-[Get ability to list users received email*]: docs/Response_Actions/RA_1302_get_ability_to_list_users_received_email.md
-[Get ability to block email domain*]: docs/Response_Actions/RA_1303_get_ability_to_block_email_domain.md
-[Get ability to block an email sender*]: docs/Response_Actions/RA_1304_get_ability_to_block_email_sender.md
-[Get ability to delete an email message*]: docs/Response_Actions/RA_1305_get_ability_to_delete_email_message.md
-[Get ability to find file by format*]: docs/Response_Actions/RA_1401_get_ability_to_find_file_by_format.md
-[Get ability to find file by hash*]: docs/Response_Actions/RA_1402_get_ability_to_find_file_by_hash.md
-[Get ability to find file by path*]: docs/Response_Actions/RA_1403_get_ability_to_find_file_by_path.md
-[Get ability to find file by content pattern*]: docs/Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern.md
-[Get ability to find file by metadata*]: docs/Response_Actions/RA_1405_get_ability_to_find_file_by_metadata.md
-[Get ability to find files with tampered timestamps*]: docs/Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps.md
-[Get ability to list files modified*]: docs/Response_Actions/RA_1407_get_ability_to_list_files_modified.md
-[Get ability to list files deleted*]: docs/Response_Actions/RA_1408_get_ability_to_list_files_deleted.md
-[Get ability to list files downloaded*]: docs/Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md
-[Get ability to download file from host*]: docs/Response_Actions/RA_1410_get_ability_to_download_file_from_host.md
-[Manage remote computer management system policies*]: docs/Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md
-[Get ability to quarantine file by format*]: docs/Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format.md
-[Get ability to quarantine file by hash*]: docs/Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
-[Get ability to quarantine file by path*]: docs/Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
-[Get ability to quarantine file by content pattern*]: docs/Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
-[Get ability to remove file from host*]: docs/Response_Actions/RA_1415_get_ability_to_remove_file_from_host.md
-[Block sender on email*]: docs/Response_Actions/RA_3302_block_sender_on_email.md
-[Quarantine file by format*]: docs/Response_Actions/RA_3401_quarantine_file_by_format.md
-[Quarantine file by hash*]: docs/Response_Actions/RA_3402_quarantine_file_by_hash.md
-[Quarantine file by path*]: docs/Response_Actions/RA_3403_quarantine_file_by_path.md
-[Quarantine file by content pattern*]: docs/Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
-[List host vulnerabilities*]: docs/Response_Actions/RA_2102_list_host_vulnerabilities.md
-[List hosts communicated by port*]: docs/Response_Actions/RA_2207_list_hosts_communicated_by_port.md
-[List hosts connected to VPN*]: docs/Response_Actions/RA_2208_list_hosts_connected_to_vpn.md
-[List host connected to intranet*]: docs/Response_Actions/RA_2209_list_host_connected_to_intranet.md
-[Get data transferred by FTP*]: docs/Response_Actions/RA_2210_get_data_transferred_by_ftp.md
-[Get data transferred by SMB*]: docs/Response_Actions/RA_2211_get_data_transferred_by_smb.md
-[Get data transferred by HTTP*]: docs/Response_Actions/RA_2212_get_data_transferred_by_http.md
-[List email receivers*]: docs/Response_Actions/RA_2303_list_email_receivers.md
-[Find file by format*]: docs/Response_Actions/RA_2409_find_file_by_format.md
-[Find file by hash*]: docs/Response_Actions/RA_2410_find_file_by_hash.md
-[Find file by path*]: docs/Response_Actions/RA_2411_find_file_by_path.md
-[Find file by content pattern*]: docs/Response_Actions/RA_2412_find_file_by_content_pattern.md
-[Find file by metadata*]: docs/Response_Actions/RA_2413_find_file_by_metadata.md
-[List files modified*]: docs/Response_Actions/RA_2414_list_files_modified.md
-[List files deleted*]: docs/Response_Actions/RA_2415_list_files_deleted.md
-[List files downloaded*]: docs/Response_Actions/RA_2416_list_files_downloaded.md
-[List files with tampered timestamps*]: docs/Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
-[Download file from host*]: docs/Response_Actions/RA_2418_download_file_from_host.md
-[Remove file from host*]: docs/Response_Actions/RA_4401_remove_file_from_host.md
-[List hosts communicated with external domain*]: docs/Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md
-[List hosts communicated with external URL*]: docs/Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md
-[List hosts communicated with external IP*]: docs/Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md
+[Get ability to list users opened email*]: Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md
+[Get ability to list users received email*]: Response_Actions/RA_1302_get_ability_to_list_users_received_email.md
+[Get ability to block email domain*]: Response_Actions/RA_1303_get_ability_to_block_email_domain.md
+[Get ability to block an email sender*]: Response_Actions/RA_1304_get_ability_to_block_email_sender.md
+[Get ability to delete an email message*]: Response_Actions/RA_1305_get_ability_to_delete_email_message.md
+[Get ability to find file by format*]: Response_Actions/RA_1401_get_ability_to_find_file_by_format.md
+[Get ability to find file by hash*]: Response_Actions/RA_1402_get_ability_to_find_file_by_hash.md
+[Get ability to find file by path*]: Response_Actions/RA_1403_get_ability_to_find_file_by_path.md
+[Get ability to find file by content pattern*]: Response_Actions/RA_1404_get_ability_to_find_file_by_content_pattern.md
+[Get ability to find file by metadata*]: Response_Actions/RA_1405_get_ability_to_find_file_by_metadata.md
+[Get ability to find files with tampered timestamps*]: Response_Actions/RA_1406_get_ability_to_find_files_with_tampered_timestamps.md
+[Get ability to list files modified*]: Response_Actions/RA_1407_get_ability_to_list_files_modified.md
+[Get ability to list files deleted*]: Response_Actions/RA_1408_get_ability_to_list_files_deleted.md
+[Get ability to list files downloaded*]: Response_Actions/RA_1409_get_ability_to_list_files_downloaded.md
+[Get ability to download file from host*]: Response_Actions/RA_1410_get_ability_to_download_file_from_host.md
+[Manage remote computer management system policies*]: Response_Actions/RA_1601_manage_remote_computer_management_system_policies.md
+[Get ability to quarantine file by format*]: Response_Actions/RA_1411_get_ability_to_quarantine_file_by_format.md
+[Get ability to quarantine file by hash*]: Response_Actions/RA_1412_get_ability_to_quarantine_file_by_hash.md
+[Get ability to quarantine file by path*]: Response_Actions/RA_1413_get_ability_to_quarantine_file_by_path.md
+[Get ability to quarantine file by content pattern*]: Response_Actions/RA_1414_get_ability_to_quarantine_file_by_content_pattern.md
+[Get ability to remove file from host*]: Response_Actions/RA_1415_get_ability_to_remove_file_from_host.md
+[Block sender on email*]: Response_Actions/RA_3302_block_sender_on_email.md
+[Quarantine file by format*]: Response_Actions/RA_3401_quarantine_file_by_format.md
+[Quarantine file by hash*]: Response_Actions/RA_3402_quarantine_file_by_hash.md
+[Quarantine file by path*]: Response_Actions/RA_3403_quarantine_file_by_path.md
+[Quarantine file by content pattern*]: Response_Actions/RA_3404_quarantine_file_by_content_pattern.md
+[List host vulnerabilities*]: Response_Actions/RA_2102_list_host_vulnerabilities.md
+[List hosts communicated by port*]: Response_Actions/RA_2207_list_hosts_communicated_by_port.md
+[List hosts connected to VPN*]: Response_Actions/RA_2208_list_hosts_connected_to_vpn.md
+[List host connected to intranet*]: Response_Actions/RA_2209_list_host_connected_to_intranet.md
+[Get data transferred by FTP*]: Response_Actions/RA_2210_get_data_transferred_by_ftp.md
+[Get data transferred by SMB*]: Response_Actions/RA_2211_get_data_transferred_by_smb.md
+[Get data transferred by HTTP*]: Response_Actions/RA_2212_get_data_transferred_by_http.md
+[List email receivers*]: Response_Actions/RA_2303_list_email_receivers.md
+[Find file by format*]: Response_Actions/RA_2409_find_file_by_format.md
+[Find file by hash*]: Response_Actions/RA_2410_find_file_by_hash.md
+[Find file by path*]: Response_Actions/RA_2411_find_file_by_path.md
+[Find file by content pattern*]: Response_Actions/RA_2412_find_file_by_content_pattern.md
+[Find file by metadata*]: Response_Actions/RA_2413_find_file_by_metadata.md
+[List files modified*]: Response_Actions/RA_2414_list_files_modified.md
+[List files deleted*]: Response_Actions/RA_2415_list_files_deleted.md
+[List files downloaded*]: Response_Actions/RA_2416_list_files_downloaded.md
+[List files with tampered timestamps*]: Response_Actions/RA_2417_list_files_with_tampered_timestamps.md
+[Download file from host*]: Response_Actions/RA_2418_download_file_from_host.md
+[Remove file from host*]: Response_Actions/RA_4401_remove_file_from_host.md
+[List hosts communicated with external domain*]: Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md
+[List hosts communicated with external URL*]: Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md
+[List hosts communicated with external IP*]: Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md
 
 
-[Access external network flow logs*]: docs/Response_Actions/RA_1201_access_external_network_flow_logs.md
-[Access internal network flow logs*]: docs/Response_Actions/RA_1202_access_internal_network_flow_logs.md
-[Access internal http logs*]: docs/Response_Actions/RA_1203_access_internal_http_logs.md
-[Access external http logs*]: docs/Response_Actions/RA_1204_access_external_http_logs.md
-[Access internal dns logs*]: docs/Response_Actions/RA_1205_access_internal_dns_logs.md
-[Access external dns logs*]: docs/Response_Actions/RA_1206_access_external_dns_logs.md
-[Access internal packet capture data*]: docs/Response_Actions/RA_1209_access_internal_packet_capture_data.md
-[Access external packet capture data*]: docs/Response_Actions/RA_1210_access_external_packet_capture_data.md
-[Get ability to block external ip address*]: docs/Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md
-[Get ability to block internal ip address*]: docs/Response_Actions/RA_1212_get_ability_to_block_internal_ip_address.md
-[Get ability to block external domain*]: docs/Response_Actions/RA_1213_get_ability_to_block_external_domain.md
-[Get ability to block internal domain*]: docs/Response_Actions/RA_1214_get_ability_to_block_internal_domain.md
-[Get ability to block external url*]: docs/Response_Actions/RA_1215_get_ability_to_block_external_url.md
-[Get ability to block internal url*]: docs/Response_Actions/RA_1216_get_ability_to_block_internal_url.md
-[Get ability to block port external communication*]: docs/Response_Actions/RA_1217_get_ability_to_block_port_external_communication.md
-[Get ability to block port internal communication*]: docs/Response_Actions/RA_1218_get_ability_to_block_port_internal_communication.md
-[Get ability to block user external communication*]: docs/Response_Actions/RA_1219_get_ability_to_block_user_external_communication.md
-[Get ability to block user internal communication*]: docs/Response_Actions/RA_1220_get_ability_to_block_user_internal_communication.md
+[Access external network flow logs*]: Response_Actions/RA_1201_access_external_network_flow_logs.md
+[Access internal network flow logs*]: Response_Actions/RA_1202_access_internal_network_flow_logs.md
+[Access internal http logs*]: Response_Actions/RA_1203_access_internal_http_logs.md
+[Access external http logs*]: Response_Actions/RA_1204_access_external_http_logs.md
+[Access internal dns logs*]: Response_Actions/RA_1205_access_internal_dns_logs.md
+[Access external dns logs*]: Response_Actions/RA_1206_access_external_dns_logs.md
+[Access internal packet capture data*]: Response_Actions/RA_1209_access_internal_packet_capture_data.md
+[Access external packet capture data*]: Response_Actions/RA_1210_access_external_packet_capture_data.md
+[Get ability to block external ip address*]: Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md
+[Get ability to block internal ip address*]: Response_Actions/RA_1212_get_ability_to_block_internal_ip_address.md
+[Get ability to block external domain*]: Response_Actions/RA_1213_get_ability_to_block_external_domain.md
+[Get ability to block internal domain*]: Response_Actions/RA_1214_get_ability_to_block_internal_domain.md
+[Get ability to block external url*]: Response_Actions/RA_1215_get_ability_to_block_external_url.md
+[Get ability to block internal url*]: Response_Actions/RA_1216_get_ability_to_block_internal_url.md
+[Get ability to block port external communication*]: Response_Actions/RA_1217_get_ability_to_block_port_external_communication.md
+[Get ability to block port internal communication*]: Response_Actions/RA_1218_get_ability_to_block_port_internal_communication.md
+[Get ability to block user external communication*]: Response_Actions/RA_1219_get_ability_to_block_user_external_communication.md
+[Get ability to block user internal communication*]: Response_Actions/RA_1220_get_ability_to_block_user_internal_communication.md
 
 
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
