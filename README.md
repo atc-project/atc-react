@@ -61,13 +61,13 @@ Each Response Action mapped to a specific [Incident Response stage](https://atc-
 The first digit of the Response Action ID reflects a stage number.  
 The second digit of the Response Action ID reflects a category it belongs to:
 
-0. General
-1. Network
-2. Email
-3. File
-4. Process
-5. Configuration
-6. Identity
+- **0** — General
+- **1** — Network
+- **2** — Email
+- **3** — File
+- **4** — Process
+- **5** — Configuration
+- **6** — Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
 For example, [RA**22**02: Get original email](docs/Response_Actions/RA_2202_get_original_email.md) is related to Stage **2** (Identification) and Category **2** (Email).
