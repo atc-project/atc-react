@@ -1,4 +1,4 @@
-| Title                       | Get ability to block external IPaddress         |
+| Title                       | Get ability to block external IP address         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1111            |
 | **Description**             | Make sure you can block an external IP address from being accessed by corporate assets   |

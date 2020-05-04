@@ -1,7 +1,7 @@
-| Title                       | Get ability to list users opened email         |
+| Title                       | Get ability to list email message receivers         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA1201            |
-| **Description**             | Make sure you have the ability to list users who opened a particular email   |
+| **ID**                      | RA1202            |
+| **Description**             | Make sure you have the ability to list receivers of a particular email message   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Email      |
@@ -11,5 +11,5 @@
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  

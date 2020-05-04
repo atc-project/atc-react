@@ -1,4 +1,4 @@
-| Title                       | Analyse MSoffice file         |
+| Title                       | Analyse MS office file         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2316            |
 | **Description**             | Analise MS Office file   |

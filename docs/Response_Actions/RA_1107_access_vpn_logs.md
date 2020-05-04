@@ -1,4 +1,4 @@
-| Title                       | Access VPNlogs         |
+| Title                       | Access VPN logs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1107            |
 | **Description**             | Make sure you have access to VPN logs   |

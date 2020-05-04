@@ -233,11 +233,11 @@ class ATCutils:
                         "ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", 
                         "elf", "dhcp", "vpn", "smb", "ftp", "http" ]:
                     new_title += word.upper()
-                    #new_title += " "
+                    new_title += " "
                     continue
                 elif word.lower() in [ "unix", "windows", "proxy", "firewall", "mach-o" ]:
                     new_title += word.capitalize()
-                    #new_title += " "
+                    new_title += " "
                     continue
                 new_title += word
                 new_title += " "

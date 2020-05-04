@@ -1,4 +1,4 @@
-| Title                       | Access internal DNSlogs         |
+| Title                       | Access internal DNS logs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1105            |
 | **Description**             | Make sure you have access to internal communication DNS logs   |
