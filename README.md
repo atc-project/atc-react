@@ -16,6 +16,8 @@ RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) f
 The columns represent [Incident Response stages](https://atc-project.github.io/atc-react/responsestages/).  
 The cells repsresent [Response Actions](#response-action).  
 
+![](docs/images/react_navigator_export.svg)
+
 The main use cases:
 
 - Prioritization of Incident Response capabilities development
