@@ -1,0 +1,14 @@
+title: RA_5101_unblock_blocked_ip
+id: RA5101
+description: >
+  Unblock a blocked IP
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: recovery
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

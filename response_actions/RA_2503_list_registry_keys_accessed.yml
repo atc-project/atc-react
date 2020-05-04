@@ -1,0 +1,14 @@
+title: RA_2503_list_registry_keys_accessed
+id: RA2503
+description: >
+  List registry keys that have been accessed at a particular time in the past
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

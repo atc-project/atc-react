@@ -1,0 +1,14 @@
+title: RA_5102_unblock_blocked_domain
+id: RA5102
+description: >
+  Unblock a blocked domain
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: recovery
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

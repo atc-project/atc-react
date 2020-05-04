@@ -1,0 +1,14 @@
+title: RA_1402_get_ability_to_find_process_by_executable_path
+id: RA1402
+description: >
+  Make sure you have the ability to find process executed at a particular time in the past by its executable path (including its name)
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.
