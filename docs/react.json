@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--ef34a0e4-f0db-4865-9d4a-36d742705c73",
+    "id": "bundle--f0d8fa9f-4d11-4e03-a45b-5e938145b744",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-react-action",
-            "id": "x-react-action--c3a7f0b3-b18d-4661-978a-ff5f9248d2ad",
-            "created": "2020-05-04T01:53:56.370Z",
-            "modified": "2020-05-04T01:53:56.370Z",
+            "id": "x-react-action--80dac7f6-2a00-4c5d-a94b-f7824cea843a",
+            "created": "2020-05-04T01:57:24.281Z",
+            "modified": "2020-05-04T01:57:24.281Z",
             "name": "Analyse domain name",
             "description": "Response Action for \n",
             "external_references": [
@@ -31,9 +31,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e295ee16-a36d-41cc-8a77-2d84ba2e89f1",
-            "created": "2020-05-04T01:53:56.370Z",
-            "modified": "2020-05-04T01:53:56.370Z",
+            "id": "x-react-action--75e38444-9947-47be-ad8d-c9e6ce1dc59a",
+            "created": "2020-05-04T01:57:24.281Z",
+            "modified": "2020-05-04T01:57:24.281Z",
             "name": "List files with tampered timestamps",
             "description": "List files with tampered timestamps\n",
             "external_references": [
@@ -57,9 +57,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c6acebf5-e44b-4b85-a0a7-3f5ee48e2e0a",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--23447518-fef2-4ea7-a554-e18fae0fe0cd",
+            "created": "2020-05-04T01:57:24.281Z",
+            "modified": "2020-05-04T01:57:24.281Z",
             "name": "Block sender on email",
             "description": "Block an email sender on the Email-server\n",
             "external_references": [
@@ -83,9 +83,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ebc47365-c8d8-42a1-b2a8-feb0ead11ca0",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--3688aa29-3872-49d8-9be1-7ed6f5e0f290",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "Get ability to quarantine file by format",
             "description": "Make sure you have the ability to block a file from being accessed by its format\n",
             "external_references": [
@@ -109,9 +109,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0a111684-9a4f-4ea8-b187-fa9d4fe39560",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--59158496-2ab7-4fbe-88c4-e41065fc6cd6",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "List hosts communicated with external domain",
             "description": "Response Action for \n",
             "external_references": [
@@ -135,9 +135,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b2359322-709a-4f68-a3c3-563d35947e25",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--b885c0ac-9e77-44ea-b97e-a579b496e2b4",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "Get ability to block internal IPaddress",
             "description": "Make sure you can block an internal IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -161,9 +161,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--00e151fa-c038-4854-abf3-ec9f2a03d687",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--d9396388-afb0-4549-bb0a-dee52a81aaa1",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "Block user internal communication",
             "description": "Block a user for internal communications\n",
             "external_references": [
@@ -187,9 +187,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9f9634dd-7318-441f-94aa-c2e069ce3b4c",
-            "created": "2020-05-04T01:53:56.371Z",
-            "modified": "2020-05-04T01:53:56.371Z",
+            "id": "x-react-action--8cc09e41-6f7a-48b6-9360-e9d4127109d0",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "List email receivers",
             "description": "List receivers of a specific email\n",
             "external_references": [
@@ -213,9 +213,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1c35bdfc-f352-44d2-91e0-e2ea9abc7c42",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--5f5ed505-4e5f-4fbf-9b66-d8e364cad394",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "List hosts communicated with internal URL",
             "description": "Response Action for\n",
             "external_references": [
@@ -239,9 +239,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e5cb6547-e9f4-4c08-8113-df3a0ceb4775",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--94f2c95f-16de-46cc-8e0d-d47e4a4e4aed",
+            "created": "2020-05-04T01:57:24.282Z",
+            "modified": "2020-05-04T01:57:24.282Z",
             "name": "Get ability to block port external communication",
             "description": "Make sure you can block a network port for external communications\n",
             "external_references": [
@@ -265,9 +265,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--58e26614-b149-4565-9b19-a41b3fa9b042",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--a1cc474d-3233-4d43-94c7-f1389b022fc6",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "Quarantine file by path",
             "description": "Quarantine a file by its path\n",
             "external_references": [
@@ -291,9 +291,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c7bf89d7-4ac7-4008-b553-0de8aae446d3",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--57d46991-f0c1-4ee3-8ba2-bd7431027e71",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "Practice",
             "description": "Practice in the real environment. Sharpen Response Actions within your organization",
             "external_references": [
@@ -317,9 +317,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c176bc0f-30e3-45f7-b9fb-2ef5e60aadd1",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--d2904644-16e0-4f00-a5bb-5274006a7bc5",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "Block external domain",
             "description": "Block an external domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -343,9 +343,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--dfa0aa06-4112-4d3b-9382-cc0afefaa8e6",
-            "created": "2020-05-04T01:53:56.372Z",
-            "modified": "2020-05-04T01:53:56.372Z",
+            "id": "x-react-action--d3988d80-b7a3-4e00-bea7-3eccbf5e461a",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "List files downloaded",
             "description": "List files downloaded from the internet at a particular time in the past\n",
             "external_references": [
@@ -369,9 +369,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3a7b5539-2a6d-4c27-9834-36c1930778fd",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--437843f1-2eaf-4572-9548-020f4a552c99",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "Access internal DNSlogs",
             "description": "Make sure you have access to internal communication DNS logs\n",
             "external_references": [
@@ -395,9 +395,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d7e18d56-d276-4bfa-9a7d-0e2cd3c13c89",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--6307a488-26f9-4106-b4de-72a3bbeec476",
+            "created": "2020-05-04T01:57:24.283Z",
+            "modified": "2020-05-04T01:57:24.283Z",
             "name": "Analyse WindowsPE",
             "description": "Response Action for \n",
             "external_references": [
@@ -421,9 +421,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7cfbe2a5-cdb7-493e-9ceb-f73bd8b0bf06",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--73eea795-1e60-4a0a-8e74-34eb1127ef40",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "Get ability to download file from host",
             "description": "Make sure you have the ability to download a specific file from a host\n",
             "external_references": [
@@ -447,9 +447,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--39a3c6ab-46a0-429b-8ac9-ab4409d3a1fd",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--2be1ab6e-53e9-4902-8a3f-506e98f98ba3",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "List processes executed",
             "description": "Response Action for \n",
             "external_references": [
@@ -473,9 +473,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--5f420132-8e95-4482-a40d-a219c44731f9",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--8d1c5f40-bb24-4a62-bd25-75fae42bc9b6",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "List hosts communicated with internal IP",
             "description": "Response Action for \n",
             "external_references": [
@@ -499,9 +499,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c125bd79-b6c2-4e74-bc52-784468a91ffc",
-            "created": "2020-05-04T01:53:56.373Z",
-            "modified": "2020-05-04T01:53:56.373Z",
+            "id": "x-react-action--1993dae3-87ef-4895-8456-51a498c884a3",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "Quarantine file by hash",
             "description": "Quarantine a file by its hash\n",
             "external_references": [
@@ -525,9 +525,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e038a481-d667-49d9-b706-de8dda0d1df9",
-            "created": "2020-05-04T01:53:56.374Z",
-            "modified": "2020-05-04T01:53:56.374Z",
+            "id": "x-react-action--96e3cd85-05a5-4bbc-8751-4a64816a1077",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "Get ability to list users opened email",
             "description": "Make sure you have the ability to list users who opened a particular email\n",
             "external_references": [
@@ -551,9 +551,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6d63694f-0ebc-41aa-8310-ab0aba9a0141",
-            "created": "2020-05-04T01:53:56.374Z",
-            "modified": "2020-05-04T01:53:56.374Z",
+            "id": "x-react-action--d3c7f239-57be-47f1-92cd-7a5526c72c6e",
+            "created": "2020-05-04T01:57:24.284Z",
+            "modified": "2020-05-04T01:57:24.284Z",
             "name": "Make sure there are backups",
             "description": "Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data\n",
             "external_references": [
@@ -577,9 +577,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8c82f242-7622-4861-98a0-999f1001a529",
-            "created": "2020-05-04T01:53:56.374Z",
-            "modified": "2020-05-04T01:53:56.374Z",
+            "id": "x-react-action--75e0180e-12c3-45e0-a88b-8c85724d9698",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Analyse MSoffice file",
             "description": "Response Action for \n",
             "external_references": [
@@ -603,9 +603,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7f4a124e-5e92-47b2-9dc0-3a5e5d6a17ae",
-            "created": "2020-05-04T01:53:56.374Z",
-            "modified": "2020-05-04T01:53:56.374Z",
+            "id": "x-react-action--5855311f-aaa1-46ab-bafb-0bdfdc2b35a5",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Get access control matrix",
             "description": "Get Access Control Matrix. Usually, its managed by the Network security team. It will help you to identify adversary opportunities, such as laterally movement and so on\n",
             "external_references": [
@@ -629,9 +629,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7860ea3f-6449-41ba-a12e-3c5ec815e260",
-            "created": "2020-05-04T01:53:56.374Z",
-            "modified": "2020-05-04T01:53:56.374Z",
+            "id": "x-react-action--55dfef58-10c1-452c-b668-657e422c57e6",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "List registry keys modified",
             "description": "Response Action for \n",
             "external_references": [
@@ -655,9 +655,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--4326b923-6e10-4825-8074-f34df1e10e47",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--7e8c8d9e-885c-4bb2-b359-cf3cdd4546a1",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Block user external communication",
             "description": "Block a user for external communications\n",
             "external_references": [
@@ -681,9 +681,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--cb2a7f1b-382e-43a1-afec-d3547a4ceb9f",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--c63ae181-374a-46e9-be99-66d93378858c",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Find file by hash",
             "description": "Find a file by its hash\n",
             "external_references": [
@@ -707,9 +707,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e4470392-5fa1-451c-912c-3be082517609",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--753cacf6-b324-4b8f-97b2-7af81dffb894",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Get ability to find file by hash",
             "description": "Make sure you have the ability to find a file by its hash\n",
             "external_references": [
@@ -733,9 +733,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a5cf3f39-0648-4ae5-b61a-42cd8f6dbafc",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--52145d68-f862-4bbb-9bf5-7615d0e44ad1",
+            "created": "2020-05-04T01:57:24.285Z",
+            "modified": "2020-05-04T01:57:24.285Z",
             "name": "Access external network flow logs",
             "description": "Make sure you have access to external communication Network Flow logs\n",
             "external_references": [
@@ -759,9 +759,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a297f48f-777b-46a5-9584-fa42cc261c7c",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--c3e0decd-ff2c-4e48-8021-e54a800bdf01",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "Access VPNlogs",
             "description": "Make sure you have access to VPN logs\n",
             "external_references": [
@@ -785,9 +785,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8001b267-2009-4b88-9be6-ebdcb487cf13",
-            "created": "2020-05-04T01:53:56.375Z",
-            "modified": "2020-05-04T01:53:56.375Z",
+            "id": "x-react-action--9992fc71-1381-4993-a185-23a43ac4ca93",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "Develop incident report",
             "description": "Develop the incident report",
             "external_references": [
@@ -811,9 +811,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a6c0ad30-ce3c-420f-91cf-88b5926a8d0d",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--e01d2a68-c9ba-4abb-8a8c-3f95dc3e0f04",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "Get ability to list files deleted",
             "description": "Make sure you have the ability to list files deleted at a specific time range\n",
             "external_references": [
@@ -837,9 +837,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8431e2a3-5f36-4723-917d-812b527ba920",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--52b38843-9b95-44ac-8aa0-315c413deb38",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "Get ability to block internal URL",
             "description": "Make sure you can block an internal URL from being accessed by corporate assets\n",
             "external_references": [
@@ -863,9 +863,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--03701413-6f4a-4ec2-9728-4c5aa8b69453",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--f884d3c7-9d63-4c9a-8bc4-ed4155a12c40",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "List files modified",
             "description": "List files modified at a particular time in the past\n",
             "external_references": [
@@ -889,9 +889,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f15e036e-7643-4848-9797-83ff5745fd1c",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--8cac304b-06ad-4806-9296-12b715f5f7d9",
+            "created": "2020-05-04T01:57:24.286Z",
+            "modified": "2020-05-04T01:57:24.286Z",
             "name": "Get ability to find file by format",
             "description": "Make sure you have the ability to find a file by its format\n",
             "external_references": [
@@ -915,9 +915,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0f8f0757-db73-4141-a997-1f59fe32a9ca",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--d915fef3-86ea-4b74-86cb-e460e6f46157",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "Get ability to block external IPaddress",
             "description": "Make sure you can block an external IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -941,9 +941,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--081c3f82-a8bb-494d-9f07-91957ba6e65f",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--8c464021-a17a-4b9b-a6b7-145f99440125",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "Get ability to list files downloaded",
             "description": "Make sure you have the ability to list files downloaded from the internet at a specific time range\n",
             "external_references": [
@@ -967,9 +967,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7919d8cc-92b2-427a-b28c-150207d95001",
-            "created": "2020-05-04T01:53:56.376Z",
-            "modified": "2020-05-04T01:53:56.376Z",
+            "id": "x-react-action--d7f6d74a-69b8-4862-9a6e-e66dc9d5b8fa",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "Get ability to block external URL",
             "description": "Make sure you can block an external URL from being accessed by corporate assets\n",
             "external_references": [
@@ -993,9 +993,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--90eeb270-1192-4cb6-b6ab-6889e4fb7589",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--f682828b-ea45-4926-b031-84e42fe46706",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "Make personnel report suspicious activity",
             "description": "Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it\n",
             "external_references": [
@@ -1019,9 +1019,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ba962202-1f0e-411a-8e3e-b27fb9805b6a",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--cd57a486-182d-46fc-ae9c-1d8adc282ede",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "List hosts communicated by port",
             "description": "List hosts communicating by a specific port at the moment or at a particular time in the past\n",
             "external_references": [
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b0496914-c52a-421f-860b-6fd87f7dec45",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--965ba450-499d-4ebc-a104-a6bf2642cd17",
+            "created": "2020-05-04T01:57:24.287Z",
+            "modified": "2020-05-04T01:57:24.287Z",
             "name": "Find file by content pattern",
             "description": "Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -1071,9 +1071,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--45f4bdd5-0ef2-416e-8c3f-a30b07f8eb25",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--4b855f16-5eac-466b-9568-34ecd81327ba",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Report incident to external companies",
             "description": "Report incident to external companies",
             "external_references": [
@@ -1097,9 +1097,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8a957d92-5336-47f0-8b68-9119bcd23bb4",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--af72f9e0-7bec-47c9-bc8c-af8ecc8a0646",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Quarantine file by format",
             "description": "Quarantine a file by its format\n",
             "external_references": [
@@ -1123,9 +1123,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--abcd4552-6235-44f0-b0e2-ff0e8883b99b",
-            "created": "2020-05-04T01:53:56.377Z",
-            "modified": "2020-05-04T01:53:56.377Z",
+            "id": "x-react-action--9c7a0d93-b87a-44fa-aa20-f82be25f1890",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Develop assets knowledge base",
             "description": "Develop assets knowledge base. It will help you to compare observed activity with a normal activity profile for a specific host, user or network segment\n",
             "external_references": [
@@ -1149,9 +1149,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--eb4b6e11-4770-4057-a12e-0da1ff430eb6",
-            "created": "2020-05-04T01:53:56.378Z",
-            "modified": "2020-05-04T01:53:56.378Z",
+            "id": "x-react-action--b042ac89-c801-47b4-b4a0-ce5516b0c860",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Block internal domain",
             "description": "Block an internal domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -1175,9 +1175,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8f894d3b-b1e3-4278-b67d-9e4f713c2d49",
-            "created": "2020-05-04T01:53:56.378Z",
-            "modified": "2020-05-04T01:53:56.378Z",
+            "id": "x-react-action--b2d1998b-92b6-45ba-b6de-e885844ca9a9",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "List hosts communicated with external URL",
             "description": "Response Action for\n",
             "external_references": [
@@ -1201,9 +1201,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--683fb35f-72c5-4cb8-a361-c131ef3ee8b6",
-            "created": "2020-05-04T01:53:56.378Z",
-            "modified": "2020-05-04T01:53:56.378Z",
+            "id": "x-react-action--e80241c0-fbbe-4ef7-b80a-4a05791a0545",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Get ability to quarantine file by hash",
             "description": "Make sure you have the ability to block a file from being accessed by its hash\n",
             "external_references": [
@@ -1227,9 +1227,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ca6dfe10-939e-4496-a820-d464306ea9d2",
-            "created": "2020-05-04T01:53:56.378Z",
-            "modified": "2020-05-04T01:53:56.378Z",
+            "id": "x-react-action--3ec5dc7d-c138-4504-b399-b204600ce2e8",
+            "created": "2020-05-04T01:57:24.288Z",
+            "modified": "2020-05-04T01:57:24.288Z",
             "name": "Find file by format",
             "description": "Find a file by its format\n",
             "external_references": [
@@ -1253,9 +1253,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d9a7484a-a614-4844-98c3-0114c2122948",
-            "created": "2020-05-04T01:53:56.378Z",
-            "modified": "2020-05-04T01:53:56.378Z",
+            "id": "x-react-action--462c405c-4f4e-458f-9d9e-f029376eaebb",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "Set up relevant data collection",
             "description": "Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams.  You need to provide them with a list of data that is critically important for IR process. Most of  the time, data like DNS and DHCP logs are not being collected, as their value for detection is  relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list\n",
             "external_references": [
@@ -1279,9 +1279,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c44c537a-4377-4fac-a1b3-b8621193960a",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--73d4e339-8d91-4c95-a6fe-8ee3efd2f2ef",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "Access DHCPlogs",
             "description": "Make sure you have access to DHCP logs\n",
             "external_references": [
@@ -1305,9 +1305,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--4cf9e030-dfe1-49f6-82eb-e5b33c6c7961",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--42161112-0114-4126-b5e7-99288e21441a",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "List files deleted",
             "description": "List files deleted at a particular time in the past\n",
             "external_references": [
@@ -1331,9 +1331,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ecb30237-d718-4d48-8ae7-cecdd330d9ba",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--60339d4a-2c56-4b91-ab3d-4162bbc5d1fd",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "Access internal HTTPlogs",
             "description": "Make sure you have access to internal communication HTTP logs\n",
             "external_references": [
@@ -1357,9 +1357,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--af13e1c1-4b5d-4e8a-bf66-a6b8f5aaf1f4",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--9f8a27f8-6fe2-41d9-9628-ee983026fc01",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "Get ability to delete email message",
             "description": "Make sure you have the ability to delete an email message\n",
             "external_references": [
@@ -1383,9 +1383,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--95ce30f2-ffd1-4b9d-9658-59c5f3c5bb0a",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--61f7e57e-0830-465c-b92a-69d86438bff8",
+            "created": "2020-05-04T01:57:24.289Z",
+            "modified": "2020-05-04T01:57:24.289Z",
             "name": "Get ability to find files with tampered timestamps",
             "description": "Make sure you have the ability to find files with tampered timestamp\n",
             "external_references": [
@@ -1409,9 +1409,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7a5f1218-8249-41f3-a04b-3b206030a5ca",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--545746d8-e206-4be5-b383-513781b0a9ff",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "Block port external communication",
             "description": "Block a network port for external communications\n",
             "external_references": [
@@ -1435,9 +1435,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9cb14b12-1d2f-4838-99a7-d7406b69bf4c",
-            "created": "2020-05-04T01:53:56.379Z",
-            "modified": "2020-05-04T01:53:56.379Z",
+            "id": "x-react-action--d58def24-1589-495b-9591-6901320b84e1",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "List hosts connected to VPN",
             "description": "List hosts connected to a VPN at the moment or at a particular time in the past\n",
             "external_references": [
@@ -1461,9 +1461,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--92d17c13-630b-4b5e-bed5-f9929d3277dd",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--956f395c-051e-4b0c-a238-4be128d49cc7",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "List hosts communicated with internal domain",
             "description": "Response Action for \n",
             "external_references": [
@@ -1487,9 +1487,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--e7dbd466-5ad7-4ee9-9b55-c80ecd885d92",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--5a722d4c-d16f-4411-a387-dfa840cd23b4",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "Get ability to find file by path",
             "description": "Make sure you have the ability to find a file by its path, including name\n",
             "external_references": [
@@ -1513,9 +1513,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--598ee285-96d5-42d5-a2ac-3f66046ef3c3",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--7717a4c1-e241-4a58-83c2-db468f04757e",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "List victims of security alert",
             "description": "Response Action for\n",
             "external_references": [
@@ -1539,9 +1539,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3506d0f6-9cb1-4b71-940d-d0df111e4b97",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--6a52dc24-69b0-45ac-ae9c-b3b9b9e4a2af",
+            "created": "2020-05-04T01:57:24.290Z",
+            "modified": "2020-05-04T01:57:24.290Z",
             "name": "List files created",
             "description": "Response Action for \n",
             "external_references": [
@@ -1565,9 +1565,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--c1b89e5c-794d-4b9b-8ea5-ba479ba870f6",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--c9a31126-bb51-4c89-9581-6c91c2df1c99",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Get ability to block email domain",
             "description": "Make sure you have the ability to block an email domain\n",
             "external_references": [
@@ -1591,9 +1591,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--af0ef747-5b24-429e-b06a-6023f15eb486",
-            "created": "2020-05-04T01:53:56.380Z",
-            "modified": "2020-05-04T01:53:56.380Z",
+            "id": "x-react-action--1128c3d8-34f3-466f-9352-6d4cacb6578b",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Extract observables from email",
             "description": "Extract all observables from the original phishing email",
             "external_references": [
@@ -1617,9 +1617,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--4ca570cc-c039-40dc-aeb8-a2990a03c744",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--863deb6e-fe27-4c98-9ff9-ed1e00198502",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Get ability to quarantine file by path",
             "description": "Make sure you have the ability to block a file from being accessed by its path, including name\n",
             "external_references": [
@@ -1643,9 +1643,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--bf41f851-b999-4b44-b8ca-dec090ce544e",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--1581f641-eca8-4e94-9304-b0dc2bcf4879",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Get original email",
             "description": "Obtain the original phishing email",
             "external_references": [
@@ -1669,9 +1669,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--616cd0c4-2981-4983-b9b4-3e22c0b6ceec",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--4cd4010d-7f18-488c-81c7-b05989d512f0",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Get ability to quarantine file by content pattern",
             "description": "Make sure you have the ability to block a file from being accessed by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -1695,9 +1695,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3023ac4d-2f18-4e1b-b7d9-476d0021b2f7",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--36f5c499-5e23-48b3-af31-2f4c73e74e88",
+            "created": "2020-05-04T01:57:24.291Z",
+            "modified": "2020-05-04T01:57:24.291Z",
             "name": "Analyse UnixELF",
             "description": "Response Action for \n",
             "external_references": [
@@ -1721,9 +1721,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d3372356-5d92-4e2a-8f4e-063e876ce393",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--16f6dd34-c1e5-419d-bf8b-032e8a18402c",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Block internal URL",
             "description": "Block an internal URL from being accessed by corporate assets\n",
             "external_references": [
@@ -1747,9 +1747,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7e6e86a3-d883-489a-b9d7-1ab88fe20f1f",
-            "created": "2020-05-04T01:53:56.381Z",
-            "modified": "2020-05-04T01:53:56.381Z",
+            "id": "x-react-action--8760380e-7190-4401-8e0d-ca84706fe718",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Quarantine file by content pattern",
             "description": "Quarantine a file by its content pattern\n",
             "external_references": [
@@ -1773,9 +1773,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ea6bf702-9830-4a70-af4c-b6e7cf441dfd",
-            "created": "2020-05-04T01:53:56.382Z",
-            "modified": "2020-05-04T01:53:56.382Z",
+            "id": "x-react-action--e7bd2aea-9f9f-4247-996c-312b6ea53cfe",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Get network architecture map",
             "description": "Get network architecture map. Usually, its managed by the Network security team. It will help you to choose the containment strategy, such as isolating specific network segments\n",
             "external_references": [
@@ -1799,9 +1799,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--07ebac6d-4f8d-4eb6-a4d6-fa09ce083e08",
-            "created": "2020-05-04T01:53:56.382Z",
-            "modified": "2020-05-04T01:53:56.382Z",
+            "id": "x-react-action--fde41e77-c5d6-4d12-a9a9-8fb8d0ae08b6",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Delete email message",
             "description": "Delete an email message from an Email Server and users' email boxes",
             "external_references": [
@@ -1825,9 +1825,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--934ab1f1-d677-44be-b229-8d26de775078",
-            "created": "2020-05-04T01:53:56.382Z",
-            "modified": "2020-05-04T01:53:56.382Z",
+            "id": "x-react-action--3029ef1f-787b-4f59-9a8e-a4d0df1d52f0",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Access external HTTPlogs",
             "description": "Make sure you have access to external communication HTTP logs\n",
             "external_references": [
@@ -1851,9 +1851,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--09522531-1cff-4658-8337-2b954b49fc88",
-            "created": "2020-05-04T01:53:56.382Z",
-            "modified": "2020-05-04T01:53:56.382Z",
+            "id": "x-react-action--1fe3352e-68d8-4b4f-9dc0-e810d33ed5e4",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Conduct lessons learned exercise",
             "description": "Conduct Lessons Learned exercise",
             "external_references": [
@@ -1877,9 +1877,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8a7b3902-ab1c-4097-a872-5310d65b7d20",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--381c6f60-624d-484a-9761-c60b4bb0a09f",
+            "created": "2020-05-04T01:57:24.292Z",
+            "modified": "2020-05-04T01:57:24.292Z",
             "name": "Put compromised accounts on monitoring",
             "description": "Put (potentially) compromised accounts on monitoring",
             "external_references": [
@@ -1903,9 +1903,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f8dbdd24-bff0-40ca-b314-b515053af237",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--b83c26f6-e410-4f09-a277-4b7ce56b977b",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "Make sure email is a phishing",
             "description": "Make sure an email is a phishing attack",
             "external_references": [
@@ -1929,9 +1929,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9f5d6616-3d20-41a6-801b-3ac845723789",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--f25ac753-ff23-4e75-8a46-ac7af86c5bad",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "Raise personnel awareness",
             "description": "Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks\n",
             "external_references": [
@@ -1955,9 +1955,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a0e28d3b-f898-41d7-9eff-43d69cef0cb7",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--7ee43f8d-7211-456e-8181-5b2fe5f0d3aa",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "Access vulnerability management system logs",
             "description": "Access vulnerability management system logs. It will help to identify the vulnerabilities a specific host had at a specific time in the past\n",
             "external_references": [
@@ -1981,9 +1981,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0a6bd915-4a10-4894-ad4f-eb7b47202fd0",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--16c69c9d-8f72-48cf-8d5f-cf9916149afe",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "Report phishing attack to external companies",
             "description": "Report phishing attack to external companies",
             "external_references": [
@@ -2007,9 +2007,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1a26f0ad-8aba-4684-9f3f-fbe2f3b972af",
-            "created": "2020-05-04T01:53:56.383Z",
-            "modified": "2020-05-04T01:53:56.383Z",
+            "id": "x-react-action--eb269108-9f7f-4155-9b07-b213215f023c",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "List users opened email",
             "description": "Response Action for \n",
             "external_references": [
@@ -2033,9 +2033,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--96058b16-9196-4dbf-85cc-d61d4de5bc2d",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--09e30e04-4897-4c81-90a4-752b7d6f5931",
+            "created": "2020-05-04T01:57:24.293Z",
+            "modified": "2020-05-04T01:57:24.293Z",
             "name": "Get ability to block user internal communication",
             "description": "Make sure you can block a user for internal communications\n",
             "external_references": [
@@ -2059,9 +2059,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d048b1ba-a086-4c39-a752-d1c71d7ce109",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--03ba830a-6826-4b38-b4ec-2d1654046fc0",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "Analyse IP",
             "description": "Response Action for \n",
             "external_references": [
@@ -2085,9 +2085,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--aaefaafd-cc7b-4664-bd7d-8fe8a488cff4",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--f74b941d-5508-45f0-bb1c-9d37788278da",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "Analyse macos Mach-o",
             "description": "Response Action for \n",
             "external_references": [
@@ -2111,9 +2111,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--de0a1173-ba0f-43ca-b60a-7ad3a020e5f6",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--14b84eb3-4d74-47f7-824a-67fce3d2f2fb",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "Analyse URL",
             "description": "Response Action for \n",
             "external_references": [
@@ -2137,9 +2137,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0fabc0d2-5a50-412c-9ef8-2f6b2274d207",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--e2343968-6776-4d44-a799-ac674e71e26e",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "List hosts communicated with external ip.",
             "description": "Response Action for \n",
             "external_references": [
@@ -2163,9 +2163,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--05408cb6-f4e2-4a34-be3b-4b2d10476b04",
-            "created": "2020-05-04T01:53:56.384Z",
-            "modified": "2020-05-04T01:53:56.384Z",
+            "id": "x-react-action--07401c45-4a28-40a2-9f36-67a336faacfc",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "Block port internal communication",
             "description": "Block a network port for internal communications\n",
             "external_references": [
@@ -2189,9 +2189,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--15a4212c-8421-40b7-bbb0-a992ca1e0eb8",
-            "created": "2020-05-04T01:53:56.385Z",
-            "modified": "2020-05-04T01:53:56.385Z",
+            "id": "x-react-action--7f4df315-b5d3-4ce3-8f05-76e746ae48a9",
+            "created": "2020-05-04T01:57:24.294Z",
+            "modified": "2020-05-04T01:57:24.294Z",
             "name": "Get ability to block user external communication",
             "description": "Make sure you can block a user for external communications\n",
             "external_references": [
@@ -2215,9 +2215,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--91efb2d0-90eb-413c-8b0b-23f68d1d4815",
-            "created": "2020-05-04T01:53:56.385Z",
-            "modified": "2020-05-04T01:53:56.385Z",
+            "id": "x-react-action--ff29911a-b063-4a9c-905a-6ae63eeb9b08",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Access internal network flow logs",
             "description": "Make sure you have access to internal communication Network Flow logs\n",
             "external_references": [
@@ -2241,9 +2241,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ea15b5a7-f276-4e6e-9f03-07a567558cb3",
-            "created": "2020-05-04T01:53:56.385Z",
-            "modified": "2020-05-04T01:53:56.385Z",
+            "id": "x-react-action--5ebad74b-910f-49a3-bd6a-f9638335edc4",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Develop communication map",
             "description": "Develop a communication map for both internal (C-level, managers and technical specialists from the other departments, that could be involved in IR process) and external communications (law enforcement, national CERTs, subject matter experts that you have lack of, etc)\n",
             "external_references": [
@@ -2267,9 +2267,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--917dd26c-5a3c-40e9-a3ee-0841ce50e908",
-            "created": "2020-05-04T01:53:56.385Z",
-            "modified": "2020-05-04T01:53:56.385Z",
+            "id": "x-react-action--4aef5562-87cb-4732-8136-45266958aca2",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Analyse filehash",
             "description": "Response Action for \n",
             "external_references": [
@@ -2293,9 +2293,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--36e0a7c5-294d-4cd6-bc2f-80120279fa15",
-            "created": "2020-05-04T01:53:56.385Z",
-            "modified": "2020-05-04T01:53:56.385Z",
+            "id": "x-react-action--28f25861-7d96-41dd-9a47-96a3f74ad584",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Access external packet capture data",
             "description": "Make sure you have access to external communication Packet Capture data\n",
             "external_references": [
@@ -2319,9 +2319,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--17ced658-be5a-433d-a8b2-1ab966f9d79d",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--e98db407-b5a3-446b-ac6c-4533cd4deb36",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Block domain on email",
             "description": "Block a domain name on an Email server",
             "external_references": [
@@ -2345,9 +2345,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--7eb55b1d-c3a5-4f06-8b8e-601bb5a29a0b",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--acfd05cb-bcd4-49fb-b6d7-91f16315483e",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Take trainings",
             "description": "Take training courses to gain relevant knowledge",
             "external_references": [
@@ -2371,9 +2371,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ae362917-1172-408c-b204-59de7128683f",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--87717158-88b4-4b46-a9b5-795d364ed754",
+            "created": "2020-05-04T01:57:24.295Z",
+            "modified": "2020-05-04T01:57:24.295Z",
             "name": "Access external DNSlogs",
             "description": "Make sure you have access to external communication DNS logs\n",
             "external_references": [
@@ -2397,9 +2397,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--75b450d5-0862-4556-88b4-f1d643af565d",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--03e932cd-e106-49c9-90c2-4bd5d5726994",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "Check analysis toolset",
             "description": "Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well\n",
             "external_references": [
@@ -2423,9 +2423,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f65dd77d-76dc-4882-8d61-e5b2d1324b8a",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--d0997cb7-766f-41c9-81fc-00460013ee4f",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "Set up a centralized long-term log storage",
             "description": "Set up a centralized long-term log storage. This is one of the most critical problems companies have nowadays. Even if there is such a system, in most of the cases it stores irrelevant data or has too small retention period\n",
             "external_references": [
@@ -2449,9 +2449,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--45f97e49-7b55-4213-be85-f6fdb028c75e",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--adc20373-bb20-4e50-a152-7fac18c29eed",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "Get ability to block email sender",
             "description": "Make sure you have the ability to block an email sender\n",
             "external_references": [
@@ -2475,9 +2475,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--8c4203b6-fdad-4fb2-91f4-c9ddabeec482",
-            "created": "2020-05-04T01:53:56.386Z",
-            "modified": "2020-05-04T01:53:56.386Z",
+            "id": "x-react-action--bbfce209-526f-4daa-9284-221d0ab5305d",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "Get ability to remove file from host",
             "description": "Make sure you have the ability to remove a file from a remote host\n",
             "external_references": [
@@ -2501,9 +2501,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b535076e-6405-49db-bd47-0d6fcc64f7c6",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--40eda244-d649-4c27-a66a-b484bf67faa4",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "List hosts connected to intranet",
             "description": "List hosts connected to the internal network at the moment or at a particular time in the past\n",
             "external_references": [
@@ -2527,9 +2527,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--d5cd7553-5315-4d75-9aa6-628b02d3a756",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--45d38d90-04a2-4c55-a3d3-f7d0ef8950b2",
+            "created": "2020-05-04T01:57:24.296Z",
+            "modified": "2020-05-04T01:57:24.296Z",
             "name": "Find file by path",
             "description": "Find a file by its path (including its name)\n",
             "external_references": [
@@ -2553,9 +2553,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b17fce52-31cc-470e-96f0-59641fcdf960",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--6d041724-d80e-4f96-9b14-8aff4c608b5e",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Block external IPaddress",
             "description": "Block an external IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -2579,9 +2579,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--68249fb0-507d-4d77-9970-53b9c51a8925",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--c3f90b41-90f1-4e7f-a16c-563d3069aaf5",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Block external URL",
             "description": "Block an external URL from being accessed by corporate assets\n",
             "external_references": [
@@ -2605,9 +2605,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--757d5a2f-dc65-4bfa-99dd-32713e01561b",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--fecba01e-607d-4599-b5df-0d8b7eed4f60",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Revoke authentication credentials",
             "description": "Revoke authentication credentials",
             "external_references": [
@@ -2631,9 +2631,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--96882e9e-2f43-4a11-9783-04de0834fc0b",
-            "created": "2020-05-04T01:53:56.387Z",
-            "modified": "2020-05-04T01:53:56.387Z",
+            "id": "x-react-action--de3d583c-7201-4d3b-9920-303eb8b4050a",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Find file by metadata",
             "description": "Find a file by metadata (i.e. signature, permissions, MAC times)\n",
             "external_references": [
@@ -2657,9 +2657,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--0a542368-55de-4396-b525-e5df8030c62c",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--a784131d-1b2b-4724-a040-aadc7db6bcb1",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Get ability to find file by metadata",
             "description": "Make sure you have the ability to find file by its metadata (i.e. signature, permissions, MAC times)\n",
             "external_references": [
@@ -2683,9 +2683,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--9a58c1b8-9315-47a0-80ac-248d9bbe25fe",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--4f6a9875-36e4-4c65-ac1d-7e1eae4bced6",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "Get ability to find file by content pattern",
             "description": "Make sure you have the ability to find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)\n",
             "external_references": [
@@ -2709,9 +2709,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--26c7ec71-64d3-42db-ac84-e0a2af038a40",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--86adbcdf-6fd5-457d-8a21-213fc62a7dd8",
+            "created": "2020-05-04T01:57:24.297Z",
+            "modified": "2020-05-04T01:57:24.297Z",
             "name": "List host vulnerabilities",
             "description": "Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past\n",
             "external_references": [
@@ -2735,9 +2735,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--a344f0b2-78bf-4e2d-8b85-079f38a03183",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--40e0db59-2b05-4214-a889-fefee61af795",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Get ability to block internal domain",
             "description": "Make sure you can block an internal domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -2761,9 +2761,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6b4193e7-6dd4-4475-91ac-9720318c9e2c",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--9cecbce4-2706-426c-ada1-9afcb95f7db2",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Get ability to list users received email",
             "description": "Make sure you have the ability to list users who received a particular email\n",
             "external_references": [
@@ -2787,9 +2787,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6259d457-d281-4454-a2bb-aa3e971391a6",
-            "created": "2020-05-04T01:53:56.388Z",
-            "modified": "2020-05-04T01:53:56.388Z",
+            "id": "x-react-action--96e734b3-52ae-49d3-85d2-d4661294b10e",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Get ability to block external domain",
             "description": "Make sure you can block an external domain name from being accessed by corporate assets\n",
             "external_references": [
@@ -2813,9 +2813,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--ae9acb44-9763-4198-bc05-017aa584e272",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--f7076512-f73a-4c86-b0da-328004218fcd",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Download file from host",
             "description": "Download a file from a host\n",
             "external_references": [
@@ -2839,9 +2839,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--3478b03c-af6f-4e16-8ce5-ee3500aba0f4",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--385632c5-f893-45dc-afb7-01c73ecbf4af",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Block internal IPaddress",
             "description": "Block an internal IP address from being accessed by corporate assets\n",
             "external_references": [
@@ -2865,9 +2865,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--011e7c73-c107-4777-96b2-4c233f346a72",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--9dadf1ab-e2c5-4ed5-99e6-04639d944edc",
+            "created": "2020-05-04T01:57:24.298Z",
+            "modified": "2020-05-04T01:57:24.298Z",
             "name": "Reinstall host from golden image",
             "description": "Response Action for \n",
             "external_references": [
@@ -2891,9 +2891,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--6bce86cf-3b15-43cf-971f-613c084818da",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--acf44689-c4e2-446c-8ae1-a49dc6c7e776",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Remove file from host",
             "description": "Remove a file from a host\n",
             "external_references": [
@@ -2917,9 +2917,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--f343bae4-a6ef-4621-b0ef-9e4636a57fa3",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--13f8a9b6-207e-4218-8f00-b7a6ce575ca5",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Analyse PDF",
             "description": "Response Action for \n",
             "external_references": [
@@ -2943,9 +2943,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--b63e793b-6e53-4712-9703-eb0d5a71e78e",
-            "created": "2020-05-04T01:53:56.389Z",
-            "modified": "2020-05-04T01:53:56.389Z",
+            "id": "x-react-action--ea775e42-9843-4dc6-9f0b-06746625c3dd",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Manage remote computer management system policies",
             "description": "Make sure you can manage Remote Computer Management system policies\n",
             "external_references": [
@@ -2969,9 +2969,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--26c0494d-9308-4d45-971c-79f0fcc70d41",
-            "created": "2020-05-04T01:53:56.390Z",
-            "modified": "2020-05-04T01:53:56.390Z",
+            "id": "x-react-action--9e8c5d96-a3af-4cfa-a215-8209ff6f5788",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Get ability to block port internal communication",
             "description": "Make sure you can block a network port for internal communications\n",
             "external_references": [
@@ -2995,9 +2995,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--1e7c37db-feb4-43a8-8f63-060d507ab7f2",
-            "created": "2020-05-04T01:53:56.390Z",
-            "modified": "2020-05-04T01:53:56.390Z",
+            "id": "x-react-action--50d04393-c15f-43ba-b0bd-4fcf864d1da1",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Get ability to list files modified",
             "description": "Make sure you have the ability to list files modified at specific time range\n",
             "external_references": [
@@ -3021,9 +3021,9 @@
         },
         {
             "type": "x-react-action",
-            "id": "x-react-action--57c65cfe-c663-4b69-8e08-7f4dd52c8b77",
-            "created": "2020-05-04T01:53:56.390Z",
-            "modified": "2020-05-04T01:53:56.390Z",
+            "id": "x-react-action--26d69e2d-3076-4216-81bc-9aa9f9350db4",
+            "created": "2020-05-04T01:57:24.299Z",
+            "modified": "2020-05-04T01:57:24.299Z",
             "name": "Access internal packet capture data",
             "description": "Make sure you have access to internal communication Packet Capture data\n",
             "external_references": [
@@ -3047,9 +3047,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--aab9fa0f-f6eb-4a6d-bf38-124b41e138e9",
-            "created": "2020-05-04T01:53:54.037Z",
-            "modified": "2020-05-04T01:53:54.037Z",
+            "id": "x-react-stage--791673a1-7633-4083-bd02-52ee1aedad90",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Preparation",
             "description": "description",
             "external_references": [
@@ -3063,9 +3063,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--3d2413a4-5811-4635-8b72-34ce7e3bcf48",
-            "created": "2020-05-04T01:53:54.037Z",
-            "modified": "2020-05-04T01:53:54.037Z",
+            "id": "x-react-stage--588e9145-a5b9-4b51-a655-117c471c2088",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Identification",
             "description": "description",
             "external_references": [
@@ -3079,9 +3079,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--0c5165e8-022a-42f3-90e3-2db462eceb39",
-            "created": "2020-05-04T01:53:54.037Z",
-            "modified": "2020-05-04T01:53:54.037Z",
+            "id": "x-react-stage--a5d614a8-0370-44f8-965f-995e77ce7da3",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Containment",
             "description": "description",
             "external_references": [
@@ -3095,9 +3095,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--717023c1-94ee-47cc-a495-c495b4701abf",
-            "created": "2020-05-04T01:53:54.037Z",
-            "modified": "2020-05-04T01:53:54.037Z",
+            "id": "x-react-stage--46f1d993-fced-47d6-b0d6-5802624d30f4",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Eradication",
             "description": "description",
             "external_references": [
@@ -3111,9 +3111,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--7f0dc345-e427-4599-a3d2-3a9401bd5f7b",
-            "created": "2020-05-04T01:53:54.038Z",
-            "modified": "2020-05-04T01:53:54.038Z",
+            "id": "x-react-stage--5340f0be-79fc-42c1-8a89-9057f78ba4cf",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Recovery",
             "description": "description",
             "external_references": [
@@ -3127,9 +3127,9 @@
         },
         {
             "type": "x-react-stage",
-            "id": "x-react-stage--152acd40-9e53-494b-91a7-29f1b7bef785",
-            "created": "2020-05-04T01:53:54.038Z",
-            "modified": "2020-05-04T01:53:54.038Z",
+            "id": "x-react-stage--83a34d64-87c3-4f7a-adb9-126428a9087f",
+            "created": "2020-05-04T01:57:24.112Z",
+            "modified": "2020-05-04T01:57:24.112Z",
             "name": "Lessons Learned",
             "description": "description",
             "external_references": [
@@ -3143,18 +3143,18 @@
         },
         {
             "type": "x-react-matrix",
-            "id": "x-react-matrix--28d75e4d-bd10-40e4-a251-2f73613b73ea",
-            "created": "2020-05-04T01:53:54.038Z",
-            "modified": "2020-05-04T01:53:54.038Z",
+            "id": "x-react-matrix--db8dddee-3be6-4f3e-b359-517f0cbaf0a6",
+            "created": "2020-05-04T01:57:24.113Z",
+            "modified": "2020-05-04T01:57:24.113Z",
             "name": "RE&CT Matrix",
             "description": "The full RE&CT Matrix, without any mappings but names",
             "tactic_refs": [
-                "x-react-stage--aab9fa0f-f6eb-4a6d-bf38-124b41e138e9",
-                "x-react-stage--3d2413a4-5811-4635-8b72-34ce7e3bcf48",
-                "x-react-stage--0c5165e8-022a-42f3-90e3-2db462eceb39",
-                "x-react-stage--717023c1-94ee-47cc-a495-c495b4701abf",
-                "x-react-stage--7f0dc345-e427-4599-a3d2-3a9401bd5f7b",
-                "x-react-stage--152acd40-9e53-494b-91a7-29f1b7bef785"
+                "x-react-stage--791673a1-7633-4083-bd02-52ee1aedad90",
+                "x-react-stage--588e9145-a5b9-4b51-a655-117c471c2088",
+                "x-react-stage--a5d614a8-0370-44f8-965f-995e77ce7da3",
+                "x-react-stage--46f1d993-fced-47d6-b0d6-5802624d30f4",
+                "x-react-stage--5340f0be-79fc-42c1-8a89-9057f78ba4cf",
+                "x-react-stage--83a34d64-87c3-4f7a-adb9-126428a9087f"
             ]
         }
     ]
