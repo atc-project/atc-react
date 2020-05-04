@@ -1,0 +1,14 @@
+title: RA_1204_get_ability_to_block_email_sender
+id: RA1204
+description: >
+  Make sure you have the ability to block an email sender
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

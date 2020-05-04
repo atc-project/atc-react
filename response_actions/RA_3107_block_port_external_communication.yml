@@ -1,0 +1,15 @@
+title: RA_3107_block_port_external_communication
+id: RA3107
+description: >
+  Block a network port for external communications
+author: '@atc_project'
+creation_date: 31.01.2019
+stage: containment
+requirements:
+  - MS_border_firewall
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_host_firewall
+workflow: |
+  Block a network port for external communications, using the most efficient way.  

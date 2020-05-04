@@ -1,0 +1,14 @@
+title: RA_2318_download_file_from_host
+id: RA2318
+description: >
+  Download a file from a host
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

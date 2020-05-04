@@ -47,7 +47,7 @@ The main resources:
 | [Get ability to block internal ip address*]           | [List host vulnerabilities*]                     |                                         |                                                    |                                     |                                        |
 | [Get ability to block external domain*]               | [List hosts communicated by port*]               |                                         |                                                    |                                     |                                        |
 | [Get ability to block internal domain*]               | [List hosts connected to VPN*]                   |                                         |                                                    |                                     |                                        |
-| [Get ability to block external url*]                  | [List host connected to intranet*]               |                                         |                                                    |                                     |                                        |
+| [Get ability to block external url*]                  | [List hosts connected to intranet*]              |                                         |                                                    |                                     |                                        |
 | [Get ability to block internal url*]                  | [Get data transferred by FTP*]                   |                                         |                                                    |                                     |                                        |
 | [Get ability to block port external communication*]   | [Get data transferred by SMB*]                   |                                         |                                                    |                                     |                                        |
 | [Get ability to block port internal communication*]   | [Get data transferred by HTTP*]                  |                                         |                                                    |                                     |                                        |
@@ -167,7 +167,7 @@ The main resources:
 [List host vulnerabilities*]: Response_Actions/RA_2102_list_host_vulnerabilities.md
 [List hosts communicated by port*]: Response_Actions/RA_2207_list_hosts_communicated_by_port.md
 [List hosts connected to VPN*]: Response_Actions/RA_2208_list_hosts_connected_to_vpn.md
-[List host connected to intranet*]: Response_Actions/RA_2209_list_host_connected_to_intranet.md
+[List hosts connected to intranet*]: Response_Actions/RA_2209_list_hosts_connected_to_intranet.md
 [Get data transferred by FTP*]: Response_Actions/RA_2210_get_data_transferred_by_ftp.md
 [Get data transferred by SMB*]: Response_Actions/RA_2211_get_data_transferred_by_smb.md
 [Get data transferred by HTTP*]: Response_Actions/RA_2212_get_data_transferred_by_http.md

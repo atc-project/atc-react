@@ -235,7 +235,7 @@ class ATCutils:
                     new_title += " "
                     new_title += word.upper()
                     continue
-                elif word.lower() in [ "unix", "windows", "proxy", "firewall" ]:
+                elif word.lower() in [ "unix", "windows", "proxy", "firewall", "mach-o" ]:
                     new_title += " "
                     new_title += word.capitalize()
                     continue
@@ -250,13 +250,13 @@ class ATCutils:
         Using the the RA ID
         """
         categories = {
-          "General": 1,
-          "Network": 2,
-          "Email": 3,
-          "File": 4,
-          "Process": 5,
-          "Configuration": 6,
-          "Identity": 7
+          "General": 0,
+          "Network": 1,
+          "Email": 2,
+          "File": 3,
+          "Process": 4,
+          "Configuration": 5,
+          "Identity": 6,
         }
 
         for name, number in categories.items():

@@ -1,0 +1,17 @@
+title: RA_1119_get_ability_to_block_user_external_communication
+id: RA1119
+description: >
+  Make sure you can block a user for external communications
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_nac
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

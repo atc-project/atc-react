@@ -1,0 +1,14 @@
+title: RA_1004_make_personnel_report_suspicious_activity
+id: RA1004
+description: >
+  Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  
