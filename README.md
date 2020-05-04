@@ -1,6 +1,6 @@
 # RE&CT
 
-![](docs/images/logo_v2.png)
+![](docs/images/react_navigator_export.svg)
 
 The project represents the following:
 
