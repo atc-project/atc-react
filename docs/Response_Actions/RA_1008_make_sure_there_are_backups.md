@@ -1,4 +1,4 @@
-| Title                       |  Make sure there are backups         |
+| Title                       | Make sure there are backups         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1008            |
 | **Description**             | Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data   |

@@ -1,4 +1,4 @@
-| Title                       |  Find file by metadata         |
+| Title                       | Find file by metadata         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2313            |
 | **Description**             | Find a file by metadata (i.e. signature, permissions, MAC times)   |

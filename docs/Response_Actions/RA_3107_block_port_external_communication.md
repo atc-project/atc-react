@@ -1,4 +1,4 @@
-| Title                       |  Block port external communication         |
+| Title                       | Block port external communication         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3107            |
 | **Description**             | Block a network port for external communications   |

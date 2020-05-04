@@ -1,4 +1,4 @@
-| Title                       |  Block user external communication         |
+| Title                       | Block user external communication         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3109            |
 | **Description**             | Block a user for external communications   |

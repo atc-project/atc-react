@@ -1,4 +1,4 @@
-| Title                       |  Access external DNS logs         |
+| Title                       | Access external DNSlogs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1106            |
 | **Description**             | Make sure you have access to external communication DNS logs   |

@@ -1,4 +1,4 @@
-| Title                       |  List registry keys modified         |
+| Title                       | List registry keys modified         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2501            |
 | **Description**             | Response Action for   |

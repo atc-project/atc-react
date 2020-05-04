@@ -1,4 +1,4 @@
-| Title                       |  Block external domain         |
+| Title                       | Block external domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3103            |
 | **Description**             | Block an external domain name from being accessed by corporate assets   |

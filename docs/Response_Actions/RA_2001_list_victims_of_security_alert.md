@@ -1,4 +1,4 @@
-| Title                       |  List victims of security alert         |
+| Title                       | List victims of security alert         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2001            |
 | **Description**             | Response Action for   |

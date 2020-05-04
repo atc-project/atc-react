@@ -1,4 +1,4 @@
-| Title                       |  Access internal network flow logs         |
+| Title                       | Access internal network flow logs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1102            |
 | **Description**             | Make sure you have access to internal communication Network Flow logs   |

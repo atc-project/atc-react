@@ -1,4 +1,4 @@
-| Title                       |  Get access control matrix         |
+| Title                       | Get access control matrix         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1010            |
 | **Description**             | Get Access Control Matrix. Usually, its managed by the Network security team. It will help you to identify adversary opportunities, such as laterally movement and so on   |

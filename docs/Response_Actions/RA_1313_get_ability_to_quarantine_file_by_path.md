@@ -1,4 +1,4 @@
-| Title                       |  Get ability to quarantine file by path         |
+| Title                       | Get ability to quarantine file by path         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1313            |
 | **Description**             | Make sure you have the ability to block a file from being accessed by its path, including name   |

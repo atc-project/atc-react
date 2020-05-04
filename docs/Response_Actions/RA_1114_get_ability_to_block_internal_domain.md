@@ -1,4 +1,4 @@
-| Title                       |  Get ability to block internal domain         |
+| Title                       | Get ability to block internal domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1114            |
 | **Description**             | Make sure you can block an internal domain name from being accessed by corporate assets   |

@@ -1,4 +1,4 @@
-| Title                       |  Make personnel report suspicious activity         |
+| Title                       | Make personnel report suspicious activity         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1004            |
 | **Description**             | Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it   |

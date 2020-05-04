@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated with internal URL         |
+| Title                       | List hosts communicated with internal URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2103            |
 | **Description**             | Response Action for   |

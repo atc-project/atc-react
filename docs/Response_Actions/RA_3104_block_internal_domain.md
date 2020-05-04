@@ -1,4 +1,4 @@
-| Title                       |  Block internal domain         |
+| Title                       | Block internal domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3104            |
 | **Description**             | Block an internal domain name from being accessed by corporate assets   |

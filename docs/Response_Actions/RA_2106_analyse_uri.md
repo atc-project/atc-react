@@ -1,4 +1,4 @@
-| Title                       |  Analyse URL         |
+| Title                       | Analyse URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2106            |
 | **Description**             | Response Action for   |

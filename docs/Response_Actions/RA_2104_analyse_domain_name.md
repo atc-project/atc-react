@@ -1,4 +1,4 @@
-| Title                       |  Analyse domain name         |
+| Title                       | Analyse domain name         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2104            |
 | **Description**             | Response Action for   |

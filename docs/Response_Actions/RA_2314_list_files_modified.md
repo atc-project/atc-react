@@ -1,4 +1,4 @@
-| Title                       |  List files modified         |
+| Title                       | List files modified         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2314            |
 | **Description**             | List files modified at a particular time in the past   |

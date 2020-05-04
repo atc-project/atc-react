@@ -1,4 +1,4 @@
-| Title                       |  Analyse filehash         |
+| Title                       | Analyse filehash         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2304            |
 | **Description**             | Response Action for   |

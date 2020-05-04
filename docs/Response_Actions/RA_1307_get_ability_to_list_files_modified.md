@@ -1,4 +1,4 @@
-| Title                       |  Get ability to list files modified         |
+| Title                       | Get ability to list files modified         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1307            |
 | **Description**             | Make sure you have the ability to list files modified at specific time range   |

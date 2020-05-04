@@ -1,4 +1,4 @@
-| Title                       |  Get ability to quarantine file by content pattern         |
+| Title                       | Get ability to quarantine file by content pattern         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1314            |
 | **Description**             | Make sure you have the ability to block a file from being accessed by its content pattern (i.e. specific string, keyword, binary pattern etc)   |

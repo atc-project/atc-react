@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated by port         |
+| Title                       | List hosts communicated by port         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2107            |
 | **Description**             | List hosts communicating by a specific port at the moment or at a particular time in the past   |

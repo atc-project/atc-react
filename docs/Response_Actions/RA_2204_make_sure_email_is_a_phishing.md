@@ -1,4 +1,4 @@
-| Title                       |  Make sure email is a phishing         |
+| Title                       | Make sure email is a phishing         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2204            |
 | **Description**             | Make sure an email is a phishing attack   |

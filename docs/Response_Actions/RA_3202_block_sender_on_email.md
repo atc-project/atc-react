@@ -1,4 +1,4 @@
-| Title                       |  Block sender on email         |
+| Title                       | Block sender on email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3202            |
 | **Description**             | Block an email sender on the Email-server   |

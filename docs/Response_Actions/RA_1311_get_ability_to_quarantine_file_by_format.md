@@ -1,4 +1,4 @@
-| Title                       |  Get ability to quarantine file by format         |
+| Title                       | Get ability to quarantine file by format         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1311            |
 | **Description**             | Make sure you have the ability to block a file from being accessed by its format   |

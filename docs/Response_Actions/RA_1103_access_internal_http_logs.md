@@ -1,4 +1,4 @@
-| Title                       |  Access internal HTTP logs         |
+| Title                       | Access internal HTTPlogs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1103            |
 | **Description**             | Make sure you have access to internal communication HTTP logs   |

@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated with external URL         |
+| Title                       | List hosts communicated with external URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2115            |
 | **Description**             | Response Action for   |

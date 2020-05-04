@@ -220,7 +220,7 @@ class ATCutils:
 
     @staticmethod
     def normalize_react_title(title):
-        """Normalize title if it is a RE&CT title in the following format:
+        """Normalize title if it is a RA/RP title in the following format:
         RP_0003_identification_make_sure_email_is_a_phishing
         """
         
@@ -232,16 +232,16 @@ class ATCutils:
                 if word.lower() in [
                         "ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", 
                         "elf", "dhcp", "vpn", "smb", "ftp", "http" ]:
-                    new_title += " "
                     new_title += word.upper()
+                    #new_title += " "
                     continue
                 elif word.lower() in [ "unix", "windows", "proxy", "firewall", "mach-o" ]:
-                    new_title += " "
                     new_title += word.capitalize()
+                    #new_title += " "
                     continue
-                new_title += " "
                 new_title += word
-            return new_title
+                new_title += " "
+            return new_title.strip()
         return title
 
     @staticmethod

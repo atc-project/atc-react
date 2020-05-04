@@ -1,4 +1,4 @@
-| Title                       |  List email receivers         |
+| Title                       | List email receivers         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2203            |
 | **Description**             | List receivers of a specific email   |

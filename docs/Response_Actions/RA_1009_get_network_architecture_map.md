@@ -1,4 +1,4 @@
-| Title                       |  Get network architecture map         |
+| Title                       | Get network architecture map         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1009            |
 | **Description**             | Get network architecture map. Usually, its managed by the Network security team. It will help you to choose the containment strategy, such as isolating specific network segments   |

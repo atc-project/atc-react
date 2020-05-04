@@ -1,4 +1,4 @@
-| Title                       |  Develop assets knowledge base         |
+| Title                       | Develop assets knowledge base         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1011            |
 | **Description**             | Develop assets knowledge base. It will help you to compare observed activity with a normal activity profile for a specific host, user or network segment   |

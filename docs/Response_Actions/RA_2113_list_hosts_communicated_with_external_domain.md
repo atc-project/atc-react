@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated with external domain         |
+| Title                       | List hosts communicated with external domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2113            |
 | **Description**             | Response Action for   |

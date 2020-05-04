@@ -1,4 +1,4 @@
-| Title                       |  Quarantine file by format         |
+| Title                       | Quarantine file by format         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3301            |
 | **Description**             | Quarantine a file by its format   |

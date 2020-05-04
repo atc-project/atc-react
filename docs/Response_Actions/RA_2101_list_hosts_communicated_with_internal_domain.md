@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated with internal domain         |
+| Title                       | List hosts communicated with internal domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2101            |
 | **Description**             | Response Action for   |

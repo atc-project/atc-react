@@ -1,4 +1,4 @@
-| Title                       |  Check analysis toolset         |
+| Title                       | Check analysis toolset         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1012            |
 | **Description**             | Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well   |

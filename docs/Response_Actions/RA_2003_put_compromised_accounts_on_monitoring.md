@@ -1,4 +1,4 @@
-| Title                       |  Put compromised accounts on monitoring         |
+| Title                       | Put compromised accounts on monitoring         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2003            |
 | **Description**             | Put (potentially) compromised accounts on monitoring   |

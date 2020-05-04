@@ -1,4 +1,4 @@
-| Title                       |  Set up a centralized long-term log storage         |
+| Title                       | Set up a centralized long-term log storage         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1006            |
 | **Description**             | Set up a centralized long-term log storage. This is one of the most critical problems companies have nowadays. Even if there is such a system, in most of the cases it stores irrelevant data or has too small retention period   |

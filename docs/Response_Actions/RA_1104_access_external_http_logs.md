@@ -1,4 +1,4 @@
-| Title                       |  Access external HTTP logs         |
+| Title                       | Access external HTTPlogs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1104            |
 | **Description**             | Make sure you have access to external communication HTTP logs   |

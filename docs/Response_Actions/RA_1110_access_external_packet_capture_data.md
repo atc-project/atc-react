@@ -1,4 +1,4 @@
-| Title                       |  Access external packet capture data         |
+| Title                       | Access external packet capture data         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1110            |
 | **Description**             | Make sure you have access to external communication Packet Capture data   |

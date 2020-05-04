@@ -1,4 +1,4 @@
-| Title                       |  List files with tampered timestamps         |
+| Title                       | List files with tampered timestamps         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2317            |
 | **Description**             | List files with tampered timestamps   |
