@@ -1,4 +1,4 @@
-| Title                       | Block internal IPaddress         |
+| Title                       | Block internal IP address         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3102            |
 | **Description**             | Block an internal IP address from being accessed by corporate assets   |

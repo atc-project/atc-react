@@ -1,4 +1,4 @@
-| Title                       | Analyse WindowsPE         |
+| Title                       | Analyse Windows PE         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2313            |
 | **Description**             | Analise MS Windows Portable Executable   |

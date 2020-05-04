@@ -55,8 +55,8 @@ NAVIGATOR_TEMPLATE = {
         },
         {
             "label": "Identity cagetory",
-            "color": "#48256"
-        }
+            "color": "#482569"
+        },
     ],
     "showTacticRowBackground": False,
     "tacticRowBackground": "#dddddd",

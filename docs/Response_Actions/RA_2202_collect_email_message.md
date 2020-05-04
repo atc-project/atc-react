@@ -1,7 +1,7 @@
-| Title                       | Collect original email message         |
+| Title                       | Collect email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2202            |
-| **Description**             | Collect the original email message   |
+| **Description**             | Collect an email message   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
@@ -10,7 +10,7 @@
 
 ### Workflow
 
-Collect the original email message using most appropriate options:  
+Collect an email message using most appropriate options:  
 
 - Email Team/Email server: if there is such option  
 - Person who reported the attack (if it wasn't detected automatically or reported by victims)  

@@ -24,8 +24,8 @@ preparation:
   - RA_1111_get_ability_to_block_external_ip_address
   - RA_1113_get_ability_to_block_external_domain
   - RA_1115_get_ability_to_block_external_url
-  - RA_1201_get_ability_to_list_users_opened_email
-  - RA_1202_get_ability_to_list_users_received_email
+  - RA_1201_get_ability_to_list_users_opened_email_message
+  - RA_1202_get_ability_to_list_email_message_receivers
   - RA_1203_get_ability_to_block_email_domain
   - RA_1204_get_ability_to_block_email_sender
   - RA_1205_get_ability_to_delete_email_message
@@ -34,8 +34,8 @@ identification:
   - RA_2113_list_hosts_communicated_with_external_domain
   - RA_2114_list_hosts_communicated_with_external_ip
   - RA_2115_list_hosts_communicated_with_external_url
-  - RA_2202_collect_original_email_message
   - RA_2201_list_users_opened_email_message
+  - RA_2202_collect_email_message
   - RA_2203_list_email_message_receivers
   - RA_2204_make_sure_email_message_is_phishing
   - RA_2205_extract_observables_from_email_message
