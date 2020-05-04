@@ -5,15 +5,15 @@ docs_dir: docs/
 theme:
     name: null
     custom_dir: 'docs/readthedocs/'
-    navigation_depth: 5
-    titles_only: false
+    navigation_depth: 4
+    search_index_only: true
+    titles_only: true
 
 repo_url: https://github.com/atc-project/atc-react
 edit_uri: blob/master/docs/
 
 plugins:
     - awesome-pages
-    - search
 
 nav:
     - Introduction:
