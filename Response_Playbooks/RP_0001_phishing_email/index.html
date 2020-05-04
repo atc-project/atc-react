@@ -36,7 +36,11 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href="../.." class="icon icon-home"> RE&CT</a>
-        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -229,11 +233,11 @@
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1201_get_ability_to_list_users_opened_email/">RA1201: Get ability to list users opened email</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1201_get_ability_to_list_users_opened_email_message/">RA1201: Get ability to list users opened email message</a>
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1202_get_ability_to_list_users_received_email/">RA1202: Get ability to list users received email</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1202_get_ability_to_list_email_message_receivers/">RA1202: Get ability to list email message receivers</a>
     <ul>
     </ul>
                 </li>
@@ -489,7 +493,7 @@
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2202_collect_original_email_message/">RA2202: Collect original email message</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2202_collect_email_message/">RA2202: Collect email message</a>
     <ul>
     </ul>
                 </li>
@@ -866,9 +870,9 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</a>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email-message">Make sure you have the ability to list users who opened a particular email message</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</a>
+    <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-list-receivers-of-a-particular-email-message">Make sure you have the ability to list receivers of a particular email message</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</a>
     </li>
@@ -888,9 +892,9 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#response-action-for_2">Response Action for</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#collect-the-original-email-message">Collect the original email message</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#list-users-that-have-opened-am-email-message">List users that have opened am email message</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#collect-an-email-message">Collect an email message</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#list-receivers-of-a-particular-email-message">List receivers of a particular email message</a>
     </li>
@@ -1024,11 +1028,11 @@
 </tr>
 <tr>
 <td align="center"><strong>Preparation</strong></td>
-<td align="left"><ul><li><a href="../../Response_Actions/RA_1001_practice/">RA1001:Practice</a></li><li><a href="../../Response_Actions/RA_1002_take_trainings/">RA1002:Take trainings</a></li><li><a href="../../Response_Actions/RA_1004_make_personnel_report_suspicious_activity/">RA1004:Make personnel report suspicious activity</a></li><li><a href="../../Response_Actions/RA_1003_raise_personnel_awareness/">RA1003:Raise personnel awareness</a></li><li><a href="../../Response_Actions/RA_1101_access_external_network_flow_logs/">RA1101:Access external network flow logs</a></li><li><a href="../../Response_Actions/RA_1104_access_external_http_logs/">RA1104:Access external HTTP logs</a></li><li><a href="../../Response_Actions/RA_1106_access_external_dns_logs/">RA1106:Access external DNS logs</a></li><li><a href="../../Response_Actions/RA_1111_get_ability_to_block_external_ip_address/">RA1111:Get ability to block external IP address</a></li><li><a href="../../Response_Actions/RA_1113_get_ability_to_block_external_domain/">RA1113:Get ability to block external domain</a></li><li><a href="../../Response_Actions/RA_1115_get_ability_to_block_external_url/">RA1115:Get ability to block external URL</a></li><li><a href="../../Response_Actions/RA_1201_get_ability_to_list_users_opened_email/">RA1201:Get ability to list users opened email</a></li><li><a href="../../Response_Actions/RA_1202_get_ability_to_list_users_received_email/">RA1202:Get ability to list users received email</a></li><li><a href="../../Response_Actions/RA_1203_get_ability_to_block_email_domain/">RA1203:Get ability to block email domain</a></li><li><a href="../../Response_Actions/RA_1204_get_ability_to_block_email_sender/">RA1204:Get ability to block email sender</a></li><li><a href="../../Response_Actions/RA_1205_get_ability_to_delete_email_message/">RA1205:Get ability to delete email message</a></li></ul></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_1001_practice/">RA1001:Practice</a></li><li><a href="../../Response_Actions/RA_1002_take_trainings/">RA1002:Take trainings</a></li><li><a href="../../Response_Actions/RA_1004_make_personnel_report_suspicious_activity/">RA1004:Make personnel report suspicious activity</a></li><li><a href="../../Response_Actions/RA_1003_raise_personnel_awareness/">RA1003:Raise personnel awareness</a></li><li><a href="../../Response_Actions/RA_1101_access_external_network_flow_logs/">RA1101:Access external network flow logs</a></li><li><a href="../../Response_Actions/RA_1104_access_external_http_logs/">RA1104:Access external HTTP logs</a></li><li><a href="../../Response_Actions/RA_1106_access_external_dns_logs/">RA1106:Access external DNS logs</a></li><li><a href="../../Response_Actions/RA_1111_get_ability_to_block_external_ip_address/">RA1111:Get ability to block external IP address</a></li><li><a href="../../Response_Actions/RA_1113_get_ability_to_block_external_domain/">RA1113:Get ability to block external domain</a></li><li><a href="../../Response_Actions/RA_1115_get_ability_to_block_external_url/">RA1115:Get ability to block external URL</a></li><li><a href="../../Response_Actions/RA_1201_get_ability_to_list_users_opened_email_message/">RA1201:Get ability to list users opened email message</a></li><li><a href="../../Response_Actions/RA_1202_get_ability_to_list_email_message_receivers/">RA1202:Get ability to list email message receivers</a></li><li><a href="../../Response_Actions/RA_1203_get_ability_to_block_email_domain/">RA1203:Get ability to block email domain</a></li><li><a href="../../Response_Actions/RA_1204_get_ability_to_block_email_sender/">RA1204:Get ability to block email sender</a></li><li><a href="../../Response_Actions/RA_1205_get_ability_to_delete_email_message/">RA1205:Get ability to delete email message</a></li></ul></td>
 </tr>
 <tr>
 <td align="center"><strong>Identification</strong></td>
-<td align="left"><ul><li><a href="../../Response_Actions/RA_2003_put_compromised_accounts_on_monitoring/">RA2003:Put compromised accounts on monitoring</a></li><li><a href="../../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain/">RA2113:List hosts communicated with external domain</a></li><li><a href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114:List hosts communicated with external ip.</a></li><li><a href="../../Response_Actions/RA_2115_list_hosts_communicated_with_external_url/">RA2115:List hosts communicated with external URL</a></li><li><a href="../../Response_Actions/RA_2202_collect_original_email_message/">RA2202:Collect original email message</a></li><li><a href="../../Response_Actions/RA_2201_list_users_opened_email_message/">RA2201:List users opened email message</a></li><li><a href="../../Response_Actions/RA_2203_list_email_message_receivers/">RA2203:List email message receivers</a></li><li><a href="../../Response_Actions/RA_2204_make_sure_email_message_is_phishing/">RA2204:Make sure email message is phishing</a></li><li><a href="../../Response_Actions/RA_2205_extract_observables_from_email_message/">RA2205:Extract observables from email message</a></li></ul></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_2003_put_compromised_accounts_on_monitoring/">RA2003:Put compromised accounts on monitoring</a></li><li><a href="../../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain/">RA2113:List hosts communicated with external domain</a></li><li><a href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114:List hosts communicated with external ip.</a></li><li><a href="../../Response_Actions/RA_2115_list_hosts_communicated_with_external_url/">RA2115:List hosts communicated with external URL</a></li><li><a href="../../Response_Actions/RA_2201_list_users_opened_email_message/">RA2201:List users opened email message</a></li><li><a href="../../Response_Actions/RA_2202_collect_email_message/">RA2202:Collect email message</a></li><li><a href="../../Response_Actions/RA_2203_list_email_message_receivers/">RA2203:List email message receivers</a></li><li><a href="../../Response_Actions/RA_2204_make_sure_email_message_is_phishing/">RA2204:Make sure email message is phishing</a></li><li><a href="../../Response_Actions/RA_2205_extract_observables_from_email_message/">RA2205:Extract observables from email message</a></li></ul></td>
 </tr>
 <tr>
 <td align="center"><strong>Containment</strong></td>
@@ -1091,10 +1095,10 @@ Here newlines will be saved.  </p>
 <h5 id="make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</h5>
 <p>Description of the workflow for the Response Action in markdown format.<br />
 Here newlines will be saved.  </p>
-<h5 id="make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</h5>
+<h5 id="make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email-message">Make sure you have the ability to list users who opened a particular email message</h5>
 <p>Description of the workflow for the Response Action in markdown format.
 Here newlines will be saved.</p>
-<h5 id="make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</h5>
+<h5 id="make-sure-you-have-the-ability-to-list-receivers-of-a-particular-email-message">Make sure you have the ability to list receivers of a particular email message</h5>
 <p>Description of the workflow for the Response Action in markdown format.<br />
 Here newlines will be saved.  </p>
 <h5 id="make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</h5>
@@ -1120,8 +1124,11 @@ Here newlines will be saved.</p>
 <h5 id="response-action-for_2">Response Action for</h5>
 <p>Description of the workflow for the Response Action in markdown format.
 Here newlines will be saved.</p>
-<h5 id="collect-the-original-email-message">Collect the original email message</h5>
-<p>Collect the original email message using most appropriate options:  </p>
+<h5 id="list-users-that-have-opened-am-email-message">List users that have opened am email message</h5>
+<p>Description of the workflow for the Response Action in markdown format.<br />
+Here newlines will be saved.  </p>
+<h5 id="collect-an-email-message">Collect an email message</h5>
+<p>Collect an email message using most appropriate options:  </p>
 <ul>
 <li>Email Team/Email server: if there is such option  </li>
 <li>Person who reported the attack (if it wasn't detected automatically or reported by victims)  </li>
@@ -1133,9 +1140,6 @@ Here newlines will be saved.</p>
 <li>Drug and drop email from Email client to Desktop  </li>
 <li>Archive with password "infected" and send to IR specialists by email  </li>
 </ol>
-<h5 id="list-users-that-have-opened-am-email-message">List users that have opened am email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
 <h5 id="list-receivers-of-a-particular-email-message">List receivers of a particular email message</h5>
 <p>Description of the workflow for the Response Action in markdown format.<br />
 Here newlines will be saved.  </p>
@@ -1256,6 +1260,7 @@ You need to answer some basic questions, using developed incident report:  </p>
 </div>
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(false);

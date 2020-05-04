@@ -36,7 +36,11 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href="../.." class="icon icon-home"> RE&CT</a>
-        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
@@ -229,11 +233,11 @@
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../RA_1201_get_ability_to_list_users_opened_email/">RA1201: Get ability to list users opened email</a>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_1201_get_ability_to_list_users_opened_email_message/">RA1201: Get ability to list users opened email message</a>
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../RA_1202_get_ability_to_list_users_received_email/">RA1202: Get ability to list users received email</a>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_1202_get_ability_to_list_email_message_receivers/">RA1202: Get ability to list email message receivers</a>
     <ul>
     </ul>
                 </li>
@@ -489,7 +493,7 @@
     <ul>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../RA_2202_collect_original_email_message/">RA2202: Collect original email message</a>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_2202_collect_email_message/">RA2202: Collect email message</a>
     <ul>
     </ul>
                 </li>
@@ -866,9 +870,9 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email">Make sure you have the ability to list users who opened a particular email</a>
+    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email-message">Make sure you have the ability to list users who opened a particular email message</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-users-who-received-a-particular-email">Make sure you have the ability to list users who received a particular email</a>
+    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-list-receivers-of-a-particular-email-message">Make sure you have the ability to list receivers of a particular email message</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</a>
     </li>
@@ -888,9 +892,9 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#response-action-for_2">Response Action for</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#collect-the-original-email-message">Collect the original email message</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#list-users-that-have-opened-am-email-message">List users that have opened am email message</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#collect-an-email-message">Collect an email message</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="../../Response_Playbooks/RP_0001_phishing_email/#list-receivers-of-a-particular-email-message">List receivers of a particular email message</a>
     </li>
@@ -1062,6 +1066,7 @@
 </div>
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(false);
