@@ -122,7 +122,7 @@ ra_mapping = {
     "RA2314": "Analyse macos macho",
     "RA2315": "Analyse Unix ELF",
     "RA2316": "Analyse MS office file",
-    "RA2317": "Analyse PDF",
+    "RA2317": "Analyse PDF file",
     "RA2401": "List processes executed",
     "RA2402": "Find process by executable path",
     "RA2403": "Find process by executable metadata",
