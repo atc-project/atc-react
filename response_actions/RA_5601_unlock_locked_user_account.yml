@@ -1,0 +1,14 @@
+title: RA_5601_unlock_locked_user_account
+id: RA5601
+description: >
+  Unlock a locked user account
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: recovery
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

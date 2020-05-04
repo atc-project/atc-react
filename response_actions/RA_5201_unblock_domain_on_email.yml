@@ -1,0 +1,14 @@
+title: RA_5201_unblock_domain_on_email
+id: RA5201
+description: >
+  Unblock a domain on email
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: recovery
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.

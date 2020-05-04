@@ -1,0 +1,14 @@
+title: RA_2312_analyse_file_hash
+id: RA2312
+description: >
+  Analise a hash of a file
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.
+  Here newlines will be saved.
