@@ -1,0 +1,14 @@
+title: RA_2316_list_files_downloaded
+id: RA2316
+description: >
+  List files downloaded from the internet at a particular time in the past
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

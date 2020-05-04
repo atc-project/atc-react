@@ -10,11 +10,11 @@
 | **ATT&amp;CK Tactic**  |<ul><li>[TA0001: Initial Access](https://attack.mitre.org/tactics/TA0001)</li></ul>|
 | **ATT&amp;CK Technique**  |<ul><li>[T1193: Spearphishing Attachment](https://attack.mitre.org/tactics/T1193)</li><li>[T1192: Spearphishing Link](https://attack.mitre.org/tactics/T1192)</li></ul>|
 | **Tags**          | <ul><li>phishing</li></ul> |
-| **Preparation**  |<ul><li>[RA1101: Practice](../Response_Actions/RA_1101_practice.md)</li><li>[RA1102: Take trainings](../Response_Actions/RA_1102_take_trainings.md)</li><li>[RA1104: Make personnel report suspicious activity](../Response_Actions/RA_1104_make_personnel_report_suspicious_activity.md)</li><li>[RA1103: Raise personnel awareness](../Response_Actions/RA_1103_raise_personnel_awareness.md)</li><li>[RA1301: Get ability to list users opened email](../Response_Actions/RA_1301_get_ability_to_list_users_opened_email.md)</li><li>[RA1302: Get ability to list users received email](../Response_Actions/RA_1302_get_ability_to_list_users_received_email.md)</li><li>[RA1303: Get ability to block email domain](../Response_Actions/RA_1303_get_ability_to_block_email_domain.md)</li><li>[RA1304: Get ability to block email sender](../Response_Actions/RA_1304_get_ability_to_block_email_sender.md)</li><li>[RA1305: Get ability to delete email message](../Response_Actions/RA_1305_get_ability_to_delete_email_message.md)</li><li>[RA1201: Access external network flow logs](../Response_Actions/RA_1201_access_external_network_flow_logs.md)</li><li>[RA1204: Access external HTTP logs](../Response_Actions/RA_1204_access_external_http_logs.md)</li><li>[RA1206: Access external DNS logs](../Response_Actions/RA_1206_access_external_dns_logs.md)</li><li>[RA1211: Get ability to block external IP address](../Response_Actions/RA_1211_get_ability_to_block_external_ip_address.md)</li><li>[RA1213: Get ability to block external domain](../Response_Actions/RA_1213_get_ability_to_block_external_domain.md)</li><li>[RA1215: Get ability to block external URL](../Response_Actions/RA_1215_get_ability_to_block_external_url.md)</li></ul>|
-| **Identification**  |<ul><li>[RA2302: Get original email](../Response_Actions/RA_2302_get_original_email.md)</li><li>[RA2301: List users opened email](../Response_Actions/RA_2301_list_users_opened_email.md)</li><li>[RA2303: List email receivers](../Response_Actions/RA_2303_list_email_receivers.md)</li><li>[RA2304: Make sure email is a phishing](../Response_Actions/RA_2304_make_sure_email_is_a_phishing.md)</li><li>[RA2305: Extract observables from email](../Response_Actions/RA_2305_extract_observables_from_email.md)</li><li>[RA2103: Put compromised accounts on monitoring](../Response_Actions/RA_2103_put_compromised_accounts_on_monitoring.md)</li><li>[RA2213: List hosts communicated with external domain](../Response_Actions/RA_2213_list_hosts_communicated_with_external_domain.md)</li><li>[RA2214: List hosts communicated with external ip.](../Response_Actions/RA_2214_list_hosts_communicated_with_external_ip.md)</li><li>[RA2215: List hosts communicated with external URL](../Response_Actions/RA_2215_list_hosts_communicated_with_external_url.md)</li></ul>|
-| **Containment**  |<ul><li>[RA3201: Block external IP address](../Response_Actions/RA_3201_block_external_ip_address.md)</li><li>[RA3203: Block external domain](../Response_Actions/RA_3203_block_external_domain.md)</li><li>[RA3205: Block external URL](../Response_Actions/RA_3205_block_external_url.md)</li><li>[RA3301: Block domain on email](../Response_Actions/RA_3301_block_domain_on_email.md)</li><li>[RA3302: Block sender on email](../Response_Actions/RA_3302_block_sender_on_email.md)</li></ul>|
-| **Eradication**  |<ul><li>[RA4301: Delete email message](../Response_Actions/RA_4301_delete_email_message.md)</li><li>[RA4701: Revoke authentication credentials](../Response_Actions/RA_4701_revoke_authentication_credentials.md)</li><li>[RA4101: Report phishing attack to external companies](../Response_Actions/RA_4101_report_phishing_attack_to_external_companies.md)</li></ul>|
-| **Lessons learned**  |<ul><li>[RA6101: Develop incident report](../Response_Actions/RA_6101_develop_incident_report.md)</li><li>[RA6102: Conduct lessons learned exercise](../Response_Actions/RA_6102_conduct_lessons_learned_exercise.md)</li></ul>|
+| **Preparation**  |<ul><li>[RA1001: Practice](../Response_Actions/RA_1001_practice.md)</li><li>[RA1002: Take trainings](../Response_Actions/RA_1002_take_trainings.md)</li><li>[RA1004: Make personnel report suspicious activity](../Response_Actions/RA_1004_make_personnel_report_suspicious_activity.md)</li><li>[RA1003: Raise personnel awareness](../Response_Actions/RA_1003_raise_personnel_awareness.md)</li><li>[RA1101: Access external network flow logs](../Response_Actions/RA_1101_access_external_network_flow_logs.md)</li><li>[RA1104: Access external HTTP logs](../Response_Actions/RA_1104_access_external_http_logs.md)</li><li>[RA1106: Access external DNS logs](../Response_Actions/RA_1106_access_external_dns_logs.md)</li><li>[RA1111: Get ability to block external IP address](../Response_Actions/RA_1111_get_ability_to_block_external_ip_address.md)</li><li>[RA1113: Get ability to block external domain](../Response_Actions/RA_1113_get_ability_to_block_external_domain.md)</li><li>[RA1115: Get ability to block external URL](../Response_Actions/RA_1115_get_ability_to_block_external_url.md)</li><li>[RA1201: Get ability to list users opened email](../Response_Actions/RA_1201_get_ability_to_list_users_opened_email.md)</li><li>[RA1202: Get ability to list users received email](../Response_Actions/RA_1202_get_ability_to_list_users_received_email.md)</li><li>[RA1203: Get ability to block email domain](../Response_Actions/RA_1203_get_ability_to_block_email_domain.md)</li><li>[RA1204: Get ability to block email sender](../Response_Actions/RA_1204_get_ability_to_block_email_sender.md)</li><li>[RA1205: Get ability to delete email message](../Response_Actions/RA_1205_get_ability_to_delete_email_message.md)</li></ul>|
+| **Identification**  |<ul><li>[RA2003: Put compromised accounts on monitoring](../Response_Actions/RA_2003_put_compromised_accounts_on_monitoring.md)</li><li>[RA2113: List hosts communicated with external domain](../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain.md)</li><li>[RA2114: List hosts communicated with external ip.](../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip.md)</li><li>[RA2115: List hosts communicated with external URL](../Response_Actions/RA_2115_list_hosts_communicated_with_external_url.md)</li><li>[RA2202: Get original email](../Response_Actions/RA_2202_get_original_email.md)</li><li>[RA2201: List users opened email](../Response_Actions/RA_2201_list_users_opened_email.md)</li><li>[RA2203: List email receivers](../Response_Actions/RA_2203_list_email_receivers.md)</li><li>[RA2204: Make sure email is a phishing](../Response_Actions/RA_2204_make_sure_email_is_a_phishing.md)</li><li>[RA2205: Extract observables from email](../Response_Actions/RA_2205_extract_observables_from_email.md)</li></ul>|
+| **Containment**  |<ul><li>[RA3101: Block external IP address](../Response_Actions/RA_3101_block_external_ip_address.md)</li><li>[RA3103: Block external domain](../Response_Actions/RA_3103_block_external_domain.md)</li><li>[RA3105: Block external URL](../Response_Actions/RA_3105_block_external_url.md)</li><li>[RA3201: Block domain on email](../Response_Actions/RA_3201_block_domain_on_email.md)</li><li>[RA3202: Block sender on email](../Response_Actions/RA_3202_block_sender_on_email.md)</li></ul>|
+| **Eradication**  |<ul><li>[RA4001: Report phishing attack to external companies](../Response_Actions/RA_4001_report_phishing_attack_to_external_companies.md)</li><li>[RA4201: Delete email message](../Response_Actions/RA_4201_delete_email_message.md)</li><li>[RA4601: Revoke authentication credentials](../Response_Actions/RA_4601_revoke_authentication_credentials.md)</li></ul>|
+| **Lessons learned**  |<ul><li>[RA6001: Develop incident report](../Response_Actions/RA_6001_develop_incident_report.md)</li><li>[RA6002: Conduct lessons learned exercise](../Response_Actions/RA_6002_conduct_lessons_learned_exercise.md)</li></ul>|
 
 ### Workflow
  
@@ -58,36 +58,6 @@ Here newlines will be saved.
 Description of the workflow for the Response Action in markdown format.  
 Here newlines will be saved.  
 
-##### Make sure you have the ability to list users who opened a particular email
-
-
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
-
-##### Make sure you have the ability to list users who received a particular email
-
-
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
-##### Make sure you have the ability to block an email domain
-
-
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
-##### Make sure you have the ability to block an email sender
-
-
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
-##### Make sure you have the ability to delete an email message
-
-
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
 ##### Make sure you have access to external communication Network Flow logs
 
 
@@ -124,7 +94,61 @@ Here newlines will be saved.
 Description of the workflow for the Response Action in markdown format.  
 Here newlines will be saved.  
 
+##### Make sure you have the ability to list users who opened a particular email
+
+
+Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.
+
+##### Make sure you have the ability to list users who received a particular email
+
+
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
+
+##### Make sure you have the ability to block an email domain
+
+
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
+
+##### Make sure you have the ability to block an email sender
+
+
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
+
+##### Make sure you have the ability to delete an email message
+
+
+Description of the workflow for the Response Action in markdown format.  
+Here newlines will be saved.  
+
 #### Identification
+
+##### Put (potentially) compromised accounts on monitoring
+
+Start monitoring for authentification attempts and all potentially harmful actions from (potentially) compromised accounts.  
+Look for anomalies, unusual network connections, unusual geolocation/time of work, actions that were never executed before.  
+Keep in touch with the real users and, in case of need, ask them if they executing some suspicious actions by themselves or not.  
+
+##### Response Action for 
+
+
+Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.
+
+##### Response Action for 
+
+
+Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.
+
+##### Response Action for
+
+
+Description of the workflow for the Response Action in markdown format.
+Here newlines will be saved.
 
 ##### Obtain the original phishing email
 
@@ -174,30 +198,6 @@ Extract the data for further response steps:
 
 This Response Action could be automated with [TheHive EmlParser](https://blog.thehive-project.org/2018/07/31/emlparser-a-new-cortex-analyzer-for-eml-files/).  
 
-##### Put (potentially) compromised accounts on monitoring
-
-Start monitoring for authentification attempts and all potentially harmful actions from (potentially) compromised accounts.  
-Look for anomalies, unusual network connections, unusual geolocation/time of work, actions that were never executed before.  
-Keep in touch with the real users and, in case of need, ask them if they executing some suspicious actions by themselves or not.  
-
-##### Response Action for 
-
-
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
-
-##### Response Action for 
-
-
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
-
-##### Response Action for
-
-
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
-
 #### Containment
 
 ##### Block an external IP address from being accessed by corporate assets
@@ -235,6 +235,18 @@ Here newlines will be saved.
 
 #### Eradication
 
+##### Report phishing attack to external companies
+
+Report phishing attack to external companites:  
+
+1. [National Computer Security Incident Response Teams (CSIRTs)](https://www.sei.cmu.edu/education-outreach/computer-security-incident-response-teams/national-csirts/)  
+2. [U.S. government-operated website](http://www.us-cert.gov/nav/report_phishing.html)  
+3. [Anti-Phishing Working Group (APWG)](http://antiphishing.org/report-phishing/)  
+4. [Google Safe Browsing](https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en)  
+5. [The FBI's Intenet Crime Complaint Center (IC3)](https://www.ic3.gov/default.aspx)  
+
+This Response Action could be automated with [TheHive and MISP integration](https://blog.thehive-project.org/2017/06/19/thehive-cortex-and-misp-how-they-all-fit-together/).  
+
 ##### Delete an email message from an Email Server and users' email boxes
 
 Delete an email message from an Email Server and users' email boxes using its native functionality.
@@ -247,18 +259,6 @@ You need to revoke them in your Identity and Access Management system where they
 Warning:  
 
 - If the adversary has generated Golden Ticket in Windows Domain/forest, you have to revoke KRBTGT Account password **twice** for each domain in a forest and proceed to monitor malicious activity for next 20 minutes (Domain Controller KDC service doesn’t perform validate the user account until the TGT is older than 20 minutes old)
-
-##### Report phishing attack to external companies
-
-Report phishing attack to external companites:  
-
-1. [National Computer Security Incident Response Teams (CSIRTs)](https://www.sei.cmu.edu/education-outreach/computer-security-incident-response-teams/national-csirts/)  
-2. [U.S. government-operated website](http://www.us-cert.gov/nav/report_phishing.html)  
-3. [Anti-Phishing Working Group (APWG)](http://antiphishing.org/report-phishing/)  
-4. [Google Safe Browsing](https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en)  
-5. [The FBI's Intenet Crime Complaint Center (IC3)](https://www.ic3.gov/default.aspx)  
-
-This Response Action could be automated with [TheHive and MISP integration](https://blog.thehive-project.org/2017/06/19/thehive-cortex-and-misp-how-they-all-fit-together/).  
 
 
 

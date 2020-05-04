@@ -1,0 +1,14 @@
+title: RA_2312_find_file_by_content_pattern
+id: RA2312
+description: >
+  Find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

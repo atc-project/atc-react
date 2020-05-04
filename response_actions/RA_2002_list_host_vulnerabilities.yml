@@ -1,0 +1,14 @@
+title: RA_2002_list_host_vulnerabilities
+id: RA2002
+description: >
+  Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

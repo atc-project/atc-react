@@ -1,0 +1,14 @@
+title: RA_1106_access_external_dns_logs
+id: RA1106
+description: >
+  Make sure you have access to external communication DNS logs
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - DN_zeek_dns_log
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

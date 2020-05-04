@@ -1,0 +1,14 @@
+title: RA_1309_get_ability_to_list_files_downloaded
+id: RA1309
+description: >
+  Make sure you have the ability to list files downloaded from the internet at a specific time range
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

@@ -1,0 +1,17 @@
+title: RA_1116_get_ability_to_block_internal_url
+id: RA1116
+description: >
+  Make sure you can block an internal URL from being accessed by corporate assets
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_dns_server
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

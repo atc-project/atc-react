@@ -1,0 +1,14 @@
+title: RA_2315_list_files_deleted
+id: RA2315
+description: >
+  List files deleted at a particular time in the past
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  
