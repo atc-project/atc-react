@@ -1,4 +1,4 @@
-| Title                       |  Manage remote computer management system policies         |
+| Title                       | Manage remote computer management system policies         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1501            |
 | **Description**             | Make sure you can manage Remote Computer Management system policies   |

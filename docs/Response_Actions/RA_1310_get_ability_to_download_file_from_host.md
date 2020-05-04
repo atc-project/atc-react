@@ -1,4 +1,4 @@
-| Title                       |  Get ability to download file from host         |
+| Title                       | Get ability to download file from host         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1310            |
 | **Description**             | Make sure you have the ability to download a specific file from a host   |

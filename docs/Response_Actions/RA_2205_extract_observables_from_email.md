@@ -1,4 +1,4 @@
-| Title                       |  Extract observables from email         |
+| Title                       | Extract observables from email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2205            |
 | **Description**             | Extract all observables from the original phishing email   |

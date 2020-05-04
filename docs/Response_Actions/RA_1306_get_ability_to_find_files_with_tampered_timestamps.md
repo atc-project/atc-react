@@ -1,4 +1,4 @@
-| Title                       |  Get ability to find files with tampered timestamps         |
+| Title                       | Get ability to find files with tampered timestamps         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1306            |
 | **Description**             | Make sure you have the ability to find files with tampered timestamp   |

@@ -1,4 +1,4 @@
-| Title                       |  List files deleted         |
+| Title                       | List files deleted         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2315            |
 | **Description**             | List files deleted at a particular time in the past   |

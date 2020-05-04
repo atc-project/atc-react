@@ -1,4 +1,4 @@
-| Title                       |  List hosts connected to intranet         |
+| Title                       | List hosts connected to intranet         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2109            |
 | **Description**             | List hosts connected to the internal network at the moment or at a particular time in the past   |

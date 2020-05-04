@@ -1,4 +1,4 @@
-| Title                       |  Find file by path         |
+| Title                       | Find file by path         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2311            |
 | **Description**             | Find a file by its path (including its name)   |

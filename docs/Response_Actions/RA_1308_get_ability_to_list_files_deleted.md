@@ -1,4 +1,4 @@
-| Title                       |  Get ability to list files deleted         |
+| Title                       | Get ability to list files deleted         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1308            |
 | **Description**             | Make sure you have the ability to list files deleted at a specific time range   |

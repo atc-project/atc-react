@@ -1,4 +1,4 @@
-| Title                       |  Access external network flow logs         |
+| Title                       | Access external network flow logs         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1101            |
 | **Description**             | Make sure you have access to external communication Network Flow logs   |

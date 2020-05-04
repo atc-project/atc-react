@@ -1,4 +1,4 @@
-| Title                       |  Analyse IP         |
+| Title                       | Analyse IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2105            |
 | **Description**             | Response Action for   |

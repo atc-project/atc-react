@@ -1,4 +1,4 @@
-| Title                       |  Quarantine file by content pattern         |
+| Title                       | Quarantine file by content pattern         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3304            |
 | **Description**             | Quarantine a file by its content pattern   |

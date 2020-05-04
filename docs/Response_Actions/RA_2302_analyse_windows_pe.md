@@ -1,4 +1,4 @@
-| Title                       |  Analyse Windows PE         |
+| Title                       | Analyse WindowsPE         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2302            |
 | **Description**             | Response Action for   |

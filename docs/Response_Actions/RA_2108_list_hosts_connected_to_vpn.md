@@ -1,4 +1,4 @@
-| Title                       |  List hosts connected to VPN         |
+| Title                       | List hosts connected to VPN         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2108            |
 | **Description**             | List hosts connected to a VPN at the moment or at a particular time in the past   |

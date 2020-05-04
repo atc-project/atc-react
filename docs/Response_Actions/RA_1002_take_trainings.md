@@ -1,4 +1,4 @@
-| Title                       |  Take trainings         |
+| Title                       | Take trainings         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1002            |
 | **Description**             | Take training courses to gain relevant knowledge   |

@@ -1,4 +1,4 @@
-| Title                       |  List users opened email         |
+| Title                       | List users opened email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2201            |
 | **Description**             | Response Action for   |

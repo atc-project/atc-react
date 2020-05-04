@@ -1,4 +1,4 @@
-| Title                       |  Block external IP address         |
+| Title                       | Block external IPaddress         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3101            |
 | **Description**             | Block an external IP address from being accessed by corporate assets   |

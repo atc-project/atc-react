@@ -1,4 +1,4 @@
-| Title                       |  Get ability to delete email message         |
+| Title                       | Get ability to delete email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1205            |
 | **Description**             | Make sure you have the ability to delete an email message   |

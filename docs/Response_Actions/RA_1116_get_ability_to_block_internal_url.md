@@ -1,4 +1,4 @@
-| Title                       |  Get ability to block internal URL         |
+| Title                       | Get ability to block internal URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1116            |
 | **Description**             | Make sure you can block an internal URL from being accessed by corporate assets   |

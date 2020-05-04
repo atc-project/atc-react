@@ -1,4 +1,4 @@
-| Title                       |  Block user internal communication         |
+| Title                       | Block user internal communication         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3110            |
 | **Description**             | Block a user for internal communications   |

@@ -1,4 +1,4 @@
-| Title                       |  Analyse macos Mach-o         |
+| Title                       | Analyse macos Mach-o         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2305            |
 | **Description**             | Response Action for   |

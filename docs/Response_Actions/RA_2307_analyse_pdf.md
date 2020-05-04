@@ -1,4 +1,4 @@
-| Title                       |  Analyse PDF         |
+| Title                       | Analyse PDF         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2307            |
 | **Description**             | Response Action for   |

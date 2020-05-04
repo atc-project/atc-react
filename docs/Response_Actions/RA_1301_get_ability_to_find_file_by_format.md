@@ -1,4 +1,4 @@
-| Title                       |  Get ability to find file by format         |
+| Title                       | Get ability to find file by format         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1301            |
 | **Description**             | Make sure you have the ability to find a file by its format   |

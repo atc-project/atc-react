@@ -1,4 +1,4 @@
-| Title                       |  Raise personnel awareness         |
+| Title                       | Raise personnel awareness         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1003            |
 | **Description**             | Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks   |

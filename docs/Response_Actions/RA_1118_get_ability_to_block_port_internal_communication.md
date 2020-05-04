@@ -1,4 +1,4 @@
-| Title                       |  Get ability to block port internal communication         |
+| Title                       | Get ability to block port internal communication         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1118            |
 | **Description**             | Make sure you can block a network port for internal communications   |

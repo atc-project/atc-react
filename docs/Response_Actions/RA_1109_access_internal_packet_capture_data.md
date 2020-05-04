@@ -1,4 +1,4 @@
-| Title                       |  Access internal packet capture data         |
+| Title                       | Access internal packet capture data         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1109            |
 | **Description**             | Make sure you have access to internal communication Packet Capture data   |

@@ -1,4 +1,4 @@
-| Title                       |  List hosts communicated with external ip.         |
+| Title                       | List hosts communicated with external ip.         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2114            |
 | **Description**             | Response Action for   |

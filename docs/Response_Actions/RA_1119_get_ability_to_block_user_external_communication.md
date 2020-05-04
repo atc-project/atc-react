@@ -1,4 +1,4 @@
-| Title                       |  Get ability to block user external communication         |
+| Title                       | Get ability to block user external communication         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1119            |
 | **Description**             | Make sure you can block a user for external communications   |

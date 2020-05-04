@@ -1,4 +1,4 @@
-| Title                       |  Get ability to block email domain         |
+| Title                       | Get ability to block email domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1203            |
 | **Description**             | Make sure you have the ability to block an email domain   |

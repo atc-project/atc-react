@@ -1,4 +1,4 @@
-| Title                       |  Get ability to find file by content pattern         |
+| Title                       | Get ability to find file by content pattern         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1304            |
 | **Description**             | Make sure you have the ability to find a file by its content pattern (i.e. specific string, keyword, binary pattern etc)   |

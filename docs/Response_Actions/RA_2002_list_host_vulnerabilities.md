@@ -1,4 +1,4 @@
-| Title                       |  List host vulnerabilities         |
+| Title                       | List host vulnerabilities         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2002            |
 | **Description**             | Get information about a specific host existing vulnerabilities, or about vulnerabilities it had at a particular time in the past   |

@@ -1,4 +1,4 @@
-| Title                       |  List processes executed         |
+| Title                       | List processes executed         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2401            |
 | **Description**             | Response Action for   |

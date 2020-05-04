@@ -1,4 +1,4 @@
-| Title                       |  Get ability to list users received email         |
+| Title                       | Get ability to list users received email         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1202            |
 | **Description**             | Make sure you have the ability to list users who received a particular email   |

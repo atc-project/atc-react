@@ -1,4 +1,4 @@
-| Title                       |  Get ability to remove file from host         |
+| Title                       | Get ability to remove file from host         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1315            |
 | **Description**             | Make sure you have the ability to remove a file from a remote host   |

@@ -1,4 +1,4 @@
-| Title                       |  Remove file from host         |
+| Title                       | Remove file from host         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA4301            |
 | **Description**             | Remove a file from a host   |

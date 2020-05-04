@@ -1,4 +1,4 @@
-| Title                       |  Get ability to find file by path         |
+| Title                       | Get ability to find file by path         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1303            |
 | **Description**             | Make sure you have the ability to find a file by its path, including name   |

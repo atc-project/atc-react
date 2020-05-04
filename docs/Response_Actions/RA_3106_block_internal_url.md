@@ -1,4 +1,4 @@
-| Title                       |  Block internal URL         |
+| Title                       | Block internal URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3106            |
 | **Description**             | Block an internal URL from being accessed by corporate assets   |

@@ -1,4 +1,4 @@
-| Title                       |  Analyse MS office file         |
+| Title                       | Analyse MSoffice file         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2306            |
 | **Description**             | Response Action for   |

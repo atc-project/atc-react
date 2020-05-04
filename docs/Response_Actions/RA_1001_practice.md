@@ -1,4 +1,4 @@
-| Title                       |  Practice         |
+| Title                       | Practice         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1001            |
 | **Description**             | Practice in the real environment. Sharpen Response Actions within your organization   |

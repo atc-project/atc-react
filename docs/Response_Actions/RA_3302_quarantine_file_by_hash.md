@@ -1,4 +1,4 @@
-| Title                       |  Quarantine file by hash         |
+| Title                       | Quarantine file by hash         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA3302            |
 | **Description**             | Quarantine a file by its hash   |

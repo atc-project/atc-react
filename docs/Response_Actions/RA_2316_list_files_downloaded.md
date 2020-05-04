@@ -1,4 +1,4 @@
-| Title                       |  List files downloaded         |
+| Title                       | List files downloaded         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2316            |
 | **Description**             | List files downloaded from the internet at a particular time in the past   |
