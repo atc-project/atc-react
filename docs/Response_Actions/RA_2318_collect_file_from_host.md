@@ -1,7 +1,7 @@
-| Title                       | Download file from host         |
+| Title                       | Collect file from host         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2318            |
-| **Description**             | Download a file from a host   |
+| **Description**             | Collect a file from a host   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

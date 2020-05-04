@@ -1,7 +1,7 @@
-| Title                       | Extract observables from email         |
+| Title                       | Extract observables from email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2205            |
-| **Description**             | Extract all observables from the original phishing email   |
+| **Description**             | Extract observables from an email message   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |

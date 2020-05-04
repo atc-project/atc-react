@@ -1,7 +1,7 @@
-| Title                       | List users opened email         |
+| Title                       | List users opened email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2201            |
-| **Description**             | Response Action for   |
+| **Description**             | List users that have opened am email message   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Email      |

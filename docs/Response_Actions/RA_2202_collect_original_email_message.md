@@ -1,7 +1,7 @@
-| Title                       | Get original email         |
+| Title                       | Collect original email message         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2202            |
-| **Description**             | Obtain the original phishing email   |
+| **Description**             | Collect the original email message   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
@@ -10,11 +10,12 @@
 
 ### Workflow
 
-Obtain the original email from one of the available/fastest options:  
+Collect the original email message using most appropriate options:  
 
 - Email Team/Email server: if there is such option  
 - Person who reported the attack (if it wasn't detected automatically or reported by victims)  
 - Victims: if they reported the attack  
+- Following the local computer forensic evidence collection procedure, if it is required by the situation
 
 Ask for the email in `.EML` format. Instructions:  
 

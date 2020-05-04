@@ -1,7 +1,7 @@
-| Title                       | List email receivers         |
+| Title                       | List email message receivers         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2203            |
-| **Description**             | List receivers of a specific email   |
+| **Description**             | List receivers of a particular email message   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Email      |

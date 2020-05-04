@@ -1,7 +1,7 @@
-| Title                       | Make sure email is a phishing         |
+| Title                       | Make sure email message is phishing         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2204            |
-| **Description**             | Make sure an email is a phishing attack   |
+| **Description**             | Make sure that an email message is a phishing attack   |
 | **Author**                  | @atc_project        |
 | **Creation Date**           | 31.01.2019 |
 | **Category**                | Email      |
