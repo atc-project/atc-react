@@ -230,16 +230,16 @@ Each Response Action mapped to a specific [Incident Response stage](responsestag
 The first digit of the Response Action ID reflects a stage number.  
 The second digit of the Response Action ID reflects a category it belongs to:
 
-1. General
-2. Network
-3. Email
-4. File
-5. Process
-6. Configuration
-7. Identity
+0. General
+1. Network
+2. Email
+3. File
+4. Process
+5. Configuration
+6. Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**23**02: Get original email](./Response_Actions/RA_2302_get_original_email.md) is related to Stage **2** (Identification) and Category **3** (Email).
+For example, [RA**22**02: Get original email](./Response_Actions/RA_2302_get_original_email.md) is related to Stage **2** (Identification) and Category **2** (Email).
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.
 
