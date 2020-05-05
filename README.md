@@ -1,3 +1,5 @@
+🇷🇺 [Русская версия](README_RU.md)  
+
 # RE&CT
 
 ![](docs/images/logo_v2.png)
@@ -21,14 +23,14 @@ The cells repsresent [Response Actions](#response-action).
 The main use cases:
 
 - Prioritization of Incident Response capabilities development
-- Gap analysis — determine "coverage" of a set of Incident Response capabilities
+- Gap analysis — determine "coverage" of existing Incident Response capabilities
 
 The main resources:
 
 - RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
-- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for observing the big picture  
+- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for visualization and observing the big picture  
 
-## Actionable Playbooks
+## Actionable Analytics
 
 The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
 
@@ -97,7 +99,7 @@ Here is an example of Response Playbook:
   <img src="docs/images/rp_confluence_v1.png" />
 </details>
 
-Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.
+Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
 ### TheHive Case Templates
 
@@ -119,9 +121,9 @@ TheHive Case Templates could be found in `docs/thehive_templates` directory and 
 
 ## Data source of the ATC framework
 
-ATC RE&CT project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate markdown and confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
+ATC RE&CT project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate Markdown and Confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
 
-Originally it was a part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
+Originally analytics related to Incident Response were part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
 
 ## Usage
 

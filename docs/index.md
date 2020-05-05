@@ -11,12 +11,12 @@ The cells repsresent [Response Actions](#response-action).
 The main use cases are:
 
 - Prioritization of Incident Response capabilities development
-- Gap analysis — determine "coverage" of a set of Incident Response capabilities
+- Gap analysis — determine "coverage" of existing Incident Response capabilities
 
 The main resources:
 
 - RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
-- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for observing the big picture  
+- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for visualization and observing the big picture  
 
 | Preparation                                           | Identification                                   | Containment                             | Eradication                                        | Recovery                            | Lessons Learned                        |
 |:-----------------------------------------------------:|:------------------------------------------------:|:---------------------------------------:|:--------------------------------------------------:|:-----------------------------------:|:--------------------------------------:|
@@ -211,7 +211,7 @@ The main resources:
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
 The links lead to GitHub issues, that you can use to contribute your analytics.
 
-## Actionable Playbooks
+## Actionable Analytics
 
 The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
 
@@ -247,7 +247,7 @@ The categorization aims to improve Incident Response process maturity assessment
 
 is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
 
-Response Playbook could include a description of the workflow, specific conditions/requirements or details on the order of Response Actions execution.
+Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
 ### TheHive Case Templates
 
