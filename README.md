@@ -15,7 +15,7 @@ The project represents the following:
 is designed for accumulating, describing and categorizing actionable Incident Response techniques. 
 
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The columns represent [Incident Response stages](https://atc-project.github.io/atc-react/responsestages/).  
+The columns represent [Response Stages](https://atc-project.github.io/atc-react/responsestages/).  
 The cells repsresent [Response Actions](#response-action).  
 
 ![](docs/images/react_navigator_export_v2.svg)
@@ -61,9 +61,18 @@ Here is an example of Response Action:
   <img src="docs/images/ra_confluence_v2.png" />
 </details>
 
-Each Response Action mapped to a specific [Incident Response stage](https://atc-project.github.io/atc-react/responsestages/).  
-The first digit of the Response Action ID reflects a stage number.  
-The second digit of the Response Action ID reflects a category it belongs to:
+Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
+
+The first digit of the Response Action ID reflects a Stage:
+
+- **1**: Preparation
+- **2**: Identification
+- **3**: Containment
+- **4**: Eradication
+- **5**: Recovery
+- **6**: Lessons Learned
+
+The second digit of the Response Action ID reflects a Category it belongs to:
 
 - **0**: General
 - **1**: Network
@@ -74,9 +83,9 @@ The second digit of the Response Action ID reflects a category it belongs to:
 - **6**: Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
+For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).  
 
-The categorization aims to improve Incident Response process maturity assessment and roadmap development.
+The categorization aims to improve Incident Response process maturity assessment and roadmap development.  
 
 ### Response Playbook
 
