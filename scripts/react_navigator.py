@@ -14,7 +14,7 @@ NAVIGATOR_TEMPLATE = {
     "name": "RE&CT Enterprise Matrix",
     "version": "2.2",
     "domain": "atc-react",
-    "description": "Response Stages and Response Actions with colorized Categories",
+    "description": "Response Stages and Response Actions, colorized by Categories",
     "sorting": 2,
     "viewMode": 0,
     "hideDisabled": True,
