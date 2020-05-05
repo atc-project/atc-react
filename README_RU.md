@@ -19,6 +19,8 @@
 Ячейки представляют собой [Действия Реагирования (Response Actions)](#response-action).  
 
 ![](docs/images/react_navigator_export_v2.svg)
+![](docs/images/react_navigator_export_v2.svg)
+<p align="center">(Изображение сгенерировано посредством <a href="https://atc-project.github.io/react-navigator/">RE&CT Navigator)</a></p>
 
 Основные варианты использования:
 
