@@ -399,9 +399,7 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="#">Eradication</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4001_report_phishing_attack_to_external_companies/">RA4001: Report phishing attack to external companies</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4002_report_incident_to_external_companies/">RA4002: Report incident to external companies</a>
+                <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4001_report_incident_to_external_companies/">RA4001: Report incident to external companies</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="Response_Actions/RA_4201_delete_email_message/">RA4201: Delete email message</a>
                 </li>
@@ -510,7 +508,7 @@ The columns represent <a href="responsestages/">Response Stages</a>.<br />
 The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <p>The main use cases are:</p>
 <ul>
-<li>Prioritization of Incident Response capabilities development</li>
+<li>Prioritization of Incident Response capabilities development, including skills development, technical measures acquisition/deployment, internal procedures development, etc</li>
 <li>Gap analysis — determine "coverage" of existing Incident Response capabilities</li>
 </ul>
 <p>The main resources:</p>
@@ -977,7 +975,7 @@ The links lead to GitHub issues, that you can use to contribute your analytics.<
 <p>Simply saying, the analytics are stored in <code>.yml</code> files, that are automatically converted to <code>.md</code> documents (with <a href="https://palletsprojects.com/p/jinja/">jinja</a>) and <code>.json</code> TheHive Case Templates.<br />
 For information about customization and usage, please refer to the <a href="https://github.com/atc-project/atc-react#usage">usage</a> section of the project README.  </p>
 <h3 id="response-action">Response Action</h3>
-<p>is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. </p>
+<p>Response Action is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. </p>
 <p>Each Response Action mapped to a specific <a href="responsestages/">Response Stage</a>.<br />
 The first digit of the Response Action ID reflects a Stage it belongs to:</p>
 <ul>
@@ -1002,7 +1000,7 @@ The first digit of the Response Action ID reflects a Stage it belongs to:</p>
 For example, <a href="Response_Actions/RA_2202_collect_email_message/">RA<strong>22</strong>02: Collect an email message</a> is related to Stage <strong>2</strong> (Identification) and Category <strong>2</strong> (Email).</p>
 <p>The categorization aims to improve Incident Response process maturity assessment and roadmap development.</p>
 <h3 id="response-playbook">Response Playbook</h3>
-<p>is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> or <a href="https://github.com/misinfosecproject/amitt_framework">Misinfosec's  AMITT</a> frameworks.</p>
+<p>Response Playbook is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> or <a href="https://github.com/misinfosecproject/amitt_framework">Misinfosec's  AMITT</a> frameworks.</p>
 <p>Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.</p>
 <h3 id="thehive-case-templates">TheHive Case Templates</h3>
 <p>are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). </p>
@@ -1022,9 +1020,12 @@ TheHive Case Templates could be found in <code>docs/thehive_templates</code> dir
 <h2 id="contacts">Contacts</h2>
 <ul>
 <li>Folow us on <a href="https://twitter.com/atc_project">Twitter</a> for updates</li>
-<li>Join discussions in <a href="https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA">Slack</a> or <a href="https://t.me/atomic_threat_coverage">Telegram</a> </li>
+<li>Join discussions in <a href="https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg">Slack</a> or <a href="https://t.me/atomic_threat_coverage">Telegram</a> </li>
 </ul>
 <h2 id="contributors">Contributors</h2>
+<ul>
+<li>Timur Zinniatullin, <a href="https://twitter.com/zinint">@zinint</a>  </li>
+</ul>
 <p>Would you like to become one? You are very welcome! Our <a href="https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> guideline is a good starting point.</p>
 <h2 id="roadmap">Roadmap</h2>
 <p>The roadmap and related discussions could be found in the project <a href="https://github.com/atc-project/atc-react/issues">issues</a>.</p>
