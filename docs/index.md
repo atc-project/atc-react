@@ -227,7 +227,7 @@ For information about customization and usage, please refer to the [usage](https
 is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
 
 Each Response Action mapped to a specific [Response Stage](responsestages.md).  
-The first digit of the Response Action ID reflects a Stage:
+The first digit of the Response Action ID reflects a Stage it belongs to:
 
 - **1**: Preparation
 - **2**: Identification
@@ -247,7 +247,7 @@ The second digit of the Response Action ID reflects a Category it belongs to:
 - **6**: Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
+For example, [RA**22**02: Collect an email message](Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.
 
