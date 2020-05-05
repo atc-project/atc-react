@@ -32,6 +32,8 @@ jobs:
             git diff-index HEAD --
             if git diff-index --quiet HEAD -- ; then
               echo "Not committing documentation because there are no changes"
+            elif [[ ! $( git diff-index HEAD -- | grep -v "docs/react.json" ) ]]; then
+              echo "Not committing stix file because it is the same but with different IDs"
             elif [[ $(echo "${CIRCLE_BRANCH}" | grep -c "master") -gt 0 ]]; then
               echo "Not committing documentation because we are on a master branch"
             else
