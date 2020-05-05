@@ -172,7 +172,7 @@ Response Playbook (Сценарий Реагирования) — это пла�
 ## Контакты
 
 - Следите за обновлениями в [Twitter](https://twitter.com/atc_project)
-- Присоединяйтесь к обсуждению в [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA) или [Telegram](https://t.me/atomic_threat_coverage) 
+- Присоединяйтесь к обсуждению в [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg) или [Telegram](https://t.me/atomic_threat_coverage) 
 
 ## Авторы
 
