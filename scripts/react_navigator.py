@@ -11,10 +11,10 @@ import json
 ATCconfig = ATCutils.load_config("scripts/config.yml")
 
 NAVIGATOR_TEMPLATE = {
-    "name": "RE&CT",
+    "name": "RE&CT Enterprise Matrix",
     "version": "2.2",
     "domain": "atc-react",
-    "description": "RE&CT Response Actions with colorized categories",
+    "description": "Response Stages and Response Actions with colorized Categories",
     "sorting": 2,
     "viewMode": 0,
     "hideDisabled": True,
