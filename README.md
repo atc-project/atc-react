@@ -1,6 +1,8 @@
 🇷🇺 [Русская версия](README_RU.md)  
 
 # RE&CT
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fatc-project%2Fatc-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fatc-project%2Fatc-react?ref=badge_shield)
+
 
 ![](docs/images/logo_v2.png)
 
@@ -189,3 +191,6 @@ The roadmap and related discussions could be found in the project [issues](https
 ## License
 
 See the [LICENSE](LICENSE) file.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fatc-project%2Fatc-react.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fatc-project%2Fatc-react?ref=badge_large)
