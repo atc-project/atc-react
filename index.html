@@ -506,7 +506,7 @@
 <p><img alt="" src="images/logo_v2.png" /></p>
 <p>The RE&amp;CT Framework is designed for accumulating, describing and categorizing actionable Incident Response techniques.  </p>
 <p>RE&amp;CT's philosophy is based on the <a href="https://attack.mitre.org/">MITRE's ATT&amp;CK</a> framework.<br />
-The columns represent <a href="responsestages/">Incident Response stages</a>.<br />
+The columns represent <a href="responsestages/">Response Stages</a>.<br />
 The cells repsresent <a href="#response-action">Response Actions</a>.  </p>
 <p>The main use cases are:</p>
 <ul>
@@ -978,9 +978,17 @@ The links lead to GitHub issues, that you can use to contribute your analytics.<
 For information about customization and usage, please refer to the <a href="https://github.com/atc-project/atc-react#usage">usage</a> section of the project README.  </p>
 <h3 id="response-action">Response Action</h3>
 <p>is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. </p>
-<p>Each Response Action mapped to a specific <a href="responsestages/">Incident Response stage</a>.<br />
-The first digit of the Response Action ID reflects a stage number.<br />
-The second digit of the Response Action ID reflects a category it belongs to:</p>
+<p>Each Response Action mapped to a specific <a href="responsestages/">Response Stage</a>.<br />
+The first digit of the Response Action ID reflects a Stage it belongs to:</p>
+<ul>
+<li><strong>1</strong>: Preparation</li>
+<li><strong>2</strong>: Identification</li>
+<li><strong>3</strong>: Containment</li>
+<li><strong>4</strong>: Eradication</li>
+<li><strong>5</strong>: Recovery</li>
+<li><strong>6</strong>: Lessons Learned</li>
+</ul>
+<p>The second digit of the Response Action ID reflects a Category it belongs to:</p>
 <ul>
 <li><strong>0</strong>: General</li>
 <li><strong>1</strong>: Network</li>
