@@ -1,0 +1,14 @@
+title: RA_4101_remove_rogue_network_device
+id: RA4101
+description: >
+  Remove a rogue network device
+author: your name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: eradication
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

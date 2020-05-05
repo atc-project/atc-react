@@ -1,7 +1,7 @@
-| Title                       | Get ability to remove file from host         |
+| Title                       | Get ability to remove file         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1316            |
-| **Description**             | Make sure you have the ability to remove a file from a host   |
+| **Description**             | Make sure you have the ability to remove a specific file from a (remote) host or a system   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

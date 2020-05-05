@@ -1,11 +1,11 @@
-| Title                       | Collect file from host         |
+| Title                       | Get ability to collect file         |
 |:---------------------------:|:--------------------|
-| **ID**                      | RA2311            |
-| **Description**             | Collect a file from a host   |
+| **ID**                      | RA1311            |
+| **Description**             | Make sure you have the ability to collect a specific file from a (remote) host or a system   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |
-| **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
+| **Stage**                   |[RS0001: Preparation](../Response_Stages/RS0001.md)| 
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
 
 ### Workflow

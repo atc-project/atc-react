@@ -78,12 +78,12 @@ nav:
             - "RA1308: Get ability to find file by hash": ./Response_Actions/RA_1308_get_ability_to_find_file_by_hash.md
             - "RA1309: Get ability to find file by format": ./Response_Actions/RA_1309_get_ability_to_find_file_by_format.md
             - "RA1310: Get ability to find file by content pattern": ./Response_Actions/RA_1310_get_ability_to_find_file_by_content_pattern.md
-            - "RA1311: Get ability to collect file from host": ./Response_Actions/RA_1311_get_ability_to_collect_file_from_host.md
+            - "RA1311: Get ability to collect file": ./Response_Actions/RA_1311_get_ability_to_collect_file.md
             - "RA1312: Get ability to quarantine file by path": ./Response_Actions/RA_1312_get_ability_to_quarantine_file_by_path.md
             - "RA1313: Get ability to quarantine file by hash": ./Response_Actions/RA_1313_get_ability_to_quarantine_file_by_hash.md
             - "RA1314: Get ability to quarantine file by format": ./Response_Actions/RA_1314_get_ability_to_quarantine_file_by_format.md
             - "RA1315: Get ability to quarantine file by content pattern": ./Response_Actions/RA_1315_get_ability_to_quarantine_file_by_content_pattern.md
-            - "RA1316: Get ability to remove file from host": ./Response_Actions/RA_1316_get_ability_to_remove_file_from_host.md
+            - "RA1316: Get ability to remove file": ./Response_Actions/RA_1316_get_ability_to_remove_file.md
             - "RA1401: Get ability to list processes executed": ./Response_Actions/RA_1401_get_ability_to_list_processes_executed.md
             - "RA1402: Get ability to find process by executable path": ./Response_Actions/RA_1402_get_ability_to_find_process_by_executable_path.md
             - "RA1403: Get ability to find process by executable metadata": ./Response_Actions/RA_1403_get_ability_to_find_process_by_executable_metadata.md
@@ -140,7 +140,7 @@ nav:
             - "RA2308: Find file by hash": ./Response_Actions/RA_2308_find_file_by_hash.md
             - "RA2309: Find file by format": ./Response_Actions/RA_2309_find_file_by_format.md
             - "RA2310: Find file by content pattern": ./Response_Actions/RA_2310_find_file_by_content_pattern.md
-            - "RA2311: Collect file from host": ./Response_Actions/RA_2311_collect_file_from_host.md
+            - "RA2311: Collect file": ./Response_Actions/RA_2311_collect_file.md
             - "RA2312: Analyse file hash": ./Response_Actions/RA_2312_analyse_file_hash.md
             - "RA2313: Analyse Windows PE": ./Response_Actions/RA_2313_analyse_windows_pe.md
             - "RA2314: Analyse macos macho": ./Response_Actions/RA_2314_analyse_macos_macho.md
@@ -188,10 +188,10 @@ nav:
             - "RA3501: Disable system service": ./Response_Actions/RA_3501_disable_system_service.md
             - "RA3601: Lock user account": ./Response_Actions/RA_3601_lock_user_account.md
         - Eradication:
-            - "RA4001: Report phishing attack to external companies": ./Response_Actions/RA_4001_report_phishing_attack_to_external_companies.md
-            - "RA4002: Report incident to external companies": ./Response_Actions/RA_4002_report_incident_to_external_companies.md
+            - "RA4001: Report incident to external companies": ./Response_Actions/RA_4001_report_incident_to_external_companies.md
+            - "RA4101: Remove rogue network device": ./Response_Actions/RA_4101_remove_rogue_network_device.md
             - "RA4201: Delete email message": ./Response_Actions/RA_4201_delete_email_message.md
-            - "RA4301: Remove file from host": ./Response_Actions/RA_4301_remove_file_from_host.md
+            - "RA4301: Remove file": ./Response_Actions/RA_4301_remove_file.md
             - "RA4501: Remove registry key": ./Response_Actions/RA_4501_remove_registry_key.md
             - "RA4502: Remove service": ./Response_Actions/RA_4502_remove_service.md
             - "RA4601: Revoke authentication credentials": ./Response_Actions/RA_4601_revoke_authentication_credentials.md
