@@ -239,7 +239,7 @@ The second digit of the Response Action ID reflects a category it belongs to:
 - **6**: Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Get original email](./Response_Actions/RA_2302_get_original_email.md) is related to Stage **2** (Identification) and Category **2** (Email).
+For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.
 
