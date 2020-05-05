@@ -227,7 +227,7 @@ For information about customization and usage, please refer to the [usage](https
 is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
 
 Each Response Action mapped to a specific [Response Stage](responsestages.md).  
-The first digit of the Response Action ID reflects a Stage:
+The first digit of the Response Action ID reflects a Stage it belongs to:
 
 - **1**: Preparation
 - **2**: Identification

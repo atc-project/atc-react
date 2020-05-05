@@ -63,7 +63,7 @@ Here is an example of Response Action:
 
 Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
 
-The first digit of the Response Action ID reflects a Stage:
+The first digit of the Response Action ID reflects a Stage it belongs to:
 
 - **1**: Preparation
 - **2**: Identification
