@@ -10,7 +10,7 @@ The cells repsresent [Response Actions](#response-action).
 
 The main use cases are:
 
-- Prioritization of Incident Response capabilities development
+- Prioritization of Incident Response capabilities development, including skills development, technical measures acquisition/deployment, internal procedures development, etc
 - Gap analysis — determine "coverage" of existing Incident Response capabilities
 
 The main resources:
@@ -224,7 +224,7 @@ For information about customization and usage, please refer to the [usage](https
 
 ### Response Action
 
-is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
+Response Action is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
 
 Each Response Action mapped to a specific [Response Stage](responsestages.md).  
 The first digit of the Response Action ID reflects a Stage it belongs to:
@@ -253,7 +253,7 @@ The categorization aims to improve Incident Response process maturity assessment
 
 ### Response Playbook
 
-is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
+Response Playbook is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
@@ -278,9 +278,11 @@ TheHive Case Templates could be found in `docs/thehive_templates` directory and 
 ## Contacts
 
 - Folow us on [Twitter](https://twitter.com/atc_project) for updates
-- Join discussions in [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA) or [Telegram](https://t.me/atomic_threat_coverage) 
+- Join discussions in [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg) or [Telegram](https://t.me/atomic_threat_coverage) 
 
 ## Contributors
+
+- Timur Zinniatullin, [@zinint](https://twitter.com/zinint)  
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) guideline is a good starting point.
 
