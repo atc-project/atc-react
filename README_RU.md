@@ -18,7 +18,7 @@
 Столбцы представляют собой [Стадии Реагирования (Response Stages)](https://atc-project.github.io/atc-react/responsestages/).  
 Ячейки представляют собой [Действия Реагирования (Response Actions)](#response-action).  
 
-![](docs/images/react_navigator_export.svg)
+![](docs/images/react_navigator_export_v2.svg)
 
 Основные варианты использования:
 
