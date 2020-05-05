@@ -1,7 +1,7 @@
-| Title                       | Restore system from backup         |
+| Title                       | Restore data from backup         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5002            |
-| **Description**             | Restore a system from its backup   |
+| **Description**             | Restore data from a backup   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | General      |

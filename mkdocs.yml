@@ -161,6 +161,7 @@ nav:
             - "RA2506: List services modified": ./Response_Actions/RA_2506_list_services_modified.md
             - "RA2507: List services deleted": ./Response_Actions/RA_2507_list_services_deleted.md
         - Containment:
+            - "RA3001: Patch vulnerability": ./Response_Actions/RA_3001_patch_vulnerability.md
             - "RA3101: Block external IP address": ./Response_Actions/RA_3101_block_external_ip_address.md
             - "RA3102: Block internal IP address": ./Response_Actions/RA_3102_block_internal_ip_address.md
             - "RA3103: Block external domain": ./Response_Actions/RA_3103_block_external_domain.md
@@ -197,7 +198,7 @@ nav:
             - "RA4602: Remove user account": ./Response_Actions/RA_4602_remove_user_account.md
         - Recovery:
             - "RA5001: Reinstall host from golden image": ./Response_Actions/RA_5001_reinstall_host_from_golden_image.md
-            - "RA5002: Restore system from backup": ./Response_Actions/RA_5002_restore_system_from_backup.md
+            - "RA5002: Restore data from backup": ./Response_Actions/RA_5002_restore_data_from_backup.md
             - "RA5101: Unblock blocked IP": ./Response_Actions/RA_5101_unblock_blocked_ip.md
             - "RA5102: Unblock blocked domain": ./Response_Actions/RA_5102_unblock_blocked_domain.md
             - "RA5103: Unblock blocked URL": ./Response_Actions/RA_5103_unblock_blocked_url.md
