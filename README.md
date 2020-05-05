@@ -12,7 +12,7 @@ The project represents the following:
 
 ## The RE&CT Framework
 
-is designed for accumulating, describing and categorizing actionable Incident Response techniques. 
+The RE&CT Framework is designed for accumulating, describing and classification actionable Incident Response techniques. 
 
 RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
 The columns represent [Response Stages](https://atc-project.github.io/atc-react/responsestages/).  
@@ -23,7 +23,7 @@ The cells repsresent [Response Actions](#response-action).
 
 The main use cases:
 
-- Prioritization of Incident Response capabilities development
+- Prioritization of Incident Response capabilities development, including skills development, technical measures acquisition/deployment, internal procedures development, etc
 - Gap analysis — determine "coverage" of existing Incident Response capabilities
 
 The main resources:
@@ -43,7 +43,7 @@ Simply saying, the analytics are stored in `.yml` files, that are automatically 
 
 ### Response Action
 
-is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks.  
+Response Action is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks.  
 
 Here is an example of Response Action:
 
@@ -90,7 +90,7 @@ The categorization aims to improve Incident Response process maturity assessment
 
 ### Response Playbook
 
-is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
+Response Playbook is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
 
 Here is an example of Response Playbook:
 
@@ -170,15 +170,11 @@ Originally analytics related to Incident Response were part of the ATC, but we d
 ## Contacts
 
 - Folow us on [Twitter](https://twitter.com/atc_project) for updates
-- Join discussions in [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/enQtNTMwNDUyMjY2MTE5LTk1ZTY4NTBhYjFjNjhmN2E3OTMwYzc4MTEyNTVlMTVjMDZmMDg2OWYzMWRhMmViMjM5YmM1MjhkOWFmYjE5MjA) or [Telegram](https://t.me/atomic_threat_coverage) 
-
-## Authors
-
-- Jakob Weinzettl, [@mrblacyk](https://github.com/mrblacyk)
-- Mateusz Wydra, [@sn0w0tter](https://github.com/sn0w0tter)
-- Daniil Yugoslavskiy, [@yugoslavskiy](https://twitter.com/yugoslavskiy)
+- Join discussions in [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg) or [Telegram](https://t.me/atomic_threat_coverage) 
 
 ## Contributors
+
+- Timur Zinniatullin, [@zinint](https://twitter.com/zinint)  
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](CONTRIBUTING.md) guideline is a good starting point.
 
