@@ -80,6 +80,8 @@ ra_mapping = {
     "RA1506": "Get ability to list services created",
     "RA1507": "Get ability to list services modified",
     "RA1508": "Get ability to list services deleted",
+    "RA1509": "Get ability to remove registry key",
+    "RA1510": "Get ability to remove service",
     "RA1601": "Manage identity management system",
     "RA1602": "Get ability to lock user account",
     "RA1603": "Get ability to list users authenticated",
