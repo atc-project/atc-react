@@ -15,7 +15,12 @@ google_analytics: ['UA-165240552-2', 'https://atc-project.github.io/atc-react/']
 
 plugins:
     - awesome-pages
-
+    - exclude:
+        glob:
+            - "*DS_Store"
+            - "*.git"
+            - "*.idea"
+            - "thehive_templates"
 nav:
     - Introduction:
         - RE&CT Framework: index.md
