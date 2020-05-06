@@ -46,65 +46,81 @@ Offensive Security trainings are in the list because to fight a threat, you need
 
 At the same time, we assume that you already have a strong technical background in fundamental disciplines — Networking, Operating Systems, and Programming.  
 
-##### Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it
+##### Make sure that personnel will report suspicious activity i.e. suspicious emails,  links, files, activity on their computers, etc
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system.  
+Make sure that the personnel is aware of it, can and will use it.  
 
-##### Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks
+##### Raise personnel awareness regarding phishing, ransomware, social engineering,  and other attacks that involve user interaction
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Train users to to be aware of access or manipulation attempts by an adversary to reduce the risk of 
+successful spearphishing, social engineering, and other techniques that involve user interaction.
 
 ##### Make sure you have access to external communication Network Flow logs
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Make sure that there is a collection of Network Flow logs for external communication (from corporate assets to the Internet) configured.  
+If there is no option to configure it on a network device, you can install a special software on each endpoint and collect it from them.  
+
+Warning:  
+
+- Make sure you've filtered out all redundant Network Flow logs, so it will take much resources to process and store  
+- There is a feature called ["NetFlow Sampling"](https://www.plixer.com/blog/how-accurate-is-sampled-netflow/), that eliminates the value of the Network Flow logs for some of the tasks, such as "check if some host communicated to an external IP". Make sure it's disabled or you have an alternative way to collect Network Flow logs  
 
 ##### Make sure you have access to external communication HTTP logs
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Make sure that there is a collection of HTTP connections logs for external communication (from corporate assets to the Internet) configured.  
 
 ##### Make sure you have access to external communication DNS logs
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Make sure that there is a collection of DNS logs for external communication (from corporate assets to the Internet) configured.  
+If there is no option to configure it on a network device/DNS Server, you can install a special software on each endpoint and collect it from them.  
 
-##### Make sure you can block an external IP address from being accessed by corporate assets
+Warning:  
 
+- Make sure that there are both DNS query and answer logs collected. It's quite hard to configure such a collection on MS Windows DNS server and ISC BIND. Sometimes it much easier to use 3rd party solutions to fulfill this requirement.  
+- Make sure that DNS traffic to the external (public) DNS servers is blocked by the Border Firewall. This way, corporate DNS servers is the only place assets can resolve the domain names.  
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
-##### Make sure you can block an external domain name from being accessed by corporate assets
-
-
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
-
-##### Make sure you can block an external URL from being accessed by corporate assets
+##### Make sure you have the ability to block an external IP address from being accessed by corporate assets
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Make sure you have the ability to create a policy rule in one of the listed Mitigation Systems that will you to block an external IP address from being accessed by corporate assets.  
+
+Warning:  
+
+- Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external IP address from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  
+
+##### Make sure you have the ability to block an external domain name from being accessed by corporate assets
+
+
+Make sure you have the ability to create a policy rule or a specific configuration in one of the listed Mitigation Systems that will you to block an external domain name from being accessed by corporate assets.  
+
+Warning:  
+
+- Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external domain name from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  
+
+##### Make sure you have the ability to block an external URL from being accessed by corporate assets
+
+
+Make sure you have the ability to create a policy rule or a specific configuration in one of the listed Mitigation Systems that will you to block an external URL from being accessed by corporate assets.  
+
+Warning:  
+
+- Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external URL from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  
 
 ##### Make sure you have the ability to list users who opened a particular email message
 
 
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
+Make sure you have the ability to list users who opened/read a particular email message using the Email Server's functionality.
 
 ##### Make sure you have the ability to list receivers of a particular email message
 
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+Make sure you have the ability to list receivers of a particular email message using the Email Server's functionality.
 
 ##### Make sure you have the ability to block an email domain
 

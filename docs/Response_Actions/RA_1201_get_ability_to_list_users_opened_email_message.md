@@ -2,14 +2,13 @@
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1201            |
 | **Description**             | Make sure you have the ability to list users who opened a particular email message   |
-| **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Email      |
 | **Stage**                   |[RS0001: Preparation](../Response_Stages/RS0001.md)| 
-| **Automation** |<ul><li>thehive/phantom/demisto/etc</li></ul>|
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **References** |<ul><li>[https://practical365.com/exchange-server/tracking-read-email-messages-exchange-server/](https://practical365.com/exchange-server/tracking-read-email-messages-exchange-server/)</li></ul>|
+| **Requirements** |<ul><li>MS_email_server</li></ul>|
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
+Make sure you have the ability to list users who opened/read a particular email message using the Email Server's functionality.
