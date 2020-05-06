@@ -83,6 +83,8 @@ ra_mapping = {
     "RA1601": "Manage identity management system",
     "RA1602": "Get ability to lock user account",
     "RA1603": "Get ability to list users authenticated",
+    "RA1604": "Get ability to revoke authentication credentials",
+    "RA1605": "Get ability to remove user account",
     "RA2001": "List victims of security alert",
     "RA2002": "List host vulnerabilities",
     "RA2003": "Put compromised accounts on monitoring",
