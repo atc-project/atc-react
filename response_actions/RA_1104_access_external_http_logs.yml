@@ -2,13 +2,16 @@ title: RA_1104_access_external_http_logs
 id: RA1104
 description: >
   Make sure you have access to external communication HTTP logs
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: preparation
 references:
-  - https://example.com
+  - https://docs.zeek.org/en/current/examples/httpmonitor/
+  - https://en.wikipedia.org/wiki/Common_Log_Format
 requirements:
+  - MS_border_proxy
+  - MS_border_ngfw
   - DN_zeek_http_log
 workflow: |
-  Description of the workflow for the Response Action in markdown format.  
-  Here newlines will be saved.  
+  Make sure that there is a collection of HTTP connections logs for external communication (from corporate assets to the Internet) configured.  
+
