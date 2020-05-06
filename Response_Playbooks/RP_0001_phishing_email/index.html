@@ -223,9 +223,19 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1508_get_ability_to_list_services_deleted/">RA1508: Get ability to list services deleted</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1509_get_ability_to_remove_registry_key/">RA1509: Get ability to remove registry key</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1510_get_ability_to_remove_service/">RA1510: Get ability to remove service</a>
+                </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1601_manage_identity_management_system/">RA1601: Manage identity management system</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1602_get_ability_to_lock_user_account/">RA1602: Get ability to lock user account</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1603_get_ability_to_list_users_authenticated/">RA1603: Get ability to list users authenticated</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1604_get_ability_to_revoke_authentication_credentials/">RA1604: Get ability to revoke authentication credentials</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_1605_get_ability_to_remove_user_account/">RA1605: Get ability to remove user account</a>
                 </li>
     </ul>
                     </li>
@@ -338,6 +348,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2506_list_services_modified/">RA2506: List services modified</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2507_list_services_deleted/">RA2507: List services deleted</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2601_list_users_authenticated/">RA2601: List users authenticated</a>
                 </li>
     </ul>
                     </li>
@@ -595,36 +607,52 @@ You need to make sure that when an Incident will happen, the team will not just 
 </ol>
 <p>Offensive Security trainings are in the list because to fight a threat, you need to understand their motivation, tactics, and techniques.  </p>
 <p>At the same time, we assume that you already have a strong technical background in fundamental disciplines — Networking, Operating Systems, and Programming.  </p>
-<h5 id="develop-a-simplified-company-wide-known-way-to-contact-ir-team-in-case-of-suspicious-activity-on-the-user-system-make-sure-that-the-personnel-is-aware-of-it-can-and-will-use-it">Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system. Make sure that the personnel is aware of it, can and will use it</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
-<h5 id="raise-personnel-awareness-regarding-phishing-ransomware-social-engineering-and-other-attacks">Raise personnel awareness regarding phishing, ransomware, social engineering, and other attacks</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<h5 id="make-sure-that-personnel-will-report-suspicious-activity-ie-suspicious-emails-links-files-activity-on-their-computers-etc">Make sure that personnel will report suspicious activity i.e. suspicious emails,  links, files, activity on their computers, etc</h5>
+<p>Develop a simplified, company wide-known way to contact IR team in case of suspicious activity on the user system.<br />
+Make sure that the personnel is aware of it, can and will use it.  </p>
+<h5 id="raise-personnel-awareness-regarding-phishing-ransomware-social-engineering-and-other-attacks-that-involve-user-interaction">Raise personnel awareness regarding phishing, ransomware, social engineering,  and other attacks that involve user interaction</h5>
+<p>Train users to to be aware of access or manipulation attempts by an adversary to reduce the risk of 
+successful spearphishing, social engineering, and other techniques that involve user interaction.</p>
 <h5 id="make-sure-you-have-access-to-external-communication-network-flow-logs">Make sure you have access to external communication Network Flow logs</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure that there is a collection of Network Flow logs for external communication (from corporate assets to the Internet) configured.<br />
+If there is no option to configure it on a network device, you can install a special software on each endpoint and collect it from them.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Make sure you've filtered out all redundant Network Flow logs, so it will take much resources to process and store  </li>
+<li>There is a feature called <a href="https://www.plixer.com/blog/how-accurate-is-sampled-netflow/">"NetFlow Sampling"</a>, that eliminates the value of the Network Flow logs for some of the tasks, such as "check if some host communicated to an external IP". Make sure it's disabled or you have an alternative way to collect Network Flow logs  </li>
+</ul>
 <h5 id="make-sure-you-have-access-to-external-communication-http-logs">Make sure you have access to external communication HTTP logs</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure that there is a collection of HTTP connections logs for external communication (from corporate assets to the Internet) configured.  </p>
 <h5 id="make-sure-you-have-access-to-external-communication-dns-logs">Make sure you have access to external communication DNS logs</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
-<h5 id="make-sure-you-can-block-an-external-ip-address-from-being-accessed-by-corporate-assets">Make sure you can block an external IP address from being accessed by corporate assets</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
-<h5 id="make-sure-you-can-block-an-external-domain-name-from-being-accessed-by-corporate-assets">Make sure you can block an external domain name from being accessed by corporate assets</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
-<h5 id="make-sure-you-can-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you can block an external URL from being accessed by corporate assets</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure that there is a collection of DNS logs for external communication (from corporate assets to the Internet) configured.<br />
+If there is no option to configure it on a network device/DNS Server, you can install a special software on each endpoint and collect it from them.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Make sure that there are both DNS query and answer logs collected. It's quite hard to configure such a collection on MS Windows DNS server and ISC BIND. Sometimes it much easier to use 3rd party solutions to fulfill this requirement.  </li>
+<li>Make sure that DNS traffic to the external (public) DNS servers is blocked by the Border Firewall. This way, corporate DNS servers is the only place assets can resolve the domain names.  </li>
+</ul>
+<h5 id="make-sure-you-have-the-ability-to-block-an-external-ip-address-from-being-accessed-by-corporate-assets">Make sure you have the ability to block an external IP address from being accessed by corporate assets</h5>
+<p>Make sure you have the ability to create a policy rule in one of the listed Mitigation Systems that will you to block an external IP address from being accessed by corporate assets.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external IP address from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  </li>
+</ul>
+<h5 id="make-sure-you-have-the-ability-to-block-an-external-domain-name-from-being-accessed-by-corporate-assets">Make sure you have the ability to block an external domain name from being accessed by corporate assets</h5>
+<p>Make sure you have the ability to create a policy rule or a specific configuration in one of the listed Mitigation Systems that will you to block an external domain name from being accessed by corporate assets.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external domain name from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  </li>
+</ul>
+<h5 id="make-sure-you-have-the-ability-to-block-an-external-url-from-being-accessed-by-corporate-assets">Make sure you have the ability to block an external URL from being accessed by corporate assets</h5>
+<p>Make sure you have the ability to create a policy rule or a specific configuration in one of the listed Mitigation Systems that will you to block an external URL from being accessed by corporate assets.  </p>
+<p>Warning:  </p>
+<ul>
+<li>Make sure that using the listed systems (1 or multiple) you can control access to the internet of all assets in the infrastructure. In some cases, you will need a guaranteed way to block an external URL from being accessed by corporate assets completely. If some of the assets are not under the management of the listed Mitigation Systems, (so they can access the internet bypassing these systems), you will not be able to fully achieve the final objective of the Response Action.  </li>
+</ul>
 <h5 id="make-sure-you-have-the-ability-to-list-users-who-opened-a-particular-email-message">Make sure you have the ability to list users who opened a particular email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Make sure you have the ability to list users who opened/read a particular email message using the Email Server's functionality.</p>
 <h5 id="make-sure-you-have-the-ability-to-list-receivers-of-a-particular-email-message">Make sure you have the ability to list receivers of a particular email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure you have the ability to list receivers of a particular email message using the Email Server's functionality.</p>
 <h5 id="make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</h5>
 <p>Description of the workflow for the Response Action in markdown format.<br />
 Here newlines will be saved.  </p>
