@@ -273,7 +273,7 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain/">RA2113: List hosts communicated with external domain</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114: List hosts communicated with external ip.</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114: List hosts communicated with external IP</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Response_Actions/RA_2115_list_hosts_communicated_with_external_url/">RA2115: List hosts communicated with external URL</a>
                 </li>
@@ -568,7 +568,7 @@
 </tr>
 <tr>
 <td align="center"><strong>Identification</strong></td>
-<td align="left"><ul><li><a href="../../Response_Actions/RA_2003_put_compromised_accounts_on_monitoring/">RA2003: Put compromised accounts on monitoring</a></li><li><a href="../../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain/">RA2113: List hosts communicated with external domain</a></li><li><a href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114: List hosts communicated with external ip.</a></li><li><a href="../../Response_Actions/RA_2115_list_hosts_communicated_with_external_url/">RA2115: List hosts communicated with external URL</a></li><li><a href="../../Response_Actions/RA_2201_list_users_opened_email_message/">RA2201: List users opened email message</a></li><li><a href="../../Response_Actions/RA_2202_collect_email_message/">RA2202: Collect email message</a></li><li><a href="../../Response_Actions/RA_2203_list_email_message_receivers/">RA2203: List email message receivers</a></li><li><a href="../../Response_Actions/RA_2204_make_sure_email_message_is_phishing/">RA2204: Make sure email message is phishing</a></li><li><a href="../../Response_Actions/RA_2205_extract_observables_from_email_message/">RA2205: Extract observables from email message</a></li></ul></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_2003_put_compromised_accounts_on_monitoring/">RA2003: Put compromised accounts on monitoring</a></li><li><a href="../../Response_Actions/RA_2113_list_hosts_communicated_with_external_domain/">RA2113: List hosts communicated with external domain</a></li><li><a href="../../Response_Actions/RA_2114_list_hosts_communicated_with_external_ip/">RA2114: List hosts communicated with external IP</a></li><li><a href="../../Response_Actions/RA_2115_list_hosts_communicated_with_external_url/">RA2115: List hosts communicated with external URL</a></li><li><a href="../../Response_Actions/RA_2201_list_users_opened_email_message/">RA2201: List users opened email message</a></li><li><a href="../../Response_Actions/RA_2202_collect_email_message/">RA2202: Collect email message</a></li><li><a href="../../Response_Actions/RA_2203_list_email_message_receivers/">RA2203: List email message receivers</a></li><li><a href="../../Response_Actions/RA_2204_make_sure_email_message_is_phishing/">RA2204: Make sure email message is phishing</a></li><li><a href="../../Response_Actions/RA_2205_extract_observables_from_email_message/">RA2205: Extract observables from email message</a></li></ul></td>
 </tr>
 <tr>
 <td align="center"><strong>Containment</strong></td>
@@ -580,7 +580,7 @@
 </tr>
 <tr>
 <td align="center"><strong>Recovery</strong></td>
-<td align="left"><ul><li><a href="../../Response_Actions/RA_5101_unblock_blocked_ip/">RA5101: Unblock blocked IP</a></li><li><a href="../../Response_Actions/RA_5102_unblock_blocked_domain/">RA5102: Unblock blocked domain</a></li><li><a href="../../Response_Actions/RA_5103_unblock_blocked_url/">RA5103: Unblock blocked URL</a></li><li><a href="../../Response_Actions/RA_5104_unblock_blocked_port/">RA5104: Unblock blocked port</a></li><li><a href="../../Response_Actions/RA_5201_unblock_domain_on_email/">RA5201: Unblock domain on email</a></li><li><a href="../../Response_Actions/RA_5202_unblock_sender_on_email/">RA5202: Unblock sender on email</a></li><li><a href="../../Response_Actions/RA_5203_restore_quarantined_email_message/">RA5203: Restore quarantined email message</a></li></ul></td>
+<td align="left"><ul><li><a href="../../Response_Actions/RA_5101_unblock_blocked_ip/">RA5101: Unblock blocked IP</a></li><li><a href="../../Response_Actions/RA_5102_unblock_blocked_domain/">RA5102: Unblock blocked domain</a></li><li><a href="../../Response_Actions/RA_5103_unblock_blocked_url/">RA5103: Unblock blocked URL</a></li><li><a href="../../Response_Actions/RA_5201_unblock_domain_on_email/">RA5201: Unblock domain on email</a></li><li><a href="../../Response_Actions/RA_5202_unblock_sender_on_email/">RA5202: Unblock sender on email</a></li><li><a href="../../Response_Actions/RA_5203_restore_quarantined_email_message/">RA5203: Restore quarantined email message</a></li></ul></td>
 </tr>
 <tr>
 <td align="center"><strong>Lessons learned</strong></td>
@@ -622,7 +622,6 @@ successful spearphishing, social engineering, and other techniques that involve 
 If there is no option to configure it on a network device, you can install a special software on each endpoint and collect it from them.  </p>
 <p>Warning:  </p>
 <ul>
-<li>Make sure you've filtered out all redundant Network Flow logs, so it will take much resources to process and store  </li>
 <li>There is a feature called <a href="https://www.plixer.com/blog/how-accurate-is-sampled-netflow/">"NetFlow Sampling"</a>, that eliminates the value of the Network Flow logs for some of the tasks, such as "check if some host communicated to an external IP". Make sure it's disabled or you have an alternative way to collect Network Flow logs  </li>
 </ul>
 <h5 id="make-sure-you-have-access-to-external-communication-http-logs">Make sure you have access to external communication HTTP logs</h5>
@@ -658,34 +657,26 @@ If there is no option to configure it on a network device/DNS Server, you can in
 <h5 id="make-sure-you-have-the-ability-to-list-receivers-of-a-particular-email-message">Make sure you have the ability to list receivers of a particular email message</h5>
 <p>Make sure you have the ability to list receivers of a particular email message using the Email Server's functionality.</p>
 <h5 id="make-sure-you-have-the-ability-to-block-an-email-domain">Make sure you have the ability to block an email domain</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure you have the ability to block an email domain on an Email Server using its native filtering functionality.  </p>
 <h5 id="make-sure-you-have-the-ability-to-block-an-email-sender">Make sure you have the ability to block an email sender</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure you have the ability to block an email sender on an Email Server using its native filtering functionality.  </p>
 <h5 id="make-sure-you-have-the-ability-to-delete-an-email-message">Make sure you have the ability to delete an email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Make sure you have the ability to delete an email message from an Email Server and users' email boxes using its native functionality.</p>
 <h5 id="make-sure-you-have-the-ability-to-quarantine-an-email-message">Make sure you have the ability to quarantine an email message</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Make sure you have the ability to quarantine an email message on an Email Server using its native functionality.  </p>
 <h4 id="identification">Identification</h4>
 <h5 id="put-potentially-compromised-accounts-on-monitoring">Put (potentially) compromised accounts on monitoring</h5>
 <p>Start monitoring for authentification attempts and all potentially harmful actions from (potentially) compromised accounts.<br />
 Look for anomalies, unusual network connections, unusual geolocation/time of work, actions that were never executed before.<br />
 Keep in touch with the real users and, in case of need, ask them if they executing some suspicious actions by themselves or not.  </p>
-<h5 id="response-action-for">Response Action for</h5>
-<p>Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.</p>
-<h5 id="response-action-for_1">Response Action for</h5>
-<p>Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.</p>
-<h5 id="response-action-for_2">Response Action for</h5>
-<p>Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.</p>
+<h5 id="list-hosts-communicated-with-an-external-domain">List hosts communicated with an external domain</h5>
+<p>List hosts communicated with an external domain using the most efficient way.  </p>
+<h5 id="list-hosts-communicated-with-an-external-ip-address">List hosts communicated with an external IP address</h5>
+<p>List hosts communicated with an external IP address using the most efficient way.  </p>
+<h5 id="list-hosts-communicated-with-an-external-url">List hosts communicated with an external URL</h5>
+<p>List hosts communicated with an external URL using the most efficient way.  </p>
 <h5 id="list-users-that-have-opened-am-email-message">List users that have opened am email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>List users who opened/read a particular email message using the Email Server's functionality.  </p>
 <h5 id="collect-an-email-message">Collect an email message</h5>
 <p>Collect an email message using most appropriate options:  </p>
 <ul>
@@ -700,8 +691,7 @@ Here newlines will be saved.  </p>
 <li>Archive with password "infected" and send to IR specialists by email  </li>
 </ol>
 <h5 id="list-receivers-of-a-particular-email-message">List receivers of a particular email message</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>List receivers of a particular email message using the Email Server's functionality.  </p>
 <h5 id="make-sure-that-an-email-message-is-a-phishing-attack">Make sure that an email message is a phishing attack</h5>
 <p>Check an email and its metadata for evidences of phishing attack:  </p>
 <ul>
@@ -739,11 +729,9 @@ Here newlines will be saved.  </p>
 <h5 id="block-a-domain-name-on-an-email-server">Block a domain name on an Email server</h5>
 <p>Block a domain name on an Email Server using its native filtering functionality.  </p>
 <h5 id="block-an-email-sender-on-the-email-server">Block an email sender on the Email-server</h5>
-<p>Description of the workflow for the Response Action in markdown format.<br />
-Here newlines will be saved.  </p>
+<p>Block an email sender on an Email Server using its native filtering functionality.  </p>
 <h5 id="quarantine-an-email-message">Quarantine an email message</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Quarantine an email message on an Email Server using its native functionality.  </p>
 <h4 id="eradication">Eradication</h4>
 <h5 id="report-incident-to-external-companies">Report incident to external companies</h5>
 <p>Report incident to external security companites, i.e. <a href="https://www.sei.cmu.edu/education-outreach/computer-security-incident-response-teams/national-csirts/">National Computer Security Incident Response Teams (CSIRTs)</a>.<br />
@@ -760,27 +748,18 @@ Provide all Indicators of Compromise and Indicators of Attack that have been obs
 <h5 id="delete-an-email-message-from-an-email-server-and-users-email-boxes">Delete an email message from an Email Server and users' email boxes</h5>
 <p>Delete an email message from an Email Server and users' email boxes using its native functionality.</p>
 <h4 id="recovery">Recovery</h4>
-<h5 id="unblock-a-blocked-ip">Unblock a blocked IP</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
-<h5 id="unblock-a-blocked-domain">Unblock a blocked domain</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<h5 id="unblock-a-blocked-ip-address">Unblock a blocked IP address</h5>
+<p>Unblock a blocked IP address in the system(s) used to block it.  </p>
+<h5 id="unblock-a-blocked-domain-name">Unblock a blocked domain name</h5>
+<p>Unblock a blocked domain name in the system(s) used to block it.  </p>
 <h5 id="unblock-a-blocked-url">Unblock a blocked URL</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
-<h5 id="unblock-a-blocked-port">Unblock a blocked port</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Unblock a blocked URL in the system(s) used to block it.  </p>
 <h5 id="unblock-a-domain-on-email">Unblock a domain on email</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Unblock an email domain on an Email Server using its native functionality.  </p>
 <h5 id="unblock-a-sender-on-email">Unblock a sender on email</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Unblock an email sender on an Email Server using its native functionality.  </p>
 <h5 id="restore-a-quarantined-email-message">Restore a quarantined email message</h5>
-<p>Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.</p>
+<p>Restore a quarantined email message on an Email Server using its native functionality.  </p>
 <h4 id="lessons-learned">Lessons learned</h4>
 <h5 id="develop-the-incident-report">Develop the incident report</h5>
 <p>Develop the Incident Report using your corporate template.  </p>
