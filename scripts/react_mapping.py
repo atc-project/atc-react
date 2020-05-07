@@ -95,7 +95,7 @@ ra_mapping = {
     "RA2103": "List hosts communicated with internal URL",
     "RA2104": "Analyse domain name",
     "RA2105": "Analyse IP",
-    "RA2106": "Analyse URL",
+    "RA2106": "Analyse uri",
     "RA2107": "List hosts communicated by port",
     "RA2108": "List hosts connected to VPN",
     "RA2109": "List hosts connected to intranet",
