@@ -1,7 +1,7 @@
 | Title                       | Analyse IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2105            |
-| **Description**             | Response Action for   |
+| **Description**             | Analyse an IP address   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Network      |

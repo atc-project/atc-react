@@ -1,14 +1,19 @@
 title: RA_5101_unblock_blocked_ip
 id: RA5101
 description: >
-  Unblock a blocked IP
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+  Unblock a blocked IP address
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: recovery
-references:
-  - https://example.com
-linked_analytics:
-  - DN_zeek_conn_log # placeholder
+requirements:
+  - MS_border_firewall
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_intranet_firewall
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_host_firewall
 workflow: |
-  Description of the workflow for single Response Action in markdown format.
-  Here newlines will be saved.
+  Unblock a blocked IP address in the system(s) used to block it.  

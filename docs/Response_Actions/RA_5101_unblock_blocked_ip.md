@@ -1,14 +1,13 @@
 | Title                       | Unblock blocked IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5101            |
-| **Description**             | Unblock a blocked IP   |
-| **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Description**             | Unblock a blocked IP address   |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Network      |
 | **Stage**                   |[RS0005: Recovery](../Response_Stages/RS0005.md)| 
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **Requirements** |<ul><li>MS_border_firewall</li><li>MS_border_proxy</li><li>MS_border_ips</li><li>MS_border_ngfw</li><li>MS_intranet_firewall</li><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_host_firewall</li></ul>|
 
 ### Workflow
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Unblock a blocked IP address in the system(s) used to block it.  

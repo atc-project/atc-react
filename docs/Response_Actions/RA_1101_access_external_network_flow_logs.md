@@ -16,5 +16,4 @@ If there is no option to configure it on a network device, you can install a spe
 
 Warning:  
 
-- Make sure you've filtered out all redundant Network Flow logs, so it will take much resources to process and store  
 - There is a feature called ["NetFlow Sampling"](https://www.plixer.com/blog/how-accurate-is-sampled-netflow/), that eliminates the value of the Network Flow logs for some of the tasks, such as "check if some host communicated to an external IP". Make sure it's disabled or you have an alternative way to collect Network Flow logs  

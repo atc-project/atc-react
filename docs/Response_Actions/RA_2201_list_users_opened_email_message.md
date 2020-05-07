@@ -2,14 +2,13 @@
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2201            |
 | **Description**             | List users that have opened am email message   |
-| **Author**                  | name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Email      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
-| **Automation** |<ul><li>thehive</li></ul>|
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **References** |<ul><li>[https://practical365.com/exchange-server/tracking-read-email-messages-exchange-server/](https://practical365.com/exchange-server/tracking-read-email-messages-exchange-server/)</li></ul>|
+| **Requirements** |<ul><li>MS_email_server</li></ul>|
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.  
-Here newlines will be saved.  
+List users who opened/read a particular email message using the Email Server's functionality.  

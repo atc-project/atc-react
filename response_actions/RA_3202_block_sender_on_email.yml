@@ -2,13 +2,12 @@ title: RA_3202_block_sender_on_email
 id: RA3202
 description: >
   Block an email sender on the Email-server
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: containment
-automation:
-  - thehive/phantom/demisto/etc
 references:
-  - https://example.com
+  - https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide
+requirements:
+  - MS_email_server
 workflow: |
-  Description of the workflow for the Response Action in markdown format.  
-  Here newlines will be saved.  
+  Block an email sender on an Email Server using its native filtering functionality.  

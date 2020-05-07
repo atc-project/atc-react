@@ -103,7 +103,7 @@ ra_mapping = {
     "RA2111": "Collect transferred data",
     "RA2112": "Identify transferred data",
     "RA2113": "List hosts communicated with external domain",
-    "RA2114": "List hosts communicated with external ip.",
+    "RA2114": "List hosts communicated with external IP",
     "RA2115": "List hosts communicated with external URL",
     "RA2116": "Find data transferred by content pattern",
     "RA2201": "List users opened email message",

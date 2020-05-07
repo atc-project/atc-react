@@ -2,13 +2,13 @@
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5201            |
 | **Description**             | Unblock a domain on email   |
-| **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 07.05.2020 |
 | **Category**                | Email      |
 | **Stage**                   |[RS0005: Recovery](../Response_Stages/RS0005.md)| 
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **References** |<ul><li>[https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide)</li></ul>|
+| **Requirements** |<ul><li>MS_email_server</li></ul>|
 
 ### Workflow
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Unblock an email domain on an Email Server using its native functionality.  

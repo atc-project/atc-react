@@ -1,7 +1,7 @@
 | Title                       | Reinstall host from golden image         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5001            |
-| **Description**             | Response Action for   |
+| **Description**             | Reinstall host OS from a golden image   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | General      |

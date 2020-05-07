@@ -1,7 +1,7 @@
 | Title                       | List victims of security alert         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2001            |
-| **Description**             | Response Action for   |
+| **Description**             | List victims of a security alert   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | General      |

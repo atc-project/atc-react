@@ -1,15 +1,13 @@
 | Title                       | List hosts communicated with external domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2113            |
-| **Description**             | Response Action for   |
-| **Author**                  | name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Description**             | List hosts communicated with an external domain   |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Network      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
-| **Automation** |<ul><li>thehive</li></ul>|
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **Requirements** |<ul><li>DN_zeek_conn_log</li><li>DN_zeek_dns_log</li><li>DN_zeek_http_log</li><li>DN_dns_log</li><li>DN_proxy_log</li><li>DN_network_flow_log</li></ul>|
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
+List hosts communicated with an external domain using the most efficient way.  

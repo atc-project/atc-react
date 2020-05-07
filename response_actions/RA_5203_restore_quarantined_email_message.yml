@@ -2,13 +2,10 @@ title: RA_5203_restore_quarantined_email_message
 id: RA5203
 description: >
   Restore a quarantined email message
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: recovery
-references:
-  - https://example.com
-linked_analytics:
-  - DN_zeek_conn_log # placeholder
+requirements:
+  - MS_email_server
 workflow: |
-  Description of the workflow for single Response Action in markdown format.
-  Here newlines will be saved.
+  Restore a quarantined email message on an Email Server using its native functionality.  
