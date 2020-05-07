@@ -1,14 +1,12 @@
 title: RA_2115_list_hosts_communicated_with_external_url
 id: RA2115
 description: >
-  Response Action for
-author: name/nickname/twitter
-creation_date: DD.MM.YYYY
+  List hosts communicated with an external URL
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: identification
-automation:
-  - thehive
-references:
-  - https://example.com
+requirements:
+  - DN_zeek_http_log
+  - DN_proxy_log
 workflow: |
-  Description of the workflow for the Response Action in markdown format.
-  Here newlines will be saved.
+  List hosts communicated with an external URL using the most efficient way.  

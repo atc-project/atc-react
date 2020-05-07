@@ -29,6 +29,7 @@ preparation:
   - RA_1203_get_ability_to_block_email_domain
   - RA_1204_get_ability_to_block_email_sender
   - RA_1205_get_ability_to_delete_email_message
+  - RA_1206_get_ability_to_quarantine_email_message
 identification:
   - RA_2003_put_compromised_accounts_on_monitoring
   - RA_2113_list_hosts_communicated_with_external_domain
@@ -45,10 +46,17 @@ containment:
   - RA_3105_block_external_url
   - RA_3201_block_domain_on_email
   - RA_3202_block_sender_on_email
+  - RA_3203_quarantine_email_message
 eradication:
   - RA_4001_report_incident_to_external_companies
   - RA_4201_delete_email_message
-  - RA_4601_revoke_authentication_credentials
+recovery:
+  - RA_5101_unblock_blocked_ip
+  - RA_5102_unblock_blocked_domain
+  - RA_5103_unblock_blocked_url
+  - RA_5201_unblock_domain_on_email
+  - RA_5202_unblock_sender_on_email
+  - RA_5203_restore_quarantined_email_message
 lessons_learned:
   - RA_6001_develop_incident_report
   - RA_6002_conduct_lessons_learned_exercise

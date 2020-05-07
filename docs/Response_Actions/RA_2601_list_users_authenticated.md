@@ -11,5 +11,5 @@
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
+Description of the workflow for the Response Action in markdown format.  
 Here newlines will be saved.

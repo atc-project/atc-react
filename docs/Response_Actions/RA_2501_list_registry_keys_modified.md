@@ -1,7 +1,7 @@
 | Title                       | List registry keys modified         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2501            |
-| **Description**             | Response Action for   |
+| **Description**             | List registry keys modified at a particular time in the past   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Configuration      |

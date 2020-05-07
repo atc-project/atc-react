@@ -1,7 +1,7 @@
 | Title                       | List hosts communicated with internal IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2102            |
-| **Description**             | Response Action for   |
+| **Description**             | List hosts communicated with an internal IP address   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Network      |
@@ -11,5 +11,5 @@
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
+Description of the workflow for the Response Action in markdown format.  
 Here newlines will be saved.

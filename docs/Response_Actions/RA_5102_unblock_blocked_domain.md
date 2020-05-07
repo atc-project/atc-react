@@ -1,14 +1,13 @@
 | Title                       | Unblock blocked domain         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA5102            |
-| **Description**             | Unblock a blocked domain   |
-| **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Description**             | Unblock a blocked domain name   |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Network      |
 | **Stage**                   |[RS0005: Recovery](../Response_Stages/RS0005.md)| 
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **Requirements** |<ul><li>MS_border_proxy</li><li>MS_border_ips</li><li>MS_border_ngfw</li><li>MS_intranet_proxy</li><li>MS_intranet_ips</li><li>MS_intranet_ngfw</li><li>MS_dns_server</li></ul>|
 
 ### Workflow
 
-Description of the workflow for single Response Action in markdown format.
-Here newlines will be saved.
+Unblock a blocked domain name in the system(s) used to block it.  

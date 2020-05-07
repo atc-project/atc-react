@@ -1,7 +1,7 @@
 title: RA_2102_list_hosts_communicated_with_internal_ip
 id: RA2102
 description: >
-  Response Action for 
+  List hosts communicated with an internal IP address
 author: name/nickname/twitter
 creation_date: DD.MM.YYYY
 stage: identification
@@ -10,5 +10,5 @@ automation:
 references: 
   - https://example.com
 workflow: |
-  Description of the workflow for the Response Action in markdown format.
+  Description of the workflow for the Response Action in markdown format.  
   Here newlines will be saved.

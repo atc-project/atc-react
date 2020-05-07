@@ -1,7 +1,7 @@
 | Title                       | Analyse domain name         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2104            |
-| **Description**             | Response Action for   |
+| **Description**             | Analyse a domain name   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Network      |

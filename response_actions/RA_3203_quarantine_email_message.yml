@@ -2,13 +2,13 @@ title: RA_3203_quarantine_email_message
 id: RA3203
 description: >
   Quarantine an email message
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: containment
 references:
-  - https://example.com
-linked_analytics:
-  - DN_zeek_conn_log # placeholder
+  - https://support.google.com/a/answer/6104172?hl=en
+  - https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-email-messages?view=o365-worldwide
+requirements:
+  - MS_email_server
 workflow: |
-  Description of the workflow for single Response Action in markdown format.
-  Here newlines will be saved.
+  Quarantine an email message on an Email Server using its native functionality.  

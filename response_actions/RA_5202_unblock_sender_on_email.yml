@@ -2,13 +2,10 @@ title: RA_5202_unblock_sender_on_email
 id: RA5202
 description: >
   Unblock a sender on email
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: recovery
-references:
-  - https://example.com
-linked_analytics:
-  - DN_zeek_conn_log # placeholder
+requirements:
+  - MS_email_server
 workflow: |
-  Description of the workflow for single Response Action in markdown format.
-  Here newlines will be saved.
+  Unblock an email sender on an Email Server using its native functionality.  

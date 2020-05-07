@@ -1,7 +1,7 @@
 | Title                       | List processes executed         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2401            |
-| **Description**             | Response Action for   |
+| **Description**             | List processes being executed at the moment or at a particular time in the past   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Process      |

@@ -2,13 +2,15 @@ title: RA_5103_unblock_blocked_url
 id: RA5103
 description: >
   Unblock a blocked URL
-author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+author: '@atc_project'
+creation_date: 06.05.2020
 stage: recovery
-references:
-  - https://example.com
-linked_analytics:
-  - DN_zeek_conn_log # placeholder
+requirements:
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
 workflow: |
-  Description of the workflow for single Response Action in markdown format.
-  Here newlines will be saved.
+  Unblock a blocked URL in the system(s) used to block it.  

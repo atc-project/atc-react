@@ -1,15 +1,13 @@
-| Title                       | List hosts communicated with external ip.         |
+| Title                       | List hosts communicated with external IP         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2114            |
-| **Description**             | Response Action for   |
-| **Author**                  | name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Description**             | List hosts communicated with an external IP address   |
+| **Author**                  | @atc_project        |
+| **Creation Date**           | 06.05.2020 |
 | **Category**                | Network      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
-| **Automation** |<ul><li>thehive</li></ul>|
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
+| **Requirements** |<ul><li>DN_network_flow_log</li><li>DN_zeek_conn_log</li></ul>|
 
 ### Workflow
 
-Description of the workflow for the Response Action in markdown format.
-Here newlines will be saved.
+List hosts communicated with an external IP address using the most efficient way.  

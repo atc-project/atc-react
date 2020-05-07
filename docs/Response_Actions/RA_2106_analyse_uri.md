@@ -1,7 +1,7 @@
 | Title                       | Analyse URL         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2106            |
-| **Description**             | Response Action for   |
+| **Description**             | Analyse an URL   |
 | **Author**                  | name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Network      |
