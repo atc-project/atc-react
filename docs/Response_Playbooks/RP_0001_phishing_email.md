@@ -171,12 +171,12 @@ List users who opened/read a particular email message using the Email Server's f
 
 ##### Collect an email message
 
-Collect an email message using most appropriate options:  
+Collect an email message using the most appropriate option:  
 
 - Email Team/Email server: if there is such option  
-- Person who reported the attack (if it wasn't detected automatically or reported by victims)  
+- The person that reported the attack (if it wasn't detected automatically or reported by victims)  
 - Victims: if they reported the attack  
-- Following the local computer forensic evidence collection procedure, if it is required by the situation
+- Following the local computer forensic evidence collection procedure, if the situation requires it
 
 Ask for the email in `.EML` format. Instructions:  
 
