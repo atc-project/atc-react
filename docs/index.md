@@ -111,204 +111,204 @@ The main resources:
 
 <br>
 
-[**Practice**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Take trainings**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Raise personnel awareness**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Make personnel report suspicious activity**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Set up relevant data collection*]: https://api.github.com/repos/atc-project/atc-react/issues/132
-[Set up a centralized long-term log storage*]: https://api.github.com/repos/atc-project/atc-react/issues/133
-[Develop communication map*]: https://api.github.com/repos/atc-project/atc-react/issues/134
-[Make sure there are backups*]: https://api.github.com/repos/atc-project/atc-react/issues/135
-[Get network architecture map*]: https://api.github.com/repos/atc-project/atc-react/issues/136
-[Get access control matrix*]: https://api.github.com/repos/atc-project/atc-react/issues/137
-[Develop assets knowledge base*]: https://api.github.com/repos/atc-project/atc-react/issues/138
-[Check analysis toolset*]: https://api.github.com/repos/atc-project/atc-react/issues/139
-[Access vulnerability management system logs*]: https://api.github.com/repos/atc-project/atc-react/issues/140
-[**Access external network flow logs**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Access internal network flow logs*]: https://api.github.com/repos/atc-project/atc-react/issues/141
-[Access internal HTTP logs*]: https://api.github.com/repos/atc-project/atc-react/issues/142
-[**Access external HTTP logs**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Access internal DNS logs*]: https://api.github.com/repos/atc-project/atc-react/issues/143
-[**Access external DNS logs**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Access VPN logs*]: https://api.github.com/repos/atc-project/atc-react/issues/144
-[Access DHCP logs*]: https://api.github.com/repos/atc-project/atc-react/issues/145
-[Access internal packet capture data*]: https://api.github.com/repos/atc-project/atc-react/issues/146
-[Access external packet capture data*]: https://api.github.com/repos/atc-project/atc-react/issues/147
-[**Get ability to block external IP address**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Get ability to block internal IP address*]: https://api.github.com/repos/atc-project/atc-react/issues/148
-[**Get ability to block external domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Get ability to block internal domain*]: https://api.github.com/repos/atc-project/atc-react/issues/149
-[**Get ability to block external URL**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Get ability to block internal URL*]: https://api.github.com/repos/atc-project/atc-react/issues/150
-[Get ability to block port external communication*]: https://api.github.com/repos/atc-project/atc-react/issues/151
-[Get ability to block port internal communication*]: https://api.github.com/repos/atc-project/atc-react/issues/152
-[Get ability to block user external communication*]: https://api.github.com/repos/atc-project/atc-react/issues/153
-[Get ability to block user internal communication*]: https://api.github.com/repos/atc-project/atc-react/issues/154
-[Get ability to find data transferred by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/155
-[Get ability to block data transferring by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/156
-[Get ability to list data transferred*]: https://api.github.com/repos/atc-project/atc-react/issues/157
-[Get ability to collect transferred data*]: https://api.github.com/repos/atc-project/atc-react/issues/158
-[Get ability to identify transferred data*]: https://api.github.com/repos/atc-project/atc-react/issues/159
-[Find data transferred by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/160
-[**Get ability to list users opened email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Get ability to list email message receivers**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Get ability to block email domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Get ability to block email sender**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Get ability to delete email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Get ability to quarantine email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Get ability to collect email message*]: https://api.github.com/repos/atc-project/atc-react/issues/161
-[Get ability to list files created*]: https://api.github.com/repos/atc-project/atc-react/issues/162
-[Get ability to list files modified*]: https://api.github.com/repos/atc-project/atc-react/issues/163
-[Get ability to list files deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/164
-[Get ability to list files downloaded*]: https://api.github.com/repos/atc-project/atc-react/issues/165
-[Get ability to list files with tampered timestamps*]: https://api.github.com/repos/atc-project/atc-react/issues/166
-[Get ability to find file by path*]: https://api.github.com/repos/atc-project/atc-react/issues/167
-[Get ability to find file by metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/168
-[Get ability to find file by hash*]: https://api.github.com/repos/atc-project/atc-react/issues/169
-[Get ability to find file by format*]: https://api.github.com/repos/atc-project/atc-react/issues/170
-[Get ability to find file by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/171
-[Get ability to collect file*]: https://api.github.com/repos/atc-project/atc-react/issues/172
-[Get ability to quarantine file by path*]: https://api.github.com/repos/atc-project/atc-react/issues/173
-[Get ability to quarantine file by hash*]: https://api.github.com/repos/atc-project/atc-react/issues/174
-[Get ability to quarantine file by format*]: https://api.github.com/repos/atc-project/atc-react/issues/175
-[Get ability to quarantine file by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/176
-[Get ability to remove file*]: https://api.github.com/repos/atc-project/atc-react/issues/177
-[Get ability to list processes executed*]: https://api.github.com/repos/atc-project/atc-react/issues/178
-[Get ability to find process by executable path*]: https://api.github.com/repos/atc-project/atc-react/issues/179
-[Get ability to find process by executable metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/180
-[Get ability to find process by executable hash*]: https://api.github.com/repos/atc-project/atc-react/issues/181
-[Get ability to find process by executable format*]: https://api.github.com/repos/atc-project/atc-react/issues/182
-[Get ability to find process by executable content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/183
-[Get ability to block process by executable path*]: https://api.github.com/repos/atc-project/atc-react/issues/184
-[Get ability to block process by executable metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/185
-[Get ability to block process by executable hash*]: https://api.github.com/repos/atc-project/atc-react/issues/186
-[Get ability to block process by executable format*]: https://api.github.com/repos/atc-project/atc-react/issues/187
-[Get ability to block process by executable content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/188
-[Manage remote computer management system policies*]: https://api.github.com/repos/atc-project/atc-react/issues/189
-[Get ability to list registry keys modified*]: https://api.github.com/repos/atc-project/atc-react/issues/190
-[Get ability to list registry keys deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/191
-[Get ability to list registry keys accessed*]: https://api.github.com/repos/atc-project/atc-react/issues/192
-[Get ability to list registry keys created*]: https://api.github.com/repos/atc-project/atc-react/issues/193
-[Get ability to list services created*]: https://api.github.com/repos/atc-project/atc-react/issues/194
-[Get ability to list services modified*]: https://api.github.com/repos/atc-project/atc-react/issues/195
-[Get ability to list services deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/196
-[Get ability to remove registry key*]: https://api.github.com/repos/atc-project/atc-react/issues/197
-[Get ability to remove service*]: https://api.github.com/repos/atc-project/atc-react/issues/198
-[Manage identity management system*]: https://api.github.com/repos/atc-project/atc-react/issues/199
-[Get ability to lock user account*]: https://api.github.com/repos/atc-project/atc-react/issues/200
-[Get ability to list users authenticated*]: https://api.github.com/repos/atc-project/atc-react/issues/201
-[Get ability to revoke authentication credentials*]: https://api.github.com/repos/atc-project/atc-react/issues/202
-[Get ability to remove user account*]: https://api.github.com/repos/atc-project/atc-react/issues/203
+[**Practice**]: Response_Actions/RA_1001_practice.md
+[**Take trainings**]: Response_Actions/RA_1002_take_trainings.md
+[**Raise personnel awareness**]: Response_Actions/RA_1003_raise_personnel_awareness.md
+[**Make personnel report suspicious activity**]: Response_Actions/RA_1004_make_personnel_report_suspicious_activity.md
+[Set up relevant data collection*]: https://github.com/atc-project/atc-react/issues/132
+[Set up a centralized long-term log storage*]: https://github.com/atc-project/atc-react/issues/133
+[Develop communication map*]: https://github.com/atc-project/atc-react/issues/134
+[Make sure there are backups*]: https://github.com/atc-project/atc-react/issues/135
+[Get network architecture map*]: https://github.com/atc-project/atc-react/issues/136
+[Get access control matrix*]: https://github.com/atc-project/atc-react/issues/137
+[Develop assets knowledge base*]: https://github.com/atc-project/atc-react/issues/138
+[Check analysis toolset*]: https://github.com/atc-project/atc-react/issues/139
+[Access vulnerability management system logs*]: https://github.com/atc-project/atc-react/issues/140
+[**Access external network flow logs**]: Response_Actions/RA_1101_access_external_network_flow_logs.md
+[Access internal network flow logs*]: https://github.com/atc-project/atc-react/issues/141
+[Access internal HTTP logs*]: https://github.com/atc-project/atc-react/issues/142
+[**Access external HTTP logs**]: Response_Actions/RA_1104_access_external_http_logs.md
+[Access internal DNS logs*]: https://github.com/atc-project/atc-react/issues/143
+[**Access external DNS logs**]: Response_Actions/RA_1106_access_external_dns_logs.md
+[Access VPN logs*]: https://github.com/atc-project/atc-react/issues/144
+[Access DHCP logs*]: https://github.com/atc-project/atc-react/issues/145
+[Access internal packet capture data*]: https://github.com/atc-project/atc-react/issues/146
+[Access external packet capture data*]: https://github.com/atc-project/atc-react/issues/147
+[**Get ability to block external IP address**]: Response_Actions/RA_1111_get_ability_to_block_external_ip_address.md
+[Get ability to block internal IP address*]: https://github.com/atc-project/atc-react/issues/148
+[**Get ability to block external domain**]: Response_Actions/RA_1113_get_ability_to_block_external_domain.md
+[Get ability to block internal domain*]: https://github.com/atc-project/atc-react/issues/149
+[**Get ability to block external URL**]: Response_Actions/RA_1115_get_ability_to_block_external_url.md
+[Get ability to block internal URL*]: https://github.com/atc-project/atc-react/issues/150
+[Get ability to block port external communication*]: https://github.com/atc-project/atc-react/issues/151
+[Get ability to block port internal communication*]: https://github.com/atc-project/atc-react/issues/152
+[Get ability to block user external communication*]: https://github.com/atc-project/atc-react/issues/153
+[Get ability to block user internal communication*]: https://github.com/atc-project/atc-react/issues/154
+[Get ability to find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/155
+[Get ability to block data transferring by content pattern*]: https://github.com/atc-project/atc-react/issues/156
+[Get ability to list data transferred*]: https://github.com/atc-project/atc-react/issues/157
+[Get ability to collect transferred data*]: https://github.com/atc-project/atc-react/issues/158
+[Get ability to identify transferred data*]: https://github.com/atc-project/atc-react/issues/159
+[Find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/160
+[**Get ability to list users opened email message**]: Response_Actions/RA_1201_get_ability_to_list_users_opened_email_message.md
+[**Get ability to list email message receivers**]: Response_Actions/RA_1202_get_ability_to_list_email_message_receivers.md
+[**Get ability to block email domain**]: Response_Actions/RA_1203_get_ability_to_block_email_domain.md
+[**Get ability to block email sender**]: Response_Actions/RA_1204_get_ability_to_block_email_sender.md
+[**Get ability to delete email message**]: Response_Actions/RA_1205_get_ability_to_delete_email_message.md
+[**Get ability to quarantine email message**]: Response_Actions/RA_1206_get_ability_to_quarantine_email_message.md
+[Get ability to collect email message*]: https://github.com/atc-project/atc-react/issues/161
+[Get ability to list files created*]: https://github.com/atc-project/atc-react/issues/162
+[Get ability to list files modified*]: https://github.com/atc-project/atc-react/issues/163
+[Get ability to list files deleted*]: https://github.com/atc-project/atc-react/issues/164
+[Get ability to list files downloaded*]: https://github.com/atc-project/atc-react/issues/165
+[Get ability to list files with tampered timestamps*]: https://github.com/atc-project/atc-react/issues/166
+[Get ability to find file by path*]: https://github.com/atc-project/atc-react/issues/167
+[Get ability to find file by metadata*]: https://github.com/atc-project/atc-react/issues/168
+[Get ability to find file by hash*]: https://github.com/atc-project/atc-react/issues/169
+[Get ability to find file by format*]: https://github.com/atc-project/atc-react/issues/170
+[Get ability to find file by content pattern*]: https://github.com/atc-project/atc-react/issues/171
+[Get ability to collect file*]: https://github.com/atc-project/atc-react/issues/172
+[Get ability to quarantine file by path*]: https://github.com/atc-project/atc-react/issues/173
+[Get ability to quarantine file by hash*]: https://github.com/atc-project/atc-react/issues/174
+[Get ability to quarantine file by format*]: https://github.com/atc-project/atc-react/issues/175
+[Get ability to quarantine file by content pattern*]: https://github.com/atc-project/atc-react/issues/176
+[Get ability to remove file*]: https://github.com/atc-project/atc-react/issues/177
+[Get ability to list processes executed*]: https://github.com/atc-project/atc-react/issues/178
+[Get ability to find process by executable path*]: https://github.com/atc-project/atc-react/issues/179
+[Get ability to find process by executable metadata*]: https://github.com/atc-project/atc-react/issues/180
+[Get ability to find process by executable hash*]: https://github.com/atc-project/atc-react/issues/181
+[Get ability to find process by executable format*]: https://github.com/atc-project/atc-react/issues/182
+[Get ability to find process by executable content pattern*]: https://github.com/atc-project/atc-react/issues/183
+[Get ability to block process by executable path*]: https://github.com/atc-project/atc-react/issues/184
+[Get ability to block process by executable metadata*]: https://github.com/atc-project/atc-react/issues/185
+[Get ability to block process by executable hash*]: https://github.com/atc-project/atc-react/issues/186
+[Get ability to block process by executable format*]: https://github.com/atc-project/atc-react/issues/187
+[Get ability to block process by executable content pattern*]: https://github.com/atc-project/atc-react/issues/188
+[Manage remote computer management system policies*]: https://github.com/atc-project/atc-react/issues/189
+[Get ability to list registry keys modified*]: https://github.com/atc-project/atc-react/issues/190
+[Get ability to list registry keys deleted*]: https://github.com/atc-project/atc-react/issues/191
+[Get ability to list registry keys accessed*]: https://github.com/atc-project/atc-react/issues/192
+[Get ability to list registry keys created*]: https://github.com/atc-project/atc-react/issues/193
+[Get ability to list services created*]: https://github.com/atc-project/atc-react/issues/194
+[Get ability to list services modified*]: https://github.com/atc-project/atc-react/issues/195
+[Get ability to list services deleted*]: https://github.com/atc-project/atc-react/issues/196
+[Get ability to remove registry key*]: https://github.com/atc-project/atc-react/issues/197
+[Get ability to remove service*]: https://github.com/atc-project/atc-react/issues/198
+[Manage identity management system*]: https://github.com/atc-project/atc-react/issues/199
+[Get ability to lock user account*]: https://github.com/atc-project/atc-react/issues/200
+[Get ability to list users authenticated*]: https://github.com/atc-project/atc-react/issues/201
+[Get ability to revoke authentication credentials*]: https://github.com/atc-project/atc-react/issues/202
+[Get ability to remove user account*]: https://github.com/atc-project/atc-react/issues/203
 
-[List victims of security alert*]: https://api.github.com/repos/atc-project/atc-react/issues/49
-[List host vulnerabilities*]: https://api.github.com/repos/atc-project/atc-react/issues/204
-[**Put compromised accounts on monitoring**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[List hosts communicated with internal domain*]: https://api.github.com/repos/atc-project/atc-react/issues/45
-[List hosts communicated with internal IP*]: https://api.github.com/repos/atc-project/atc-react/issues/46
-[List hosts communicated with internal URL*]: https://api.github.com/repos/atc-project/atc-react/issues/47
-[Analyse domain name*]: https://api.github.com/repos/atc-project/atc-react/issues/31
-[Analyse IP*]: https://api.github.com/repos/atc-project/atc-react/issues/40
-[Analyse URI*]: https://api.github.com/repos/atc-project/atc-react/issues/32
-[List hosts communicated by port*]: https://api.github.com/repos/atc-project/atc-react/issues/205
-[List hosts connected to VPN*]: https://api.github.com/repos/atc-project/atc-react/issues/206
-[List hosts connected to intranet*]: https://api.github.com/repos/atc-project/atc-react/issues/207
-[List data transferred*]: https://api.github.com/repos/atc-project/atc-react/issues/208
-[Collect transferred data*]: https://api.github.com/repos/atc-project/atc-react/issues/209
-[Identify transferred data*]: https://api.github.com/repos/atc-project/atc-react/issues/210
-[**List hosts communicated with external domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**List hosts communicated with external IP**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**List hosts communicated with external URL**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Find data transferred by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/211
-[**List users opened email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Collect email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**List email message receivers**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Make sure email message is phishing**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Extract observables from email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[List files created*]: https://api.github.com/repos/atc-project/atc-react/issues/48
-[List files modified*]: https://api.github.com/repos/atc-project/atc-react/issues/212
-[List files deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/213
-[List files downloaded*]: https://api.github.com/repos/atc-project/atc-react/issues/214
-[List files with tampered timestamps*]: https://api.github.com/repos/atc-project/atc-react/issues/215
-[Find file by path*]: https://api.github.com/repos/atc-project/atc-react/issues/216
-[Find file by metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/217
-[Find file by hash*]: https://api.github.com/repos/atc-project/atc-react/issues/218
-[Find file by format*]: https://api.github.com/repos/atc-project/atc-react/issues/219
-[Find file by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/220
-[Collect file*]: https://api.github.com/repos/atc-project/atc-react/issues/221
-[Analyse file hash*]: https://api.github.com/repos/atc-project/atc-react/issues/39
-[Analyse Windows PE*]: https://api.github.com/repos/atc-project/atc-react/issues/33
-[Analyse macos macho*]: https://api.github.com/repos/atc-project/atc-react/issues/41
-[Analyse Unix ELF*]: https://api.github.com/repos/atc-project/atc-react/issues/44
-[Analyse MS office file*]: https://api.github.com/repos/atc-project/atc-react/issues/42
-[Analyse PDF file*]: https://api.github.com/repos/atc-project/atc-react/issues/43
-[List processes executed*]: https://api.github.com/repos/atc-project/atc-react/issues/34
-[Find process by executable path*]: https://api.github.com/repos/atc-project/atc-react/issues/222
-[Find process by executable metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/223
-[Find process by executable hash*]: https://api.github.com/repos/atc-project/atc-react/issues/224
-[Find process by executable format*]: https://api.github.com/repos/atc-project/atc-react/issues/225
-[Find process by executable content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/226
-[List registry keys modified*]: https://api.github.com/repos/atc-project/atc-react/issues/37
-[List registry keys deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/227
-[List registry keys accessed*]: https://api.github.com/repos/atc-project/atc-react/issues/228
-[List registry keys created*]: https://api.github.com/repos/atc-project/atc-react/issues/229
-[List services created*]: https://api.github.com/repos/atc-project/atc-react/issues/230
-[List services modified*]: https://api.github.com/repos/atc-project/atc-react/issues/231
-[List services deleted*]: https://api.github.com/repos/atc-project/atc-react/issues/232
-[List users authenticated*]: https://api.github.com/repos/atc-project/atc-react/issues/233
+[List victims of security alert*]: https://github.com/atc-project/atc-react/issues/49
+[List host vulnerabilities*]: https://github.com/atc-project/atc-react/issues/204
+[**Put compromised accounts on monitoring**]: Response_Actions/RA_2003_put_compromised_accounts_on_monitoring.md
+[List hosts communicated with internal domain*]: https://github.com/atc-project/atc-react/issues/45
+[List hosts communicated with internal IP*]: https://github.com/atc-project/atc-react/issues/46
+[List hosts communicated with internal URL*]: https://github.com/atc-project/atc-react/issues/47
+[Analyse domain name*]: https://github.com/atc-project/atc-react/issues/31
+[Analyse IP*]: https://github.com/atc-project/atc-react/issues/40
+[Analyse URI*]: https://github.com/atc-project/atc-react/issues/32
+[List hosts communicated by port*]: https://github.com/atc-project/atc-react/issues/205
+[List hosts connected to VPN*]: https://github.com/atc-project/atc-react/issues/206
+[List hosts connected to intranet*]: https://github.com/atc-project/atc-react/issues/207
+[List data transferred*]: https://github.com/atc-project/atc-react/issues/208
+[Collect transferred data*]: https://github.com/atc-project/atc-react/issues/209
+[Identify transferred data*]: https://github.com/atc-project/atc-react/issues/210
+[**List hosts communicated with external domain**]: Response_Actions/RA_2113_list_hosts_communicated_with_external_domain.md
+[**List hosts communicated with external IP**]: Response_Actions/RA_2114_list_hosts_communicated_with_external_ip.md
+[**List hosts communicated with external URL**]: Response_Actions/RA_2115_list_hosts_communicated_with_external_url.md
+[Find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/211
+[**List users opened email message**]: Response_Actions/RA_2201_list_users_opened_email_message.md
+[**Collect email message**]: Response_Actions/RA_2202_collect_email_message.md
+[**List email message receivers**]: Response_Actions/RA_2203_list_email_message_receivers.md
+[**Make sure email message is phishing**]: Response_Actions/RA_2204_make_sure_email_message_is_phishing.md
+[**Extract observables from email message**]: Response_Actions/RA_2205_extract_observables_from_email_message.md
+[List files created*]: https://github.com/atc-project/atc-react/issues/48
+[List files modified*]: https://github.com/atc-project/atc-react/issues/212
+[List files deleted*]: https://github.com/atc-project/atc-react/issues/213
+[List files downloaded*]: https://github.com/atc-project/atc-react/issues/214
+[List files with tampered timestamps*]: https://github.com/atc-project/atc-react/issues/215
+[Find file by path*]: https://github.com/atc-project/atc-react/issues/216
+[Find file by metadata*]: https://github.com/atc-project/atc-react/issues/217
+[Find file by hash*]: https://github.com/atc-project/atc-react/issues/218
+[Find file by format*]: https://github.com/atc-project/atc-react/issues/219
+[Find file by content pattern*]: https://github.com/atc-project/atc-react/issues/220
+[Collect file*]: https://github.com/atc-project/atc-react/issues/221
+[Analyse file hash*]: https://github.com/atc-project/atc-react/issues/39
+[Analyse Windows PE*]: https://github.com/atc-project/atc-react/issues/33
+[Analyse macos macho*]: https://github.com/atc-project/atc-react/issues/41
+[Analyse Unix ELF*]: https://github.com/atc-project/atc-react/issues/44
+[Analyse MS office file*]: https://github.com/atc-project/atc-react/issues/42
+[Analyse PDF file*]: https://github.com/atc-project/atc-react/issues/43
+[List processes executed*]: https://github.com/atc-project/atc-react/issues/34
+[Find process by executable path*]: https://github.com/atc-project/atc-react/issues/222
+[Find process by executable metadata*]: https://github.com/atc-project/atc-react/issues/223
+[Find process by executable hash*]: https://github.com/atc-project/atc-react/issues/224
+[Find process by executable format*]: https://github.com/atc-project/atc-react/issues/225
+[Find process by executable content pattern*]: https://github.com/atc-project/atc-react/issues/226
+[List registry keys modified*]: https://github.com/atc-project/atc-react/issues/37
+[List registry keys deleted*]: https://github.com/atc-project/atc-react/issues/227
+[List registry keys accessed*]: https://github.com/atc-project/atc-react/issues/228
+[List registry keys created*]: https://github.com/atc-project/atc-react/issues/229
+[List services created*]: https://github.com/atc-project/atc-react/issues/230
+[List services modified*]: https://github.com/atc-project/atc-react/issues/231
+[List services deleted*]: https://github.com/atc-project/atc-react/issues/232
+[List users authenticated*]: https://github.com/atc-project/atc-react/issues/233
 
-[Patch vulnerability*]: https://api.github.com/repos/atc-project/atc-react/issues/234
-[**Block external IP address**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block internal IP address**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block external domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block internal domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block external URL**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block internal URL**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block port external communication**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block port internal communication**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block user external communication**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block user internal communication**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Block data transferring by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/235
-[**Block domain on email**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Block sender on email**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Quarantine email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Quarantine file by format*]: https://api.github.com/repos/atc-project/atc-react/issues/236
-[Quarantine file by hash*]: https://api.github.com/repos/atc-project/atc-react/issues/237
-[Quarantine file by path*]: https://api.github.com/repos/atc-project/atc-react/issues/238
-[Quarantine file by content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/239
-[Block process by executable path*]: https://api.github.com/repos/atc-project/atc-react/issues/240
-[Block process by executable metadata*]: https://api.github.com/repos/atc-project/atc-react/issues/241
-[Block process by executable hash*]: https://api.github.com/repos/atc-project/atc-react/issues/242
-[Block process by executable format*]: https://api.github.com/repos/atc-project/atc-react/issues/243
-[Block process by executable content pattern*]: https://api.github.com/repos/atc-project/atc-react/issues/244
-[Disable system service*]: https://api.github.com/repos/atc-project/atc-react/issues/245
-[Lock user account*]: https://api.github.com/repos/atc-project/atc-react/issues/246
+[Patch vulnerability*]: https://github.com/atc-project/atc-react/issues/234
+[**Block external IP address**]: Response_Actions/RA_3101_block_external_ip_address.md
+[**Block internal IP address**]: Response_Actions/RA_3102_block_internal_ip_address.md
+[**Block external domain**]: Response_Actions/RA_3103_block_external_domain.md
+[**Block internal domain**]: Response_Actions/RA_3104_block_internal_domain.md
+[**Block external URL**]: Response_Actions/RA_3105_block_external_url.md
+[**Block internal URL**]: Response_Actions/RA_3106_block_internal_url.md
+[**Block port external communication**]: Response_Actions/RA_3107_block_port_external_communication.md
+[**Block port internal communication**]: Response_Actions/RA_3108_block_port_internal_communication.md
+[**Block user external communication**]: Response_Actions/RA_3109_block_user_external_communication.md
+[**Block user internal communication**]: Response_Actions/RA_3110_block_user_internal_communication.md
+[Block data transferring by content pattern*]: https://github.com/atc-project/atc-react/issues/235
+[**Block domain on email**]: Response_Actions/RA_3201_block_domain_on_email.md
+[**Block sender on email**]: Response_Actions/RA_3202_block_sender_on_email.md
+[**Quarantine email message**]: Response_Actions/RA_3203_quarantine_email_message.md
+[Quarantine file by format*]: https://github.com/atc-project/atc-react/issues/236
+[Quarantine file by hash*]: https://github.com/atc-project/atc-react/issues/237
+[Quarantine file by path*]: https://github.com/atc-project/atc-react/issues/238
+[Quarantine file by content pattern*]: https://github.com/atc-project/atc-react/issues/239
+[Block process by executable path*]: https://github.com/atc-project/atc-react/issues/240
+[Block process by executable metadata*]: https://github.com/atc-project/atc-react/issues/241
+[Block process by executable hash*]: https://github.com/atc-project/atc-react/issues/242
+[Block process by executable format*]: https://github.com/atc-project/atc-react/issues/243
+[Block process by executable content pattern*]: https://github.com/atc-project/atc-react/issues/244
+[Disable system service*]: https://github.com/atc-project/atc-react/issues/245
+[Lock user account*]: https://github.com/atc-project/atc-react/issues/246
 
-[**Report incident to external companies**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Remove rogue network device*]: https://api.github.com/repos/atc-project/atc-react/issues/247
-[**Delete email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Remove file*]: https://api.github.com/repos/atc-project/atc-react/issues/248
-[Remove registry key*]: https://api.github.com/repos/atc-project/atc-react/issues/249
-[Remove service*]: https://api.github.com/repos/atc-project/atc-react/issues/250
-[**Revoke authentication credentials**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Remove user account*]: https://api.github.com/repos/atc-project/atc-react/issues/251
+[**Report incident to external companies**]: Response_Actions/RA_4001_report_incident_to_external_companies.md
+[Remove rogue network device*]: https://github.com/atc-project/atc-react/issues/247
+[**Delete email message**]: Response_Actions/RA_4201_delete_email_message.md
+[Remove file*]: https://github.com/atc-project/atc-react/issues/248
+[Remove registry key*]: https://github.com/atc-project/atc-react/issues/249
+[Remove service*]: https://github.com/atc-project/atc-react/issues/250
+[**Revoke authentication credentials**]: Response_Actions/RA_4601_revoke_authentication_credentials.md
+[Remove user account*]: https://github.com/atc-project/atc-react/issues/251
 
-[Reinstall host from golden image*]: https://api.github.com/repos/atc-project/atc-react/issues/38
-[Restore data from backup*]: https://api.github.com/repos/atc-project/atc-react/issues/252
-[**Unblock blocked IP**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Unblock blocked domain**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Unblock blocked URL**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Unblock blocked port*]: https://api.github.com/repos/atc-project/atc-react/issues/253
-[Unblock blocked user*]: https://api.github.com/repos/atc-project/atc-react/issues/254
-[**Unblock domain on email**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Unblock sender on email**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Restore quarantined email message**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[Restore quarantined file*]: https://api.github.com/repos/atc-project/atc-react/issues/255
-[Unblock blocked process*]: https://api.github.com/repos/atc-project/atc-react/issues/256
-[Enable disabled service*]: https://api.github.com/repos/atc-project/atc-react/issues/257
-[Unlock locked user account*]: https://api.github.com/repos/atc-project/atc-react/issues/258
+[Reinstall host from golden image*]: https://github.com/atc-project/atc-react/issues/38
+[Restore data from backup*]: https://github.com/atc-project/atc-react/issues/252
+[**Unblock blocked IP**]: Response_Actions/RA_5101_unblock_blocked_ip.md
+[**Unblock blocked domain**]: Response_Actions/RA_5102_unblock_blocked_domain.md
+[**Unblock blocked URL**]: Response_Actions/RA_5103_unblock_blocked_url.md
+[Unblock blocked port*]: https://github.com/atc-project/atc-react/issues/253
+[Unblock blocked user*]: https://github.com/atc-project/atc-react/issues/254
+[**Unblock domain on email**]: Response_Actions/RA_5201_unblock_domain_on_email.md
+[**Unblock sender on email**]: Response_Actions/RA_5202_unblock_sender_on_email.md
+[**Restore quarantined email message**]: Response_Actions/RA_5203_restore_quarantined_email_message.md
+[Restore quarantined file*]: https://github.com/atc-project/atc-react/issues/255
+[Unblock blocked process*]: https://github.com/atc-project/atc-react/issues/256
+[Enable disabled service*]: https://github.com/atc-project/atc-react/issues/257
+[Unlock locked user account*]: https://github.com/atc-project/atc-react/issues/258
 
-[**Develop incident report**]: Response_Actions/RA_5601_unlock_locked_user_account.md
-[**Conduct lessons learned exercise**]: Response_Actions/RA_5601_unlock_locked_user_account.md
+[**Develop incident report**]: Response_Actions/RA_6001_develop_incident_report.md
+[**Conduct lessons learned exercise**]: Response_Actions/RA_6002_conduct_lessons_learned_exercise.md
 
 
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
