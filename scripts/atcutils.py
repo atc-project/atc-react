@@ -24,12 +24,12 @@ with warnings.catch_warnings():
 class ATCConfig(object):
     """Class for handling the project configuration"""
 
-    def __init__(self, path='scripts/config.yml'):
+    def __init__(self, path='config.yml'):
         """Constructor that will return an ATCconfig object holding
         the project configuration
 
         Keyword Arguments:
-            path {str} -- 'Path of the local configuration file' (default: {'scripts/config.yml'})
+            path {str} -- 'Path of the local configuration file' (default: {'config.yml'})
         """
 
         self.config_local = path
@@ -155,7 +155,7 @@ class ATCutils:
     def read_yaml_file(path):
         """Open the yaml file and load it to the variable.
         Return created list"""
-        if path == 'scripts/config.yml':
+        if path == 'config.yml':
             wrn = "Use 'load_config' or 'ATCConfig' instead for config"
             # Warning will not show,
             # unless captured by logging facility or python called with -Wd
