@@ -72,7 +72,7 @@ if __name__ == '__main__':
     elif args.navigator:
         GenerateNavigator()
     elif args.thehive:
-        ATCconfig = ATCutils.read_yaml_file("scripts/config.yml")
+        ATCconfig = ATCutils.read_yaml_file("config.yml")
         ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")
         #print("HINT: Make sure proper directories are " +
         #      "configured in the scripts/config.yml")
