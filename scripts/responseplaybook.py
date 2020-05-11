@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
-from scripts.attack_mapping import te_mapping, ta_mapping
-from scripts.amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
-
 from jinja2 import Environment, FileSystemLoader
+
+try:
+    from scripts.atcutils import ATCutils
+    from scripts.attack_mapping import te_mapping, ta_mapping
+    from scripts.amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
+    env = Environment(loader=FileSystemLoader('scripts/templates'))
+except:
+    from atcutils import ATCutils
+    from attack_mapping import te_mapping, ta_mapping
+    from amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
+    env = Environment(loader=FileSystemLoader(
+        'react_scripts/templates'))
+
 import os
 import re
 
 # ########################################################################### #
-# ########################### Response Playboo ############################## #
+# ########################### Response Playbook ############################# #
 # ########################################################################### #
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
 
 
 class ResponsePlaybook:
@@ -45,8 +54,6 @@ class ResponsePlaybook:
                 "Bad template_type. Available values:" +
                 " [\"markdown\"]")
 
-        # Point to the templates directory
-        env = Environment(loader=FileSystemLoader('scripts/templates'))
 
         # Get proper template
         template = env.get_template(

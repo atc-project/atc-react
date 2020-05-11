@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
 from jinja2 import Environment, FileSystemLoader
-from scripts.react_mapping import rs_mapping
+try:
+    from scripts.atcutils import ATCutils
+    from scripts.react_mapping import rs_mapping
+    env = Environment(loader=FileSystemLoader('scripts/templates'))
+except:
+    from atcutils import ATCutils
+    from react_scripts.react_mapping import rs_mapping
+    env = Environment(loader=FileSystemLoader(
+        'react_scripts/templates'))
+
 import os
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
 
 
 class ResponseAction:
@@ -40,8 +48,6 @@ class ResponseAction:
                 "Bad template_type. Available values:" +
                 " [\"markdown\"]")
 
-        # Point to the templates directory
-        env = Environment(loader=FileSystemLoader('scripts/templates'))
 
         template = env.get_template(
             'markdown_responseaction_template.md.j2'
