@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
 from jinja2 import Environment, FileSystemLoader
-from scripts.react_mapping import rs_mapping
+
+try:
+    from scripts.atcutils import ATCutils
+    from scripts.react_mapping import rs_mapping
+    env = Environment(loader=FileSystemLoader('scripts/templates'))
+except:
+    from atcutils import ATCutils
+    from react_scripts.react_mapping import rs_mapping
+    env = Environment(loader=FileSystemLoader(
+        'react_scripts/templates'))
+
 import os
 
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
 
 
 class ResponseStage:
@@ -39,9 +48,6 @@ class ResponseStage:
                 "Bad template_type. Available values:" +
                 " [\"markdown\"]")
 
-        # Point to the templates directory
-        env = Environment(loader=FileSystemLoader('scripts/templates'))
-
         template = env.get_template(
             'markdown_responsestage_template.md.j2'
         )
@@ -51,9 +57,10 @@ class ResponseStage:
                 .get('description').strip()}
         )
 
-        ras, ra_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_actions_dir'))
-        ra_filenames = [ra_path.split('/')[-1].replace('.yml', '') for ra_path in ra_paths]
-
+        ras, ra_paths = ATCutils.load_yamls_with_paths(
+            ATCconfig.get('response_actions_dir'))
+        ra_filenames = [ra_path.split('/')[-1].replace('.yml', '')
+                        for ra_path in ra_paths]
 
         rs_id = self.ra_parsed_file.get('id')
 
@@ -65,7 +72,8 @@ class ResponseStage:
                 ra_filename = ra_filenames[i]
                 ra_title = ATCutils.normalize_react_title(ras[i].get('title'))
                 ra_description = ras[i].get('description').strip()
-                stage_list.append((ra_id, ra_filename, ra_title, ra_description))
+                stage_list.append(
+                    (ra_id, ra_filename, ra_title, ra_description))
 
         self.ra_parsed_file.update({'stage_list': sorted(stage_list)})
 

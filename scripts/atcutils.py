@@ -14,7 +14,7 @@ from yaml.scanner import ScannerError
 
 # Default configuration file path
 DEFAULT_PROJECT_CONFIG_PATH = 'scripts/config.default.yml'
-DEFAULT_CONFIG_PATH = 'scripts/config.yml'
+DEFAULT_CONFIG_PATH = 'config.yml'
 
 # Show warnings only once:
 with warnings.catch_warnings():

@@ -2,14 +2,20 @@
 
 import json
 import requests
+try:
+    from scripts.atcutils import ATCutils
+except:
+    from atcutils import ATCutils
+
+ATCconfig = ATCutils.load_config("config.yml")
+
+local_react_json_url = ATCconfig.get('local_react_json_url')
+remote_react_json_url = ATCconfig.get('remote_react_json_url')
+react_mapping_url = ATCconfig.get('react_mapping_url')
 
 ra_mapping = {}
 rs_mapping = {}
 
-local_react_json_url = 'docs/react.json'
-remote_react_json_url = ("https://raw.githubusercontent.com/"
-                           "/atc-project/atc-react/master/"
-                           "docs/react.json")
 
 class UpdateReactMapping:
 
@@ -34,8 +40,9 @@ class UpdateReactMapping:
                 rs_name = object['name']
                 rs_mapping.update({rs_id: rs_name})
 
-        with open('scripts/react_mapping.py', 'w') as fp:
-            fp.write("ra_mapping = " + json.dumps(ra_mapping, sort_keys=True, indent=4) + '\n')
-            fp.write("rs_mapping = " + json.dumps(rs_mapping, sort_keys=True, indent=4))
+        with open(react_mapping_url, 'w') as fp:
+            fp.write("ra_mapping = " + json.dumps(ra_mapping,
+                                                  sort_keys=True, indent=4) + '\n')
+            fp.write("rs_mapping = " +
+                     json.dumps(rs_mapping, sort_keys=True, indent=4))
             print("[+] React mapping has been updated")
-

@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
+try:
+    from scripts.atcutils import ATCutils
+except:
+    from atcutils import ATCutils
+
 from pathlib import Path
 
 
-def create_markdown_dirs():
-    config = ATCutils.load_config('scripts/config.yml')
+def react_create_markdown_dirs():
+    config = ATCutils.load_config('config.yml')
     base_dir = Path(config.get(
         'md_name_of_root_directory',
         '../docs'
@@ -18,4 +22,4 @@ def create_markdown_dirs():
 
 
 if __name__ == '__main__':
-    create_markdown_dirs()
+    react_create_markdown_dirs()

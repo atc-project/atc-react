@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
-from scripts.react_mapping import ra_mapping
-from scripts.update_react_mapping import UpdateReactMapping
+try:
+    from scripts.atcutils import ATCutils
+    from scripts.react_mapping import ra_mapping
+    from scripts.update_react_mapping import UpdateReactMapping
+except:
+    from atcutils import ATCutils
+    from react_scripts.react_mapping import ra_mapping
+    from react_scripts.update_react_mapping import UpdateReactMapping
 
 from os import listdir
 from os.path import isfile, join
 import json
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
+filename = 'react_navigator_profile.json'
+directory = ATCconfig.get('exported_analytics_directory')
 
 NAVIGATOR_TEMPLATE = {
     "name": "RE&CT Enterprise Matrix",
@@ -27,8 +34,8 @@ NAVIGATOR_TEMPLATE = {
         ],
         "minValue": 0,
         "maxValue": 100
-    }, 
-    "legendItems": [ # thanks, Olaf!
+    },
+    "legendItems": [  # thanks, Olaf!
         {
             "label": "General cagetory",
             "color": "#FFD300"
@@ -92,7 +99,6 @@ class GenerateNavigator:
                     ra_color = category_color
                     break
 
-            
             response_actions.append({
                 "techniqueID": ra_id,
                 "color": ra_color,
@@ -100,9 +106,6 @@ class GenerateNavigator:
             })
 
         NAVIGATOR_TEMPLATE['techniques'] = response_actions
-
-        filename = 'react_navigator_profile.json'
-        directory = ATCconfig.get('generated_analytics_directory')
 
         with open(directory + '/' + filename, 'w') as fp:
             json.dump(NAVIGATOR_TEMPLATE, fp)

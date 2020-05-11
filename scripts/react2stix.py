@@ -1,7 +1,14 @@
-from scripts.atcutils import ATCutils
+try:
+    from scripts.atcutils import ATCutils
+except:
+    from atcutils import ATCutils
+
 from stix2 import MemoryStore, CustomObject, properties
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
+local_react_json_url = ATCconfig.get('local_react_json_url')
+react_web_kb_base_url = ATCconfig.get('react_web_kb_base_url')
+
 stix_mem = MemoryStore()
 
 @CustomObject('x-react-stage', [ 
@@ -40,7 +47,7 @@ for i in range(1,7):
     external_references.append([{
         "source_name": "atc-react",
         "external_id": "RS000" + str(i),
-        "url": "https://atc-project.github.io/atc-react/Response_Stages/" + "RS000" + str(i)
+        "url": react_web_kb_base_url + "Response_Stages/" + "RS000" + str(i)
     }])
 
 
@@ -93,7 +100,7 @@ class GenerateSTIX:
         else:
             rps, rp_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_playbooks_dir'))
 
-        
+
         ra_filenames = [ra_path.split('/')[-1].replace('.yml', '') for ra_path in ra_paths]
         rp_filenames = [rp_path.split('/')[-1].replace('.yml', '') for rp_path in rp_paths]
 
@@ -139,7 +146,7 @@ class GenerateSTIX:
             external_references = [{
                 "source_name": "atc-react",
                 "external_id": ras[i].get('id'),
-                "url": "https://atc-project.github.io/atc-react/Response_Actions/" + ra_filenames[i]
+                "url": react_web_kb_base_url + "Response_Actions/" + ra_filenames[i]
             }]
 
             ra = ReactAction(
@@ -164,7 +171,7 @@ class GenerateSTIX:
         stix_mem.add(react_matrix)
 
         try:
-            stix_mem.save_to_file("docs/react.json")
+            stix_mem.save_to_file(local_react_json_url)
             print("[+] Created react.json STIX file")
         except:
             print("[-] Failed to create react.json STIX file")

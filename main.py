@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from scripts.populatemarkdown import PopulateMarkdown
+from scripts.populatemarkdown import ReactPopulateMarkdown
 from scripts.thehive_templates import RPTheHive
 from scripts.atcutils import ATCutils
 from scripts.generate_mkdocs_config import GenerateMkdocs
@@ -13,7 +13,7 @@ import argparse
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
-        description="""Main function of atc-react.
+        description="""Main function of ATC RE&CT.
 
     You can not only choose to export analytics but also to use different
     modules.
@@ -55,11 +55,13 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.markdown:
-        PopulateMarkdown(auto=args.auto, ra=args.responseactions,
-                         rp=args.responseplaybook, rs=args.responsestage, init=args.init)
+        ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
+                              rp=args.responseplaybook, rs=args.responsestage,
+                              init=args.init)
     elif args.all:
-        PopulateMarkdown(auto=args.auto, ra=args.responseactions,
-                         rp=args.responseplaybook, rs=args.responsestage, init=args.init)
+        ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
+                              rp=args.responseplaybook, rs=args.responsestage,
+                              init=args.init)
         GenerateMkdocs()
         GenerateSTIX()
         GenerateNavigator()

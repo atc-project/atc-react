@@ -1,25 +1,33 @@
 #!/usr/bin/env python3
 
-# Import ATC classes
-from scripts.responseaction import ResponseAction
-from scripts.responseplaybook import ResponsePlaybook
-from scripts.responsestage import ResponseStage
-
-# Import ATC Utils
-from scripts.atcutils import ATCutils
-from scripts.init_markdown import create_markdown_dirs
 from jinja2 import Environment, FileSystemLoader
+
+# Import ATC classes
+try:
+    from scripts.atcutils import ATCutils
+    from scripts.responseaction import ResponseAction
+    from scripts.responseplaybook import ResponsePlaybook
+    from scripts.responsestage import ResponseStage
+    from scripts.init_markdown import react_create_markdown_dirs
+    env = Environment(loader=FileSystemLoader('scripts/templates'))
+except:
+    from atcutils import ATCutils
+    from react_scripts.responseaction import ResponseAction
+    from react_scripts.responseplaybook import ResponsePlaybook
+    from react_scripts.responsestage import ResponseStage
+    from react_scripts.init_markdown import react_create_markdown_dirs
+    env = Environment(loader=FileSystemLoader(
+        'react_scripts/templates'))
 
 # Others
 import glob
 import traceback
 import sys
 
-env = Environment(loader=FileSystemLoader('scripts/templates'))
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
+rs_summary_dir = ATCconfig.get('rs_summary_dir')
 
-
-class PopulateMarkdown:
+class ReactPopulateMarkdown:
     """Class for populating markdown repo"""
 
     def __init__(self, ra=False, rp=False, rs=False, auto=False,
@@ -36,9 +44,9 @@ class PopulateMarkdown:
         # Check if init switch is used
         if init:
             if self.init_export():
-                print("[+] Created initial markdown directories successfully")
+                print("[+] Created initial RE&CT markdown directories successfully")
             else:
-                print("[X] Failed to create initial markdown directories")
+                print("[-] Failed to create initial RE&CT markdown directories")
                 raise Exception("Failed to markdown directories")
 
         # Main logic
@@ -61,7 +69,7 @@ class PopulateMarkdown:
 
     def init_export(self):
         try:
-            create_markdown_dirs()
+            react_create_markdown_dirs()
             return True
         except:
             return False
@@ -113,9 +121,9 @@ class PopulateMarkdown:
         print("[+] Response Playbooks populated!")
 
     def response_stage(self, rs_path):
-        """Populate Response Actions"""
+        """Populate Response Stages"""
 
-        print("[*] Populating Response Actions..")
+        print("[*] Populating Response Stages...")
         if rs_path:
             rs_list = glob.glob(rs_path + '*.yml')
         else:
@@ -157,6 +165,6 @@ class PopulateMarkdown:
 
         content = template.render(rss_dict)
 
-        ATCutils.write_file('docs/responsestages.md', content)
+        ATCutils.write_file(rs_summary_dir + '/responsestages.md', content)
         print("[+] Response Stages populated!")
 

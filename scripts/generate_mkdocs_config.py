@@ -15,7 +15,7 @@ import sys
 from jinja2 import Environment, FileSystemLoader
 
 
-ATCconfig = ATCutils.load_config("scripts/config.yml")
+ATCconfig = ATCutils.load_config("config.yml")
 
 class GenerateMkdocs:
     """Class for populating mkdocs config file (navigation)"""
