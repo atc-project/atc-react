@@ -95,7 +95,7 @@ Here is an example of Response Playbook:
 
 - Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
 - Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP_0001_phishing_email/)
-- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/657065657/RP0001+Phishing+email)
+- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/725583045/RP0001+Phishing+email)
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
