@@ -49,18 +49,12 @@ Here is an example of Response Action:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="docs/images/ra_yaml_v4.png" />
+  <img src="docs/images/ra_yaml_v5.png" />
 </details>
 
-<details>
-  <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="docs/images/ra_markdown_v4.png" />
-</details>
-
-<details>
-  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
-  <img src="docs/images/ra_confluence_v2.png" />
-</details>
+- Automatically created [Markdown file](docs/Response_Actions/RA_2202_collect_email_message.md)
+- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Actions/RA_2202_collect_email_message/)
+- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/725615696/RA2202+Collect+email+message)
 
 Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
 
@@ -96,18 +90,12 @@ Here is an example of Response Playbook:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="docs/images/rp_yaml_v4.png" />
+  <img src="docs/images/rp_yaml_v5.png" />
 </details>
 
-<details>
-  <summary>Automatically created Markdown file (click to expand)</summary>
-  <img src="docs/images/rp_markdown_v5.png" />
-</details>
-
-<details>
-  <summary>Automatically created (by main ATC project) Confluence page (click to expand)</summary>
-  <img src="docs/images/rp_confluence_v1.png" />
-</details>
+- Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
+- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP_0001_phishing_email/)
+- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/725583045/RP0001+Phishing+email)
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
@@ -147,7 +135,7 @@ Originally analytics related to Incident Response were part of the ATC, but we d
     python3 main.py --thehive
     python3 main.py -NAV
     ```
-    You will find the outcome in the `docs` directory.
+    You will find the outcome in the `docs` directory. At the moment, RE&CT Navigator profile could be opened only in the [customized application](https://github.com/atc-project/react-navigator).
 
 4. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
     ```
@@ -175,6 +163,7 @@ Originally analytics related to Incident Response were part of the ATC, but we d
 ## Contributors
 
 - Timur Zinniatullin, [@zinint](https://twitter.com/zinint)  
+- Daniil Svetlov, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](CONTRIBUTING.md) guideline is a good starting point.
 
