@@ -327,9 +327,9 @@
 [**Develop incident report**]: Response_Actions/RA_6001_develop_incident_report.md
 [**Conduct lessons learned exercise**]: Response_Actions/RA_6002_conduct_lessons_learned_exercise.md
 
-
-Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
-The links lead to GitHub issues, that you can use to contribute your analytics.
+Действия Реагирования (Response Actions), отмеченные символом "*", являются пустыми файлами, содержащими только название и краткое описание.  
+Они созданы для того, чтобы описать направление, в котором RE&CT будет развиваться.  
+Ссылки ведут к GitHub issues по их разработке, в которой вы можете принять участие.  
 
 ## Действенная Аналитика
 
