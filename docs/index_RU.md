@@ -1,24 +1,24 @@
-🇷🇺 [Русская версия](index_RU.md)  
+🇬🇧 [English version](index.md)  
 
 # RE&CT
 
 ![](images/logo_v2.png)
 
-The RE&CT Framework is designed for accumulating, describing and categorizing actionable Incident Response techniques.  
+Фреймворк создан для накопления, описания и классификации действенных техник реагирования на инциденты.  
 
-RE&CT's philosophy is based on the [MITRE's ATT&CK](https://attack.mitre.org/) framework.  
-The columns represent [Response Stages](responsestages.md).  
-The cells repsresent [Response Actions](#response-action).  
+Философия RE&CT основана на подходе фреймворка [MITRE ATT&CK](https://attack.mitre.org/).  
+Столбцы представляют собой [Стадии Реагирования (Response Stages)](https://atc-project.github.io/atc-react/responsestages/).  
+Ячейки представляют собой [Действия Реагирования (Response Actions)](#response-action).  
 
-The main use cases are:
+Основные варианты использования:
 
-- Prioritization of Incident Response capabilities development, including skills development, technical measures acquisition/deployment, internal procedures development, etc
-- Gap analysis — determine "coverage" of existing Incident Response capabilities
+- Приоритизация задач по созданию и совершенствованию процесса реагирования на инциденты, включая развитие компетенций, внедрение технических средств, разработку регламентов и т.д.
+- Анализ недочетов — определение "степени покрытия" матрицы RE&CT уже реализованными функциями реагирования на инциденты
 
-The main resources:
+Основные ресурсы:
 
-- RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
-- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for visualization and observing the big picture  
+- [Веб-сайт](https://atc-project.github.io/atc-react/) RE&CT — лучшее место для детального изучения существующих техник реагирования на инциденты
+- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (модифицированный [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) для визуализации и анализа общей картины 
 
 | Preparation                                                   | Identification                                     | Containment                                    | Eradication                                 | Recovery                                | Lessons Learned                        |
 |:-------------------------------------------------------------:|:--------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|:---------------------------------------:|:--------------------------------------:|
@@ -331,86 +331,88 @@ The main resources:
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
 The links lead to GitHub issues, that you can use to contribute your analytics.
 
-## Actionable Analytics
+## Действенная Аналитика
 
-The ATC RE&CT project inherits the "Actionable Analytics" paradigm from the [ATC](https://github.com/atc-project/atomic-threat-coverage) project, which means that the analytics are:
+Проект ATC RE&CT наследует парадигму "Действенная Аналитика" от проекта [ATC](https://github.com/atc-project/atomic-threat-coverage).  
+Это означает, что аналитика:  
 
-- **human-readable** (`.md`) for sharing/using in operations
-- **machine-readable** (`.yml`) for automatic processing/integrations
-- **executable** by Incident Response Platform ([TheHive Case Templates](thehive_templates/) only, at the moment)
+- **человекочитаемая** (`.md`) для распространения/использования в ходе операционной деятельности  
+- **машиночитаемая** (`.yml`) для автоматизированной обработки/интеграций  
+- **исполняемая** платформой для реагирования на инциденты (Incident Response Platform, IRP). На данный момент поддерживается генерация шаблонов кейсов для IRP [TheHive](https://github.com/atc-project/atc-react/tree/master/docs/thehive_templates)  
 
-Simply saying, the analytics are stored in `.yml` files, that are automatically converted to `.md` documents (with [jinja](https://palletsprojects.com/p/jinja/)) and `.json` TheHive Case Templates.  
-For information about customization and usage, please refer to the [usage](https://github.com/atc-project/atc-react#usage) section of the project README.  
+Проще говоря, аналитика хранится в формате `.yml` файлов, автоматически конвертируется в документы в формате `.md` (посредством [jinja](https://palletsprojects.com/p/jinja/)) и `.json` файлы шаблонов кейсов TheHive.  
+Для получения информации по кастомизации и использованию, обращайтесь к разделу [usage](https://github.com/atc-project/atc-react#usage) в README проекта.  
 
 ### Response Action
 
-Response Action is a description of a specific atomic procedure/task that has to be executed during the Incident Response. It is an initial entity that is used to construct Response Playbooks. 
+Response Action (Действие Реагирования) — это описание специфичной атомарной процедуры/задачи, которая должна быть выполнена в ходе реагирования на инцидент. Это первостепенный объект, используемый для составления Сценариев Реагирования (Response Playbooks).  
+Каждое Действие Реагирования связано с конкретной [Стадией Реагирования](responsestages.md).  
 
-Each Response Action mapped to a specific [Response Stage](responsestages.md).  
-The first digit of the Response Action ID reflects a Stage it belongs to:
+Первая цифра идентификатора Действия Реагирования отражает Стадию, к которой это Действие относится:
 
-- **1**: Preparation
-- **2**: Identification
-- **3**: Containment
-- **4**: Eradication
-- **5**: Recovery
-- **6**: Lessons Learned
+- **1**: Подготовка (Preparation)
+- **2**: Идентификация (Identification)
+- **3**: Сдерживание (Containment)
+- **4**: Ликвидация (Eradication)
+- **5**: Восстановление (Recovery)
+- **6**: Выводы (Lessons Learned)
 
-The second digit of the Response Action ID reflects a Category it belongs to:
+Вторая цифра идентификатора Действия Реагирования отражает Категорию, к которой это Действие относится:
 
-- **0**: General
-- **1**: Network
-- **2**: Email
-- **3**: File
-- **4**: Process
-- **5**: Configuration
-- **6**: Identity
+- **0**: Общее (General)
+- **1**: Сеть (Network)
+- **2**: Электронная почта (Email)
+- **3**: Файл (File)
+- **4**: Процесс (Process)
+- **5**: Конфигурация (Configuration)
+- **6**: Идентификационные данные (Identity)
 
-This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Collect an email message](Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
+Таким образом, посредством идентификатора Действия Реагирования, можно определить Стадию и Категорию, к которым это Действие принадлежит.
+Например [RA**22**02: Collect an email message](Response_Actions/RA_2202_collect_email_message.md) относится к Стадии **2** (Идентификация) и Категории **2** (Электронная почта).
 
-The categorization aims to improve Incident Response process maturity assessment and roadmap development.
+Категоризация предназначена для расширения возможностей для оценки зрелости и планирования развития процесса реагирования на инциденты.  
 
 ### Response Playbook
 
-Response Playbook is an Incident Response plan, that represents a complete list of procedures/tasks (Response Actions) that has to be executed to respond to a specific threat with optional mapping to the [MITRE's ATT&CK](https://attack.mitre.org/) or [Misinfosec's  AMITT](https://github.com/misinfosecproject/amitt_framework) frameworks.
+Response Playbook (Сценарий Реагирования) — это план, который представляет собой законченный список задач/процедур (Действий Реагирования) которые должны быть выполнены в ходе реагирования на конкретную угрозу с опциональным маппингом к фреймворкам [MITRE ATT&CK](https://attack.mitre.org/) или [Misinfosec AMITT](https://github.com/misinfosecproject/amitt_framework).
 
-Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
+Сценарий Реагирования может включать в себя описание хода работ, особых условий/требований, детали по последовательности исполнения Действий Реагирования, или любую другую релевантную информацию.
 
 ### TheHive Case Templates
 
-TheHive Case Templates are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
+Шаблоны кейсов платформы реагирования на инциденты TheHive генерируются на основе Сценариев Реагирования.  
+Каждая отдельная задача в шаблоне кейса — это отдельное Действие Реагирования (с его полным описанием).  
 
-Here is the example of an imported TheHive Case Template:
+Вот пример импортированного шаблона кейса TheHive:
 
 <details>
-  <summary>Imported TheHive Case Template, made on top of a Response Playbook (click to expand)</summary>
+  <summary>Импортированный шаблон кейса TheHive, созданный на основе Сценария Реагирования (кликните, чтобы раскрыть)</summary>
   <img src="images/thehive_case_template_v1.png" />
 </details>
-  
+
 <details>
-  <summary>One of the Tasks in TheHive Case, made on top of a Response Action (click to expand)</summary>
+  <summary>Одна из задач в кейсе TheHive, созданная на основе Действия Реагирования (кликните, чтобы раскрыть)</summary>
   <img src="images/thehive_case_task_v1.png" />
 </details>
-<br>
-TheHive Case Templates could be found in `docs/thehive_templates` directory and could be imported to TheHive via its web interface.
 
-## Contacts
+Шаблоны кейсов TheHive хранятся в директории `docs/thehive_templates` и могут быть импортированы в TheHive через его веб-интерфейс.
 
-- Folow us on [Twitter](https://twitter.com/atc_project) for updates
-- Join discussions in [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg) or [Telegram](https://t.me/atomic_threat_coverage) 
+## Контакты
 
-## Contributors
+- Следите за обновлениями в [Twitter](https://twitter.com/atc_project)
+- Присоединяйтесь к обсуждению в [Slack](https://join.slack.com/t/atomicthreatcoverage/shared_invite/zt-6ropl01z-wIdiq3M0AEZPj_HiKfbiBg) или [Telegram](https://t.me/atomic_threat_coverage) 
 
-- Timur Zinniatullin, [@zinint](https://twitter.com/zinint)  
-- Daniil Svetlov, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
+## Контрибьюторы
 
-Would you like to become one? You are very welcome! Our [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) guideline is a good starting point.
+- Тимур Зиннятуллин, [@zinint](https://twitter.com/zinint)  
+- Даниил Светлов, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
 
-## Roadmap
+Вы хотели бы внести свой вклад в проект и тоже стать участником? Инструкция [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) поможет начать.  
 
-The roadmap and related discussions could be found in the project [issues](https://github.com/atc-project/atc-react/issues).
+## План развития
 
-## License
+План развития проекта и соответствующие обсуждения находятся в [issues](https://github.com/atc-project/atc-react/issues) данного проекта.
 
-See the [LICENSE](https://github.com/atc-project/atc-react/blob/master/LICENSE) file.
+## Лицензия
+
+Лицензия доступна к просмотру по [ссылке](https://github.com/atc-project/atc-react/blob/master/LICENSE).
