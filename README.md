@@ -101,7 +101,7 @@ Response Playbook could include a description of the workflow, specific conditio
 
 ### TheHive Case Templates
 
-are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
+TheHive Case Templates are built on top of the Response Playbooks. Each task in a Case Template is a Response Action (with full description). 
 
 Here is the example of an imported TheHive Case Template:
 
