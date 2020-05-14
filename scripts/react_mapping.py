@@ -12,6 +12,7 @@ ra_mapping = {
     "RA1011": "Develop assets knowledge base",
     "RA1012": "Check analysis toolset",
     "RA1013": "Access vulnerability management system logs",
+    "RA1014": "Connect with trusted communities",
     "RA1101": "Access external network flow logs",
     "RA1102": "Access internal network flow logs",
     "RA1103": "Access internal HTTP logs",
