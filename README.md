@@ -164,6 +164,7 @@ Originally analytics related to Incident Response were part of the ATC, but we d
 
 - Timur Zinniatullin, [@zinint](https://twitter.com/zinint)  
 - Daniil Svetlov, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
+- Andreas Hunkeler, [@Karneades](https://github.com/Karneades)
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](CONTRIBUTING.md) guideline is a good starting point.
 
