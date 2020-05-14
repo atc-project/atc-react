@@ -38,7 +38,7 @@ For now, we would like to focus on high-level definition of what should be done 
 
 Please use the same approach for your contribution.  
 
-You can pick up one of the Response Actions marked by "*" sign in the [Matrix](README.md#the-rect-framework). The links lead to GitHub issues, that you can use to contribute your analytics. All of the Response Actions mentioned in the issues have a special placeholder file with pre-defined ID and description that you should use to contribute your analytics. Don't hesitate to put your name to the `author` field, since these issues and placeholders have been created for one reason — to describe the way RE&CT should grow.  
+You can pick up one of the Response Actions marked by "*" sign in the [Matrix](https://atc-project.github.io/atc-react/). The links lead to GitHub issues, that you can use to contribute your analytics. All of the Response Actions mentioned in the issues have a special placeholder file with pre-defined ID and description that you should use to contribute your analytics. Don't hesitate to put your name to the `author` field, since these issues and placeholders have been created for one reason — to describe the way RE&CT should grow.  
 
 If you would like to contribute a completely new Response Action, please use a special [Response Action template](response_actions/respose_action.yml.template).  
 
