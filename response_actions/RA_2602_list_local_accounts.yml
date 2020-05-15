@@ -1,0 +1,12 @@
+title: RA_2602_list_local_accounts
+id: RA2602
+description: >
+  List local accounts on a particular system
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+workflow: |
+  Get local accounts from a particular system.
+  This should be used to detect malicious accounts on that system.
+
+  Special focus shoud be on administrators and root accounts.

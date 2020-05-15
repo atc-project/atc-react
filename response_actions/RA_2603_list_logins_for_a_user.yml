@@ -1,0 +1,11 @@
+title: RA_2603_list_logins_for_a_user.yml
+id: RA2603
+description: >
+  List logins on remote systems for a specific user.
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+workflow: |
+  Get username for the user in questions and list all logins on other remote systems.
+
+  Look at the past and detect anomalies in login events.

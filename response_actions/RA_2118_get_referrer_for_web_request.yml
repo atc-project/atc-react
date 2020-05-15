@@ -1,0 +1,11 @@
+title: RA_2118_get_referrer_for_web_request.yml
+id: RA2118
+description: >
+  Get the specific referrer from your network logs for a web request
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+requirements:
+  - DN_proxy_logs
+workflow: |
+  If you have a malicous redirect get the referrer from your network logs to find the compromised host.

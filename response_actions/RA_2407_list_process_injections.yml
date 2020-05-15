@@ -1,0 +1,12 @@
+title: RA_2407_list_process_injections.yml
+id: RA2407
+description: >
+  List processes injections on a particular system.
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+references: 
+  - https://attack.mitre.org/techniques/T1055/
+workflow: |
+  Use various information, like API calls, parent/child process dependencies
+  or process detection techniques to detect malicious behavior.

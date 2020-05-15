@@ -1,0 +1,11 @@
+title: RA_2117_search_for_user-agent.yml
+id: RA2117
+description: >
+  Search for specific user agent in your network logs.
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+requirements:
+  - DN_proxy_logs
+workflow: |
+  Get suspicious user agent and search for that specific user agent in your network logs.

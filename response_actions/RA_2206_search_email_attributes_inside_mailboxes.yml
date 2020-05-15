@@ -1,0 +1,11 @@
+title: RA_2206_search_email_attributes_inside_mailboxes
+id: RA2206
+description: >
+  Search for email attributes inside all of your mailboxes
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: identification
+requirements:
+  - DN_email_server
+workflow: |
+  Build query to search in all mailboxes for suspicious attributes, like forwarding rules.
