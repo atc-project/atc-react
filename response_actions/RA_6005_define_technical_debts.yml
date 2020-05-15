@@ -1,0 +1,9 @@
+title: RA_6005_define_technical_debts.yml
+id: RA6005
+description: Define technical debts and report them accordingly
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: lessons_learned
+workflow: |
+  Get the technical debts, that means, missing prevention mechanisms or missing detection capabilities
+  and report them accordingly to improve the overall security level long-term.

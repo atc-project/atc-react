@@ -1,0 +1,10 @@
+title: RA_6006_improve_detection_capabilities.yml
+id: RA6006
+description: Improve detection capabilities
+author: 'Andreas Hunkeler (@Karneades)'
+creation_date: 15.05.2020
+stage: lessons_learned
+workflow: |
+  Check after the incident where did you have missing detection or incident response capabilities
+  and create the task to improve those. This could be missing containment capabilities, or missing
+  logs from a system at all.
