@@ -101,10 +101,12 @@ class RPTheHive:
         self.rp_rule = ATCutils.read_yaml_file(file_input)
 
         self.case = THC.TheHiveCase()
-        self.case.name = self.rp_rule.get('title')
-        self.case.description = "Description:\n" + \
-            str(self.rp_rule.get('description')) + \
-            '\n\nWorkflow:\n' + str(self.rp_rule.get('workflow'))
+        self.case.name = self.rp_rule.get('id')\
+            + ": "\
+            + ATCutils.normalize_react_title(self.rp_rule.get('title'))
+
+        self.case.description = str(self.rp_rule.get('description')) + \
+            '\n\nWorkflow:\n\n' + str(self.rp_rule.get('workflow'))
         try:
             self.case.tags += self.rp_rule.get('tags')
         except TypeError:
@@ -147,31 +149,18 @@ class RPTheHive:
                 self.task_prefix += 1
                 task = THC.TheHiveTask(order=self.task_order)
                 self.task_order += 1
-                task.title = str(self.task_prefix) + " | " + \
-                    str(rtask.get('title'))
-                task.group = rtask.get('stage', 'Unknown stage')
+                task.title = str(self.task_prefix) + " | "\
+                    + rtask.get('id')\
+                    + ": "\
+                    + ATCutils.normalize_react_title(rtask.get('title')) 
+
+                if rtask.get('stage'):
+                    task.group = ATCutils.normalize_rs_name(rtask.get('stage'))
+                else:
+                    task.group = 'Unknown stage'
+
                 task.description = str(rtask.get('workflow'))
                 self.case.tasks.append(task.return_dictionary())
-                if rtask.get('linked_ra'):
-                    self.task_prefix = float(self.task_prefix)
-                    for linked_ra in rtask.get('linked_ra'):
-                        try:
-                            rtask = ATCutils.read_yaml_file(
-                                self.inputRA + linked_ra + ".yml"
-                            )
-                        except OSError:
-                            print("Response Action %s not existing\n" % rule)
-                            continue
-                        task = THC.TheHiveTask(order=self.task_order)
-                        self.task_order += 1
-                        self.task_prefix += 0.1
-                        task.title = str(round(self.task_prefix, 1)) + \
-                            " | " + str(rtask.get('title'))
-                        task.title = str(round(self.task_prefix, 1)) + " | "\
-                            + str(rtask.get("title"))
-                        task.group = rtask.get('stage', 'Unknown stage')
-                        task.description = str(rtask.get('workflow'))
-                        self.case.tasks.append(task.return_dictionary())
 
     def checkSeverity(self, severity):
 
