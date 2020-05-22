@@ -6,7 +6,7 @@ from scripts.responseplaybook import ResponsePlaybook
 from scripts.responsestage import ResponseStage
 
 # Import ATC Utils
-from scripts.atcutils import ATCutils
+from scripts.reactutils import REACTutils
 
 # Others
 import glob
@@ -15,7 +15,7 @@ import sys
 from jinja2 import Environment, FileSystemLoader
 
 
-ATCconfig = ATCutils.load_config("config.yml")
+REACTConfig = REACTutils.load_config("config.yml")
 
 class GenerateMkdocs:
     """Class for populating mkdocs config file (navigation)"""
@@ -29,7 +29,7 @@ class GenerateMkdocs:
         if atc_dir:
             self.atc_dir = atc_dir
         else:
-            self.atc_dir = ATCconfig.get('md_name_of_root_directory') + '/'
+            self.atc_dir = REACTConfig.get('md_name_of_root_directory') + '/'
 
         # Main logic
         if auto:
@@ -47,19 +47,19 @@ class GenerateMkdocs:
             self.response_stage(rs_path)
 
         if ra_path:
-            ras, ra_paths = ATCutils.load_yamls_with_paths(ra_path)
+            ras, ra_paths = REACTutils.load_yamls_with_paths(ra_path)
         else:
-            ras, ra_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_actions_dir'))
+            ras, ra_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_actions_dir'))
 
         if rp_path:
-            rps, rp_paths = ATCutils.load_yamls_with_paths(rp_path)
+            rps, rp_paths = REACTutils.load_yamls_with_paths(rp_path)
         else:
-            rps, rp_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_playbooks_dir'))
+            rps, rp_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_playbooks_dir'))
 
         if rs_path:
-            rss, rs_paths = ATCutils.load_yamls_with_paths(rs_path)
+            rss, rs_paths = REACTutils.load_yamls_with_paths(rs_path)
         else:
-            rss, rs_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_stages_dir'))
+            rss, rs_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_stages_dir'))
 
 
         ra_filenames = [ra_path.split('/')[-1].replace('.yml', '') for ra_path in ra_paths]
@@ -105,7 +105,7 @@ class GenerateMkdocs:
 
             ra_updated_title = ras[i].get('id')\
                 + ": "\
-                + ATCutils.normalize_react_title(ras[i].get('title'))
+                + REACTutils.normalize_react_title(ras[i].get('title'))
             
             if "RA1" in ras[i]['id']:
                 preparation.append((ra_updated_title, ra_filenames[i]))
@@ -127,7 +127,7 @@ class GenerateMkdocs:
 
             rp_updated_title = rps[i].get('id')\
                 + ": "\
-                + ATCutils.normalize_react_title(rps[i].get('title'))
+                + REACTutils.normalize_react_title(rps[i].get('title'))
 
             playbooks.append((rp_updated_title, rp_filenames[i]))
 
@@ -147,7 +147,7 @@ class GenerateMkdocs:
         
         content = template.render(data_to_render)
         try:
-            ATCutils.write_file('mkdocs.yml', content)
+            REACTutils.write_file('mkdocs.yml', content)
             print("[+] Created mkdocs.yml")
         except:
             print("[-] Failed to create mkdocs.yml")

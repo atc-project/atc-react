@@ -1,13 +1,13 @@
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
 
 from stix2 import MemoryStore, CustomObject, properties
 
-ATCconfig = ATCutils.load_config("config.yml")
-local_react_json_url = ATCconfig.get('local_react_json_url')
-react_web_kb_base_url = ATCconfig.get('react_web_kb_base_url')
+REACTConfig = REACTutils.load_config("config.yml")
+local_react_json_url = REACTConfig.get('local_react_json_url')
+react_web_kb_base_url = REACTConfig.get('react_web_kb_base_url')
 
 stix_mem = MemoryStore()
 
@@ -77,7 +77,7 @@ class GenerateSTIX:
         if atc_dir:
             self.atc_dir = atc_dir
         else:
-            self.atc_dir = ATCconfig.get('md_name_of_root_directory') + '/'
+            self.atc_dir = REACTConfig.get('md_name_of_root_directory') + '/'
 
         # Main logic
         if auto:
@@ -91,14 +91,14 @@ class GenerateSTIX:
             self.response_playbook(rp_path)
 
         if ra_path:
-            ras, ra_paths = ATCutils.load_yamls_with_paths(ra_path)
+            ras, ra_paths = REACTutils.load_yamls_with_paths(ra_path)
         else:
-            ras, ra_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_actions_dir'))
+            ras, ra_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_actions_dir'))
 
         if rp_path:
-            rps, rp_paths = ATCutils.load_yamls_with_paths(rp_path)
+            rps, rp_paths = REACTutils.load_yamls_with_paths(rp_path)
         else:
-            rps, rp_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_playbooks_dir'))
+            rps, rp_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_playbooks_dir'))
 
 
         ra_filenames = [ra_path.split('/')[-1].replace('.yml', '') for ra_path in ra_paths]
@@ -119,7 +119,7 @@ class GenerateSTIX:
 
         for i in range(len(ras)):
 
-            normalized_title = ATCutils.normalize_react_title(ras[i].get('title'))
+            normalized_title = REACTutils.normalize_react_title(ras[i].get('title'))
 
             ra_updated_title = ras[i].get('id')\
                 + ":"\

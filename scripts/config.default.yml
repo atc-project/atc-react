@@ -6,8 +6,18 @@ response_playbooks_dir: 'response_playbooks'
 response_actions_dir: 'response_actions'
 response_stages_dir: 'response_stages'
 thehive_templates_dir: 'docs/thehive_templates'
+react_web_kb_base_url: 'https://atc-project.github.io/atc-react/'
+rs_summary_dir: 'docs'
+# 
+# Mappings part
+#
+# RE&CT
 remote_react_json_url: 'https://raw.githubusercontent.com//atc-project/atc-react/master/docs/react.json'
 local_react_json_url: 'docs/react.json'
 react_mapping_url: 'scripts/react_mapping.py'
-react_web_kb_base_url: 'https://atc-project.github.io/atc-react/'
-rs_summary_dir: 'docs'
+# ATT&CK
+attack_json_url: 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json'
+attack_mapping_url: 'scripts/attack_mapping.py'
+# AMITT
+amitt_json_url: 'https://raw.githubusercontent.com/cogsec-collaborative/amitt_cti/master/amitt/amitt-attack.json'
+amitt_mapping_url: 'scripts/amitt_mapping.py'

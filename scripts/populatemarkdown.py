@@ -4,14 +4,14 @@ from jinja2 import Environment, FileSystemLoader
 
 # Import ATC classes
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
     from scripts.responseaction import ResponseAction
     from scripts.responseplaybook import ResponsePlaybook
     from scripts.responsestage import ResponseStage
     from scripts.init_markdown import react_create_markdown_dirs
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
     from react_scripts.responseaction import ResponseAction
     from react_scripts.responseplaybook import ResponsePlaybook
     from react_scripts.responsestage import ResponseStage
@@ -24,8 +24,8 @@ import glob
 import traceback
 import sys
 
-ATCconfig = ATCutils.load_config("config.yml")
-rs_summary_dir = ATCconfig.get('rs_summary_dir')
+REACTConfig = REACTutils.load_config("config.yml")
+rs_summary_dir = REACTConfig.get('rs_summary_dir')
 
 class ReactPopulateMarkdown:
     """Class for populating markdown repo"""
@@ -39,7 +39,7 @@ class ReactPopulateMarkdown:
         if atc_dir:
             self.atc_dir = atc_dir
         else:
-            self.atc_dir = ATCconfig.get('md_name_of_root_directory') + '/'
+            self.atc_dir = REACTConfig.get('md_name_of_root_directory') + '/'
 
         # Check if init switch is used
         if init:
@@ -81,7 +81,7 @@ class ReactPopulateMarkdown:
         if ra_path:
             ra_list = glob.glob(ra_path + '*.yml')
         else:
-            ra_dir = ATCconfig.get('response_actions_dir')
+            ra_dir = REACTConfig.get('response_actions_dir')
             ra_list = glob.glob(ra_dir + '/*.yml')
 
         for ra_file in ra_list:
@@ -104,7 +104,7 @@ class ReactPopulateMarkdown:
         if rp_path:
             rp_list = glob.glob(rp_path + '*.yml')
         else:
-            rp_dir = ATCconfig.get('response_playbooks_dir')
+            rp_dir = REACTConfig.get('response_playbooks_dir')
             rp_list = glob.glob(rp_dir + '/*.yml')
 
         for rp_file in rp_list:
@@ -127,7 +127,7 @@ class ReactPopulateMarkdown:
         if rs_path:
             rs_list = glob.glob(rs_path + '*.yml')
         else:
-            rs_dir = ATCconfig.get('response_stages_dir')
+            rs_dir = REACTConfig.get('response_stages_dir')
             rs_list = glob.glob(rs_dir + '/*.yml')
 
         for rs_file in rs_list:
@@ -146,7 +146,7 @@ class ReactPopulateMarkdown:
             'markdown_responsestage_main_template.j2'
         )
 
-        rss, rs_paths = ATCutils.load_yamls_with_paths(ATCconfig.get('response_stages_dir'))
+        rss, rs_paths = REACTutils.load_yamls_with_paths(REACTConfig.get('response_stages_dir'))
 
         rs_filenames = [_rs_path.split('/')[-1].replace('.yml', '') for _rs_path in rs_paths]
 
@@ -165,6 +165,6 @@ class ReactPopulateMarkdown:
 
         content = template.render(rss_dict)
 
-        ATCutils.write_file(rs_summary_dir + '/responsestages.md', content)
+        REACTutils.write_file(rs_summary_dir + '/responsestages.md', content)
         print("[+] Response Stages populated!")
 
