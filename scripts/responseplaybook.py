@@ -3,12 +3,12 @@
 from jinja2 import Environment, FileSystemLoader
 
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
     from scripts.attack_mapping import te_mapping, ta_mapping
     from scripts.amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
     from attack_mapping import te_mapping, ta_mapping
     from amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
     env = Environment(loader=FileSystemLoader(
@@ -21,7 +21,7 @@ import re
 # ########################### Response Playbook ############################# #
 # ########################################################################### #
 
-ATCconfig = ATCutils.load_config("config.yml")
+REACTConfig = REACTutils.load_config("config.yml")
 
 
 class ResponsePlaybook:
@@ -41,7 +41,7 @@ class ResponsePlaybook:
     def parse_into_fields(self, yaml_file):
         """Description"""
 
-        self.rp_parsed_file = ATCutils.read_yaml_file(yaml_file)
+        self.rp_parsed_file = REACTutils.read_yaml_file(yaml_file)
 
     def render_template(self, template_type):
         """Description
@@ -61,7 +61,7 @@ class ResponsePlaybook:
         )
 
         self.rp_parsed_file.update(
-            {'title': ATCutils.normalize_react_title(self.rp_parsed_file
+            {'title': REACTutils.normalize_react_title(self.rp_parsed_file
                 .get('title'))}
         )
 
@@ -129,14 +129,14 @@ class ResponsePlaybook:
         for stage_name, stage_list in stages:
             try:
                 for task in self.rp_parsed_file.get(stage_name):
-                    action = ATCutils.read_yaml_file(
-                        ATCconfig.get('response_actions_dir')
+                    action = REACTutils.read_yaml_file(
+                        REACTConfig.get('response_actions_dir')
                         + '/' + task + '.yml'
                     )
                     
                     action_title = action.get('id')\
                         + ": "\
-                        + ATCutils.normalize_react_title(action.get('title'))
+                        + REACTutils.normalize_react_title(action.get('title'))
                     
                     stage_list.append(
                         (action_title, task, action.get('description'), action.get('workflow'))
@@ -158,7 +158,7 @@ class ResponsePlaybook:
         # Render
         self.content = template.render(self.rp_parsed_file)
 
-    def save_markdown_file(self, atc_dir=ATCconfig.get('md_name_of_root_directory')):
+    def save_markdown_file(self, atc_dir=REACTConfig.get('md_name_of_root_directory')):
         """Write content (md template filled with data) to a file"""
 
         base = os.path.basename(self.yaml_file)
@@ -167,4 +167,4 @@ class ResponsePlaybook:
         file_path = atc_dir + self.parent_title + "/" + \
             title + ".md"
 
-        return ATCutils.write_file(file_path, self.content)
+        return REACTutils.write_file(file_path, self.content)

@@ -3,11 +3,11 @@
 from jinja2 import Environment, FileSystemLoader
 
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
     from scripts.react_mapping import rs_mapping
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
     from react_scripts.react_mapping import rs_mapping
     env = Environment(loader=FileSystemLoader(
         'react_scripts/templates'))
@@ -15,7 +15,7 @@ except:
 import os
 
 
-ATCconfig = ATCutils.load_config("config.yml")
+REACTConfig = REACTutils.load_config("config.yml")
 
 
 class ResponseStage:
@@ -35,7 +35,7 @@ class ResponseStage:
     def parse_into_fields(self, yaml_file):
         """Description"""
 
-        self.ra_parsed_file = ATCutils.read_yaml_file(yaml_file)
+        self.ra_parsed_file = REACTutils.read_yaml_file(yaml_file)
 
     def render_template(self, template_type):
         """Description
@@ -57,8 +57,8 @@ class ResponseStage:
                 .get('description').strip()}
         )
 
-        ras, ra_paths = ATCutils.load_yamls_with_paths(
-            ATCconfig.get('response_actions_dir'))
+        ras, ra_paths = REACTutils.load_yamls_with_paths(
+            REACTConfig.get('response_actions_dir'))
         ra_filenames = [ra_path.split('/')[-1].replace('.yml', '')
                         for ra_path in ra_paths]
 
@@ -67,10 +67,10 @@ class ResponseStage:
         stage_list = []
 
         for i in range(len(ras)):
-            if rs_mapping[rs_id] == ATCutils.normalize_rs_name(ras[i].get('stage')):
+            if rs_mapping[rs_id] == REACTutils.normalize_rs_name(ras[i].get('stage')):
                 ra_id = ras[i].get('id')
                 ra_filename = ra_filenames[i]
-                ra_title = ATCutils.normalize_react_title(ras[i].get('title'))
+                ra_title = REACTutils.normalize_react_title(ras[i].get('title'))
                 ra_description = ras[i].get('description').strip()
                 stage_list.append(
                     (ra_id, ra_filename, ra_title, ra_description))
@@ -80,7 +80,7 @@ class ResponseStage:
         self.content = template.render(self.ra_parsed_file)
 
     def save_markdown_file(self,
-                           atc_dir=ATCconfig.get('md_name_of_root_directory')):
+                           atc_dir=REACTConfig.get('md_name_of_root_directory')):
         """Write content (md template filled with data) to a file"""
 
         base = os.path.basename(self.yaml_file)
@@ -89,4 +89,4 @@ class ResponseStage:
         file_path = atc_dir + self.parent_title + "/" + \
             title + ".md"
 
-        return ATCutils.write_file(file_path, self.content)
+        return REACTutils.write_file(file_path, self.content)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from scripts.atcutils import ATCutils
+from scripts.reactutils import REACTutils
 
 import scripts.atc_thehive.thehive_classes as THC
 import argparse
@@ -98,12 +98,12 @@ class RPTheHive:
 
     def convertRPToTemplate(self, file_input, output_file):
 
-        self.rp_rule = ATCutils.read_yaml_file(file_input)
+        self.rp_rule = REACTutils.read_yaml_file(file_input)
 
         self.case = THC.TheHiveCase()
         self.case.name = self.rp_rule.get('id')\
             + ": "\
-            + ATCutils.normalize_react_title(self.rp_rule.get('title'))
+            + REACTutils.normalize_react_title(self.rp_rule.get('title'))
 
         self.case.description = str(self.rp_rule.get('description')) + \
             '\n\nWorkflow:\n\n' + str(self.rp_rule.get('workflow'))
@@ -140,7 +140,7 @@ class RPTheHive:
         if self.rp_rule.get(stage):
             for rule in self.rp_rule.get(stage):
                 try:
-                    rtask = ATCutils.read_yaml_file(self.inputRA + rule +
+                    rtask = REACTutils.read_yaml_file(self.inputRA + rule +
                                                     ".yml")
                 except OSError:
                     print("Response Action %s not existing\n" % rule)
@@ -152,10 +152,10 @@ class RPTheHive:
                 task.title = str(self.task_prefix) + " | "\
                     + rtask.get('id')\
                     + ": "\
-                    + ATCutils.normalize_react_title(rtask.get('title')) 
+                    + REACTutils.normalize_react_title(rtask.get('title')) 
 
                 if rtask.get('stage'):
-                    task.group = ATCutils.normalize_rs_name(rtask.get('stage'))
+                    task.group = REACTutils.normalize_rs_name(rtask.get('stage'))
                 else:
                     task.group = 'Unknown stage'
 
@@ -212,7 +212,7 @@ class RPTheHive:
 
 
 if __name__ == '__main__':
-    RPTheHive(inputRP=ATCconfig.get('response_playbooks_dir'),
-              inputRA=ATCconfig.get('response_actions_dir'),
-              output=ATCconfig.get('thehive_templates_dir')
+    RPTheHive(inputRP=REACTConfig.get('response_playbooks_dir'),
+              inputRA=REACTConfig.get('response_actions_dir'),
+              output=REACTConfig.get('thehive_templates_dir')
               )

@@ -9,7 +9,7 @@ from os.path import isfile, join
 from yaml.scanner import ScannerError
 
 # ########################################################################### #
-# ############################ ATCutils ##################################### #
+# ############################### REACTutils ################################ #
 # ########################################################################### #
 
 # Default configuration file path
@@ -21,11 +21,11 @@ with warnings.catch_warnings():
     warnings.simplefilter("once")
 
 
-class ATCConfig(object):
+class REACTConfig(object):
     """Class for handling the project configuration"""
 
     def __init__(self, path='config.yml'):
-        """Constructor that will return an ATCconfig object holding
+        """Constructor that will return an REACTconfig object holding
         the project configuration
 
         Keyword Arguments:
@@ -120,10 +120,10 @@ If no local configuration is found on the argument path, a warning will be shown
 
 
 # Initialize global config
-ATCconfig = ATCConfig()
+REACTconfig = REACTConfig()
 
 
-class ATCutils:
+class REACTutils:
     """Class which consists of handful methods used throughout the project"""
 
     def __init__(self):
@@ -146,7 +146,7 @@ class ATCutils:
         result = []
         for yaml in yamls:
             try:
-                result.append(ATCutils.read_yaml_file(yaml))
+                result.append(REACTutils.read_yaml_file(yaml))
             except ScannerError:
                 raise ScannerError('yaml is bad! %s' % yaml)
         return (result, yamls)
@@ -156,12 +156,12 @@ class ATCutils:
         """Open the yaml file and load it to the variable.
         Return created list"""
         if path == 'config.yml':
-            wrn = "Use 'load_config' or 'ATCConfig' instead for config"
+            wrn = "Use 'load_config' or 'REACTConfig' instead for config"
             # Warning will not show,
             # unless captured by logging facility or python called with -Wd
             warnings.warn(message=wrn,
                           category=DeprecationWarning)
-            return ATCConfig(path).config
+            return REACTConfig(path).config
 
         with open(path) as f:
             yaml_fields = yaml.load_all(f.read(), Loader=yaml.FullLoader)
@@ -185,7 +185,7 @@ class ATCutils:
             dict -- Configuration for ATC in dictionary format
         """
 
-        return ATCConfig(path).config
+        return REACTConfig(path).config
 
     @staticmethod
     def load_yamls(path):
@@ -202,7 +202,7 @@ class ATCutils:
 
         for yaml in yamls:
             try:
-                result.append(ATCutils.read_yaml_file(yaml))
+                result.append(REACTutils.read_yaml_file(yaml))
 
             except ScannerError:
                 raise ScannerError('yaml is bad! %s' % yaml)

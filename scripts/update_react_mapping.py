@@ -3,15 +3,15 @@
 import json
 import requests
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
 
-ATCconfig = ATCutils.load_config("config.yml")
+REACTConfig = REACTutils.load_config("config.yml")
 
-local_react_json_url = ATCconfig.get('local_react_json_url')
-remote_react_json_url = ATCconfig.get('remote_react_json_url')
-react_mapping_url = ATCconfig.get('react_mapping_url')
+local_react_json_url = REACTConfig.get('local_react_json_url')
+remote_react_json_url = REACTConfig.get('remote_react_json_url')
+react_mapping_url = REACTConfig.get('react_mapping_url')
 
 ra_mapping = {}
 rs_mapping = {}
@@ -45,4 +45,4 @@ class UpdateReactMapping:
                                                   sort_keys=True, indent=4) + '\n')
             fp.write("rs_mapping = " +
                      json.dumps(rs_mapping, sort_keys=True, indent=4))
-            print("[+] React mapping has been updated")
+            print("[+] RE&CT mapping has been updated")

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
     from scripts.react_mapping import ra_mapping
     from scripts.update_react_mapping import UpdateReactMapping
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
     from react_scripts.react_mapping import ra_mapping
     from react_scripts.update_react_mapping import UpdateReactMapping
 
@@ -13,9 +13,9 @@ from os import listdir
 from os.path import isfile, join
 import json
 
-ATCconfig = ATCutils.load_config("config.yml")
+REACTConfig = REACTutils.load_config("config.yml")
 filename = 'react_navigator_profile.json'
-directory = ATCconfig.get('exported_analytics_directory')
+directory = REACTConfig.get('exported_analytics_directory')
 
 NAVIGATOR_TEMPLATE = {
     "name": "RE&CT Enterprise Matrix",
@@ -92,7 +92,7 @@ class GenerateNavigator:
         for ra_id, ra_name in ra_mapping.items():
             ra_color = ""
             category_score = int(ra_id[3:6])
-            ra_category = ATCutils.get_ra_category(ra_id)
+            ra_category = REACTutils.get_ra_category(ra_id)
 
             for category_name, category_color in category_colors.items():
                 if ra_category == category_name:

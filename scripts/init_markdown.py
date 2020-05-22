@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 try:
-    from scripts.atcutils import ATCutils
+    from scripts.reactutils import REACTutils
 except:
-    from atcutils import ATCutils
+    from reactutils import REACTutils
 
 from pathlib import Path
 
 
 def react_create_markdown_dirs():
-    config = ATCutils.load_config('config.yml')
-    base_dir = Path(config.get(
+    REACTConfig = REACTutils.load_config('config.yml')
+    base_dir = Path(REACTConfig.get(
         'md_name_of_root_directory',
         '../docs'
     ))

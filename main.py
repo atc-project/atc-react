@@ -2,10 +2,11 @@
 
 from scripts.populatemarkdown import ReactPopulateMarkdown
 from scripts.thehive_templates import RPTheHive
-from scripts.atcutils import ATCutils
+from scripts.reactutils import REACTutils
 from scripts.generate_mkdocs_config import GenerateMkdocs
 from scripts.react2stix import GenerateSTIX
 from scripts.react_navigator import GenerateNavigator
+from scripts.update_attack_mapping import UpdateAttackMapping
 
 # Others
 import argparse
@@ -55,10 +56,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.markdown:
+        UpdateAttackMapping()
         ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
                               rp=args.responseplaybook, rs=args.responsestage,
                               init=args.init)
     elif args.all:
+        UpdateAttackMapping()
         ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
                               rp=args.responseplaybook, rs=args.responsestage,
                               init=args.init)
@@ -72,30 +75,30 @@ if __name__ == '__main__':
     elif args.navigator:
         GenerateNavigator()
     elif args.thehive:
-        ATCconfig = ATCutils.read_yaml_file("config.yml")
-        ATCconfig2 = ATCutils.read_yaml_file("scripts/config.default.yml")
+        REACTConfig = REACTutils.read_yaml_file("config.yml")
+        REACTConfig2 = REACTutils.read_yaml_file("scripts/config.default.yml")
         #print("HINT: Make sure proper directories are " +
         #      "configured in the scripts/config.yml")
         
-        if ATCconfig.get(
+        if REACTConfig.get(
                 'response_playbooks_dir',
-                ATCconfig2.get('response_playbooks_dir')) and \
-                ATCconfig.get(
+                REACTConfig2.get('response_playbooks_dir')) and \
+                REACTConfig.get(
                     'response_actions_dir',
-                    ATCconfig2.get('response_actions_dir')) and \
-                ATCconfig.get(
+                    REACTConfig2.get('response_actions_dir')) and \
+                REACTConfig.get(
                     'thehive_templates_dir',
-                    ATCconfig2.get('thehive_templates_dir')):
+                    REACTConfig2.get('thehive_templates_dir')):
             RPTheHive(
-                inputRP=ATCconfig.get(
+                inputRP=REACTConfig.get(
                     'response_playbooks_dir',
-                    ATCconfig2.get('response_playbooks_dir')),
-                inputRA=ATCconfig.get(
+                    REACTConfig2.get('response_playbooks_dir')),
+                inputRA=REACTConfig.get(
                     'response_actions_dir',
-                    ATCconfig2.get('response_actions_dir')),
-                output=ATCconfig.get(
+                    REACTConfig2.get('response_actions_dir')),
+                output=REACTConfig.get(
                     'thehive_templates_dir',
-                    ATCconfig2.get('thehive_templates_dir'))
+                    REACTConfig2.get('thehive_templates_dir'))
             )
             print("[+] TheHive Templates generated!")
         else:
