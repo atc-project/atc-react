@@ -170,7 +170,12 @@ Would you like to become one? You are very welcome! Our [CONTRIBUTING](CONTRIBUT
 
 ## Roadmap
 
-The roadmap and related discussions could be found in the project [issues](https://github.com/atc-project/atc-react/issues).
+The roadmap and related discussions could be found in the project [issues](https://github.com/atc-project/atc-react/issues) by labes:
+
+- [Discussions](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion)
+- [Questions](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)
+- [Enhancements](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+- [Response Actions development](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3ARA-dev)
 
 ## License
 

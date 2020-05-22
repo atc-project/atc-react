@@ -172,7 +172,12 @@ Response Playbook (Сценарий Реагирования) — это пла�
 
 ## План развития
 
-План развития проекта и соответствующие обсуждения находятся в [issues](https://github.com/atc-project/atc-react/issues) данного проекта.
+План развития проекта и соответствующие обсуждения можно найти в [issues](https://github.com/atc-project/atc-react/issues) посредством лейблы:
+
+- [Обсуждения](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion)
+- [Вопросы](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)
+- [Улучшения](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+- [Разработка Действий Реагирования](https://github.com/atc-project/atc-react/issues?q=is%3Aissue+is%3Aopen+label%3ARA-dev)
 
 ## Лицензия
 
