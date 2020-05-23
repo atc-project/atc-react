@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
-from scripts.reactutils import REACTutils
+try:
+    from scripts.reactutils import REACTutils
+    import scripts.atc_thehive.thehive_classes as THC
+except:
+    from response.atc_react.scripts.reactutils import REACTutils
+    import response.atc_react.scripts.atc_thehive.thehive_classes as THC
 
-import scripts.atc_thehive.thehive_classes as THC
+
 import argparse
 import os
 

@@ -3,7 +3,7 @@
 try:
     from scripts.reactutils import REACTutils
 except:
-    from reactutils import REACTutils
+    from response.atc_react.scripts.reactutils import REACTutils
 
 from pathlib import Path
 

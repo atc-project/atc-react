@@ -54,7 +54,7 @@ Here is an example of Response Action:
 
 - Automatically created [Markdown file](docs/Response_Actions/RA_2202_collect_email_message.md)
 - Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Actions/RA_2202_collect_email_message/)
-- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/725615696/RA2202+Collect+email+message)
+- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/755401087/RA2202+Collect+email+message)
 
 Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
 
@@ -95,7 +95,7 @@ Here is an example of Response Playbook:
 
 - Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
 - Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP_0001_phishing_email/)
-- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/725583045/RP0001+Phishing+email)
+- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/755401665/RP0001+Phishing+email)
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
