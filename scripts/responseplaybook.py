@@ -8,11 +8,11 @@ try:
     from scripts.amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from reactutils import REACTutils
-    from attack_mapping import te_mapping, ta_mapping
-    from amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
+    from response.atc_react.scripts.reactutils import REACTutils
+    from response.atc_react.scripts.attack_mapping import te_mapping, ta_mapping
+    from response.atc_react.scripts.amitt_mapping import amitt_tactic_mapping, amitt_technique_mapping, amitt_mitigation_mapping
     env = Environment(loader=FileSystemLoader(
-        'react_scripts/templates'))
+        'response/atc_react/scripts/templates'))
 
 import os
 import re

@@ -1,7 +1,7 @@
 try:
     from scripts.reactutils import REACTutils
 except:
-    from reactutils import REACTutils
+    from response.atc_react.scripts.reactutils import REACTutils
 
 from stix2 import MemoryStore, CustomObject, properties
 

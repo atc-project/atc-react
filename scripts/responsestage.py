@@ -7,10 +7,10 @@ try:
     from scripts.react_mapping import rs_mapping
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from reactutils import REACTutils
-    from react_scripts.react_mapping import rs_mapping
+    from response.atc_react.scripts.reactutils import REACTutils
+    from response.atc_react.scripts.react_mapping import rs_mapping
     env = Environment(loader=FileSystemLoader(
-        'react_scripts/templates'))
+        'response/atc_react/scripts/templates'))
 
 import os
 

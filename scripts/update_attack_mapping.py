@@ -5,7 +5,7 @@ import requests
 try:
     from scripts.reactutils import REACTutils
 except:
-    from reactutils import REACTutils
+    from response.atc_react.scripts.reactutils import REACTutils
 
 REACTConfig = REACTutils.load_config("config.yml")
 
