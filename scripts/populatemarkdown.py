@@ -63,7 +63,7 @@ class ReactPopulateMarkdown:
             self.response_playbook(rp_path)
             self.response_stage(rs_path)
 
-        if rp:
+        if rs:
             self.response_stage(rs_path)
 
 
