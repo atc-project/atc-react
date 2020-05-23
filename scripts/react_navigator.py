@@ -5,9 +5,9 @@ try:
     from scripts.react_mapping import ra_mapping
     from scripts.update_react_mapping import UpdateReactMapping
 except:
-    from reactutils import REACTutils
-    from react_scripts.react_mapping import ra_mapping
-    from react_scripts.update_react_mapping import UpdateReactMapping
+    from response.atc_react.scripts.reactutils import REACTutils
+    from response.atc_react.scripts.react_mapping import ra_mapping
+    from response.atc_react.scripts.update_react_mapping import UpdateReactMapping
 
 from os import listdir
 from os.path import isfile, join

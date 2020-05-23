@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
-# Import ATC classes
-from scripts.responseaction import ResponseAction
-from scripts.responseplaybook import ResponsePlaybook
-from scripts.responsestage import ResponseStage
-
-# Import ATC Utils
-from scripts.reactutils import REACTutils
+try:
+    from scripts.responseaction import ResponseAction
+    from scripts.responseplaybook import ResponsePlaybook
+    from scripts.responsestage import ResponseStage
+    from scripts.reactutils import REACTutils
+except:
+    from response.atc_react.scripts.responseaction import ResponseAction
+    from response.atc_react.scripts.responseplaybook import ResponsePlaybook
+    from response.atc_react.scripts.responsestage import ResponseStage
+    from response.atc_react.scripts.reactutils import REACTutils
 
 # Others
 import glob

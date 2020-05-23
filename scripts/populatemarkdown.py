@@ -11,13 +11,13 @@ try:
     from scripts.init_markdown import react_create_markdown_dirs
     env = Environment(loader=FileSystemLoader('scripts/templates'))
 except:
-    from reactutils import REACTutils
-    from react_scripts.responseaction import ResponseAction
-    from react_scripts.responseplaybook import ResponsePlaybook
-    from react_scripts.responsestage import ResponseStage
-    from react_scripts.init_markdown import react_create_markdown_dirs
+    from response.atc_react.scripts.reactutils import REACTutils
+    from response.atc_react.scripts.responseaction import ResponseAction
+    from response.atc_react.scripts.responseplaybook import ResponsePlaybook
+    from response.atc_react.scripts.responsestage import ResponseStage
+    from response.atc_react.scripts.init_markdown import react_create_markdown_dirs
     env = Environment(loader=FileSystemLoader(
-        'react_scripts/templates'))
+        'response/atc_react/scripts/templates'))
 
 # Others
 import glob
