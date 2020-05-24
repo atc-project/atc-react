@@ -17,8 +17,10 @@
 
 Основные ресурсы:
 
-- [Веб-сайт](https://atc-project.github.io/atc-react/) RE&CT — лучшее место для детального изучения существующих техник реагирования на инциденты
-- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (модифицированный [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) для визуализации и анализа общей картины 
+- [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (модифицированный [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) для визуализации и анализа общей картины  
+- Автоматически сгенерированный [веб-сайт](https://atc-project.github.io/atc-react/) фреймворка RE&CT — лучшее место для детального изучения существующих техник реагирования на инциденты  
+- Автоматически сгенерированная [база знаний в Atlassian Confluence](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755469668/Response+Stages) — демонстрация функции по экспорта аналитики  
+
 
 | Preparation                                                   | Identification                                     | Containment                                    | Eradication                                 | Recovery                                | Lessons Learned                        |
 |:-------------------------------------------------------------:|:--------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|:---------------------------------------:|:--------------------------------------:|

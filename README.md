@@ -28,8 +28,9 @@ The main use cases:
 
 The main resources:
 
-- RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
 - [RE&CT Navigator](https://atc-project.github.io/react-navigator/) (modified [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)) for visualization and observing the big picture  
+- Automatically generated RE&CT [website](https://atc-project.github.io/atc-react/) is the best place for getting details about existing analytics  
+- Automatically generated [Atlassian Confluence knowledge base](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755469668/Response+Stages) - exporting functionality demonstration  
 
 ## Actionable Analytics
 
@@ -54,7 +55,7 @@ Here is an example of Response Action:
 
 - Automatically created [Markdown file](docs/Response_Actions/RA_2202_collect_email_message.md)
 - Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Actions/RA_2202_collect_email_message/)
-- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/755401087/RA2202+Collect+email+message)
+- Automatically created [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755435640/RA2202+Collect+email+message)
 
 Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
 
@@ -95,7 +96,7 @@ Here is an example of Response Playbook:
 
 - Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
 - Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP_0001_phishing_email/)
-- Automatically created (by main ATC project) [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/ATC/pages/755401665/RP0001+Phishing+email)
+- Automatically created [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755469546/RP0001+Phishing+email)
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.
 
@@ -127,17 +128,20 @@ Originally analytics related to Incident Response were part of the ATC, but we d
 
 1. Make sure you are compliant with the [requirements](#requirements)
 
-2. Modify existing `.yml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
+2. Create configuration file by copying configuration file template `scripts/config.default.yml` to `config.yml` (root of the project). Modify it, following the guideline in the configuration file template.
 
-3. When `.yml` files are ready, convert them to `.md` documents, TheHive templates and [RE&CT Navigator](https://github.com/atc-project/react-navigator) profile using the following commands:
+3. Modify existing `.yml` files, or develop your own analytics using the templates of [Response Actions](response_actions/respose_action.yml.template) or [Response Playbooks](response_playbooks/respose_playbook.yml.template). They should be stored in the directories according to their type.
+
+4. When `.yml` files are ready, convert them to `.md` documents, import them into Confluence, generate TheHive templates and [RE&CT Navigator](https://github.com/atc-project/react-navigator) layer using the following commands:
     ```
     python3 main.py --markdown --auto --init
+    python3 main.py --confluence --auto --init
     python3 main.py --thehive
     python3 main.py -NAV
     ```
-    You will find the outcome in the `docs` directory. At the moment, RE&CT Navigator profile could be opened only in the [customized application](https://github.com/atc-project/react-navigator).
+    You will find the outcome in the `docs` directory and Confluence pages (according to the configuration). At the moment, RE&CT Navigator profile could be opened only in the [customized application](https://github.com/atc-project/react-navigator).
 
-4. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
+5. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
     ```
     python3 main.py -MK         # automatic mkdocs config (navigation) generation
     python3 -m mkdocs build
