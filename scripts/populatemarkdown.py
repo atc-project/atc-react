@@ -51,17 +51,16 @@ class ReactPopulateMarkdown:
 
         # Main logic
         if auto:
+            self.response_stage(rs_path)
             self.response_action(ra_path)
             self.response_playbook(rp_path)
             self.response_stage(rs_path)
 
         if ra:
             self.response_action(ra_path)
-            self.response_stage(rs_path)
 
         if rp:
             self.response_playbook(rp_path)
-            self.response_stage(rs_path)
 
         if rs:
             self.response_stage(rs_path)
