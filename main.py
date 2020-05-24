@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from scripts.populatemarkdown import ReactPopulateMarkdown
+from scripts.populateconfluence import ReactPopulateConfluence
 from scripts.thehive_templates import RPTheHive
 from scripts.reactutils import REACTutils
 from scripts.generate_mkdocs_config import GenerateMkdocs
@@ -8,7 +9,11 @@ from scripts.react2stix import GenerateSTIX
 from scripts.react_navigator import GenerateNavigator
 from scripts.update_attack_mapping import UpdateAttackMapping
 
+# For confluence
+from requests.auth import HTTPBasicAuth
+
 # Others
+import getpass
 import argparse
 
 if __name__ == '__main__':
@@ -27,6 +32,8 @@ if __name__ == '__main__':
                         help='Build all the analytics')
     group.add_argument('-M', '--markdown', action='store_true',
                        help='Export analytics to Markdown repository')
+    group.add_argument('-C', '--confluence', action='store_true',
+                       help='Export analytics to Confluence')
     group.add_argument('-T', '--thehive', action='store_true',
                        help='Generate TheHive Case templates')
     group.add_argument('-MK', '--mkdocs', action='store_true',
@@ -60,11 +67,27 @@ if __name__ == '__main__':
         ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
                               rp=args.responseplaybook, rs=args.responsestage,
                               init=args.init)
+    
+    elif args.confluence:
+        print("Provide Confluence credentials\n")
+
+        mail = input("Login: ")
+        password = getpass.getpass(prompt='Password: ', stream=None)
+
+        auth = HTTPBasicAuth(mail, password)
+        UpdateAttackMapping()
+        ReactPopulateConfluence(auth=auth, auto=args.auto, 
+                                ra=args.responseactions, rp=args.responseplaybook,
+                                rs=args.responsestage, init=args.init)
+
     elif args.all:
         UpdateAttackMapping()
         ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
                               rp=args.responseplaybook, rs=args.responsestage,
                               init=args.init)
+        ReactPopulateConfluence(auth=auth, auto=args.auto, 
+                                ra=args.responseactions, rp=args.responseplaybook,
+                                rs=args.responsestage, init=args.init)
         GenerateMkdocs()
         GenerateSTIX()
         GenerateNavigator()

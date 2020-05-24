@@ -3,10 +3,14 @@
 import yaml
 import re
 import warnings
+import requests
+import html
+import json
 
 from os import listdir
 from os.path import isfile, join
 from yaml.scanner import ScannerError
+from requests.auth import HTTPBasicAuth
 
 # ########################################################################### #
 # ############################### REACTutils ################################ #
@@ -217,6 +221,189 @@ class REACTutils:
             file.write(content)
 
         return True
+
+    @staticmethod
+    def confluence_get_page_id(apipath, auth, space, title):
+        """Get confluence page ID based on title and space"""
+
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        }
+
+        url = apipath + "content"
+        space_page_url = url + '?spaceKey=' + space + '&title=' \
+            + title + '&expand=space'
+
+        response = requests.request(
+            "GET",
+            space_page_url,
+            headers=headers,
+            auth=auth
+        )
+
+        if response.status_code == 401:
+            print("Unauthorized Response. Try to use a token instead of a password. " +
+                  "Follow the guideline for more info: \n" +
+                  "https://developer.atlassian.com/cloud/confluence/basic-auth-" +
+                  "for-rest-apis/#supplying-basic-auth-headers")
+            exit()
+        else:
+            response = response.json()
+
+        # Check if response contains proper information and return it if so
+        if response.get('results'):
+            if isinstance(response['results'], list):
+                if response['results'][0].get('id'):
+                    return response['results'][0][u'id']
+
+        # If page not found
+        return None
+
+
+    @staticmethod
+    def push_to_confluence(data, apipath, auth):
+        """Description"""
+
+        apipath = apipath if apipath[-1] == '/' else apipath + '/'
+
+        url = apipath + "content"
+
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        }
+
+        alldata = True
+        for i in ["title", "spacekey", "parentid", "confluencecontent"]:
+            if i not in data.keys():
+                alldata = False
+        if not alldata:
+            raise Exception("Not all data were provided in order " +
+                            "to push the content to confluence")
+
+        dict_payload = {
+            "title": "%s" % data["title"],  # req
+            "type": "page",  # req
+            "space": {  # req
+                "key": "%s" % data["spacekey"]
+            },
+            "status": "current",
+            "ancestors": [
+                {
+                    "id": "%s" % data["parentid"]  # parent id
+                }
+            ],
+            "body": {  # req
+                "storage": {
+                    "value": "%s" % data["confluencecontent"],
+                    "representation": "storage"
+                }
+            }
+        }
+        payload = json.dumps(dict_payload)
+
+        response = requests.request(
+            "POST",
+            url,
+            data=payload,
+            headers=headers,
+            auth=auth
+        )
+
+        resp = json.loads(response.text)
+        if "data" in resp.keys():
+            if "successful" in resp["data"].keys() \
+                    and bool(resp["data"]["successful"]):
+                return "Page created"
+            else:
+                cid = REACTutils.confluence_get_page_id(
+                    apipath, auth, data["spacekey"],
+                    data["title"]
+                )
+
+            response = requests.request(
+                "GET",
+                url + "/%s?expand=body.storage,version" % str(cid),
+                data=payload,
+                headers=headers,
+                auth=auth
+            )
+
+            resp = json.loads(response.text)
+
+            current_content = resp["body"]["storage"]["value"]
+
+            #if current_content == data["confluencecontent"]:
+            # compare pages: revert changes in confluence page, remove \n \r \t \s
+            conv = {
+                '<ac:structured-macro ac:name="markdown"[^>]*>': '<ac:structured-macro ac:name="markdown">',
+                '<ac:structured-macro ac:name="expand"[^>]*>': '<ac:structured-macroac:name="expand">',
+                '<ac:structured-macro ac:name="code"[^>]*>': '<ac:structured-macroac:name="code">',
+                'â€™': '’', 
+                'Ä€': 'Ā', 
+                '\n': '',
+                '\r': '',
+                '\t': '',
+                ' ': ''
+            }
+            curr = html.unescape(current_content)
+            new = html.unescape(data["confluencecontent"])
+            for str_from, str_to in conv.items():
+                curr = re.sub(str_from, str_to, curr)
+                new = re.sub(str_from, str_to, new)
+
+            if curr == new:
+                return "No update required"
+
+            try:
+                i = int(resp["version"]["number"]) + 1
+                dict_payload["version"] = {"number": i}
+                payload = json.dumps(dict_payload)
+
+                response = requests.request(
+                    "PUT",
+                    url + "/%s" % str(cid),
+                    data=payload,
+                    headers=headers,
+                    auth=auth
+                )
+
+                return "Page updated"
+            except KeyError:
+                response = requests.request(
+                    "GET",
+                    url + "/%s/" % str(cid),
+                    data=payload,
+                    headers=headers,
+                    auth=auth
+                )
+
+                resp = json.loads(response.text)
+                try:
+                    resp["version"]["number"] += 1
+
+                    dict_payload["version"] = resp["version"]
+                    payload = json.dumps(dict_payload)
+
+                    response = requests.request(
+                        "PUT",
+                        url + "/%s" % str(cid),
+                        data=payload,
+                        headers=headers,
+                        auth=auth
+                    )
+
+                    return "Page updated"
+
+                except BaseException:
+                    return "Page update failed"
+        elif "status" in resp.keys():
+            if resp["status"] == "current":
+                return "Page created"
+
+        return None
+
 
     @staticmethod
     def normalize_react_title(title):

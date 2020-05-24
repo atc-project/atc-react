@@ -1,0 +1,25 @@
+{%- if rss_list is not none and rss_list|length -%}
+<table data-layout="default"><colgroup><col /><col /><col /></colgroup>
+<tbody>
+<tr>
+<th>
+<p style="text-align: center;"><strong>ID</strong></p></th>
+<th>
+<p style="text-align: center;"><strong>Name</strong></p></th>
+<th>
+<p><strong>Description</strong></p>
+</th>
+</tr>
+{%-  for rs_id, rs_title, rs_description, rs_confluence_page_id in rss_list -%}
+<tr>
+<td>
+<p><a href="{{confluence_viewpage_url}}{{rs_confluence_page_id}}">{{ rs_id }}</a></p></td>
+<td>
+<p><a href="{{confluence_viewpage_url}}{{rs_confluence_page_id}}">{{ rs_title }}</a></p></td>
+<td>
+<p>{{ rs_description }}</p></td>
+</tr>
+{%- endfor -%}
+</tbody></table>
+<p />
+{%- endif -%}
