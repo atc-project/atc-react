@@ -6,7 +6,7 @@ All contributions and feedback to RE&CT are appreciated. Please don't hesitate t
 
 # How to add a new Response Action?
 
-If you would like to contribute a Response Action only, you need to follow [How to add a new feature or create a pull request](#how-to-add-a-new-feature-or-create-a-pull-request) guideline, points 1, 2, 3, 5, 7, 8, bypassing 4 and 6, since you don't need the development environment.
+If you would like to contribute a Response Action only, you need to follow [How to add a new feature or create a pull request](#how-to-add-a-new-feature-or-create-a-pull-request) guidelines, points 1, 2, 3, 5, 7, 8, bypassing 4 and 6, as you don't need the development environment.
 
 Here is an example of good Response Action — [RA3101: Block external IP address](response_actions/RA_3101_block_external_ip_address.yml):
 
