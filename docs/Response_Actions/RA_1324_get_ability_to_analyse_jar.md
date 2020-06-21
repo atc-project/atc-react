@@ -1,7 +1,7 @@
 | Title                       | Get ability to analyse jar         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1324            |
-| **Description**             | Get ability to analyse JAR file   |
+| **Description**             | Make sure you have the ability to analyse JAR file   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

@@ -1,7 +1,7 @@
 | Title                       | Get ability to analyse filename         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1325            |
-| **Description**             | Get ability to analyse a filename   |
+| **Description**             | Make sure you have the ability to analyse a filename   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | File      |

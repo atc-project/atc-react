@@ -1,7 +1,7 @@
 | Title                       | Get ability to analyse registry key         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1511            |
-| **Description**             | Get ability to analyse a registry key   |
+| **Description**             | Make sure you have the ability to analyse a registry key   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Configuration      |

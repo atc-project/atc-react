@@ -1,7 +1,7 @@
 | Title                       | Get ability to analyse user-agent         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1127            |
-| **Description**             | Get ability to analyse an User-Agent request header   |
+| **Description**             | Make sure you have the ability to analyse an User-Agent request header   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Network      |
