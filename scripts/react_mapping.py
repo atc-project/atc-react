@@ -120,7 +120,7 @@ ra_mapping = {
     "RA2203": "List email message receivers",
     "RA2204": "Make sure email message is phishing",
     "RA2205": "Extract observables from email message",
-    "RA2206": "Analyse email",
+    "RA2206": "Analyse email address",
     "RA2301": "List files created",
     "RA2302": "List files modified",
     "RA2303": "List files deleted",
