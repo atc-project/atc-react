@@ -85,9 +85,6 @@ if __name__ == '__main__':
         ReactPopulateMarkdown(auto=args.auto, ra=args.responseactions,
                               rp=args.responseplaybook, rs=args.responsestage,
                               init=args.init)
-        ReactPopulateConfluence(auth=auth, auto=args.auto, 
-                                ra=args.responseactions, rp=args.responseplaybook,
-                                rs=args.responsestage, init=args.init)
         GenerateMkdocs()
         GenerateSTIX()
         GenerateNavigator()
