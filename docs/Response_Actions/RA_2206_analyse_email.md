@@ -1,4 +1,4 @@
-| Title                       | Analyse email         |
+| Title                       | Analyse email address         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2206            |
 | **Description**             | Analyse an email address   |
