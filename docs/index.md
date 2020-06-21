@@ -42,13 +42,13 @@ The main resources:
 | [Access internal HTTP logs*]                                  | [**List hosts communicated with external IP**]     | [Quarantine file by hash*]                     |                                             |                                         |                                        |
 | [**Access external HTTP logs**]                               | [**List hosts communicated with external URL**]    | [Quarantine file by path*]                     |                                             |                                         |                                        |
 | [Access internal DNS logs*]                                   | [Find data transferred by content pattern*]        | [Quarantine file by content pattern*]          |                                             |                                         |                                        |
-| [**Access external DNS logs**]                                | [Analyse user-agent*]  						     | [Block process by executable path*]            |                                             |                                         |                                        |
+| [**Access external DNS logs**]                                | [Analyse user-agent*]                              | [Block process by executable path*]            |                                             |                                         |                                        |
 | [Access VPN logs*]                                            | [**List users opened email message**]              | [Block process by executable metadata*]        |                                             |                                         |                                        |
 | [Access DHCP logs*]                                           | [**Collect email message**]                        | [Block process by executable hash*]            |                                             |                                         |                                        |
 | [Access internal packet capture data*]                        | [**List email message receivers**]                 | [Block process by executable format*]          |                                             |                                         |                                        |
 | [Access external packet capture data*]                        | [**Make sure email message is phishing**]          | [Block process by executable content pattern*] |                                             |                                         |                                        |
 | [**Get ability to block external IP address**]                | [**Extract observables from email message**]       | [Disable system service*]                      |                                             |                                         |                                        |
-| [Get ability to block internal IP address*]                   | [Analyse email address*] 							 | [Lock user account*]                           |                                             |                                         |                                        |
+| [Get ability to block internal IP address*]                   | [Analyse email address*]                           | [Lock user account*]                           |                                             |                                         |                                        |
 | [**Get ability to block external domain**]                    | [List files created*]                              |                                                |                                             |                                         |                                        |
 | [Get ability to block internal domain*]                       | [List files modified*]                             |                                                |                                             |                                         |                                        |
 | [**Get ability to block external URL**]                       | [List files deleted*]                              |                                                |                                             |                                         |                                        |
@@ -63,13 +63,15 @@ The main resources:
 | [Get ability to collect transferred data*]                    | [Analyse file hash*]                               |                                                |                                             |                                         |                                        |
 | [Get ability to identify transferred data*]                   | [Analyse Windows PE*]                              |                                                |                                             |                                         |                                        |
 | [Find data transferred by content pattern*]                   | [Analyse macos macho*]                             |                                                |                                             |                                         |                                        |
-| [**Get ability to list users opened email message**]          | [Analyse Unix ELF*]                                |                                                |                                             |                                         |                                        |
-| [**Get ability to list email message receivers**]             | [Analyse MS office file*]                          |                                                |                                             |                                         |                                        |
-| [**Get ability to block email domain**]                       | [Analyse PDF file*]                                |                                                |                                             |                                         |                                        |
-| [**Get ability to block email sender**]                       | [Analyse script*]                                  |                                                |                                             |                                         |                                        |
-| [**Get ability to delete email message**]                     | [List processes executed*]                         |                                                |                                             |                                         |                                        |
-| [**Get ability to quarantine email message**]                 | [Find process by executable path*]                 |                                                |                                             |                                         |                                        |
-| [Get ability to collect email message*]                       | [Find process by executable metadata*]             |                                                |                                             |                                         |                                        |
+| [Get ability to analyse user-agent*]                          | [Analyse Unix ELF*]                                |                                                |                                             |                                         |                                        |
+| [**Get ability to list users opened email message**]          | [Analyse MS office file*]                          |                                                |                                             |                                         |                                        |
+| [**Get ability to list email message receivers**]             | [Analyse PDF file*]                                |                                                |                                             |                                         |                                        |
+| [**Get ability to block email domain**]                       | [Analyse script*]                                  |                                                |                                             |                                         |                                        |
+| [**Get ability to block email sender**]                       | [Analyse jar*]                                     |                                                |                                             |                                         |                                        |
+| [**Get ability to delete email message**]                     | [Analyse filename*]                                |                                                |                                             |                                         |                                        |
+| [**Get ability to quarantine email message**]                 | [List processes executed*]                         |                                                |                                             |                                         |                                        |
+| [Get ability to collect email message*]                       | [Find process by executable path*]                 |                                                |                                             |                                         |                                        |
+| [Get ability to analyse email address*]                       | [Find process by executable metadata*]             |                                                |                                             |                                         |                                        |
 | [Get ability to list files created*]                          | [Find process by executable hash*]                 |                                                |                                             |                                         |                                        |
 | [Get ability to list files modified*]                         | [Find process by executable format*]               |                                                |                                             |                                         |                                        |
 | [Get ability to list files deleted*]                          | [Find process by executable content pattern*]      |                                                |                                             |                                         |                                        |
@@ -80,8 +82,8 @@ The main resources:
 | [Get ability to find file by hash*]                           | [List services created*]                           |                                                |                                             |                                         |                                        |
 | [Get ability to find file by format*]                         | [List services modified*]                          |                                                |                                             |                                         |                                        |
 | [Get ability to find file by content pattern*]                | [List services deleted*]                           |                                                |                                             |                                         |                                        |
-| [Get ability to collect file*]                                | [List users authenticated*]                        |                                                |                                             |                                         |                                        |
-| [Get ability to quarantine file by path*]                     |                                                    |                                                |                                             |                                         |                                        |
+| [Get ability to collect file*]                                | [Analyse registry key*]                            |                                                |                                             |                                         |                                        |
+| [Get ability to quarantine file by path*]                     | [List users authenticated*]                        |                                                |                                             |                                         |                                        |
 | [Get ability to quarantine file by hash*]                     |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to quarantine file by format*]                   |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to quarantine file by content pattern*]          |                                                    |                                                |                                             |                                         |                                        |
@@ -93,6 +95,8 @@ The main resources:
 | [Get ability to analyse ms office file*]                      |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to analyse pdf file*]                            |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to analyse script*]                              |                                                    |                                                |                                             |                                         |                                        |
+| [Get ability to analyse jar*]                                 |                                                    |                                                |                                             |                                         |                                        |
+| [Get ability to analyse filename*]                            |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to list processes executed*]                     |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to find process by executable path*]             |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to find process by executable metadata*]         |                                                    |                                                |                                             |                                         |                                        |
@@ -114,11 +118,13 @@ The main resources:
 | [Get ability to list services deleted*]                       |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to remove registry key*]                         |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to remove service*]                              |                                                    |                                                |                                             |                                         |                                        |
+| [Get ability to analyse registry key*]                        |                                                    |                                                |                                             |                                         |                                        |
 | [Manage identity management system*]                          |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to lock user account*]                           |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to list users authenticated*]                    |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to revoke authentication credentials*]           |                                                    |                                                |                                             |                                         |                                        |
 | [Get ability to remove user account*]                         |                                                    |                                                |                                             |                                         |                                        |
+|
 
 <br>
 
@@ -158,6 +164,7 @@ The main resources:
 [Get ability to block user external communication*]: https://github.com/atc-project/atc-react/issues/153
 [Get ability to block user internal communication*]: https://github.com/atc-project/atc-react/issues/154
 [Get ability to find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/155
+[Get ability to analyse user-agent*]: https://github.com/atc-project/atc-react/issues/312
 [Get ability to block data transferring by content pattern*]: https://github.com/atc-project/atc-react/issues/156
 [Get ability to list data transferred*]: https://github.com/atc-project/atc-react/issues/157
 [Get ability to collect transferred data*]: https://github.com/atc-project/atc-react/issues/158
@@ -171,6 +178,7 @@ The main resources:
 [**Get ability to delete email message**]: Response_Actions/RA_1205_get_ability_to_delete_email_message.md
 [**Get ability to quarantine email message**]: Response_Actions/RA_1206_get_ability_to_quarantine_email_message.md
 [Get ability to collect email message*]: https://github.com/atc-project/atc-react/issues/161
+[Get ability to analyse email address*]: https://github.com/atc-project/atc-react/issues/313
 [Get ability to list files created*]: https://github.com/atc-project/atc-react/issues/162
 [Get ability to list files modified*]: https://github.com/atc-project/atc-react/issues/163
 [Get ability to list files deleted*]: https://github.com/atc-project/atc-react/issues/164
@@ -194,6 +202,8 @@ The main resources:
 [Get ability to analyse ms office file*]: https://github.com/atc-project/atc-react/issues/271
 [Get ability to analyse pdf file*]: https://github.com/atc-project/atc-react/issues/272
 [Get ability to analyse script*]: https://github.com/atc-project/atc-react/issues/273
+[Get ability to analyse jar*]: https://github.com/atc-project/atc-react/issues/314
+[Get ability to analyse filename*]: https://github.com/atc-project/atc-react/issues/315
 [Get ability to list processes executed*]: https://github.com/atc-project/atc-react/issues/178
 [Get ability to find process by executable path*]: https://github.com/atc-project/atc-react/issues/179
 [Get ability to find process by executable metadata*]: https://github.com/atc-project/atc-react/issues/180
@@ -215,6 +225,7 @@ The main resources:
 [Get ability to list services deleted*]: https://github.com/atc-project/atc-react/issues/196
 [Get ability to remove registry key*]: https://github.com/atc-project/atc-react/issues/197
 [Get ability to remove service*]: https://github.com/atc-project/atc-react/issues/198
+[Get ability to analyse registry key*]: https://github.com/atc-project/atc-react/issues/316
 [Manage identity management system*]: https://github.com/atc-project/atc-react/issues/199
 [Get ability to lock user account*]: https://github.com/atc-project/atc-react/issues/200
 [Get ability to list users authenticated*]: https://github.com/atc-project/atc-react/issues/201
@@ -265,6 +276,8 @@ The main resources:
 [Analyse PDF file*]: https://github.com/atc-project/atc-react/issues/43
 
 [Analyse script*]: https://github.com/atc-project/atc-react/issues/274
+[Analyse jar*]: https://github.com/atc-project/atc-react/issues/308
+[Analyse filename*]: https://github.com/atc-project/atc-react/issues/309
 [List processes executed*]: https://github.com/atc-project/atc-react/issues/34
 [Find process by executable path*]: https://github.com/atc-project/atc-react/issues/222
 [Find process by executable metadata*]: https://github.com/atc-project/atc-react/issues/223
@@ -278,6 +291,7 @@ The main resources:
 [List services created*]: https://github.com/atc-project/atc-react/issues/230
 [List services modified*]: https://github.com/atc-project/atc-react/issues/231
 [List services deleted*]: https://github.com/atc-project/atc-react/issues/232
+[Analyse registry key*]: https://github.com/atc-project/atc-react/issues/310
 [List users authenticated*]: https://github.com/atc-project/atc-react/issues/233
 
 [Patch vulnerability*]: https://github.com/atc-project/atc-react/issues/234
