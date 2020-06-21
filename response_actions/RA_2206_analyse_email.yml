@@ -1,0 +1,13 @@
+title: RA_2206_analyse_email
+id: RA2206
+description: Analyse an email address
+author: name/nickname/twitter
+creation_date: DD.MM.YYYY
+stage: identification
+automation:
+  - thehive
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  
