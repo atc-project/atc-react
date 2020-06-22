@@ -1,7 +1,7 @@
 | Title                       | Get ability to analyse email address         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA1208            |
-| **Description**             | Get ability to analyse an email address   |
+| **Description**             | Make sure you have the ability to analyse an email address   |
 | **Author**                  | your name/nickname/twitter        |
 | **Creation Date**           | DD.MM.YYYY |
 | **Category**                | Email      |
