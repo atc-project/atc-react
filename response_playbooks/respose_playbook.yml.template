@@ -19,7 +19,7 @@ references:
 preparation:
   - RA_0000_something
 identification:
-  - RA_0001_get_original_email            # links to atomit Response Actions
+  - RA_0001_get_original_email            # links to atomic Response Actions
 containment:
   - RA_0006_block_domain_on_email         # Response Actions could be aggregated 
   - RA_0009_block_url_on_proxy            # and contain links to multiple Response Actions
