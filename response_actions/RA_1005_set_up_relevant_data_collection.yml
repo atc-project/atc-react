@@ -6,7 +6,7 @@ description: >
   the time, data like DNS and DHCP logs are not being collected, as their value for detection is 
   relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list
 author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+creation_date: YYYY/MM/DD
 stage: preparation
 automation:
   - thehive/phantom/demisto/etc

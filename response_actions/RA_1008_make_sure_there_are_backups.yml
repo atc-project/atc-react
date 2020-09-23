@@ -3,7 +3,7 @@ id: RA1008
 description: >
   Make sure there are both online and offline backups. Make sure they are fully operational. In the case of a successful ransomware worm attack, thats the only thing that will help you to safe your critically important data
 author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+creation_date: YYYY/MM/DD
 stage: preparation
 automation:
   - thehive/phantom/demisto/etc
