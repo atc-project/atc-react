@@ -3,7 +3,7 @@
 | **ID**                      | RA4502            |
 | **Description**             | Remove a service   |
 | **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Creation Date**           | YYYY/MM/DD |
 | **Category**                | Configuration      |
 | **Stage**                   |[RS0004: Eradication](../Response_Stages/RS0004.md)| 
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
