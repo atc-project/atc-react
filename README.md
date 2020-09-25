@@ -50,7 +50,7 @@ Here is an example of Response Action:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="docs/images/ra_yaml_v5.png" />
+  <img src="docs/images/ra_yaml_v6.png" />
 </details>
 
 - Automatically created [Markdown file](docs/Response_Actions/RA_2202_collect_email_message.md)
@@ -91,7 +91,7 @@ Here is an example of Response Playbook:
 
 <details>
   <summary>Initial YAML file (click to expand)</summary>
-  <img src="docs/images/rp_yaml_v5.png" />
+  <img src="docs/images/rp_yaml_v6.png" />
 </details>
 
 - Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
