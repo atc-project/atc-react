@@ -16,7 +16,7 @@ id: RA3101
 description: >
   Block an external IP address from being accessed by corporate assets
 author: '@atc_project'
-creation_date: 31.01.2019
+creation_date: 2020/01/31
 stage: containment
 requirements:
   - MS_border_firewall

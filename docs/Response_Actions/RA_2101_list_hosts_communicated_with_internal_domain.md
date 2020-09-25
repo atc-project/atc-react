@@ -3,7 +3,7 @@
 | **ID**                      | RA2101            |
 | **Description**             | List hosts communicated with an internal domain   |
 | **Author**                  | name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Creation Date**           | YYYY/MM/DD |
 | **Category**                | Network      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
 | **Automation** |<ul><li>thehive</li></ul>|

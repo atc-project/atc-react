@@ -3,7 +3,7 @@
 | **ID**                      | RA2502            |
 | **Description**             | List registry keys that have been deleted at a particular time in the past   |
 | **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Creation Date**           | YYYY/MM/DD |
 | **Category**                | Configuration      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
