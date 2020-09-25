@@ -3,7 +3,7 @@ id: RP0000
 description: >
   Some text description here. It will be merged into one line
 author: your name/nickname/twitter
-creation_date: DD.MM.YYYY
+creation_date: YYYY/MM/DD
 severity: M                  # L M H
 tlp: AMBER                   # WHITE GREEN AMBER RED
 pap: WHITE                   # WHITE GREEN AMBER RED
@@ -19,7 +19,7 @@ references:
 preparation:
   - RA_0000_something
 identification:
-  - RA_0001_get_original_email            # links to atomit Response Actions
+  - RA_0001_get_original_email            # links to atomic Response Actions
 containment:
   - RA_0006_block_domain_on_email         # Response Actions could be aggregated 
   - RA_0009_block_url_on_proxy            # and contain links to multiple Response Actions

@@ -3,7 +3,7 @@
 | **ID**                      | RA2404            |
 | **Description**             | Find a process that is being executed at the moment or at a particular time in the past by its executable hash   |
 | **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Creation Date**           | YYYY/MM/DD |
 | **Category**                | Process      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|

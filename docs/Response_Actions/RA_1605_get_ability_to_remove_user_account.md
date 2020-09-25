@@ -3,7 +3,7 @@
 | **ID**                      | RA1605            |
 | **Description**             | Make sure you have the ability to remove a user account   |
 | **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | DD.MM.YYYY |
+| **Creation Date**           | YYYY/MM/DD |
 | **Category**                | Identity      |
 | **Stage**                   |[RS0001: Preparation](../Response_Stages/RS0001.md)| 
 | **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
