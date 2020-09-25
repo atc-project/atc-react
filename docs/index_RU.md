@@ -429,6 +429,7 @@ Response Playbook (Сценарий Реагирования) — это пла�
 - Тимур Зиннятуллин, [@zinint](https://twitter.com/zinint)  
 - Даниил Светлов, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
 - Андреас Ханкелер, [@Karneades](https://github.com/Karneades)  
+- Патрик Эбрэхам, [@pjabes](https://github.com/pjabes)
 
 Вы хотели бы внести свой вклад в проект и тоже стать участником? Инструкция [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) поможет начать.  
 
