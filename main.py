@@ -37,7 +37,7 @@ if __name__ == '__main__':
     group.add_argument('-T', '--thehive', action='store_true',
                        help='Generate TheHive Case templates')
     group.add_argument('-MK', '--mkdocs', action='store_true',
-                       help='Generate mkdofc navigation file')
+                       help='Generate mkdocs navigation file')
     group.add_argument('-STIX', '--stix', action='store_true',
                        help='Generate STIX objects')
     group.add_argument('-NAV', '--navigator', action='store_true',
