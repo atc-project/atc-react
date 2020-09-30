@@ -8,7 +8,7 @@ import html
 import json
 
 from os import listdir
-from os.path import isfile, join
+from posixpath import isfile, join
 from yaml.scanner import ScannerError
 from requests.auth import HTTPBasicAuth
 
