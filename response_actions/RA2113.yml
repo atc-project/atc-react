@@ -1,0 +1,16 @@
+title: List Hosts Communicated with External Domain
+id: RA2113
+description: >
+  List hosts communicated with an external domain
+author: '@atc_project'
+creation_date: 2020/05/06
+stage: identification
+requirements:
+  - DN_zeek_conn_log
+  - DN_zeek_dns_log
+  - DN_zeek_http_log
+  - DN_dns_log
+  - DN_proxy_log
+  - DN_network_flow_log
+workflow: |
+  List hosts communicated with an external domain using the most efficient way.  

@@ -1,0 +1,14 @@
+title: Block External URL
+id: RA3105
+description: >
+  Block an external URL from being accessed by corporate assets
+author: '@atc_project'
+creation_date: 2019/01/31
+stage: containment
+requirements:
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_dns_server
+workflow: |
+  Block an external URL from being accessed by corporate assets, using the most efficient way.  

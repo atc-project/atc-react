@@ -1,0 +1,14 @@
+title: Get Ability to Block Process by Executable Hash
+id: RA1409
+description: >
+  Make sure you have the ability to block process by its executable hash
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.

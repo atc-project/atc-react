@@ -1,0 +1,14 @@
+title: List Users Authenticated
+id: RA2601
+description: >
+  List users authenticated at a particular time in the past on a particular system
+author: name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: identification
+automation:
+  - thehive
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.

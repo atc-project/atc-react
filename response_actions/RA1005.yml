@@ -1,0 +1,17 @@
+title: Set Up Relevant Data Collection
+id: RA1005
+description: >
+  Usually, data collection is managed by Log Management/Security Monitoring/Threat Detection teams. 
+  You need to provide them with a list of data that is critically important for IR process. Most of 
+  the time, data like DNS and DHCP logs are not being collected, as their value for detection is 
+  relatively low. You can refer to the existing Response Actions (Preparation stage) to develop the list
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: preparation
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

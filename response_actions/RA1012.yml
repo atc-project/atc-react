@@ -1,0 +1,14 @@
+title: Check Analysis Toolset
+id: RA1012
+description: >
+  Make sure your toolset for analysis and management is updated and fully operational. Make sure that all the required permissions have been granted as well
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: preparation
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

@@ -1,0 +1,14 @@
+title: Block Process by Executable Metadata
+id: RA3402
+description: >
+  Block a process execution by its executable metadata (i.e. signature, permissions, MAC times)
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: containment
+references:
+  - https://example.com
+requirements:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.

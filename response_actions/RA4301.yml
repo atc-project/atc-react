@@ -1,0 +1,14 @@
+title: Remove File
+id: RA4301
+description: >
+  Remove a specific file from a (remote) host or a system
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: eradication
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

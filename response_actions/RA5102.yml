@@ -1,0 +1,17 @@
+title: Unblock Blocked Domain
+id: RA5102
+description: >
+  Unblock a blocked domain name
+author: '@atc_project'
+creation_date: 2020/05/06
+stage: recovery
+requirements:
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_dns_server
+workflow: |
+  Unblock a blocked domain name in the system(s) used to block it.  

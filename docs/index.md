@@ -128,10 +128,10 @@ The main resources:
 
 <br>
 
-[**Practice**]: Response_Actions/RA_1001_practice.md
-[**Take trainings**]: Response_Actions/RA_1002_take_trainings.md
-[**Raise personnel awareness**]: Response_Actions/RA_1003_raise_personnel_awareness.md
-[**Make personnel report suspicious activity**]: Response_Actions/RA_1004_make_personnel_report_suspicious_activity.md
+[**Practice**]: Response_Actions/RA1001.md
+[**Take trainings**]: Response_Actions/RA1002.md
+[**Raise personnel awareness**]: Response_Actions/RA1003.md
+[**Make personnel report suspicious activity**]: Response_Actions/RA1004.md
 [Set up relevant data collection*]: https://github.com/atc-project/atc-react/issues/132
 [Set up a centralized long-term log storage*]: https://github.com/atc-project/atc-react/issues/133
 [Develop communication map*]: https://github.com/atc-project/atc-react/issues/134
@@ -141,23 +141,23 @@ The main resources:
 [Develop assets knowledge base*]: https://github.com/atc-project/atc-react/issues/138
 [Check analysis toolset*]: https://github.com/atc-project/atc-react/issues/139
 [Access vulnerability management system logs*]: https://github.com/atc-project/atc-react/issues/140
-[**Connect with trusted communities**]: Response_Actions/RA_1014_connect_with_trusted_communities.md
+[**Connect with trusted communities**]: Response_Actions/RA1014.md
 
-[**Access external network flow logs**]: Response_Actions/RA_1101_access_external_network_flow_logs.md
+[**Access external network flow logs**]: Response_Actions/RA1101.md
 [Access internal network flow logs*]: https://github.com/atc-project/atc-react/issues/141
 [Access internal HTTP logs*]: https://github.com/atc-project/atc-react/issues/142
-[**Access external HTTP logs**]: Response_Actions/RA_1104_access_external_http_logs.md
+[**Access external HTTP logs**]: Response_Actions/RA1104.md
 [Access internal DNS logs*]: https://github.com/atc-project/atc-react/issues/143
-[**Access external DNS logs**]: Response_Actions/RA_1106_access_external_dns_logs.md
+[**Access external DNS logs**]: Response_Actions/RA1106.md
 [Access VPN logs*]: https://github.com/atc-project/atc-react/issues/144
 [Access DHCP logs*]: https://github.com/atc-project/atc-react/issues/145
 [Access internal packet capture data*]: https://github.com/atc-project/atc-react/issues/146
 [Access external packet capture data*]: https://github.com/atc-project/atc-react/issues/147
-[**Get ability to block external IP address**]: Response_Actions/RA_1111_get_ability_to_block_external_ip_address.md
+[**Get ability to block external IP address**]: Response_Actions/RA1111.md
 [Get ability to block internal IP address*]: https://github.com/atc-project/atc-react/issues/148
-[**Get ability to block external domain**]: Response_Actions/RA_1113_get_ability_to_block_external_domain.md
+[**Get ability to block external domain**]: Response_Actions/RA1113.md
 [Get ability to block internal domain*]: https://github.com/atc-project/atc-react/issues/149
-[**Get ability to block external URL**]: Response_Actions/RA_1115_get_ability_to_block_external_url.md
+[**Get ability to block external URL**]: Response_Actions/RA1115.md
 [Get ability to block internal URL*]: https://github.com/atc-project/atc-react/issues/150
 [Get ability to block port external communication*]: https://github.com/atc-project/atc-react/issues/151
 [Get ability to block port internal communication*]: https://github.com/atc-project/atc-react/issues/152
@@ -171,12 +171,12 @@ The main resources:
 [Get ability to identify transferred data*]: https://github.com/atc-project/atc-react/issues/159
 [Find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/160
 [Analyse user-agent*]: https://github.com/atc-project/atc-react/issues/306
-[**Get ability to list users opened email message**]: Response_Actions/RA_1201_get_ability_to_list_users_opened_email_message.md
-[**Get ability to list email message receivers**]: Response_Actions/RA_1202_get_ability_to_list_email_message_receivers.md
-[**Get ability to block email domain**]: Response_Actions/RA_1203_get_ability_to_block_email_domain.md
-[**Get ability to block email sender**]: Response_Actions/RA_1204_get_ability_to_block_email_sender.md
-[**Get ability to delete email message**]: Response_Actions/RA_1205_get_ability_to_delete_email_message.md
-[**Get ability to quarantine email message**]: Response_Actions/RA_1206_get_ability_to_quarantine_email_message.md
+[**Get ability to list users opened email message**]: Response_Actions/RA1201.md
+[**Get ability to list email message receivers**]: Response_Actions/RA1202.md
+[**Get ability to block email domain**]: Response_Actions/RA1203.md
+[**Get ability to block email sender**]: Response_Actions/RA1204.md
+[**Get ability to delete email message**]: Response_Actions/RA1205.md
+[**Get ability to quarantine email message**]: Response_Actions/RA1206.md
 [Get ability to collect email message*]: https://github.com/atc-project/atc-react/issues/161
 [Get ability to analyse email address*]: https://github.com/atc-project/atc-react/issues/313
 [Get ability to list files created*]: https://github.com/atc-project/atc-react/issues/162
@@ -234,7 +234,7 @@ The main resources:
 
 [List victims of security alert*]: https://github.com/atc-project/atc-react/issues/49
 [List host vulnerabilities*]: https://github.com/atc-project/atc-react/issues/204
-[**Put compromised accounts on monitoring**]: Response_Actions/RA_2003_put_compromised_accounts_on_monitoring.md
+[**Put compromised accounts on monitoring**]: Response_Actions/RA2003.md
 [List hosts communicated with internal domain*]: https://github.com/atc-project/atc-react/issues/45
 [List hosts communicated with internal IP*]: https://github.com/atc-project/atc-react/issues/46
 [List hosts communicated with internal URL*]: https://github.com/atc-project/atc-react/issues/47
@@ -247,15 +247,15 @@ The main resources:
 [List data transferred*]: https://github.com/atc-project/atc-react/issues/208
 [Collect transferred data*]: https://github.com/atc-project/atc-react/issues/209
 [Identify transferred data*]: https://github.com/atc-project/atc-react/issues/210
-[**List hosts communicated with external domain**]: Response_Actions/RA_2113_list_hosts_communicated_with_external_domain.md
-[**List hosts communicated with external IP**]: Response_Actions/RA_2114_list_hosts_communicated_with_external_ip.md
-[**List hosts communicated with external URL**]: Response_Actions/RA_2115_list_hosts_communicated_with_external_url.md
+[**List hosts communicated with external domain**]: Response_Actions/RA2113.md
+[**List hosts communicated with external IP**]: Response_Actions/RA2114.md
+[**List hosts communicated with external URL**]: Response_Actions/RA2115.md
 [Find data transferred by content pattern*]: https://github.com/atc-project/atc-react/issues/211
-[**List users opened email message**]: Response_Actions/RA_2201_list_users_opened_email_message.md
-[**Collect email message**]: Response_Actions/RA_2202_collect_email_message.md
-[**List email message receivers**]: Response_Actions/RA_2203_list_email_message_receivers.md
-[**Make sure email message is phishing**]: Response_Actions/RA_2204_make_sure_email_message_is_phishing.md
-[**Extract observables from email message**]: Response_Actions/RA_2205_extract_observables_from_email_message.md
+[**List users opened email message**]: Response_Actions/RA2201.md
+[**Collect email message**]: Response_Actions/RA2202.md
+[**List email message receivers**]: Response_Actions/RA2203.md
+[**Make sure email message is phishing**]: Response_Actions/RA2204.md
+[**Extract observables from email message**]: Response_Actions/RA2205.md
 [Analyse email address*]: https://github.com/atc-project/atc-react/issues/307
 [List files created*]: https://github.com/atc-project/atc-react/issues/48
 [List files modified*]: https://github.com/atc-project/atc-react/issues/212
@@ -295,20 +295,20 @@ The main resources:
 [List users authenticated*]: https://github.com/atc-project/atc-react/issues/233
 
 [Patch vulnerability*]: https://github.com/atc-project/atc-react/issues/234
-[**Block external IP address**]: Response_Actions/RA_3101_block_external_ip_address.md
-[**Block internal IP address**]: Response_Actions/RA_3102_block_internal_ip_address.md
-[**Block external domain**]: Response_Actions/RA_3103_block_external_domain.md
-[**Block internal domain**]: Response_Actions/RA_3104_block_internal_domain.md
-[**Block external URL**]: Response_Actions/RA_3105_block_external_url.md
-[**Block internal URL**]: Response_Actions/RA_3106_block_internal_url.md
-[**Block port external communication**]: Response_Actions/RA_3107_block_port_external_communication.md
-[**Block port internal communication**]: Response_Actions/RA_3108_block_port_internal_communication.md
-[**Block user external communication**]: Response_Actions/RA_3109_block_user_external_communication.md
-[**Block user internal communication**]: Response_Actions/RA_3110_block_user_internal_communication.md
+[**Block external IP address**]: Response_Actions/RA3101.md
+[**Block internal IP address**]: Response_Actions/RA3102.md
+[**Block external domain**]: Response_Actions/RA3103.md
+[**Block internal domain**]: Response_Actions/RA3104.md
+[**Block external URL**]: Response_Actions/RA3105.md
+[**Block internal URL**]: Response_Actions/RA3106.md
+[**Block port external communication**]: Response_Actions/RA3107.md
+[**Block port internal communication**]: Response_Actions/RA3108.md
+[**Block user external communication**]: Response_Actions/RA3109.md
+[**Block user internal communication**]: Response_Actions/RA3110.md
 [Block data transferring by content pattern*]: https://github.com/atc-project/atc-react/issues/235
-[**Block domain on email**]: Response_Actions/RA_3201_block_domain_on_email.md
-[**Block sender on email**]: Response_Actions/RA_3202_block_sender_on_email.md
-[**Quarantine email message**]: Response_Actions/RA_3203_quarantine_email_message.md
+[**Block domain on email**]: Response_Actions/RA3201.md
+[**Block sender on email**]: Response_Actions/RA3202.md
+[**Quarantine email message**]: Response_Actions/RA3203.md
 [Quarantine file by format*]: https://github.com/atc-project/atc-react/issues/236
 [Quarantine file by hash*]: https://github.com/atc-project/atc-react/issues/237
 [Quarantine file by path*]: https://github.com/atc-project/atc-react/issues/238
@@ -321,32 +321,32 @@ The main resources:
 [Disable system service*]: https://github.com/atc-project/atc-react/issues/245
 [Lock user account*]: https://github.com/atc-project/atc-react/issues/246
 
-[**Report incident to external companies**]: Response_Actions/RA_4001_report_incident_to_external_companies.md
+[**Report incident to external companies**]: Response_Actions/RA4001.md
 [Remove rogue network device*]: https://github.com/atc-project/atc-react/issues/247
-[**Delete email message**]: Response_Actions/RA_4201_delete_email_message.md
+[**Delete email message**]: Response_Actions/RA4201.md
 [Remove file*]: https://github.com/atc-project/atc-react/issues/248
 [Remove registry key*]: https://github.com/atc-project/atc-react/issues/249
 [Remove service*]: https://github.com/atc-project/atc-react/issues/250
-[**Revoke authentication credentials**]: Response_Actions/RA_4601_revoke_authentication_credentials.md
+[**Revoke authentication credentials**]: Response_Actions/RA4601.md
 [Remove user account*]: https://github.com/atc-project/atc-react/issues/251
 
 [Reinstall host from golden image*]: https://github.com/atc-project/atc-react/issues/38
 [Restore data from backup*]: https://github.com/atc-project/atc-react/issues/252
-[**Unblock blocked IP**]: Response_Actions/RA_5101_unblock_blocked_ip.md
-[**Unblock blocked domain**]: Response_Actions/RA_5102_unblock_blocked_domain.md
-[**Unblock blocked URL**]: Response_Actions/RA_5103_unblock_blocked_url.md
+[**Unblock blocked IP**]: Response_Actions/RA5101.md
+[**Unblock blocked domain**]: Response_Actions/RA5102.md
+[**Unblock blocked URL**]: Response_Actions/RA5103.md
 [Unblock blocked port*]: https://github.com/atc-project/atc-react/issues/253
 [Unblock blocked user*]: https://github.com/atc-project/atc-react/issues/254
-[**Unblock domain on email**]: Response_Actions/RA_5201_unblock_domain_on_email.md
-[**Unblock sender on email**]: Response_Actions/RA_5202_unblock_sender_on_email.md
-[**Restore quarantined email message**]: Response_Actions/RA_5203_restore_quarantined_email_message.md
+[**Unblock domain on email**]: Response_Actions/RA5201.md
+[**Unblock sender on email**]: Response_Actions/RA5202.md
+[**Restore quarantined email message**]: Response_Actions/RA5203.md
 [Restore quarantined file*]: https://github.com/atc-project/atc-react/issues/255
 [Unblock blocked process*]: https://github.com/atc-project/atc-react/issues/256
 [Enable disabled service*]: https://github.com/atc-project/atc-react/issues/257
 [Unlock locked user account*]: https://github.com/atc-project/atc-react/issues/258
 
-[**Develop incident report**]: Response_Actions/RA_6001_develop_incident_report.md
-[**Conduct lessons learned exercise**]: Response_Actions/RA_6002_conduct_lessons_learned_exercise.md
+[**Develop incident report**]: Response_Actions/RA6001.md
+[**Conduct lessons learned exercise**]: Response_Actions/RA6002.md
 
 
 Response Actions marked by "*" sign are just placeholders, listed to define the way RE&CT will grow.  
@@ -388,7 +388,7 @@ The second digit of the Response Action ID reflects a Category it belongs to:
 - **6**: Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Collect an email message](Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).
+For example, [RA**22**02: Collect an email message](Response_Actions/RA2202.md) is related to Stage **2** (Identification) and Category **2** (Email).
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.
 

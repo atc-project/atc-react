@@ -1,0 +1,14 @@
+title: Analyse Script
+id: RA2318
+description: >
+  Analyse a script file (i.e. Python, PowerShell, Bash scripts etc)
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: identification
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.  

@@ -1,0 +1,19 @@
+title: Unblock Blocked IP
+id: RA5101
+description: >
+  Unblock a blocked IP address
+author: '@atc_project'
+creation_date: 2020/05/06
+stage: recovery
+requirements:
+  - MS_border_firewall
+  - MS_border_proxy
+  - MS_border_ips
+  - MS_border_ngfw
+  - MS_intranet_firewall
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_host_firewall
+workflow: |
+  Unblock a blocked IP address in the system(s) used to block it.  

@@ -1,0 +1,16 @@
+title: Block Internal Domain
+id: RA3104
+description: >
+  Block an internal domain name from being accessed by corporate assets
+author: '@atc_project'
+creation_date: 2019/01/31
+stage: containment
+references:
+  - https://en.wikipedia.org/wiki/DNS_sinkhole
+requirements:
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_dns_server
+workflow: |
+  Block an internal domain name from being accessed by corporate assets, using the most efficient way.  

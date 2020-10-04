@@ -1,0 +1,14 @@
+title: Patch Vulnerability
+id: RA3001
+description: >
+  Patch a vulnerability in an asset
+author: name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: containment
+automation:
+  - thehive
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.

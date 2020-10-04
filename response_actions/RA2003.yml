@@ -1,0 +1,10 @@
+title: Put Compromised Accounts on Monitoring
+id: RA2003
+description: Put (potentially) compromised accounts on monitoring
+author: '@atc_project'
+creation_date: 2019/01/31
+stage: identification
+workflow: |
+  Start monitoring for authentification attempts and all potentially harmful actions from (potentially) compromised accounts.  
+  Look for anomalies, unusual network connections, unusual geolocation/time of work, actions that were never executed before.  
+  Keep in touch with the real users and, in case of need, ask them if they executing some suspicious actions by themselves or not.  

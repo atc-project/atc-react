@@ -1,0 +1,25 @@
+title: Generic Response Playbook for Postexploitation Activities
+id: RP0002
+description: >
+  Some text description here. It will be merged into one line
+author: Name Surname
+creation_date: YYYY/MM/DD
+severity: TODO              # L M H
+tlp: TODO                   # WHITE GREEN AMBER RED
+pap: TODO                   # WHITE GREEN AMBER RED
+tags:
+    - attack.TODO
+references: 
+  - https://example.com
+preparation:
+  - TODO
+identification:
+  - TODO
+containment:
+  - TODO
+eradication:
+  - TODO
+recovery:
+  - TODO
+lessons_learned:
+  - TODO

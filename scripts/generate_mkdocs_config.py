@@ -108,7 +108,7 @@ class GenerateMkdocs:
 
             ra_updated_title = ras[i].get('id')\
                 + ": "\
-                + REACTutils.normalize_react_title(ras[i].get('title'))
+                + ras[i].get('title')
             
             if "RA1" in ras[i]['id']:
                 preparation.append((ra_updated_title, ra_filenames[i]))
@@ -130,7 +130,7 @@ class GenerateMkdocs:
 
             rp_updated_title = rps[i].get('id')\
                 + ": "\
-                + REACTutils.normalize_react_title(rps[i].get('title'))
+                + rps[i].get('title')
 
             playbooks.append((rp_updated_title, rp_filenames[i]))
 

@@ -1,0 +1,14 @@
+title: Remove User Account
+id: RA4602
+description: >
+  Remove a user account
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: eradication
+references:
+  - https://example.com
+requirements:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.

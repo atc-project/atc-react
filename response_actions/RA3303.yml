@@ -1,0 +1,14 @@
+title: Quarantine File by Path
+id: RA3303
+description: >
+  Quarantine a file by its path
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: containment
+automation:
+  - thehive/phantom/demisto/etc
+references:
+  - https://example.com
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

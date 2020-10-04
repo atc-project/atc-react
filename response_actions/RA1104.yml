@@ -1,0 +1,17 @@
+title: Access External HTTP Logs
+id: RA1104
+description: >
+  Make sure you have access to external communication HTTP logs
+author: '@atc_project'
+creation_date: 2020/05/06
+stage: preparation
+references:
+  - https://docs.zeek.org/en/current/examples/httpmonitor/
+  - https://en.wikipedia.org/wiki/Common_Log_Format
+requirements:
+  - MS_border_proxy
+  - MS_border_ngfw
+  - DN_zeek_http_log
+workflow: |
+  Make sure that there is a collection of HTTP connections logs for external communication (from corporate assets to the Internet) configured.  
+

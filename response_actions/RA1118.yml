@@ -1,0 +1,18 @@
+title: Get Ability to Block Port Internal Communication
+id: RA1118
+description: >
+  Make sure you can block a network port for internal communications
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - MS_intranet_firewall
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_host_firewall
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

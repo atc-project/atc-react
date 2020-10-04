@@ -53,8 +53,8 @@ Here is an example of Response Action:
   <img src="docs/images/ra_yaml_v6.png" />
 </details>
 
-- Automatically created [Markdown file](docs/Response_Actions/RA_2202_collect_email_message.md)
-- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Actions/RA_2202_collect_email_message/)
+- Automatically created [Markdown file](docs/Response_Actions/RA2202.md)
+- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Actions/RA2202/)
 - Automatically created [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755435640/RA2202+Collect+email+message)
 
 Each Response Action mapped to a specific [Response Stage](https://atc-project.github.io/atc-react/responsestages/).  
@@ -79,7 +79,7 @@ The second digit of the Response Action ID reflects a Category it belongs to:
 - **6**: Identity
 
 This way, using Response Action ID, you can see the Stage and Category it belongs to.  
-For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA_2202_collect_email_message.md) is related to Stage **2** (Identification) and Category **2** (Email).  
+For example, [RA**22**02: Collect an email message](docs/Response_Actions/RA2202.md) is related to Stage **2** (Identification) and Category **2** (Email).  
 
 The categorization aims to improve Incident Response process maturity assessment and roadmap development.  
 
@@ -94,8 +94,8 @@ Here is an example of Response Playbook:
   <img src="docs/images/rp_yaml_v6.png" />
 </details>
 
-- Automatically created [Markdown file](docs/Response_Playbooks/RP_0001_phishing_email.md)
-- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP_0001_phishing_email/)
+- Automatically created [Markdown file](docs/Response_Playbooks/RP0001.md)
+- Automatically created [mkdocs web page](https://atc-project.github.io/atc-react/Response_Playbooks/RP0001/)
 - Automatically created [Confluence page](https://atomicthreatcoverage.atlassian.net/wiki/spaces/REACT/pages/755469546/RP0001+Phishing+email)
 
 Response Playbook could include a description of the workflow, specific conditions/requirements, details on the order of Response Actions execution, or any other relevant information.

@@ -135,15 +135,6 @@ class REACTutils:
         pass
 
     @staticmethod
-    def read_rule_file(path):
-        """Open the file and load it to the variable. Return text"""
-
-        with open(path) as f:
-            rule_text = f.read()
-
-        return rule_text
-
-    @staticmethod
     def load_yamls_with_paths(path):
         yamls = [join(path, f) for f in listdir(path) if isfile(
             join(path, f)) if f.endswith('.yaml') or f.endswith('.yml')]
@@ -404,32 +395,6 @@ class REACTutils:
 
         return None
 
-
-    @staticmethod
-    def normalize_react_title(title):
-        """Normalize title if it is a RA/RP title in the following format:
-        RP_0003_identification_make_sure_email_is_a_phishing
-        """
-        
-        react_id_re = re.compile(r'R[AP]_\d{4}.*$')
-        if react_id_re.match(title):
-            title = title[8:].split('_', 0)[-1].replace('_', ' ').capitalize()
-            new_title = ""
-            for word in title.split():
-                if word.lower() in [
-                        "ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", 
-                        "elf", "dhcp", "vpn", "smb", "ftp", "http" ]:
-                    new_title += word.upper()
-                    new_title += " "
-                    continue
-                elif word.lower() in [ "unix", "windows", "proxy", "firewall", "mach-o" ]:
-                    new_title += word.capitalize()
-                    new_title += " "
-                    continue
-                new_title += word
-                new_title += " "
-            return new_title.strip()
-        return title
 
     @staticmethod
     def get_ra_category(ra_id):

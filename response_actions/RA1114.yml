@@ -1,0 +1,17 @@
+title: Get Ability to Block Internal Domain
+id: RA1114
+description: >
+  Make sure you can block an internal domain name from being accessed by corporate assets
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: preparation
+references:
+  - https://example.com
+requirements:
+  - MS_intranet_proxy
+  - MS_intranet_ips
+  - MS_intranet_ngfw
+  - MS_dns_server
+workflow: |
+  Description of the workflow for the Response Action in markdown format.  
+  Here newlines will be saved.  

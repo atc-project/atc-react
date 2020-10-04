@@ -1,0 +1,14 @@
+title: Find Process by Executable Metadata
+id: RA2403
+description: >
+  Find a process that is being executed at the moment or at a particular time in the past by its executable metadata (i.e. signature, permissions, MAC times)
+author: your name/nickname/twitter
+creation_date: YYYY/MM/DD
+stage: identification
+references:
+  - https://example.com
+requirements:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.
