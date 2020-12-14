@@ -6,9 +6,12 @@ author: Patrick Abraham
 creation_date: 2020/12/11
 stage: identification
 references:
-  - https://example.com
+  - https://www.sans.org/reading-room/whitepapers/malicious/user-agent-field-analyzing-detecting-abnormal-malicious-organization-33874
+  - https://www.cybersecurity-insiders.com/threat-hunting-for-http-user-agents/
+  - https://isc.sans.edu/forums/diary/Capture+and+Analysis+of+User+Agents/23705/
+  - https://deviceatlas.com/blog/user-agent-parsing-how-it-works-and-how-it-can-be-used
 requirements:
-  - DN_zeek_conn_log # placeholder
+  - DN_zeek_http_log # placeholder
 workflow: |
   A User-Agent string is a piece of metadata that is sent across in the header of a HTTP request and is typically used for content negotiation as outlined within [RFC1945|https://tools.ietf.org/html/rfc1945#page-46].  To analyse a user-agent you may perform:
 
