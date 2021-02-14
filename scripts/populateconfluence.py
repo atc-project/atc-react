@@ -19,7 +19,7 @@ except:
     from response.atc_react.scripts.responseaction import ResponseAction
     from response.atc_react.scripts.responseplaybook import ResponsePlaybook
     from response.atc_react.scripts.responsestage import ResponseStage
-    from scripts.init_confluence import main as init_main
+    from response.atc_react.scripts.init_confluence import main as init_main
     env = Environment(loader=FileSystemLoader(
         'response/atc_react/scripts/templates'))
 
