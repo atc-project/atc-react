@@ -73,7 +73,6 @@ te_mapping = {
     "T1595": "Active Scanning",
     "T1098.003": "Add Office 365 Global Administrator Role",
     "T1137.006": "Add-ins",
-    "T1098.001": "Additional Cloud Credentials",
     "T1182": "AppCert DLLs",
     "T1546.009": "AppCert DLLs",
     "T1103": "AppInit DLLs",
@@ -322,7 +321,6 @@ te_mapping = {
     "T1591": "Gather Victim Org Information",
     "T1558.001": "Golden Ticket",
     "T1061": "Graphical User Interface",
-    "T1484": "Group Policy Modification",
     "T1552.006": "Group Policy Preferences",
     "T1148": "HISTCONTROL",
     "T1592.001": "Hardware",
@@ -721,7 +719,14 @@ te_mapping = {
     "T1543.003": "Windows Service",
     "T1004": "Winlogon Helper DLL",
     "T1547.004": "Winlogon Helper DLL",
-    "T1220": "XSL Script Processing"
+    "T1220": "XSL Script Processing",
+    "T1098.001": "Additional Cloud Credentials",
+    "T1484": "Domain Policy Modification",
+    "T1484.001": "Group Policy Modification",
+    "T1484.002": "Domain Trust Modification",
+    "T1606": "Forge Web Credentials",
+    "T1606.001": "Web Cookies",
+    "T1606.002": "SAML Tokens"
 }
 mi_mapping = {
     "M1036": "Account Use Policies",
