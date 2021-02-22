@@ -96,6 +96,7 @@ class TheHiveTask:
         self.title = ""
         self.group = group
         self.description = ""  # Can be omitted, supports markdown
+        self.owner = ""
 
     def validate(self):
         """Check if the mandatory fields are filled.
@@ -112,7 +113,8 @@ class TheHiveTask:
                 and self.order >= 0 \
                 and isinstance(self.title, str) \
                 and isinstance(self.group, str) \
-                and isinstance(self.description, str):
+                and isinstance(self.description, str) \
+                and isinstance(self.owner, str):
             fieldTypesCheck = True
 
         if mandatoryCheck and fieldTypesCheck:
@@ -130,6 +132,7 @@ class TheHiveTask:
             "title": self.title,
             "group": self.group,
             "description": self.description,
+            "owner": self.owner
         }
 
         return bigDict
