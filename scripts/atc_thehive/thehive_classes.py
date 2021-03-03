@@ -113,8 +113,7 @@ class TheHiveTask:
                 and self.order >= 0 \
                 and isinstance(self.title, str) \
                 and isinstance(self.group, str) \
-                and isinstance(self.description, str) \
-                and isinstance(self.owner, str):
+                and isinstance(self.description, str):
             fieldTypesCheck = True
 
         if mandatoryCheck and fieldTypesCheck:
