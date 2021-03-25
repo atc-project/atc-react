@@ -172,6 +172,9 @@ Response Playbook (Сценарий Реагирования) — это пла�
 - Даниил Светлов, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
 - Андреас Ханкелер, [@Karneades](https://github.com/Karneades)
 - Патрик Эбрэхам, [@pjabes](https://github.com/pjabes)
+- Лукас Берези, [@lberezy](https://github.com/lberezy)
+- Эфе Эрдур, [@efeerdur](https://github.com/efeerdur)
+- Алехандро Ортуно, [@aomanzanera](https://twitter.com/aomanzanera)  
 
 Вы хотели бы внести свой вклад в проект и тоже стать участником? Инструкция [CONTRIBUTING](CONTRIBUTING.md) поможет начать.  
 
