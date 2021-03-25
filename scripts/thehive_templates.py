@@ -127,7 +127,7 @@ class RPTheHive:
         self.task_order = 0
 
         stages = [
-           'preparation', 'identification',  'containment', 'eradication', 
+           'preparation', 'identification',  'containment', 'eradication',
            'recovery', 'lessons_learned'
         ]
 
@@ -157,7 +157,7 @@ class RPTheHive:
                 task.title = str(self.task_prefix) + " | "\
                     + rtask.get('id')\
                     + ": "\
-                    + REACTutils.normalize_react_title(rtask.get('title')) 
+                    + REACTutils.normalize_react_title(rtask.get('title'))
 
                 if rtask.get('stage'):
                     task.group = REACTutils.normalize_rs_name(rtask.get('stage'))
@@ -165,6 +165,8 @@ class RPTheHive:
                     task.group = 'Unknown stage'
 
                 task.description = str(rtask.get('workflow'))
+                if rtask.get('owner'):
+                    task.owner = str(rtask.get('owner'))
                 self.case.tasks.append(task.return_dictionary())
 
     def checkSeverity(self, severity):
