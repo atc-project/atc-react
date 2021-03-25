@@ -427,6 +427,9 @@ TheHive Case Templates could be found in `docs/thehive_templates` directory and 
 - Daniil Svetlov, [@Mr_4nders0n](https://twitter.com/Mr_4nders0n)  
 - Andreas Hunkeler, [@Karneades](https://github.com/Karneades)
 - Patrick Abraham, [@pjabes](https://github.com/pjabes)
+- Lucas Berezy, [@lberezy](https://github.com/lberezy)
+- Efe Erdur, [@efeerdur](https://github.com/efeerdur)
+- Alejandro Ortuno, [@aomanzanera](https://twitter.com/aomanzanera)  
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) guideline is a good starting point.
 
