@@ -1,15 +1,38 @@
 | Title                       | Analyse user-agent         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2117            |
-| **Description**             | Analyse an User-Agent request header   |
-| **Author**                  | your name/nickname/twitter        |
-| **Creation Date**           | YYYY/MM/DD |
+| **Description**             | Analyse an User-Agent request header for indications of suspicious activity   |
+| **Author**                  | Patrick Abraham        |
+| **Creation Date**           | 2020/12/11 |
 | **Category**                | Network      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
-| **References** |<ul><li>[https://example.com](https://example.com)</li></ul>|
-| **Requirements** |<ul><li>DN_zeek_conn_log</li></ul>|
+| **References** |<ul><li>[https://www.sans.org/reading-room/whitepapers/malicious/user-agent-field-analyzing-detecting-abnormal-malicious-organization-33874](https://www.sans.org/reading-room/whitepapers/malicious/user-agent-field-analyzing-detecting-abnormal-malicious-organization-33874)</li><li>[https://www.cybersecurity-insiders.com/threat-hunting-for-http-user-agents/](https://www.cybersecurity-insiders.com/threat-hunting-for-http-user-agents/)</li><li>[https://isc.sans.edu/forums/diary/Capture+and+Analysis+of+User+Agents/23705/](https://isc.sans.edu/forums/diary/Capture+and+Analysis+of+User+Agents/23705/)</li><li>[https://deviceatlas.com/blog/user-agent-parsing-how-it-works-and-how-it-can-be-used](https://deviceatlas.com/blog/user-agent-parsing-how-it-works-and-how-it-can-be-used)</li></ul>|
+| **Requirements** |<ul><li>DN_zeek_http_log</li></ul>|
 
 ### Workflow
 
-Description of the workflow for single Response Action in markdown format.  
-Here newlines will be saved.
+A User-Agent string is a piece of metadata associated with the header of a HTTP request and is used for content negotiation as outlined within [RFC1945](https://tools.ietf.org/html/rfc1945#page-46).  User-agents may often be overlooked by adversaries, and as such provide a valuable point of investigation.
+
+1. Retrieve the user-agent from the HTTP header.
+2. Using the below methodology as a reference make a judgement as to whether the user-agent provided is suspicious or not. 
+
+**Indications of suspicious user-agents based upon string analysis:**
+
+* The user-agent is left empty.
+* The user-agent contains typos or deviations in capitilisation that are different from known good user-agents.
+* The user-agent contains a sequence of random characters or "gibberish" akin to those found within MITRE ATT&CK [T1568.002](https://attack.mitre.org/techniques/T1568/002/).  
+* The user-agent contains code that would execute an XSS or SQL Injection attack.
+
+**Indications of suspicious user-agents based upon reputational analysis:**
+
+* The user-agent is not listed as a popular user-agent on reference materials such as [WhatIsMyBrowser](https://developers.whatismybrowser.com/useragents/explore/).
+* It should be noted that there is value in engaging with the community on particular User-Agents, and this can often be done by leveraging a search engine such as Google.
+
+ **Contextualise your findings with knowledge from your environment.**
+
+* Consider whether the user-agent is relevant for your SoE environment.  For instance, the presence of Mac OS X user-agents in a Windows only environment.
+* Consider performing long-tail analysis or clustering to identify anomalies within your environment.
+
+### Important Considerations
+* User-Agents are client-side generated and can be easily spoofed.  Many adversaries will default to leveraging known-good user-agents to hide activity.
+* User-Agent analysis should be combined with other analysis to improve the fidelity of the signal. It is well known that many legitimate applications (especially custom applications) will omit user-agent strings or utilise defaults associated with the popular libraries. 
