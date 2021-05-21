@@ -10,9 +10,5 @@ automation:
 references:
   - https://example.com
 workflow: |
-  List accounts on a particular system or on all of your systems.
-  This could be done using system tools or reading account configuration.
-  
-  * Linux: cat /etc/shadows
-  * Windows: net user
-  * Or using artifact collection tools to get an account listing
+  List accounts on a particular system to get an overview of 
+  the available accounts.
