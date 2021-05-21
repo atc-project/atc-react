@@ -5,10 +5,9 @@ description: >
 author: Andreas Hunkeler/@Karneades
 creation_date: 2021/05/21
 stage: identification
-automation:
-  - thehive
 references:
-  - https://example.com
+  - Valid Accounts, https://attack.mitre.org/techniques/T1078/
+  - Account Manipulation, https://attack.mitre.org/techniques/T1098/
 workflow: |
   List accounts on a particular system to get an overview of 
   the available accounts.
