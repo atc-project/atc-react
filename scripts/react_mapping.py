@@ -120,6 +120,7 @@ ra_mapping = {
     "RA2115": "List hosts communicated with external URL",
     "RA2116": "Find data transferred by content pattern",
     "RA2117": "Analyse user-agent",
+    "RA2118": "List Firewall rules",
     "RA2201": "List users opened email message",
     "RA2202": "Collect email message",
     "RA2203": "List email message receivers",
