@@ -2,7 +2,7 @@
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2602            |
 | **Description**             | List accounts on a particular system   |
-| **Author**                  | Andreas Hunkeler/@Karneades        |
+| **Author**                  | Andreas Hunkeler (@Karneades)        |
 | **Creation Date**           | 2021/05/21 |
 | **Category**                | Identity      |
 | **Stage**                   |[RS0002: Identification](../Response_Stages/RS0002.md)| 
