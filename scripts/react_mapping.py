@@ -161,6 +161,7 @@ ra_mapping = {
     "RA2507": "List services deleted",
     "RA2508": "Analyse registry key",
     "RA2601": "List users authenticated",
+    "RA2602": "List accounts",
     "RA3001": "Patch vulnerability",
     "RA3101": "Block external IP address",
     "RA3102": "Block internal IP address",
