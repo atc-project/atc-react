@@ -1,0 +1,13 @@
+title: RA_2602_list_user_accounts
+id: RA2602
+description: >
+  List user accounts on a particular system
+author: Andreas Hunkeler (@Karneades)
+creation_date: 2021/05/21
+stage: identification
+references:
+  - Valid Accounts, https://attack.mitre.org/techniques/T1078/
+  - Account Manipulation, https://attack.mitre.org/techniques/T1098/
+workflow: |
+  List user accounts on a particular system to get an overview of 
+  the available accounts.

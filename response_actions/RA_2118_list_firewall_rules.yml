@@ -1,0 +1,10 @@
+title: RA_2118_list_firewall_rules
+id: RA2118
+description: List firewall rules
+author: Andreas Hunkeler (@Karneades)
+creation_date: 2021/05/21
+stage: identification
+requirements:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  List firewall rules.

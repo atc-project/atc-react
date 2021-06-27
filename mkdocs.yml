@@ -69,6 +69,7 @@ nav:
             - "RA1125: Get ability to identify transferred data": ./Response_Actions/RA_1125_get_ability_to_identify_transferred_data.md
             - "RA1126: Find data transferred by content pattern": ./Response_Actions/RA_1126_find_data_transferred_by_content_pattern.md
             - "RA1127: Get ability to analyse user-agent": ./Response_Actions/RA_1127_get_ability_to_analyse_user-agent.md
+            - "RA1128: Get ability to list Firewall rules": ./Response_Actions/RA_1128_get_ability_to_list_firewall_rules.md
             - "RA1201: Get ability to list users opened email message": ./Response_Actions/RA_1201_get_ability_to_list_users_opened_email_message.md
             - "RA1202: Get ability to list email message receivers": ./Response_Actions/RA_1202_get_ability_to_list_email_message_receivers.md
             - "RA1203: Get ability to block email domain": ./Response_Actions/RA_1203_get_ability_to_block_email_domain.md
@@ -129,6 +130,7 @@ nav:
             - "RA1603: Get ability to list users authenticated": ./Response_Actions/RA_1603_get_ability_to_list_users_authenticated.md
             - "RA1604: Get ability to revoke authentication credentials": ./Response_Actions/RA_1604_get_ability_to_revoke_authentication_credentials.md
             - "RA1605: Get ability to remove user account": ./Response_Actions/RA_1605_get_ability_to_remove_user_account.md
+            - "RA1606: Get ability to list user accounts": ./Response_Actions/RA_1606_get_ability_to_list_user_accounts.md
         - Identification:
             - "RA2001: List victims of security alert": ./Response_Actions/RA_2001_list_victims_of_security_alert.md
             - "RA2002: List host vulnerabilities": ./Response_Actions/RA_2002_list_host_vulnerabilities.md
@@ -150,6 +152,7 @@ nav:
             - "RA2115: List hosts communicated with external URL": ./Response_Actions/RA_2115_list_hosts_communicated_with_external_url.md
             - "RA2116: Find data transferred by content pattern": ./Response_Actions/RA_2116_find_data_transferred_by_content_pattern.md
             - "RA2117: Analyse user-agent": ./Response_Actions/RA_2117_analyse_user-agent.md
+            - "RA2118: List Firewall rules": ./Response_Actions/RA_2118_list_firewall_rules.md
             - "RA2201: List users opened email message": ./Response_Actions/RA_2201_list_users_opened_email_message.md
             - "RA2202: Collect email message": ./Response_Actions/RA_2202_collect_email_message.md
             - "RA2203: List email message receivers": ./Response_Actions/RA_2203_list_email_message_receivers.md
@@ -191,6 +194,7 @@ nav:
             - "RA2507: List services deleted": ./Response_Actions/RA_2507_list_services_deleted.md
             - "RA2508: Analyse registry key": ./Response_Actions/RA_2508_analyse_registry_key.md
             - "RA2601: List users authenticated": ./Response_Actions/RA_2601_list_users_authenticated.md
+            - "RA2602: List user accounts": ./Response_Actions/RA_2602_list_user_accounts.md
         - Containment:
             - "RA3001: Patch vulnerability": ./Response_Actions/RA_3001_patch_vulnerability.md
             - "RA3101: Block external IP address": ./Response_Actions/RA_3101_block_external_ip_address.md
