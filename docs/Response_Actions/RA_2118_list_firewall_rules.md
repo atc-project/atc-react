@@ -1,7 +1,7 @@
 | Title                       | List Firewall rules         |
 |:---------------------------:|:--------------------|
 | **ID**                      | RA2118            |
-| **Description**             | List firewall rules.   |
+| **Description**             | List firewall rules   |
 | **Author**                  | Andreas Hunkeler (@Karneades)        |
 | **Creation Date**           | 2021/05/21 |
 | **Category**                | Network      |
