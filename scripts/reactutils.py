@@ -231,16 +231,27 @@ class REACTutils:
             "Content-Type": "application/json"
         }
 
+        if isinstance(auth,str):
+            headers["Authorization"] = "Basic {}".format(auth)
+
         url = apipath + "content"
         space_page_url = url + '?spaceKey=' + space + '&title=' \
             + title + '&expand=space'
 
-        response = requests.request(
-            "GET",
-            space_page_url,
-            headers=headers,
-            auth=auth
-        )
+        if isinstance(auth,str):
+            response = requests.request(
+                "GET",
+                space_page_url,
+                headers=headers
+            )
+            print('here')
+        else:
+            response = requests.request(
+                "GET",
+                space_page_url,
+                headers=headers,
+                auth=auth
+            )
 
         if response.status_code == 401:
             print("Unauthorized Response. Try to use a token instead of a password. " +
@@ -274,6 +285,9 @@ class REACTutils:
             "Content-Type": "application/json"
         }
 
+        if isinstance(auth,str):
+            headers["Authorization"] = "Basic {}".format(auth)
+
         alldata = True
         for i in ["title", "spacekey", "parentid", "confluencecontent"]:
             if i not in data.keys():
@@ -303,13 +317,21 @@ class REACTutils:
         }
         payload = json.dumps(dict_payload)
 
-        response = requests.request(
-            "POST",
-            url,
-            data=payload,
-            headers=headers,
-            auth=auth
-        )
+        if isinstance(auth,str):
+            response = requests.request(
+                "POST",
+                url,
+                data=payload,
+                headers=headers
+            )
+        else:
+            response = requests.request(
+                "POST",
+                url,
+                data=payload,
+                headers=headers,
+                auth=auth
+            )
 
         resp = json.loads(response.text)
         if "data" in resp.keys():
@@ -322,13 +344,21 @@ class REACTutils:
                     data["title"]
                 )
 
-            response = requests.request(
-                "GET",
-                url + "/%s?expand=body.storage,version" % str(cid),
-                data=payload,
-                headers=headers,
-                auth=auth
-            )
+            if isinstance(auth,str):
+                response = requests.request(
+                    "GET",
+                    url + "/%s?expand=body.storage,version" % str(cid),
+                    data=payload,
+                    headers=headers
+                )
+            else:
+                response = requests.request(
+                    "GET",
+                    url + "/%s?expand=body.storage,version" % str(cid),
+                    data=payload,
+                    headers=headers,
+                    auth=auth
+                )
 
             resp = json.loads(response.text)
 
@@ -361,23 +391,39 @@ class REACTutils:
                 dict_payload["version"] = {"number": i}
                 payload = json.dumps(dict_payload)
 
-                response = requests.request(
-                    "PUT",
-                    url + "/%s" % str(cid),
-                    data=payload,
-                    headers=headers,
-                    auth=auth
-                )
+                if isinstance(auth,str):
+                    response = requests.request(
+                        "PUT",
+                        url + "/%s" % str(cid),
+                        data=payload,
+                        headers=headers
+                    )
+                else:
+                    response = requests.request(
+                        "PUT",
+                        url + "/%s" % str(cid),
+                        data=payload,
+                        headers=headers,
+                        auth=auth
+                    )
 
                 return "Page updated"
             except KeyError:
-                response = requests.request(
-                    "GET",
-                    url + "/%s/" % str(cid),
-                    data=payload,
-                    headers=headers,
-                    auth=auth
-                )
+                if isinstance(auth,str):
+                    response = requests.request(
+                        "GET",
+                        url + "/%s/" % str(cid),
+                        data=payload,
+                        headers=headers
+                    )
+                else:
+                    response = requests.request(
+                        "GET",
+                        url + "/%s/" % str(cid),
+                        data=payload,
+                        headers=headers,
+                        auth=auth
+                    )
 
                 resp = json.loads(response.text)
                 try:
@@ -386,13 +432,21 @@ class REACTutils:
                     dict_payload["version"] = resp["version"]
                     payload = json.dumps(dict_payload)
 
-                    response = requests.request(
-                        "PUT",
-                        url + "/%s" % str(cid),
-                        data=payload,
-                        headers=headers,
-                        auth=auth
-                    )
+                    if isinstance(auth,str):
+                        response = requests.request(
+                            "PUT",
+                            url + "/%s" % str(cid),
+                            data=payload,
+                            headers=headers
+                        )
+                    else:
+                        response = requests.request(
+                            "PUT",
+                            url + "/%s" % str(cid),
+                            data=payload,
+                            headers=headers,
+                            auth=auth
+                        )
 
                     return "Page updated"
 
