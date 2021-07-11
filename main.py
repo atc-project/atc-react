@@ -15,6 +15,7 @@ from requests.auth import HTTPBasicAuth
 # Others
 import getpass
 import argparse
+import os
 
 if __name__ == '__main__':
 
@@ -59,6 +60,10 @@ if __name__ == '__main__':
     parser.add_argument('-i', '--init', action='store_true',
                         help="Build initial pages or directories " +
                              "depending on the export type")
+    parser.add_argument('-cpat', '--confluence-pat', action='store',
+                       help='Personal Access Token used to export analytics \
+                             to Confluence. Confluence Username and passsword \
+                             promted if this parameter is not provided')
 
     args = parser.parse_args()
 
@@ -69,12 +74,19 @@ if __name__ == '__main__':
                               init=args.init)
     
     elif args.confluence:
-        print("Provide Confluence credentials\n")
+        if args.confluence_pat:
+            print("Using parameter supplied Confluence Personal Access Token")
+            auth = args.confluence_pat
+        elif os.environ.get('CONFLUENCE_PAT') is not None:
+            print("Using environment vairable supplied Confluence Personal Access Token")
+            auth = os.environ['CONFLUENCE_PAT']
+        else:
+            print("Provide Confluence credentials\n")
 
-        mail = input("Login: ")
-        password = getpass.getpass(prompt='Password: ', stream=None)
+            mail = input("Login: ")
+            password = getpass.getpass(prompt='Password: ', stream=None)
 
-        auth = HTTPBasicAuth(mail, password)
+            auth = HTTPBasicAuth(mail, password)
         UpdateAttackMapping()
         ReactPopulateConfluence(auth=auth, auto=args.auto, 
                                 ra=args.responseactions, rp=args.responseplaybook,
