@@ -61,9 +61,11 @@ if __name__ == '__main__':
                         help="Build initial pages or directories " +
                              "depending on the export type")
     parser.add_argument('-cpat', '--confluence-pat', action='store',
-                       help='Personal Access Token used to export analytics \
-                             to Confluence. Confluence Username and passsword \
-                             promted if this parameter is not provided')
+                       help='Personal Access Token used to export analytics to \
+                             the Confluence. You can also use CONFLUENCE_PAT \
+                             environment variable instead of the argument. If this \
+                             parameter or the variable are not provided, Confluence \
+                             username and password will be requested.')
 
     args = parser.parse_args()
 

@@ -120,7 +120,7 @@ TheHive Case Templates could be found in `docs/thehive_templates` directory and 
 
 ## Data source of the ATC framework
 
-ATC RE&CT project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate Markdown and Confluence knowledge bases, ATT&CK Navigator profiles, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
+ATC RE&CT project plays a role of data source for the [Atomic Threat Coverage](https://github.com/atc-project/atomic-threat-coverage) framework, that uses it to generate Markdown and Confluence knowledge bases, ATT&CK Navigator layers, Elasticsearch indexes and [other](https://github.com/atc-project/atomic-threat-coverage#how-it-works) analytics. 
 
 Originally analytics related to Incident Response were part of the ATC, but we decided to move it into a separate project to make it easier to maintain and provide an option for integration with other projects in this area. 
 
@@ -139,7 +139,7 @@ Originally analytics related to Incident Response were part of the ATC, but we d
     python3 main.py --thehive
     python3 main.py -NAV
     ```
-    You will find the outcome in the `docs` directory and Confluence pages (according to the configuration). At the moment, RE&CT Navigator profile could be opened only in the [customized application](https://github.com/atc-project/react-navigator).
+    You will find the outcome in the `docs` directory and Confluence pages (according to the configuration). Also, the RE&CT Navigator layer could be opened only in the [customized application](https://github.com/atc-project/react-navigator).
 
 5. Generate your own (private) website with your analytics, using [mkdocs](https://www.mkdocs.org/):
     ```
