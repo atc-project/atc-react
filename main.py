@@ -77,7 +77,7 @@ if __name__ == '__main__':
         if args.confluence_pat:
             print("Using parameter supplied Confluence Personal Access Token")
             auth = args.confluence_pat
-        elif os.environ['CONFLUENCE_PAT'] != None:
+        elif os.environ.get('CONFLUENCE_PAT') is not None:
             print("Using environment vairable supplied Confluence Personal Access Token")
             auth = os.environ['CONFLUENCE_PAT']
         else:
