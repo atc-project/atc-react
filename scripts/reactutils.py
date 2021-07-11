@@ -244,7 +244,6 @@ class REACTutils:
                 space_page_url,
                 headers=headers
             )
-            print('here')
         else:
             response = requests.request(
                 "GET",
