@@ -173,6 +173,7 @@ Originally analytics related to Incident Response were part of the ATC, but we d
 - Lucas Berezy, [@lberezy](https://github.com/lberezy)
 - Efe Erdur, [@efeerdur](https://github.com/efeerdur)
 - Alejandro Ortuno, [@aomanzanera](https://twitter.com/aomanzanera)  
+- [@d3anp](https://github.com/d3anp)  
 
 Would you like to become one? You are very welcome! Our [CONTRIBUTING](CONTRIBUTING.md) guideline is a good starting point.
 
