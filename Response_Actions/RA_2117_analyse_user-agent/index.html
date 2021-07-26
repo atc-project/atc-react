@@ -145,6 +145,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_1127_get_ability_to_analyse_user-agent/">RA1127: Get ability to analyse user-agent</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_1128_get_ability_to_list_firewall_rules/">RA1128: Get ability to list Firewall rules</a>
+                </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_1201_get_ability_to_list_users_opened_email_message/">RA1201: Get ability to list users opened email message</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_1202_get_ability_to_list_email_message_receivers/">RA1202: Get ability to list email message receivers</a>
@@ -265,6 +267,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_1605_get_ability_to_remove_user_account/">RA1605: Get ability to remove user account</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_1606_get_ability_to_list_user_accounts/">RA1606: Get ability to list user accounts</a>
+                </li>
     </ul>
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="#">Identification</a>
@@ -308,6 +312,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../RA_2116_find_data_transferred_by_content_pattern/">RA2116: Find data transferred by content pattern</a>
                 </li>
                 <li class="toctree-l2 current"><a class="reference internal current" href="./">RA2117: Analyse user-agent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_2118_list_firewall_rules/">RA2118: List Firewall rules</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_2201_list_users_opened_email_message/">RA2201: List users opened email message</a>
                 </li>
@@ -390,6 +396,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../RA_2508_analyse_registry_key/">RA2508: Analyse registry key</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../RA_2601_list_users_authenticated/">RA2601: List users authenticated</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../RA_2602_list_user_accounts/">RA2602: List user accounts</a>
                 </li>
     </ul>
                     </li>
@@ -572,15 +580,15 @@
 </tr>
 <tr>
 <td align="center"><strong>Description</strong></td>
-<td align="left">Analyse an User-Agent request header</td>
+<td align="left">Analyse an User-Agent request header for indications of suspicious activity</td>
 </tr>
 <tr>
 <td align="center"><strong>Author</strong></td>
-<td align="left">your name/nickname/twitter</td>
+<td align="left">Patrick Abraham</td>
 </tr>
 <tr>
 <td align="center"><strong>Creation Date</strong></td>
-<td align="left">YYYY/MM/DD</td>
+<td align="left">2020/12/11</td>
 </tr>
 <tr>
 <td align="center"><strong>Category</strong></td>
@@ -592,17 +600,42 @@
 </tr>
 <tr>
 <td align="center"><strong>References</strong></td>
-<td align="left"><ul><li><a href="https://example.com">https://example.com</a></li></ul></td>
+<td align="left"><ul><li><a href="https://www.sans.org/reading-room/whitepapers/malicious/user-agent-field-analyzing-detecting-abnormal-malicious-organization-33874">https://www.sans.org/reading-room/whitepapers/malicious/user-agent-field-analyzing-detecting-abnormal-malicious-organization-33874</a></li><li><a href="https://www.cybersecurity-insiders.com/threat-hunting-for-http-user-agents/">https://www.cybersecurity-insiders.com/threat-hunting-for-http-user-agents/</a></li><li><a href="https://isc.sans.edu/forums/diary/Capture+and+Analysis+of+User+Agents/23705/">https://isc.sans.edu/forums/diary/Capture+and+Analysis+of+User+Agents/23705/</a></li><li><a href="https://deviceatlas.com/blog/user-agent-parsing-how-it-works-and-how-it-can-be-used">https://deviceatlas.com/blog/user-agent-parsing-how-it-works-and-how-it-can-be-used</a></li></ul></td>
 </tr>
 <tr>
 <td align="center"><strong>Requirements</strong></td>
-<td align="left"><ul><li>DN_zeek_conn_log</li></ul></td>
+<td align="left"><ul><li>DN_zeek_http_log</li></ul></td>
 </tr>
 </tbody>
 </table>
 <h3 id="workflow">Workflow</h3>
-<p>Description of the workflow for single Response Action in markdown format.<br />
-Here newlines will be saved.</p>
+<p>A User-Agent string is a piece of metadata associated with the header of a HTTP request and is used for content negotiation as outlined within <a href="https://tools.ietf.org/html/rfc1945#page-46">RFC1945</a>.  User-agents may often be overlooked by adversaries, and as such provide a valuable point of investigation.</p>
+<ol>
+<li>Retrieve the user-agent from the HTTP header.</li>
+<li>Using the below methodology as a reference make a judgement as to whether the user-agent provided is suspicious or not. </li>
+</ol>
+<p><strong>Indications of suspicious user-agents based upon string analysis:</strong></p>
+<ul>
+<li>The user-agent is left empty.</li>
+<li>The user-agent contains typos or deviations in capitilisation that are different from known good user-agents.</li>
+<li>The user-agent contains a sequence of random characters or "gibberish" akin to those found within MITRE ATT&amp;CK <a href="https://attack.mitre.org/techniques/T1568/002/">T1568.002</a>.  </li>
+<li>The user-agent contains code that would execute an XSS or SQL Injection attack.</li>
+</ul>
+<p><strong>Indications of suspicious user-agents based upon reputational analysis:</strong></p>
+<ul>
+<li>The user-agent is not listed as a popular user-agent on reference materials such as <a href="https://developers.whatismybrowser.com/useragents/explore/">WhatIsMyBrowser</a>.</li>
+<li>It should be noted that there is value in engaging with the community on particular User-Agents, and this can often be done by leveraging a search engine such as Google.</li>
+</ul>
+<p><strong>Contextualise your findings with knowledge from your environment.</strong></p>
+<ul>
+<li>Consider whether the user-agent is relevant for your SoE environment.  For instance, the presence of Mac OS X user-agents in a Windows only environment.</li>
+<li>Consider performing long-tail analysis or clustering to identify anomalies within your environment.</li>
+</ul>
+<h3 id="important-considerations">Important Considerations</h3>
+<ul>
+<li>User-Agents are client-side generated and can be easily spoofed.  Many adversaries will default to leveraging known-good user-agents to hide activity.</li>
+<li>User-Agent analysis should be combined with other analysis to improve the fidelity of the signal. It is well known that many legitimate applications (especially custom applications) will omit user-agent strings or utilise defaults associated with the popular libraries. </li>
+</ul>
               
             </div>
           </div>
@@ -635,7 +668,7 @@ Here newlines will be saved.</p>
         <span><a href="../RA_2116_find_data_transferred_by_content_pattern/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../RA_2201_list_users_opened_email_message/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../RA_2118_list_firewall_rules/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
