@@ -1,0 +1,14 @@
+title: RA_3602_isolate_host
+id: RA3602
+description: >
+  Isolate an infected host
+author: Ben-Clifton
+creation_date: 2021/07/26
+stage: containment
+references:
+  - https://example.com
+requirements:
+  - EDR_agent
+workflow: |
+  Description of the workflow for single Response Action in markdown format.  
+  Here newlines will be saved.
