@@ -10,5 +10,4 @@ references:
 requirements:
   - EDR_agent
 workflow: |
-  Description of the workflow for single Response Action in markdown format.  
-  Here newlines will be saved.
+  Isolate the host via the EDR agent on the host
