@@ -433,6 +433,7 @@ Response Playbook (Сценарий Реагирования) — это пла�
 - Лукас Берези, [@lberezy](https://github.com/lberezy)
 - Эфе Эрдур, [@efeerdur](https://github.com/efeerdur)
 - Алехандро Ортуно, [@aomanzanera](https://twitter.com/aomanzanera)  
+- [@d3anp](https://github.com/d3anp)  
 
 Вы хотели бы внести свой вклад в проект и тоже стать участником? Инструкция [CONTRIBUTING](https://github.com/atc-project/atc-react/blob/master/CONTRIBUTING.md) поможет начать.  
 
