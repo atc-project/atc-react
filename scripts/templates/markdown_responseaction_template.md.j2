@@ -7,6 +7,36 @@
 | **Category**                | {{ category }}      |
 | **Stage**                   | {%- for rs_id, rs_name in stage %}[{{ rs_id }}: {{rs_name}}](../Response_Stages/{{ rs_id }}.md){% endfor -%} | {% if automation is not none and automation|length %}{{ '\n' }}| **Automation** |<ul>{% for auto in automation %}<li>{{ auto }}</li>{% endfor %}</ul>|{% endif %}{% if references is not none and references|length %}{{ '\n' }}| **References** |<ul>{% for ref in references %}<li>[{{ ref }}]({{ ref }})</li>{% endfor %}</ul>|{% endif %}{% if requirements is not none and requirements|length %}{{ '\n' }}| **Requirements** |<ul>{% for requirement in requirements %}<li>{{ requirement }}</li>{% endfor %}</ul>|{% endif %}
 
-### Workflow
+---
+
+{% if workflow is defined and workflow|length %}
+## Workflow
+**Please note:** This RA has not yet been converted to the extensible RA scheme
 
 {{ workflow }}
+{% else %}
+  {%  if details['raEffect'] is defined and details['raEffect'] != none or details['pot_business_impact'] is defined and details['pot_business_impact'] != none or details['activation_SLA'] is defined and details['activation_SLA'] != none or details['expected_coverage'] is defined and details['expected_coverage'] != none %}
+## Response Action Details 
+|*Attribute*|*Value*|*Remarks*|
+|:---|:---|:---|{%  if details['raEffect'] is defined and details['raEffect'] != none %}
+| **RA Objective**    |{{ details['raEffect'] }} | Either of: *Disrupt, Deny, Degrade, Destroy, Deceive*|{% endif %} {%  if details['pot_business_impact'] is defined and details['pot_business_impact'] != none %}
+| **Potential Business Impact** |{{ details['pot_business_impact'] }}| Either of: *Low, Medium, High, Very High*|{% endif %}{%  if details['activation_SLA'] is defined and details['activation_SLA'] != none %}
+| **Activation SLA** |{{ details['activation_SLA'] }} |How quickly can we expect the action to be implemented?|{% endif %}{%  if details['expected_coverage'] is defined and details['expected_coverage'] != none %}
+| **Expected Coverage** |{{ details['expected_coverage'] }} | |{% endif %}
+
+---
+
+  {% endif %}
+  {% if details['description-full'] is defined %}
+## Full Description
+{{ details['description-full'] }}
+  {% endif %}
+  {% if details['workflow'] is defined %}
+## Standing Operating Procedure
+     {% if details['minTierLevel'] is defined and details['minTierLevel'] > 1 %}
+> ***Attention:***  
+> Minimum TIER level for execution of this response activity is: **TIER-*{{ details['minTierLevel'] }}*!** 
+	 {% endif %}
+{{ details['workflow'] }}
+  {% endif %}
+{% endif %}
