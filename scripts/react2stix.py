@@ -119,7 +119,7 @@ class GenerateSTIX:
 
         for i in range(len(ras)):
 
-            normalized_title = REACTutils.normalize_react_title(ras[i].get('title'))
+            normalized_title = REACTutils.normalize_react_title(ras[i].get('title'),REACTConfig.get('titlefmtrules'))
 
             ra_updated_title = ras[i].get('id')\
                 + ":"\
