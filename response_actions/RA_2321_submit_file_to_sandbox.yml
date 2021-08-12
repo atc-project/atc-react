@@ -1,0 +1,13 @@
+title: RA_2321_submit_file_to_sandbox
+id: RA2321
+description: >
+  Submit a file to a sandbox service for automated detonation and analysis
+author: '@oi-m8'
+creation_date: 2021/08/12
+stage: identification
+references:
+  - https://example.com
+linked_analytics:
+  - DN_zeek_conn_log # placeholder
+workflow: |
+  Submit file to a sandbox service that will detonate and alayse the file to determine if it is malicious or not.
