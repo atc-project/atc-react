@@ -30,32 +30,3 @@ attack_mapping_url: 'scripts/attack_mapping.py'
 # AMITT
 amitt_json_url: 'https://raw.githubusercontent.com/cogsec-collaborative/amitt_cti/master/amitt/amitt-attack.json'
 amitt_mapping_url: 'scripts/amitt_mapping.py'
-# Title formatting rules
-titlefmtrules:
-  capitalizeWords: # will be capitalized: unix -> Unix
-    - "unix"
-    - "windows"
-    - "proxy"
-    - "firewall"
-    - "mach-o"
-  abbreviations: # will be completely converted to uppercase lan -> LAN
-    - "ip"
-    - "dns"
-    - "ms"
-    - "ngfw"
-    - "ips"
-    - "url"
-    - "pe"
-    - "pdf"
-    - "elf"
-    - "dhcp"
-    - "vpn"
-    - "smb"
-    - "ftp"
-    - "http"
-    - "lan"
-    - "wan"
-    - "av"
-    - "fqdn"
-    - "dfs"
-    - "soc"

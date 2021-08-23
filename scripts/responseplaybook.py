@@ -67,7 +67,7 @@ class ResponsePlaybook:
 
             self.rp_parsed_file.update(
                 {'title': REACTutils.normalize_react_title(self.rp_parsed_file
-                    .get('title'),REACTConfig.get('titlefmtrules'))}
+                    .get('title'))}
             )
 
             # MITRE ATT&CK Tactics and Techniques
@@ -141,7 +141,7 @@ class ResponsePlaybook:
                         
                         action_title = action.get('id')\
                             + ": "\
-                            + REACTutils.normalize_react_title(action.get('title'),REACTConfig.get('titlefmtrules'))
+                            + REACTutils.normalize_react_title(action.get('title'))
                         
                         stage_list.append(
                             (action_title, task, action.get('description'), action.get('workflow'))
@@ -157,7 +157,7 @@ class ResponsePlaybook:
 
             new_title = self.rp_parsed_file.get('id')\
               + ": "\
-              + REACTutils.normalize_react_title(self.rp_parsed_file.get('title'),REACTConfig.get('titlefmtrules'))
+              + REACTutils.normalize_react_title(self.rp_parsed_file.get('title'))
             
             self.rp_parsed_file.update(
                 {'title': new_title }
@@ -236,7 +236,7 @@ class ResponsePlaybook:
 
                         action_title = action.get('id')\
                             + ": "\
-                            + REACTutils.normalize_react_title(action.get('title'),REACTConfig.get('titlefmtrules'))
+                            + REACTutils.normalize_react_title(action.get('title'))
             
                         if self.apipath and self.auth and self.space:
                             stage_list.append(
