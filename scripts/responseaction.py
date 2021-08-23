@@ -74,7 +74,7 @@ class ResponseAction:
     
             self.ra_parsed_file.update(
                 {'title': REACTutils.normalize_react_title(self.ra_parsed_file
-                    .get('title'),REACTConfig.get('titlefmtrules'))}
+                    .get('title'))}
             )
     
             stage_list = []
@@ -95,7 +95,7 @@ class ResponseAction:
 
             new_title = self.ra_parsed_file.get('id')\
                 + ": "\
-                + REACTutils.normalize_react_title(self.ra_parsed_file.get('title'),REACTConfig.get('titlefmtrules'))
+                + REACTutils.normalize_react_title(self.ra_parsed_file.get('title'))
 
             self.ra_parsed_file.update(
                 {'title': new_title}

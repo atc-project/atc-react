@@ -459,21 +459,23 @@ class REACTutils:
 
 
     @staticmethod
-    def normalize_react_title(title,fmtrules={"abbreviations": ["ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf","elf", "dhcp", "vpn", "smb", "ftp", "http"],"capitalizeWords":["unix", "windows", "proxy", "firewall", "mach-o"]}):
+    def normalize_react_title(title):
         """Normalize title if it is a RA/RP title in the following format:
         RP_0003_identification_make_sure_email_is_a_phishing
         """
         
-        react_id_re = re.compile(r'R[AP]_\d{4}_.*$')
+        react_id_re = re.compile(r'R[AP]_\d{4}.*$')
         if react_id_re.match(title):
             title = title[8:].split('_', 0)[-1].replace('_', ' ').capitalize()
             new_title = ""
             for word in title.split():
-                if word.lower() in fmtrules["abbreviations"]:
+                if word.lower() in [
+                        "ip", "dns", "ms", "ngfw", "ips", "url", "pe", "pdf", 
+                        "elf", "dhcp", "vpn", "smb", "ftp", "http" ]:
                     new_title += word.upper()
                     new_title += " "
                     continue
-                elif word.lower() in fmtrules["capitalizeWords"]:
+                elif word.lower() in [ "unix", "windows", "proxy", "firewall", "mach-o" ]:
                     new_title += word.capitalize()
                     new_title += " "
                     continue
