@@ -6,6 +6,9 @@ jobs:
       branches:
         only:
           - develop
+          - issue344_RA-schema-extension
+          - issue354_customisable-formatting-rules
+          - playground
     docker:
       - image: circleci/python:3.7.7
     steps:
