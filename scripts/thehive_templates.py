@@ -11,6 +11,7 @@ except:
 import argparse
 import os
 
+REACTConfig = REACTutils.load_config("config.yml")
 
 class RPTheHive:
 
