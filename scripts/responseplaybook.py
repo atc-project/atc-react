@@ -142,9 +142,12 @@ class ResponsePlaybook:
                         action_title = action.get('id')\
                             + ": "\
                             + REACTutils.normalize_react_title(action.get('title'))
-                        
+                        try:
+                            action_details = action.get('details')
+                        except:
+                            action_details = {}
                         stage_list.append(
-                            (action_title, task, action.get('description'), action.get('workflow'), action.get('details'))
+                            (action_title, task, action.get('description'), action.get('workflow'), action_details)
                         )
                 except TypeError:
                     pass
