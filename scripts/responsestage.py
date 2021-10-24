@@ -79,7 +79,7 @@ class ResponseStage:
                 if rs_mapping[rs_id] == REACTutils.normalize_rs_name(ras[i].get('stage')):
                     ra_id = ras[i].get('id')
                     ra_filename = ra_filenames[i]
-                    ra_title = REACTutils.normalize_react_title(ras[i].get('title'))
+                    ra_title = REACTutils.normalize_react_title(ras[i].get('title'),REACTConfig.get('titlefmtrules'))
                     ra_description = ras[i].get('description').strip()
                     stage_list.append(
                         (ra_id, ra_filename, ra_title, ra_description))
@@ -99,7 +99,7 @@ class ResponseStage:
                 if rs_mapping[rs_id] == REACTutils.normalize_rs_name(ras[i].get('stage')):
                     ra_id = ras[i].get('id')
                     ra_filename = ra_filenames[i]
-                    ra_title = REACTutils.normalize_react_title(ras[i].get('title'))
+                    ra_title = REACTutils.normalize_react_title(ras[i].get('title'),REACTConfig.get('titlefmtrules'))
                     ra_description = ras[i].get('description').strip()
                     ra_confluence_page_name = ra_id + ": " + ra_title
                     
@@ -115,7 +115,7 @@ class ResponseStage:
 
             new_title = self.rs_parsed_file.get('id')\
                 + ": "\
-                + REACTutils.normalize_react_title(self.rs_parsed_file.get('title'))
+                + REACTutils.normalize_react_title(self.rs_parsed_file.get('title'),REACTConfig.get('titlefmtrules'))
 
             self.rs_parsed_file.update(
                 {'title': new_title}
