@@ -1,0 +1,11 @@
+*DS_Store
+*__pycache__/*
+*.pyc
+*.idea
+_*
+.pytest_cache
+# Ignore local configuration
+config.yml
+site/
+
+*atc_env/*
