@@ -17,6 +17,16 @@ references:
 requirements:
   - MS_something # link to the Mitigation System required for the Response Action
   - DN_something # link to the Data Needed entity, required for the Response Action
-workflow: |
-  Description of the workflow in the [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
-  Here newlines will be saved.
+details:
+  description-full: |
+    This is a fancy mitigation that will allow SOC to trigger self destruction of all Windows Endpoints.  
+    Once triggered, the endpoint will start screaming, wait for close-by people to evacuate and then shortcut the battery, effectively causing the endpoint to burn down.
+  workflow: |
+    Description of the workflow in the [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+    Here newlines will be saved.
+
+  raCoA: Detect | Disrupt | Deny | Degrade | Deceive
+  pot_business_impact: Very High | High | Medium | Low
+  activation_SLA:
+  expected_coverage:
+  minTierLevel: 2

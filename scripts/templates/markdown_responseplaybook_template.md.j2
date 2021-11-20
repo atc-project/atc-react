@@ -24,7 +24,7 @@
 {%- endif -%}
 {%- for stage_name, stage_actions in stages -%}
     {%- if stage_actions is not none and stage_actions|length -%}
-    {{'\n'}}| **{{stage_name}}**  |<ul>{% for action_title, action_filename, action_description, action_workflow in stage_actions %}<li>[{{ action_title }}](../Response_Actions/{{action_filename}}.md)</li>{% endfor %}</ul>|
+    {{'\n'}}| <a href='#stage-{{ loop.index }}'>**{{stage_name}}**</a>  |<ul>{% for action_title, action_filename, action_description, action_workflow, action_details in stage_actions %}<li>[{{ action_title }}](../Response_Actions/{{action_filename}}.md)</li>{% endfor %}</ul>| 
     {%- endif -%}
 {%- endfor %}
 
@@ -33,11 +33,18 @@
 {{ workflow }}
 
 {% for stage_name, stage_actions in stages %}
-{% if stage_actions is not none and stage_actions|length %}#### {{ stage_name }}{% endif %}
-{% for action_title, action_filename, action_description, action_workflow in stage_actions%}
-##### {{ action_description }}
-
+{% if stage_actions is not none and stage_actions|length %}<div id='stage-{{ loop.index }}'></div>
+### {{ stage_name }}{% endif %}
+{% for action_title, action_filename, action_description, action_workflow, action_details in stage_actions%}
+#### {{ action_description }} 
+  
+{% if action_details['workflow'] is not none -%}
+{{ action_details['workflow'] }}
+{% elif action_workflow is not none -%}
 {{ action_workflow }}
+{% endif %}
 
-{%- endfor %}
-{%- endfor %}
+----
+
+{%+ endfor %}
+{% endfor %}

@@ -126,7 +126,7 @@
    {% for stage_name, stage_actions in stages %}
     {%- if stage_actions is defined and stage_actions is not none and stage_actions|length %}
       <h2>{{ stage_name }}</h2>
-         {% for action_description, action_workflow in stage_actions%}
+         {% for action_description, action_workflow, action_details in stage_actions%}
             <h3>{{ action_description }}</h3>
             <ac:structured-macro ac:name="markdown"><ac:plain-text-body>
                <![CDATA[{{ action_workflow }}]]>

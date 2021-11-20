@@ -1,0 +1,19 @@
+title: RA_1000_testing
+id: RA1000
+description: A test response action without any sensible content
+author: 'Christoph Bott (@xofolowski)'
+creation_date: 2021/08/05
+stage: preparation
+details:
+  description-full: |
+    This is a fancy mitigation that will allow SOC to trigger self destruction of all Windows Endpoints.
+    Once triggered, the endpoint will start screaming, wait for close-by people to evacuate and then shortcut the battery, effectively causing the endpoint to burn down.
+  workflow: |
+    Description of the workflow in the [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+    Here newlines will be saved.
+
+  raCoA: Disrupt
+  pot_business_impact: Very High
+  activation_SLA:
+  expected_coverage:
+  minTierLevel: 2

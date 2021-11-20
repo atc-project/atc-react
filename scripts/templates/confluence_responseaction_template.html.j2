@@ -89,11 +89,11 @@
       <p class="auto-cursor-target"><br /></p>
    </ac:rich-text-body>
 </ac:structured-macro>
-{% if workflow is defined and workflow|length %}
+{% if (workflow is defined and workflow|length) or (details is defined and details['workflow'] is defined and details['workflow']|length) %}
 <h1>Workflow</h1>
-<pre><br/></pre>
 <ac:structured-macro ac:name="markdown"><ac:plain-text-body>
-	<![CDATA[{{ workflow }}]]>
+  {% if workflow is defined %}<![CDATA[{{ workflow }}]]> {% endif %}
+  {% if details is defined %}<![CDATA[{{ details['workflow'] }}]]> {% endif %}
 </ac:plain-text-body></ac:structured-macro>
 {% else %}
 {% endif %}
