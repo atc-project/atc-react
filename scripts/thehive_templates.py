@@ -11,6 +11,7 @@ except:
 import argparse
 import os
 
+REACTConfig = REACTutils.load_config("config.yml")
 
 class RPTheHive:
 
@@ -108,7 +109,7 @@ class RPTheHive:
         self.case = THC.TheHiveCase()
         self.case.name = self.rp_rule.get('id')\
             + ": "\
-            + REACTutils.normalize_react_title(self.rp_rule.get('title'))
+            + REACTutils.normalize_react_title(self.rp_rule.get('title'),REACTConfig.get('titlefmtrules'))
 
         self.case.description = str(self.rp_rule.get('description')) + \
             '\n\nWorkflow:\n\n' + str(self.rp_rule.get('workflow'))
@@ -157,7 +158,7 @@ class RPTheHive:
                 task.title = str(self.task_prefix) + " | "\
                     + rtask.get('id')\
                     + ": "\
-                    + REACTutils.normalize_react_title(rtask.get('title'))
+                    + REACTutils.normalize_react_title(rtask.get('title'),REACTConfig.get('titlefmtrules'))
 
                 if rtask.get('stage'):
                     task.group = REACTutils.normalize_rs_name(rtask.get('stage'))
