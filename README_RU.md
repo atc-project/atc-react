@@ -176,6 +176,7 @@ Response Playbook (Сценарий Реагирования) — это пла�
 - Эфе Эрдур, [@efeerdur](https://github.com/efeerdur)
 - Алехандро Ортуно, [@aomanzanera](https://twitter.com/aomanzanera)  
 - [@d3anp](https://github.com/d3anp)  
+- Кристоф Ботт, [@xofolowski](https://github.com/xofolowski)  
 
 Вы хотели бы внести свой вклад в проект и тоже стать участником? Инструкция [CONTRIBUTING](CONTRIBUTING.md) поможет начать.  
 
