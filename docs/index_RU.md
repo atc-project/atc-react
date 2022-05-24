@@ -1,4 +1,4 @@
-🇬🇧 [English version](index.md)  
+[English version](index.md)
 
 # RE&CT
 
